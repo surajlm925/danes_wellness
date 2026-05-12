@@ -1,26 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Jost:wght@300;400;500&display=swap');
+
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/Jost-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
 @import "tailwindcss";
+@config "../../tailwind.config.js";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --bg:          #F8F3DF;
+    --bg-alt:      #D8E0D1;
+    --bg-dark:     #105232;
+    --bg-darkest:  #112519;
+    --text:        #112519;
+    --text-muted:  rgba(17,37,25,0.5);
+    --text-inv:    #F8F3DF;
+    --text-inv-muted: rgba(248,243,223,0.6);
+    --heading:     #105232;
+    --accent:      #C4922A;
+    --border:      rgba(16,82,50,0.1);
+    --border-inv:  rgba(248,243,223,0.15);
+    --heading-inv:  #F8F3DF;
+    --primary-mid:  #19653F;
+    --font-heading: "Copperplate", "Cinzel", serif;
+    --font-body:    "Jost", "Helvetica Neue", sans-serif;
+  }
+  .dark {
+    --bg:           #0d1f14;
+    --bg-alt:       #162b1e;
+    --bg-dark:      #1a3828;
+    --bg-darkest:   #112519;
+    --text:         #F8F3DF;
+    --text-muted:   rgba(248,243,223,0.5);
+    --text-inv:     #F8F3DF;
+    --text-inv-muted: rgba(248,243,223,0.55);
+    --heading:      #D8E0D1;
+    --heading-inv:  #F8F3DF;
+    --heading-alt:  #D8E0D1;
+    --accent:       #C4922A;
+    --border:       rgba(216,224,209,0.14);
+    --border-inv:   rgba(216,224,209,0.14);
+    --surface:      #1a3828;
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  p {
+    font-weight: 400;
+  }
+  .font-light, [style*="fontWeight: 300"], [style*="font-weight: 300"] {
+    font-weight: 400 !important;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .container-danes {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 80px;
+    width: 100%;
+  }
+  @media (max-width: 1024px) { .container-danes { padding: 0 48px; } }
+  @media (max-width: 640px)  { .container-danes { padding: 0 24px; } }
+  
+  .section-light  { background-color: var(--bg); }
+  .section-alt    { background-color: var(--bg-alt); }
+  .section-dark   { background-color: var(--bg-dark); }
+  .section-darkest { background-color: var(--bg-darkest); }
+  
+  .text-on-light  { color: var(--text); }
+  .text-on-dark   { color: var(--text-inv); }
+  .text-muted-light { color: var(--text-muted); }
+  .text-muted-dark  { color: var(--text-inv-muted); }
+  .heading-light  { color: var(--heading); }
+  .heading-dark   { color: var(--text-inv); }
+}
+
+/* Prevent amber hover on light-bg sections */
+@media (prefers-color-scheme: light) {
+  .hover-amber:hover { color: #105232 !important; }
+}
+
+.prod-card:hover .add-to-cart-btn {
+  transform: translateY(0) !important;
+}
+.prod-card:hover .add-to-cart-btn:hover {
+  background: #19653F !important;
 }

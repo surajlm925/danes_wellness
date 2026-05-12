@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" fill="currentColor">
+  
+  <g transform="translate(0,8)">
+    <g stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M24 48 L24 26"></path>
+      <path d="M24 26 C 16 26, 11 20, 11 12 C 19 12, 24 18, 24 26 Z"></path>
+      <path d="M24 26 C 32 26, 37 20, 37 12 C 29 12, 24 18, 24 26 Z"></path>
+      <path d="M24 32 C 18 32, 15 28, 15 22 C 21 22, 24 26, 24 32 Z"></path>
+      <path d="M24 32 C 30 32, 33 28, 33 22 C 27 22, 24 26, 24 32 Z"></path>
+    </g>
+  </g>
+  <g font-family="Copperplate, &#39;Copperplate Gothic&#39;, Cinzel, serif" font-size="22" font-weight="500" letter-spacing="4" transform="translate(56 40)">
+    <text>DANES</text>
+  </g>
+</svg>
