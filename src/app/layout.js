@@ -14,6 +14,8 @@ const Footer = dynamic(() => import('@/components/Footer'))
 const FloatingCTA = dynamic(() => import('@/components/FloatingCTA'))
 import PageTransition from '@/components/PageTransition'
 
+import { CartProvider } from '@/context/CartContext'
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -24,14 +26,16 @@ export default function RootLayout({ children }) {
           enableSystem={false}
           storageKey="danes-theme"
         >
-          <LenisProvider>
-            <Nav />
-            <PageTransition>
-              {children}
-            </PageTransition>
-            <FloatingCTA />
-            <Footer />
-          </LenisProvider>
+          <CartProvider>
+            <LenisProvider>
+              <Nav />
+              <PageTransition>
+                {children}
+              </PageTransition>
+              <FloatingCTA />
+              <Footer />
+            </LenisProvider>
+          </CartProvider>
         </ThemeProvider>
       </body>
     </html>

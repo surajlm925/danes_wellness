@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local tool/agent artifacts
+.graphify_python
+.kilo/
+graphify-out/
+

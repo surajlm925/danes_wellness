@@ -5,13 +5,15 @@ import { motion, AnimatePresence, useScroll } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
 
+import { useCart } from '@/context/CartContext'
+
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
   const [mounted, setMounted] = useState(false)
-  const [cartOpen, setCartOpen] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const { resolvedTheme, setTheme } = useTheme()
   const { scrollYProgress } = useScroll()
+  const { cart, removeItem, cartCount, cartTotal, isCartOpen, setIsCartOpen, updateQuantity } = useCart()
 
   useEffect(() => {
     setMounted(true)
@@ -24,21 +26,21 @@ export default function Nav() {
   }, [])
 
   const handleLinkClick = (e, href) => {
-    e.preventDefault()
-    setMobileOpen(false)
-    const target = document.querySelector(href)
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth' })
+    if (href.startsWith('#')) {
+      e.preventDefault()
+      setMobileOpen(false)
+      const target = document.querySelector(href)
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' })
+      }
     }
   }
 
   const links = [
-    { label: 'Home', href: '#hero' },
-    { label: 'Shop by Concern', href: '#concerns' },
-    { label: 'Products', href: '#products' },
-    { label: 'Consult', href: '#consultation' },
-    { label: 'Our Story', href: '#story' },
-    { label: 'Learn', href: '#articles' },
+    { label: 'Home', href: '/' },
+    { label: 'Shop', href: '/shop' },
+    { label: 'Our Story', href: '/#story' },
+    { label: 'Learn', href: '/#articles' },
   ]
 
   const navBg = scrolled && mounted
@@ -63,7 +65,7 @@ export default function Nav() {
     : 'text-[rgba(248,243,223,0.8)] hover:text-cream'
   }`
   
-  const iconClasses = `transition-colors duration-300 cursor-pointer
+  const iconClasses = `transition-colors duration-300 cursor-pointer relative
   ${scrolled && mounted
     ? resolvedTheme === 'dark'
       ? 'text-[#D8E0D1] hover:text-[#F8F3DF]'
@@ -127,14 +129,14 @@ export default function Nav() {
           {/* DESKTOP LINKS */}
           <div className="hidden md:flex gap-6 items-center">
             {links.map((link) => (
-              <a 
+              <Link 
                 key={link.label} 
                 href={link.href}
                 onClick={(e) => handleLinkClick(e, link.href)}
                 className={linkClasses}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
 
@@ -157,13 +159,22 @@ export default function Nav() {
             </button>
 
             {/* Cart */}
-            <button className={iconClasses} aria-label="Cart" onClick={() => setCartOpen(true)}>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+            <Link 
+              href="/cart" 
+              className={iconClasses} 
+              aria-label={`Cart with ${cartCount} items`}
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M6 2L3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6L18 2H6Z" strokeLinejoin="round"/>
                 <path d="M3 6H21" strokeLinecap="round"/>
                 <path d="M16 10C16 12.2091 14.2091 14 12 14C9.79086 14 8 12.2091 8 10" strokeLinecap="round"/>
               </svg>
-            </button>
+              {cartCount > 0 && (
+                <span className="absolute -top-1.5 -right-1.5 bg-evergreen text-cream text-[9px] font-bold w-4 h-4 rounded-full flex items-center justify-center border border-cream/20 shadow-sm">
+                  {cartCount}
+                </span>
+              )}
+            </Link>
 
             {/* Theme Toggle */}
             <button 
@@ -225,14 +236,14 @@ export default function Nav() {
           >
             <div className="flex flex-col py-4 px-6 gap-4">
               {links.map((link) => (
-                <a 
+                <Link 
                   key={link.label} 
                   href={link.href}
                   onClick={(e) => handleLinkClick(e, link.href)}
                   className="font-body font-medium text-[12px] tracking-nav uppercase text-[var(--text)] hover:text-[var(--heading)] transition-colors py-2"
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
             </div>
           </motion.div>
@@ -241,14 +252,14 @@ export default function Nav() {
 
       {/* Cart Drawer */}
       <AnimatePresence>
-        {cartOpen && (
+        {isCartOpen && (
           <>
             {/* Overlay */}
             <motion.div 
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              onClick={() => setCartOpen(false)}
+              onClick={() => setIsCartOpen(false)}
               className="fixed inset-0 bg-black/30 z-[100] cursor-pointer"
             />
             {/* Drawer */}
@@ -257,19 +268,87 @@ export default function Nav() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-              className="fixed top-0 right-0 h-full w-[380px] max-w-[100vw] bg-[var(--bg)] shadow-2xl z-[101] p-8 flex flex-col"
+              className="fixed top-0 right-0 h-full w-[420px] max-w-[100vw] bg-[var(--bg)] shadow-2xl z-[101] p-8 flex flex-col"
             >
-              <div className="flex items-center justify-between mb-8">
-                <h2 className="font-display text-[22px] text-[var(--heading)] tracking-wide">Your Cart</h2>
-                <button onClick={() => setCartOpen(false)} className="text-[var(--text)] hover:text-[var(--heading)] transition-colors">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <div className="flex items-center justify-between mb-10 pb-4 border-b border-[var(--border)]">
+                <h2 className="font-[var(--font-heading)] text-2xl text-[var(--bg-dark)] uppercase tracking-tight">Your Cart <span className="text-[var(--accent)] text-lg">({cartCount})</span></h2>
+                <button onClick={() => setIsCartOpen(false)} className="text-[var(--bg-dark)] hover:text-[var(--accent)] transition-colors">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M18 6L6 18M6 6l12 12" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </button>
               </div>
-              <div className="flex-1 flex items-center justify-center">
-                <p className="font-body font-light text-[15px] text-[var(--text-muted)]">Your cart is empty.</p>
+              
+              <div className="flex-1 overflow-y-auto pr-2 space-y-6">
+                {cart.length === 0 ? (
+                  <div className="h-full flex flex-col items-center justify-center text-center">
+                    <p className="font-body font-light text-[15px] text-[var(--text-muted)] mb-8 uppercase tracking-[0.2em]">Your cart is empty.</p>
+                    <Link 
+                      href="/shop" 
+                      onClick={() => setIsCartOpen(false)}
+                      className="bg-[var(--bg-dark)] text-white px-8 py-3 text-[10px] uppercase tracking-widest font-bold"
+                    >
+                      Browse Curatives
+                    </Link>
+                  </div>
+                ) : (
+                  cart.map((item) => (
+                    <div key={item.id} className="flex gap-4">
+                      <div className="w-20 h-24 bg-[var(--bg-dark)] flex-shrink-0 flex items-center justify-center border border-[var(--border)]">
+                        {item.image 
+                          ? <img 
+                              src={item.image} 
+                              alt={item.name} 
+                              className="w-full h-full object-contain p-2"
+                              loading="lazy"
+                            />
+                          : <div className="w-full h-full flex items-center justify-center">
+                              <span className="text-[9px] text-[#D8E0D1] text-center uppercase tracking-widest px-2 font-body font-bold">
+                                {item.brand}
+                              </span>
+                            </div>
+                        }
+                      </div>
+                      <div className="flex-grow">
+                        <div className="flex justify-between">
+                          <h3 className="text-[10px] uppercase font-bold tracking-widest text-[var(--bg-dark)]">{item.name}</h3>
+                          <button onClick={() => removeItem(item.id)} className="text-[var(--text-muted)] hover:text-red-500">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                          </button>
+                        </div>
+                        <p className="text-[10px] text-[var(--text-muted)] uppercase mb-2">{item.brand}</p>
+                        <div className="flex items-center justify-between mt-auto">
+                          <div className="flex items-center border border-[var(--border)]">
+                            <button onClick={() => updateQuantity(item.id, item.quantity - 1)} className="px-2 py-1 text-xs">-</button>
+                            <span className="px-3 py-1 text-xs font-bold">{item.quantity}</span>
+                            <button onClick={() => updateQuantity(item.id, item.quantity + 1)} className="px-2 py-1 text-xs">+</button>
+                          </div>
+                          <p className="text-xs font-bold">₹{(item.price * item.quantity).toLocaleString('en-IN')}</p>
+                        </div>
+                      </div>
+                    </div>
+                  ))
+                )}
               </div>
+
+              {cart.length > 0 && (
+                <div className="mt-8 pt-8 border-t border-[var(--border)] space-y-6">
+                  <div className="flex justify-between items-end">
+                    <span className="text-[10px] uppercase tracking-widest font-bold text-[var(--text-muted)]">Subtotal</span>
+                    <span className="text-xl font-bold text-[var(--bg-dark)]">₹{cartTotal.toLocaleString('en-IN')}</span>
+                  </div>
+                  <Link 
+                    href="/checkout"
+                    onClick={() => setIsCartOpen(false)}
+                    className="block w-full bg-[var(--bg-dark)] text-white py-4 text-[11px] uppercase tracking-widest font-bold hover:bg-[var(--accent)] transition-colors text-center"
+                  >
+                    Proceed to Checkout
+                  </Link>
+                  <p className="text-[9px] text-center text-[var(--text-muted)] uppercase tracking-widest">
+                    Shipping calculated at checkout
+                  </p>
+                </div>
+              )}
             </motion.div>
           </>
         )}
