@@ -163,7 +163,39 @@ If images are not ready, set the field to `null` to trigger the premium dark-gre
 
 ---
 
-## 6. TASK QUEUE (ORDERED)
+## 6. LANDING PAGE VISUAL DESIGN (Prompt #8)
+
+### Reference design applied — section by section (visual/graphics only, no text/section structure changes)
+
+| Section | Changes Applied |
+|---|---|
+| **Hero** | Full-viewport height, parallax video scroll, bottom anchor links (SHOP BY CONCERN →, BOOK A CONSULTATION →), staggered fade-up animations |
+| **PillarGrid** | Pale-moss bg, 10 dark green concern cards, brand_icon1_evergreen.svg header icon, vector1/vector1_inverted decorative arc SVGs with clip-path scroll reveal |
+| **BrandStatement** | Dark green bg, vector3_left + vector2 + vector3_right bracket SVGs with reveal, brand_icon_3rd.svg sunburst, 670px height section |
+| **Products** | Pale-moss bg, bordered product cards with mix-blend-mode:multiply, vector4.svg faint bg, real product images from `products.json → images.catalogue` |
+| **Discover** | Unchanged — already uses correct CSS vars, inline SVG hemp+molecular diagram on dark green panel |
+| **Consultation** | Dark green bg, hemp leaf.svg watermark, brand_icon_3rd sunburst, stacked overlapping visual panels |
+| **Articles** | Pale-moss bg, 3-column tall cards, Copperplate section title, category tag + heading at card bottom |
+| **Testimonials** | Dark green bg, 3-column grid, rating.svg stars, italic quotes, author + tags |
+| **Newsletter** | Unchanged — already correct dark green bg, Instagram + email subscribe layout |
+
+### SVG Assets in `public/assets/`
+- `vector1.svg`, `vector1_inverted.svg` — PillarGrid decorative arcs
+- `vector2.svg` — BrandStatement center arch
+- `vector3_left.svg`, `vector3_right.svg` — BrandStatement side brackets
+- `vector4.svg` — Products section center background
+- `brand_icon1_evergreen.svg` — Section header sunburst (dark green)
+- `brand_icon_3rd.svg` — Consultation + BrandStatement sunburst (cream/inverted)
+- `hemp leaf.svg` — Consultation section watermark
+- `rating.svg` — Testimonials star rating
+
+### Global CSS Added (`globals.css`)
+- `.vector-reveal-el` / `.vector-revealed` — clip-path 4s ease animation for vector SVGs
+- `@keyframes marquee` — TrustBar scrolling marquee
+
+---
+
+## 7. TASK QUEUE (ORDERED)
 
 1. ✅ Initial audit complete
 2. ✅ Cleaning plan approved
@@ -178,12 +210,17 @@ If images are not ready, set the field to `null` to trigger the premium dark-gre
 11. ✅ Fix any failures
 12. ✅ Delete mockdata.js + imageMap.js
 13. ✅ Future upload SOP documented
+14. ✅ Landing page reference design applied (visual/graphics only)
+15. ✅ SVG assets copied to public/assets/
+16. ✅ Git push — all changes committed to surajlm925/danes_wellness
 
 ---
 
-## 7. CURRENT STATUS
+## 8. CURRENT STATUS
 
 **[ COMPLETE ]** 🏁
 
-- **Current task:** Visual QA passed on all pages; Cart state verified in localStorage; legacy mockdata/imageMap files deleted; zero-import grep check successfully completed; Future image upload SOP documented.
-- **Blockers:** None. Codebase is clean, optimized, and ready for deployment.
+- **Last push:** `feat: apply reference landing page design - vectors, animations, section redesigns` (18 files, 1087 insertions)
+- **Git repo:** https://github.com/surajlm925/danes_wellness (branch: main)
+- **Dev server:** http://localhost:3000 (PID 26308)
+- **Blockers:** None. All sections implemented, all pages QA verified.
