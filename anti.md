@@ -1,79 +1,90 @@
-# 🔧 Danes Wellness — Shop Page Bug Fixes Session Log
+# 🔧 Danes Wellness — Product Ref ID Display Session Log
 
-This log documents the three targeted UI/UX bug fixes applied to `src/app/shop/page.js` and `src/app/globals.css`.
-
----
-
-## TASK 1 — FIX THE LAYOUT SHIFT (PIXEL JUMPING)
-
-### Root Cause
-The sidebar `<aside>` was using `overflow-y-auto` permanently. When the browser scrollbar appeared (on longer filter lists) or disappeared, it consumed ~8px of layout width, causing the product grid to the right to reflow and jump.
-
-Additionally, a JS-based `onMouseEnter`/`onMouseLeave` hack was toggling `document.body.style.overflow = 'hidden'` to trap scroll inside the sidebar. This caused the entire page body's scrollbar to appear/disappear, producing a global full-page layout jump.
-
-### Fixes Applied
-
-#### `src/app/globals.css`
-- Added `scrollbar-gutter: stable` to the `html` element globally. This permanently reserves the scrollbar lane width on the page root, so the content area never reflashes when a scrollbar appears or disappears anywhere.
-- Added `.shop-sidebar` and `.concern-scroll` utility classes, both with `scrollbar-gutter: stable`, so their internal scrollbar lane is always pre-reserved even when `overflow:hidden`.
-
-#### `src/app/shop/page.js`
-- Added `style={{ scrollbarGutter: 'stable' }}` inline to the top-level page wrapper `<div>` as a direct belt-and-suspenders reinforcement.
-- **Removed** the `onMouseEnter`/`onMouseLeave` handlers from `<aside>` that set `document.body.style.overflow`. This was the primary source of the global layout jump.
-- **Removed** the corresponding orphaned `useEffect` cleanup that reset `document.body.style.overflow = ''`.
+This log documents the implementation of the Product Reference ID display and copy-to-clipboard feature on the Product Details page.
 
 ---
 
-## TASK 2 — HOVER-ONLY SCROLLING
+## TASK 1 — DISPLAY PRODUCT ID
 
-### Root Cause
-Both the left filter sidebar and the concern checkbox list were `overflow-y-auto`, meaning a scrollbar was always rendered (and consuming layout space) even when no scrolling was needed.
+### Location
+`src/components/ProductDetailClient.jsx`
 
-### CSS Classes Changed
+### Implementation
 
-| Element | Before | After |
-|---|---|---|
-| `<aside>` (filter sidebar) | `overflow-y-auto scrollbar-thin` | `overflow-hidden hover:overflow-y-auto shop-sidebar` |
-| `.concern-scroll` (concern list) | `overflow-y-auto` | `overflow-hidden hover:overflow-y-auto concern-scroll` |
+Two pure functions added at the top of the file (above `AccordionItem`):
 
-**Why this works without layout shift:** `scrollbar-gutter: stable` (added in globals.css for `.shop-sidebar` and `.concern-scroll`) pre-reserves the scrollbar lane even when `overflow:hidden`. So when hover triggers `overflow-y-auto`, the scrollbar appears in already-reserved space — zero pixel jump.
+#### `parseProductRef(id)`
+A utility that normalises the product ID regardless of source format:
+- **Plain numeric string** (current): `"42"` → `{ display: "42", full: "42" }`
+- **Shopify GraphQL GID** (future Headless integration): `"gid://shopify/ProductVariant/9876543210"` → `{ display: "9876543210", full: "gid://shopify/ProductVariant/9876543210" }`
 
-#### `src/app/globals.css` — Added
-```css
-.shop-sidebar,
-.concern-scroll {
-  scrollbar-gutter: stable;
-}
+The UI always shows only the **numeric portion** (`display`). The clipboard always gets the **full string** (`full`), which will be the complete GID when Shopify integration is live.
 
-/* Scrollbar thumb invisible until hovered */
-.shop-sidebar:not(:hover)::-webkit-scrollbar-thumb,
-.concern-scroll:not(:hover)::-webkit-scrollbar-thumb {
-  background-color: transparent;
-}
+#### `<ProductRef id={product.id} />` Component
+- Renders a `<button>` styled as an inline ghost label — no visual weight.
+- Shows `Ref: <numeric-id>` in `font-mono text-[10px] opacity-40` — unobtrusive below the product title.
+- On hover: opacity lifts to 70%, a subtle `Copy` label appears in brand amber (`var(--accent)`).
+- On click: copies `ref.full` to clipboard, `Copy` → `✓ Copied` in brand green, auto-resets after 2 seconds.
+- Fallback: `document.execCommand('copy')` for non-HTTPS environments.
+- `aria-label` for screen readers.
 
-html {
-  scrollbar-gutter: stable;
-}
+### Placement
+Inserted between the **Product Title `<h1>`** and the **Rx Consultation Banner** in the right column of the PDP layout:
+
+```jsx
+<h1 className="... mb-2 ...">
+  {product.name}
+</h1>
+
+{/* Product Reference ID — for WhatsApp Bot lookups */}
+<ProductRef id={product.id} />
+
+{/* Consultation Banner for Rx products */}
+{isRx && ( ... )}
 ```
 
+The title's `mb-4` was reduced to `mb-2` to give natural spacing to the new ref row.
+
 ---
 
-## TASK 3 — REDUNDANT UI & CLEANUP
+## TASK 2 — COPY TO CLIPBOARD
 
-### Changes
+Implemented inline within the `ProductRef` component:
 
-#### Removed: Inline Search Bar
-- **Location:** `src/app/shop/page.js`, page header section (lines 177–185 in original)
-- **What was removed:** A `<div class="relative w-64 hidden md:block">` containing a text `<input>` for search.
-- **Why:** The global Navbar already handles search via an animated overlay that routes to `/shop?q=...`. The inline shop search was redundant and cluttered the header. The `searchQuery` state + URL sync `useEffect` are **preserved** — they still power the URL-driven search from Nav.
+| Behaviour | Detail |
+|---|---|
+| Click target | Entire `Ref: XXXXX` button |
+| Clipboard value | `ref.full` — the full original ID string (numeric now, GID when Shopify is live) |
+| Success state | `✓ Copied` in brand green `#2d7a4f` (dark: `#8fcea8`) |
+| Reset delay | 2000ms via `setTimeout` |
+| Fallback | `document.execCommand('copy')` textarea hack for non-secure contexts |
+| Accessibility | `title` + `aria-label` attributes |
 
-#### Removed: "Application Type" Filter Block
-- **Location:** `src/app/shop/page.js`, sidebar section
-- **What was removed:** An entire `<div>` block rendering the "Application type" filter label + chevron icon.
-- **Why:** The filter had no data and no toggle logic — it was a pure UI stub with zero functionality.
+---
+
+## DESIGN SYSTEM COMPLIANCE
+
+| Token used | Value |
+|---|---|
+| Text colour | `var(--text)` |
+| Opacity | `opacity-40` (resting), `opacity-70` (hover) |
+| Confirm colour light | `#2d7a4f` (brand mid-green) |
+| Confirm colour dark | `#8fcea8` (pale green on dark bg) |
+| Copy label colour | `var(--accent)` — brand amber |
+| Font | `font-mono` for the numeric ID (improves readability of long GIDs) |
+| Size | `text-[10px]` — same scale as existing micro-labels on the PDP |
+
+---
+
+## FORWARD COMPATIBILITY
+
+When the Headless Shopify integration goes live and `product.id` becomes a GID string like:
+```
+gid://shopify/ProductVariant/9876543210
+```
+`parseProductRef` will automatically split it, displaying only `9876543210` in the UI while copying the full GID to the clipboard — **zero code changes needed**.
 
 ---
 
 ## BUILD VERIFICATION
 - `npm run build` — ✅ Passed (86 static pages, 0 errors)
-- Dev server hot-reloaded cleanly with no console errors

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import products from '@/lib/products.json';
 import { useCart } from '@/context/CartContext';
 import Link from 'next/link';
@@ -8,6 +8,75 @@ import ProductCard from '@/components/ProductCard';
 import Testimonials from '@/sections/Testimonials';
 import Consultation from '@/sections/Consultation';
 import { motion, AnimatePresence } from 'framer-motion';
+
+/**
+ * Extracts the numeric portion from either a plain ID string ("42")
+ * or a Shopify GraphQL GID ("gid://shopify/ProductVariant/9876543210").
+ */
+function parseProductRef(id) {
+  if (!id) return null;
+  const str = String(id);
+  // Shopify GID pattern — extract everything after the last '/'
+  if (str.startsWith('gid://')) {
+    const numeric = str.split('/').pop();
+    return { display: numeric, full: str };
+  }
+  // Plain numeric id
+  return { display: str, full: str };
+}
+
+/** Inline Ref badge with copy-to-clipboard */
+function ProductRef({ id }) {
+  const [copied, setCopied] = useState(false);
+  const ref = parseProductRef(id);
+
+  const handleCopy = useCallback(() => {
+    if (!ref) return;
+    navigator.clipboard.writeText(ref.full).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }).catch(() => {
+      // Fallback for non-HTTPS / older browsers
+      const el = document.createElement('textarea');
+      el.value = ref.full;
+      el.style.position = 'fixed';
+      el.style.opacity = '0';
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand('copy');
+      document.body.removeChild(el);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  }, [ref]);
+
+  if (!ref) return null;
+
+  return (
+    <button
+      onClick={handleCopy}
+      title="Click to copy product reference ID"
+      className="group flex items-center gap-1.5 mb-4 cursor-pointer select-none"
+      aria-label={`Copy product reference ID: ${ref.full}`}
+    >
+      <span className="text-[10px] uppercase tracking-[0.18em] text-[var(--text)] opacity-40 font-bold transition-opacity group-hover:opacity-70">
+        Ref:
+      </span>
+      <span className="text-[10px] tracking-wider font-mono text-[var(--text)] opacity-40 group-hover:opacity-70 transition-opacity">
+        {ref.display}
+      </span>
+      <span
+        className={`ml-1 text-[9px] uppercase tracking-wider font-bold transition-all duration-300 ${
+          copied
+            ? 'text-[#2d7a4f] dark:text-[#8fcea8] opacity-100'
+            : 'text-[var(--accent)] opacity-0 group-hover:opacity-60'
+        }`}
+      >
+        {copied ? '✓ Copied' : 'Copy'}
+      </span>
+    </button>
+  );
+}
 
 const AccordionItem = ({ title, content, isOpen, onClick }) => {
   if (!content) return null;
@@ -363,9 +432,12 @@ export default function ProductDetailClient({ product, handle }) {
             </div>
 
             {/* Product Title */}
-            <h1 className="font-[var(--font-heading)] text-3xl lg:text-4xl text-[var(--heading)] uppercase mb-4 leading-tight">
+            <h1 className="font-[var(--font-heading)] text-3xl lg:text-4xl text-[var(--heading)] uppercase mb-2 leading-tight">
               {product.name}
             </h1>
+
+            {/* Product Reference ID — for WhatsApp Bot lookups */}
+            <ProductRef id={product.id} />
 
             {/* Consultation Banner for Rx products */}
             {isRx && (
