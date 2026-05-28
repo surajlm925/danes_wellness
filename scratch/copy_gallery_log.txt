@@ -1,0 +1,980 @@
+Building master gallery copy list...
+Total compiled assignments to copy: 161
+[langoor/himalayan-smoking-herbs-earth-mix] gallery-1
+  Source:  DANES\LANGOOR\EARTH\langoorSmoking_earthMix_02_1700x1700.jpg
+  Input:   1700x1700 | 105.2 KB
+  Output:  gallery-1.webp (55.0 KB) + gallery-1.jpg (92.0 KB)
+  Status:  ✅ SUCCESS
+
+[langoor/himalayan-smoking-herbs-earth-mix] gallery-2
+  Source:  DANES\LANGOOR\EARTH\langoorSmoking_earthMix_03_1700x1700.jpg
+  Input:   1700x1700 | 48.6 KB
+  Output:  gallery-2.webp (17.6 KB) + gallery-2.jpg (41.2 KB)
+  Status:  ✅ SUCCESS
+
+[langoor/himalayan-smoking-herbs-earth-mix] gallery-3
+  Source:  DANES\LANGOOR\EARTH\langoorSmoking_earthMix_04_1700x1700.jpg
+  Input:   1700x1700 | 52.6 KB
+  Output:  gallery-3.webp (19.1 KB) + gallery-3.jpg (47.5 KB)
+  Status:  ✅ SUCCESS
+
+[langoor/himalayan-smoking-herbs-moon-mix] gallery-1
+  Source:  DANES\LANGOOR\MOON\langoorSmoking_moonMix_02_1700x1700.jpg
+  Input:   1700x1700 | 111.8 KB
+  Output:  gallery-1.webp (59.0 KB) + gallery-1.jpg (96.7 KB)
+  Status:  ✅ SUCCESS
+
+[langoor/himalayan-smoking-herbs-moon-mix] gallery-2
+  Source:  DANES\LANGOOR\MOON\langoorSmoking_moonMix_03_1700x1700.jpg
+  Input:   1700x1700 | 55.9 KB
+  Output:  gallery-2.webp (21.1 KB) + gallery-2.jpg (47.2 KB)
+  Status:  ✅ SUCCESS
+
+[langoor/himalayan-smoking-herbs-moon-mix] gallery-3
+  Source:  DANES\LANGOOR\MOON\langoorSmoking_moonMix_04_1700x1700.jpg
+  Input:   1700x1700 | 60.1 KB
+  Output:  gallery-3.webp (22.5 KB) + gallery-3.jpg (53.1 KB)
+  Status:  ✅ SUCCESS
+
+[langoor/himalayan-smoking-herbs-snow-mix] gallery-1
+  Source:  DANES\LANGOOR\SNOW\langoorSmoking_snowMix_02_1700x1700.jpg
+  Input:   1700x1700 | 104.8 KB
+  Output:  gallery-1.webp (55.1 KB) + gallery-1.jpg (90.9 KB)
+  Status:  ✅ SUCCESS
+
+[langoor/himalayan-smoking-herbs-snow-mix] gallery-2
+  Source:  DANES\LANGOOR\SNOW\langoorSmoking_snowMix_03_1700x1700.jpg
+  Input:   1700x1700 | 50.3 KB
+  Output:  gallery-2.webp (15.3 KB) + gallery-2.jpg (41.9 KB)
+  Status:  ✅ SUCCESS
+
+[langoor/himalayan-smoking-herbs-snow-mix] gallery-3
+  Source:  DANES\LANGOOR\SNOW\langoorSmoking_snowMix_04_1700x1700.jpg
+  Input:   1700x1700 | 52.8 KB
+  Output:  gallery-3.webp (16.4 KB) + gallery-3.jpg (47.7 KB)
+  Status:  ✅ SUCCESS
+
+[langoor/himalayan-smoking-herbs-sun-mix] gallery-1
+  Source:  DANES\LANGOOR\SUN\langoorSmoking_sunMix_02_1700x1700.jpg
+  Input:   1700x1700 | 128.1 KB
+  Output:  gallery-1.webp (69.6 KB) + gallery-1.jpg (105.1 KB)
+  Status:  ✅ SUCCESS
+
+[langoor/himalayan-smoking-herbs-sun-mix] gallery-2
+  Source:  DANES\LANGOOR\SUN\langoorSmoking_sunMix_03_1700x1700.jpg
+  Input:   1700x1700 | 60.4 KB
+  Output:  gallery-2.webp (23.7 KB) + gallery-2.jpg (49.0 KB)
+  Status:  ✅ SUCCESS
+
+[langoor/himalayan-smoking-herbs-sun-mix] gallery-3
+  Source:  DANES\LANGOOR\SUN\langoorSmoking_sunMix_04_1700x1700.jpg
+  Input:   1700x1700 | 68.8 KB
+  Output:  gallery-3.webp (27.3 KB) + gallery-3.jpg (58.8 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-1
+  Source:  DANES\MEDICANN\100mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\100mgIngredients.webp
+  Input:   1080x1080 | 61.3 KB
+  Output:  gallery-1.webp (53.0 KB) + gallery-1.jpg (107.9 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-2
+  Source:  DANES\MEDICANN\100mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\100mgIU.webp
+  Input:   1080x1080 | 24.3 KB
+  Output:  gallery-2.webp (21.9 KB) + gallery-2.jpg (55.6 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-3
+  Source:  DANES\MEDICANN\100mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\100mgProperty.webp
+  Input:   1080x1080 | 49.9 KB
+  Output:  gallery-3.webp (43.0 KB) + gallery-3.jpg (82.9 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-4
+  Source:  DANES\MEDICANN\100mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\100mgSizeNote.webp
+  Input:   1080x1080 | 27.5 KB
+  Output:  gallery-4.webp (26.7 KB) + gallery-4.jpg (62.8 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-5
+  Source:  DANES\MEDICANN\100mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\Back 02 with BG.jpg
+  Input:   2480x3508 | 476.7 KB
+  Output:  gallery-5.webp (17.1 KB) + gallery-5.jpg (34.4 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-6
+  Source:  DANES\MEDICANN\100mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\Back with BG.jpg
+  Input:   2480x3508 | 451.2 KB
+  Output:  gallery-6.webp (13.8 KB) + gallery-6.jpg (31.7 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-7
+  Source:  DANES\MEDICANN\100mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\Front with BG.jpg
+  Input:   1024x1024 | 408.8 KB
+  Output:  gallery-7.webp (36.3 KB) + gallery-7.jpg (97.5 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-1
+  Source:  DANES\MEDICANN\2000mg CANNABIS LEAF EXTRACT OIL\Back 02 with BG.jpg
+  Input:   2480x3508 | 516.5 KB
+  Output:  gallery-1.webp (18.7 KB) + gallery-1.jpg (37.1 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-2
+  Source:  DANES\MEDICANN\2000mg CANNABIS LEAF EXTRACT OIL\Back with BG.jpg
+  Input:   2480x3508 | 479.0 KB
+  Output:  gallery-2.webp (16.9 KB) + gallery-2.jpg (35.9 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-3
+  Source:  DANES\MEDICANN\2000mg CANNABIS LEAF EXTRACT OIL\Front with BG.jpg
+  Input:   1024x1024 | 467.1 KB
+  Output:  gallery-3.webp (51.5 KB) + gallery-3.jpg (121.9 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-8
+  Source:  DANES\MEDICANN\250mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\250_mg_Ingredients_63aff3dc-7564-4ea6-828d-e32f9917b477.webp
+  Input:   1080x1080 | 61.5 KB
+  Output:  gallery-8.webp (53.1 KB) + gallery-8.jpg (107.7 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-9
+  Source:  DANES\MEDICANN\250mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\250_mg_IU.webp
+  Input:   1080x1080 | 27.5 KB
+  Output:  gallery-9.webp (26.0 KB) + gallery-9.jpg (61.4 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-10
+  Source:  DANES\MEDICANN\250mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\250_mg_Property_c3bbd398-4ae8-4c23-80fc-1ffe6a18042c.webp
+  Input:   1080x1080 | 49.8 KB
+  Output:  gallery-10.webp (43.0 KB) + gallery-10.jpg (82.9 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-11
+  Source:  DANES\MEDICANN\250mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\250_mg_Size_Note_12874251-85aa-4e83-951e-babb79cdbb13.webp
+  Input:   1080x1080 | 27.5 KB
+  Output:  gallery-11.webp (26.7 KB) + gallery-11.jpg (62.8 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-12
+  Source:  DANES\MEDICANN\250mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\Back 02 with BG.jpg
+  Input:   2480x3508 | 607.5 KB
+  Output:  gallery-12.webp (17.5 KB) + gallery-12.jpg (35.3 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-13
+  Source:  DANES\MEDICANN\250mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\Back with BG.jpg
+  Input:   2480x3508 | 507.4 KB
+  Output:  gallery-13.webp (13.5 KB) + gallery-13.jpg (31.3 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-14
+  Source:  DANES\MEDICANN\250mg (30cap) CANNABIS LEAF EXTRACT CAPSULES\Front with BG.jpg
+  Input:   1024x1024 | 388.4 KB
+  Output:  gallery-14.webp (36.2 KB) + gallery-14.jpg (96.2 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-4
+  Source:  DANES\MEDICANN\6000mg CANNABIS LEAF EXTRACT OIL\6000mg_Ingredients_2759a40f-0a14-4aae-80e1-72bd85220d06.webp
+  Input:   1080x1080 | 88.4 KB
+  Output:  gallery-4.webp (72.6 KB) + gallery-4.jpg (135.2 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-5
+  Source:  DANES\MEDICANN\6000mg CANNABIS LEAF EXTRACT OIL\6000mg_Property_2e9aea81-e3b9-4267-b077-575c079173e3.webp
+  Input:   1080x1080 | 49.9 KB
+  Output:  gallery-5.webp (43.0 KB) + gallery-5.jpg (82.9 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-6
+  Source:  DANES\MEDICANN\6000mg CANNABIS LEAF EXTRACT OIL\6000mg_Size_Note_3434ae46-4bbc-49d0-9adc-0d8476193f7b.webp
+  Input:   1080x1080 | 27.5 KB
+  Output:  gallery-6.webp (26.7 KB) + gallery-6.jpg (62.8 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-7
+  Source:  DANES\MEDICANN\6000mg CANNABIS LEAF EXTRACT OIL\6000mg_ui.webp
+  Input:   1080x1080 | 21.5 KB
+  Output:  gallery-7.webp (19.5 KB) + gallery-7.jpg (50.5 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-8
+  Source:  DANES\MEDICANN\6000mg CANNABIS LEAF EXTRACT OIL\Back 02 with BG.jpg
+  Input:   2480x3508 | 483.4 KB
+  Output:  gallery-8.webp (15.5 KB) + gallery-8.jpg (32.1 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-9
+  Source:  DANES\MEDICANN\6000mg CANNABIS LEAF EXTRACT OIL\Back with BG.jpg
+  Input:   2480x3508 | 450.9 KB
+  Output:  gallery-9.webp (14.5 KB) + gallery-9.jpg (31.4 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-10
+  Source:  DANES\MEDICANN\6000mg CANNABIS LEAF EXTRACT OIL\Drop with BG.jpg
+  Input:   2480x3508 | 1170.4 KB
+  Output:  gallery-10.webp (33.0 KB) + gallery-10.jpg (63.9 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-11
+  Source:  DANES\MEDICANN\6000mg CANNABIS LEAF EXTRACT OIL\Front with BG.jpg
+  Input:   1024x1024 | 477.9 KB
+  Output:  gallery-11.webp (49.4 KB) + gallery-11.jpg (123.8 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-12
+  Source:  DANES\MEDICANN\CANNABIS LEAF EXTRACT BASIC\Front with BG (2).jpg
+  Input:   1024x1024 | 448.4 KB
+  Output:  gallery-12.webp (41.0 KB) + gallery-12.jpg (106.1 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-13
+  Source:  DANES\MEDICANN\CANNABIS LEAF EXTRACT BASIC\Premiumingredients.webp
+  Input:   1080x1080 | 73.2 KB
+  Output:  gallery-13.webp (62.2 KB) + gallery-13.jpg (115.5 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-14
+  Source:  DANES\MEDICANN\CANNABIS LEAF EXTRACT BASIC\Premiumnotes.webp
+  Input:   1080x1080 | 27.5 KB
+  Output:  gallery-14.webp (26.7 KB) + gallery-14.jpg (62.8 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-15
+  Source:  DANES\MEDICANN\CANNABIS LEAF EXTRACT BASIC\Premiumproperty.webp
+  Input:   1080x1080 | 49.9 KB
+  Output:  gallery-15.webp (43.0 KB) + gallery-15.jpg (83.0 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-5g-normal-rx] gallery-16
+  Source:  DANES\MEDICANN\CANNABIS LEAF EXTRACT BASIC\Premiumui.webp
+  Input:   1080x1080 | 29.8 KB
+  Output:  gallery-16.webp (27.9 KB) + gallery-16.jpg (65.3 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-premium-5g-rx] gallery-1
+  Source:  DANES\MEDICANN\CANNABIS LEAF EXTRACT PREMIUM\Front with BG (3).jpg
+  Input:   1024x1024 | 302.0 KB
+  Output:  gallery-1.webp (25.5 KB) + gallery-1.jpg (68.7 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-premium-5g-rx] gallery-2
+  Source:  DANES\MEDICANN\CANNABIS LEAF EXTRACT PREMIUM\Hand_.png
+  Input:   2480x3508 | 1944.0 KB
+  Output:  gallery-2.webp (26.8 KB) + gallery-2.jpg (49.2 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-premium-5g-rx] gallery-3
+  Source:  DANES\MEDICANN\CANNABIS LEAF EXTRACT PREMIUM\Premiumingredients (1).webp
+  Input:   1080x1080 | 73.2 KB
+  Output:  gallery-3.webp (62.2 KB) + gallery-3.jpg (115.5 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-premium-5g-rx] gallery-4
+  Source:  DANES\MEDICANN\CANNABIS LEAF EXTRACT PREMIUM\Premiumnotes (1).webp
+  Input:   1080x1080 | 27.5 KB
+  Output:  gallery-4.webp (26.7 KB) + gallery-4.jpg (62.8 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-premium-5g-rx] gallery-5
+  Source:  DANES\MEDICANN\CANNABIS LEAF EXTRACT PREMIUM\Premiumproperty (1).webp
+  Input:   1080x1080 | 49.9 KB
+  Output:  gallery-5.webp (43.0 KB) + gallery-5.jpg (83.0 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-premium-5g-rx] gallery-6
+  Source:  DANES\MEDICANN\CANNABIS LEAF EXTRACT PREMIUM\Premiumui (1).webp
+  Input:   1080x1080 | 29.8 KB
+  Output:  gallery-6.webp (27.9 KB) + gallery-6.jpg (65.3 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-gummies-135mg-rx] gallery-1
+  Source:  DANES\MEDICANN\GUMMY 135mg\250_mg_Size_Note_12874251-85aa-4e83-951e-babb79cdbb13 (1).webp
+  Input:   1080x1080 | 27.4 KB
+  Output:  gallery-1.webp (26.5 KB) + gallery-1.jpg (62.8 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-gummies-135mg-rx] gallery-2
+  Source:  DANES\MEDICANN\GUMMY 135mg\Medi-02.webp
+  Input:   3335x3334 | 178.9 KB
+  Output:  gallery-2.webp (40.1 KB) + gallery-2.jpg (88.7 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-gummies-135mg-rx] gallery-3
+  Source:  DANES\MEDICANN\GUMMY 135mg\Medi.webp
+  Input:   3334x3334 | 316.8 KB
+  Output:  gallery-3.webp (76.0 KB) + gallery-3.jpg (142.8 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-gummies-135mg-rx] gallery-4
+  Source:  DANES\MEDICANN\GUMMY 135mg\Product 3.png
+  Input:   6720x4480 | 16925.5 KB
+  Output:  gallery-4.webp (44.4 KB) + gallery-4.jpg (86.3 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-gummies-135mg-rx] gallery-5
+  Source:  DANES\MEDICANN\GUMMY 135mg\Product gummy.png
+  Input:   6720x4480 | 9990.0 KB
+  Output:  gallery-5.webp (63.5 KB) + gallery-5.jpg (88.7 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-gummies-135mg-rx] gallery-6
+  Source:  DANES\MEDICANN\GUMMY 135mg\product pack.png
+  Input:   1024x1024 | 461.7 KB
+  Output:  gallery-6.webp (67.8 KB) + gallery-6.jpg (130.9 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-gummies-350mg-rx] gallery-1
+  Source:  DANES\MEDICANN\GUMMY 350mg\250_mg_Property_c3bbd398-4ae8-4c23-80fc-1ffe6a18042c.webp
+  Input:   1080x1080 | 49.2 KB
+  Output:  gallery-1.webp (43.7 KB) + gallery-1.jpg (83.3 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-gummies-350mg-rx] gallery-2
+  Source:  DANES\MEDICANN\GUMMY 350mg\250_mg_Size_Note_12874251-85aa-4e83-951e-babb79cdbb13.webp
+  Input:   1080x1080 | 27.4 KB
+  Output:  gallery-2.webp (26.5 KB) + gallery-2.jpg (62.8 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-gummies-350mg-rx] gallery-3
+  Source:  DANES\MEDICANN\GUMMY 350mg\Medi-02.webp
+  Input:   3335x3334 | 178.9 KB
+  Output:  gallery-3.webp (40.1 KB) + gallery-3.jpg (88.7 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-gummies-350mg-rx] gallery-4
+  Source:  DANES\MEDICANN\GUMMY 350mg\product.jpeg
+  Input:   1024x1024 | 472.5 KB
+  Output:  gallery-4.webp (70.3 KB) + gallery-4.jpg (131.4 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-gummies-350mg-rx] gallery-5
+  Source:  DANES\MEDICANN\GUMMY 350mg\WhatsApp Image 2026-04-28 at 6.09.53 PM.jpeg
+  Input:   1600x1599 | 286.1 KB
+  Output:  gallery-5.webp (71.4 KB) + gallery-5.jpg (133.4 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-pain-relief-oil-non-rx] gallery-1
+  Source:  DANES\MEDICANN\PAIN RELIEF OIL 50ml\Back 02 with BG.jpg
+  Input:   2480x3508 | 674.5 KB
+  Output:  gallery-1.webp (18.6 KB) + gallery-1.jpg (39.3 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-pain-relief-oil-non-rx] gallery-2
+  Source:  DANES\MEDICANN\PAIN RELIEF OIL 50ml\Back with BG.jpg
+  Input:   2480x3508 | 656.6 KB
+  Output:  gallery-2.webp (18.3 KB) + gallery-2.jpg (39.4 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-pain-relief-oil-non-rx] gallery-3
+  Source:  DANES\MEDICANN\PAIN RELIEF OIL 50ml\Front with BG.jpg
+  Input:   1024x1024 | 410.5 KB
+  Output:  gallery-3.webp (36.9 KB) + gallery-3.jpg (100.4 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-pain-relief-oil-non-rx] gallery-4
+  Source:  DANES\MEDICANN\PAIN RELIEF OIL 50ml\Pain_oil_Ingredients_bbede500-2764-45a0-82f6-23c2918e0485.webp
+  Input:   1080x1080 | 72.5 KB
+  Output:  gallery-4.webp (61.4 KB) + gallery-4.jpg (118.4 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-pain-relief-oil-non-rx] gallery-5
+  Source:  DANES\MEDICANN\PAIN RELIEF OIL 50ml\Pain_oil_Property_f836206b-113f-4eba-9383-8c0cf72dc6c8.webp
+  Input:   1080x1080 | 49.9 KB
+  Output:  gallery-5.webp (43.0 KB) + gallery-5.jpg (82.9 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-pain-relief-oil-non-rx] gallery-6
+  Source:  DANES\MEDICANN\PAIN RELIEF OIL 50ml\Pain_oil_Size_Note_5e7f2d2e-9075-4ccc-b951-194f6ec434f6.webp
+  Input:   1080x1080 | 27.5 KB
+  Output:  gallery-6.webp (26.7 KB) + gallery-6.jpg (62.8 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-15
+  Source:  DANES\MEDICANN\VIJAYA VATI CAPSULES\250_mg_Property_c3bbd398-4ae8-4c23-80fc-1ffe6a18042c.webp
+  Input:   1080x1080 | 49.2 KB
+  Output:  gallery-15.webp (43.7 KB) + gallery-15.jpg (83.3 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-16
+  Source:  DANES\MEDICANN\VIJAYA VATI CAPSULES\250_mg_Size_Note_12874251-85aa-4e83-951e-babb79cdbb13 (1).webp
+  Input:   1080x1080 | 27.4 KB
+  Output:  gallery-16.webp (26.5 KB) + gallery-16.jpg (62.8 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-17
+  Source:  DANES\MEDICANN\VIJAYA VATI CAPSULES\Medicann-VijayaVatiingredients.webp
+  Input:   1668x1668 | 178.8 KB
+  Output:  gallery-17.webp (98.4 KB) + gallery-17.jpg (164.2 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-18
+  Source:  DANES\MEDICANN\VIJAYA VATI CAPSULES\Medicann-Vijayavatiintendeduse.webp
+  Input:   1668x1668 | 87.7 KB
+  Output:  gallery-18.webp (47.0 KB) + gallery-18.jpg (99.2 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-19
+  Source:  DANES\MEDICANN\VIJAYA VATI CAPSULES\MOCKUP SINGLE PACK.jpg.jpeg
+  Input:   1024x1024 | 532.8 KB
+  Output:  gallery-19.webp (101.4 KB) + gallery-19.jpg (170.5 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-20
+  Source:  DANES\MEDICANN\VIJAYA VATI CAPSULES\MOCKUP SINGLE PACK.png
+  Input:   2480x2480 | 2914.6 KB
+  Output:  gallery-20.webp (80.8 KB) + gallery-20.jpg (122.4 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-21
+  Source:  DANES\MEDICANN\VIJAYA VATI CAPSULES\MOCKUP TRIPLE PACK copy.png
+  Input:   2480x2480 | 3009.1 KB
+  Output:  gallery-21.webp (74.8 KB) + gallery-21.jpg (119.1 KB)
+  Status:  ✅ SUCCESS
+
+[medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx] gallery-22
+  Source:  DANES\MEDICANN\VIJAYA VATI CAPSULES\MOCKUP TRIPLE PACK.jpg.jpeg
+  Input:   2480x2480 | 1118.7 KB
+  Output:  gallery-22.webp (78.2 KB) + gallery-22.jpg (126.3 KB)
+  Status:  ✅ SUCCESS
+
+[soma/cordyceps-militaris-extract-30ml] gallery-1
+  Source:  DANES\SOMA\CORDYCEPS MILITARIS\best ways - cordy strands.png
+  Input:   1080x1080 | 1310.1 KB
+  Output:  gallery-1.webp (82.0 KB) + gallery-1.jpg (152.4 KB)
+  Status:  ✅ SUCCESS
+
+[soma/cordyceps-militaris-extract-30ml] gallery-2
+  Source:  DANES\SOMA\CORDYCEPS MILITARIS\Copy of Cordycep front.jpg
+  Input:   1024x1024 | 406.6 KB
+  Output:  gallery-2.webp (46.7 KB) + gallery-2.jpg (105.0 KB)
+  Status:  ✅ SUCCESS
+
+[soma/cordyceps-militaris-extract-30ml] gallery-3
+  Source:  DANES\SOMA\CORDYCEPS MILITARIS\Copy of cordycep jar_to upload.jpg
+  Input:   6000x3368 | 6539.8 KB
+  Output:  gallery-3.webp (81.9 KB) + gallery-3.jpg (123.3 KB)
+  Status:  ✅ SUCCESS
+
+[soma/cordyceps-militaris-extract-30ml] gallery-4
+  Source:  DANES\SOMA\CORDYCEPS MILITARIS\cordy dried strands.png
+  Input:   810x810 | 890.6 KB
+  Output:  gallery-4.webp (139.7 KB) + gallery-4.jpg (217.6 KB)
+  Status:  ✅ SUCCESS
+
+[soma/cordyceps-militaris-extract-30ml] gallery-5
+  Source:  DANES\SOMA\CORDYCEPS MILITARIS\cordy dried whole.png
+  Input:   1080x1080 | 299.1 KB
+  Output:  gallery-5.webp (61.0 KB) + gallery-5.jpg (104.9 KB)
+  Status:  ✅ SUCCESS
+
+[soma/cordyceps-militaris-extract-30ml] gallery-6
+  Source:  DANES\SOMA\CORDYCEPS MILITARIS\cordy jar.png
+  Input:   1080x1350 | 893.8 KB
+  Output:  gallery-6.webp (35.3 KB) + gallery-6.jpg (80.4 KB)
+  Status:  ✅ SUCCESS
+
+[soma/cordyceps-militaris-extract-30ml] gallery-7
+  Source:  DANES\SOMA\EXTRACT CORDYCEPS MILITARIS MUSHROOM\cordy dried strands copy.png
+  Input:   810x810 | 890.6 KB
+  Output:  gallery-7.webp (139.7 KB) + gallery-7.jpg (217.6 KB)
+  Status:  ✅ SUCCESS
+
+[soma/cordyceps-militaris-extract-30ml] gallery-8
+  Source:  DANES\SOMA\EXTRACT CORDYCEPS MILITARIS MUSHROOM\cordycep box side 2.jpg
+  Input:   6000x3368 | 2135.0 KB
+  Output:  gallery-8.webp (21.7 KB) + gallery-8.jpg (42.0 KB)
+  Status:  ✅ SUCCESS
+
+[soma/cordyceps-militaris-extract-30ml] gallery-9
+  Source:  DANES\SOMA\EXTRACT CORDYCEPS MILITARIS MUSHROOM\cordyceps horizontal.jpg
+  Input:   6000x3368 | 8832.9 KB
+  Output:  gallery-9.webp (80.8 KB) + gallery-9.jpg (158.8 KB)
+  Status:  ✅ SUCCESS
+
+[soma/cordyceps-militaris-extract-30ml] gallery-10
+  Source:  DANES\SOMA\EXTRACT CORDYCEPS MILITARIS MUSHROOM\Cordyceps listing (4).png
+  Input:   1080x1080 | 303.5 KB
+  Output:  gallery-10.webp (60.1 KB) + gallery-10.jpg (108.6 KB)
+  Status:  ✅ SUCCESS
+
+[soma/cordyceps-militaris-extract-30ml] gallery-11
+  Source:  DANES\SOMA\EXTRACT CORDYCEPS MILITARIS MUSHROOM\Cordyceps listing (5).png
+  Input:   1080x1080 | 293.2 KB
+  Output:  gallery-11.webp (38.3 KB) + gallery-11.jpg (72.2 KB)
+  Status:  ✅ SUCCESS
+
+[soma/cordyceps-militaris-extract-30ml] gallery-12
+  Source:  DANES\SOMA\EXTRACT CORDYCEPS MILITARIS MUSHROOM\Cordyceps listing 1.png
+  Input:   1024x1024 | 624.8 KB
+  Output:  gallery-12.webp (113.0 KB) + gallery-12.jpg (206.2 KB)
+  Status:  ✅ SUCCESS
+
+[soma/shiitake-mushroom-dried-50g] gallery-1
+  Source:  DANES\SOMA\FULL DRIED SHIITAKE\Full Shiitake Pouch.jpg
+  Input:   1024x1024 | 561.6 KB
+  Output:  gallery-1.webp (78.5 KB) + gallery-1.jpg (162.7 KB)
+  Status:  ✅ SUCCESS
+
+[soma/shiitake-mushroom-dried-50g] gallery-2
+  Source:  DANES\SOMA\FULL DRIED SHIITAKE\Shiitake Back.jpg
+  Input:   6000x3368 | 3788.7 KB
+  Output:  gallery-2.webp (33.5 KB) + gallery-2.jpg (65.3 KB)
+  Status:  ✅ SUCCESS
+
+[soma/shiitake-mushroom-dried-50g] gallery-3
+  Source:  DANES\SOMA\FULL DRIED SHIITAKE\shiitake dried whole.png
+  Input:   810x810 | 579.8 KB
+  Output:  gallery-3.webp (51.8 KB) + gallery-3.jpg (106.2 KB)
+  Status:  ✅ SUCCESS
+
+[soma/shiitake-mushroom-dried-50g] gallery-4
+  Source:  DANES\SOMA\FULL DRIED SHIITAKE\shiitake listing 1.png
+  Input:   1080x1080 | 1289.0 KB
+  Output:  gallery-4.webp (148.0 KB) + gallery-4.jpg (225.6 KB)
+  Status:  ✅ SUCCESS
+
+[soma/shiitake-mushroom-dried-50g] gallery-5
+  Source:  DANES\SOMA\FULL DRIED SHIITAKE\shiitake listing 2.png
+  Input:   1080x1080 | 1662.7 KB
+  Output:  gallery-5.webp (174.9 KB) + gallery-5.jpg (263.5 KB)
+  Status:  ✅ SUCCESS
+
+[soma/shiitake-mushroom-dried-50g] gallery-6
+  Source:  DANES\SOMA\FULL DRIED SHIITAKE\shiitake listing 3.png
+  Input:   1080x1080 | 1282.3 KB
+  Output:  gallery-6.webp (76.3 KB) + gallery-6.jpg (171.5 KB)
+  Status:  ✅ SUCCESS
+
+[soma/shiitake-mushroom-dried-50g] gallery-7
+  Source:  DANES\SOMA\FULL DRIED SHIITAKE\Shiitake pouch front 1.jpg
+  Input:   5886x3162 | 4051.1 KB
+  Output:  gallery-7.webp (35.9 KB) + gallery-7.jpg (70.9 KB)
+  Status:  ✅ SUCCESS
+
+[soma/shiitake-mushroom-dried-50g] gallery-8
+  Source:  DANES\SOMA\FULL DRIED SHIITAKE\shiitake whole pouch.jpg
+  Input:   6000x3368 | 11168.3 KB
+  Output:  gallery-8.webp (67.8 KB) + gallery-8.jpg (130.6 KB)
+  Status:  ✅ SUCCESS
+
+[soma/lion-s-mane-mushroom-extract-30ml] gallery-1
+  Source:  DANES\SOMA\LIONS MANE MUSHROOM EXTRACT\1 lions mane1.jpg
+  Input:   1024x1024 | 551.1 KB
+  Output:  gallery-1.webp (90.4 KB) + gallery-1.jpg (170.6 KB)
+  Status:  ✅ SUCCESS
+
+[soma/lion-s-mane-mushroom-extract-30ml] gallery-2
+  Source:  DANES\SOMA\LIONS MANE MUSHROOM EXTRACT\lions mane bottle dropper_light color.jpg
+  Input:   6000x3368 | 8162.5 KB
+  Output:  gallery-2.webp (50.0 KB) + gallery-2.jpg (104.7 KB)
+  Status:  ✅ SUCCESS
+
+[soma/lion-s-mane-mushroom-extract-30ml] gallery-3
+  Source:  DANES\SOMA\LIONS MANE MUSHROOM EXTRACT\Lions mane hoizontal.jpg
+  Input:   5124x3039 | 11790.2 KB
+  Output:  gallery-3.webp (183.6 KB) + gallery-3.jpg (251.3 KB)
+  Status:  ✅ SUCCESS
+
+[soma/lion-s-mane-mushroom-powder-50g] gallery-1
+  Source:  DANES\SOMA\LIONS MANE MUSHROOM POWDER\lionsmane dry powder.png
+  Input:   810x810 | 662.8 KB
+  Output:  gallery-1.webp (94.5 KB) + gallery-1.jpg (153.6 KB)
+  Status:  ✅ SUCCESS
+
+[soma/lion-s-mane-mushroom-powder-50g] gallery-2
+  Source:  DANES\SOMA\LIONS MANE MUSHROOM POWDER\LM powder back.jpg
+  Input:   1024x1024 | 483.9 KB
+  Output:  gallery-2.webp (52.9 KB) + gallery-2.jpg (118.5 KB)
+  Status:  ✅ SUCCESS
+
+[soma/lion-s-mane-mushroom-powder-50g] gallery-3
+  Source:  DANES\SOMA\LIONS MANE MUSHROOM POWDER\LM Powder front.jpg
+  Input:   6000x3368 | 4031.1 KB
+  Output:  gallery-3.webp (41.2 KB) + gallery-3.jpg (75.6 KB)
+  Status:  ✅ SUCCESS
+
+[soma/lion-s-mane-mushroom-powder-50g] gallery-4
+  Source:  DANES\SOMA\LIONS MANE MUSHROOM POWDER\LM powder front_shroom.jpg
+  Input:   6000x3368 | 4308.1 KB
+  Output:  gallery-4.webp (54.4 KB) + gallery-4.jpg (90.4 KB)
+  Status:  ✅ SUCCESS
+
+[soma/oyster-mushroom-powder-100g] gallery-1
+  Source:  DANES\SOMA\OYSTER MUSHROOM POWDER\best ways - dried powder.png
+  Input:   1080x1080 | 86.9 KB
+  Output:  gallery-1.webp (33.8 KB) + gallery-1.jpg (66.8 KB)
+  Status:  ✅ SUCCESS
+
+[soma/oyster-mushroom-powder-100g] gallery-2
+  Source:  DANES\SOMA\OYSTER MUSHROOM POWDER\Copy of Oyster back.jpg
+  Input:   6000x3368 | 2453.7 KB
+  Output:  gallery-2.webp (24.9 KB) + gallery-2.jpg (51.4 KB)
+  Status:  ✅ SUCCESS
+
+[soma/oyster-mushroom-powder-100g] gallery-3
+  Source:  DANES\SOMA\OYSTER MUSHROOM POWDER\Copy of oyster powder front 2.jpg
+  Input:   6000x3368 | 2825.9 KB
+  Output:  gallery-3.webp (30.9 KB) + gallery-3.jpg (59.4 KB)
+  Status:  ✅ SUCCESS
+
+[soma/oyster-mushroom-powder-100g] gallery-4
+  Source:  DANES\SOMA\OYSTER MUSHROOM POWDER\Copy of oyster powder front.jpg
+  Input:   6000x3368 | 3382.7 KB
+  Output:  gallery-4.webp (37.7 KB) + gallery-4.jpg (71.0 KB)
+  Status:  ✅ SUCCESS
+
+[soma/oyster-mushroom-powder-100g] gallery-5
+  Source:  DANES\SOMA\OYSTER MUSHROOM POWDER\Copy of oyster powder_to upload.jpg
+  Input:   6000x3368 | 14887.7 KB
+  Output:  gallery-5.webp (129.2 KB) + gallery-5.jpg (190.7 KB)
+  Status:  ✅ SUCCESS
+
+[soma/oyster-mushroom-powder-100g] gallery-6
+  Source:  DANES\SOMA\OYSTER MUSHROOM POWDER\oys benefits.png
+  Input:   1080x1080 | 593.1 KB
+  Output:  gallery-6.webp (76.2 KB) + gallery-6.jpg (136.1 KB)
+  Status:  ✅ SUCCESS
+
+[soma/oyster-mushroom-powder-100g] gallery-7
+  Source:  DANES\SOMA\OYSTER MUSHROOM POWDER\oys powder back.png
+  Input:   1080x1350 | 1562.5 KB
+  Output:  gallery-7.webp (49.5 KB) + gallery-7.jpg (111.7 KB)
+  Status:  ✅ SUCCESS
+
+[soma/oyster-mushroom-powder-100g] gallery-8
+  Source:  DANES\SOMA\OYSTER MUSHROOM POWDER\oys powder front.png
+  Input:   1024x1024 | 491.1 KB
+  Output:  gallery-8.webp (51.7 KB) + gallery-8.jpg (127.7 KB)
+  Status:  ✅ SUCCESS
+
+[soma/reishi-mushroom-extract-30ml] gallery-1
+  Source:  DANES\SOMA\REISHI MUSHROOM EXTRACT\Reishi listing 1.png
+  Input:   1024x1024 | 597.1 KB
+  Output:  gallery-1.webp (107.8 KB) + gallery-1.jpg (194.6 KB)
+  Status:  ✅ SUCCESS
+
+[soma/reishi-mushroom-extract-30ml] gallery-2
+  Source:  DANES\SOMA\REISHI MUSHROOM EXTRACT\Reishi listing 2.png
+  Input:   1080x1080 | 315.6 KB
+  Output:  gallery-2.webp (62.1 KB) + gallery-2.jpg (109.6 KB)
+  Status:  ✅ SUCCESS
+
+[soma/reishi-mushroom-extract-30ml] gallery-3
+  Source:  DANES\SOMA\REISHI MUSHROOM EXTRACT\Reishi_to upload.jpg
+  Input:   6000x3368 | 6508.5 KB
+  Output:  gallery-3.webp (67.5 KB) + gallery-3.jpg (125.0 KB)
+  Status:  ✅ SUCCESS
+
+[soma/reishi-mushroom-extract-30ml] gallery-4
+  Source:  DANES\SOMA\REISHI MUSHROOM EXTRACT\WhatsApp Image 2026-02-13 at 5.32.01 PM.jpeg
+  Input:   970x600 | 131.7 KB
+  Output:  gallery-4.webp (90.5 KB) + gallery-4.jpg (178.0 KB)
+  Status:  ✅ SUCCESS
+
+[soma/shiitake-mushroom-extract-30ml] gallery-1
+  Source:  DANES\SOMA\SHIITAKE MUSHROOM EXTRACT\shiitake horizontal.jpg
+  Input:   6000x3368 | 9925.6 KB
+  Output:  gallery-1.webp (97.2 KB) + gallery-1.jpg (175.1 KB)
+  Status:  ✅ SUCCESS
+
+[soma/shiitake-mushroom-extract-30ml] gallery-2
+  Source:  DANES\SOMA\SHIITAKE MUSHROOM EXTRACT\shiitake listing 1.png
+  Input:   1024x1024 | 504.5 KB
+  Output:  gallery-2.webp (69.3 KB) + gallery-2.jpg (146.4 KB)
+  Status:  ✅ SUCCESS
+
+[soma/shiitake-mushroom-extract-30ml] gallery-3
+  Source:  DANES\SOMA\SHIITAKE MUSHROOM EXTRACT\shiitake listing 2.png
+  Input:   1080x1080 | 315.5 KB
+  Output:  gallery-3.webp (58.7 KB) + gallery-3.jpg (105.8 KB)
+  Status:  ✅ SUCCESS
+
+[soma/shiitake-mushroom-extract-30ml] gallery-4
+  Source:  DANES\SOMA\SHIITAKE MUSHROOM EXTRACT\shiitake listing 3.png
+  Input:   1080x1080 | 455.4 KB
+  Output:  gallery-4.webp (45.6 KB) + gallery-4.jpg (94.3 KB)
+  Status:  ✅ SUCCESS
+
+[soma/soma-synergy-6-shroom-blend-30ml] gallery-1
+  Source:  DANES\SOMA\SUPER SHROOM BLEND EXTRACT\blend benefits.png
+  Input:   1080x1080 | 1082.5 KB
+  Output:  gallery-1.webp (115.7 KB) + gallery-1.jpg (192.0 KB)
+  Status:  ✅ SUCCESS
+
+[soma/soma-synergy-6-shroom-blend-30ml] gallery-2
+  Source:  DANES\SOMA\SUPER SHROOM BLEND EXTRACT\Synergy blend listing.png
+  Input:   1024x1024 | 649.0 KB
+  Output:  gallery-2.webp (122.5 KB) + gallery-2.jpg (217.2 KB)
+  Status:  ✅ SUCCESS
+
+[soma/soma-synergy-6-shroom-blend-30ml] gallery-3
+  Source:  DANES\SOMA\SUPER SHROOM BLEND EXTRACT\synergy blend.jpg
+  Input:   6000x3368 | 8573.2 KB
+  Output:  gallery-3.webp (57.1 KB) + gallery-3.jpg (115.6 KB)
+  Status:  ✅ SUCCESS
+
+[soma/soma-synergy-6-shroom-blend-30ml] gallery-4
+  Source:  DANES\SOMA\SUPER SHROOM BLEND EXTRACT\WhatsApp Image 2026-02-13 at 6.17.47 PM.jpeg
+  Input:   970x600 | 129.0 KB
+  Output:  gallery-4.webp (89.4 KB) + gallery-4.jpg (175.5 KB)
+  Status:  ✅ SUCCESS
+
+[soma/turkey-tail-mushroom-extract-30ml] gallery-1
+  Source:  DANES\SOMA\Turkey Tail Mushroom Extract\1.png
+  Input:   1024x1024 | 552.8 KB
+  Output:  gallery-1.webp (81.3 KB) + gallery-1.jpg (164.1 KB)
+  Status:  ✅ SUCCESS
+
+[soma/turkey-tail-mushroom-extract-30ml] gallery-2
+  Source:  DANES\SOMA\Turkey Tail Mushroom Extract\2.png
+  Input:   5924x3230 | 3193.1 KB
+  Output:  gallery-2.webp (34.7 KB) + gallery-2.jpg (62.7 KB)
+  Status:  ✅ SUCCESS
+
+[soma/turkey-tail-mushroom-extract-30ml] gallery-3
+  Source:  DANES\SOMA\Turkey Tail Mushroom Extract\Turkey tail box back.jpg
+  Input:   5908x3204 | 2124.1 KB
+  Output:  gallery-3.webp (22.1 KB) + gallery-3.jpg (43.9 KB)
+  Status:  ✅ SUCCESS
+
+[soma/turkey-tail-mushroom-extract-30ml] gallery-4
+  Source:  DANES\SOMA\Turkey Tail Mushroom Extract\turkey tail box side.jpg
+  Input:   5870x3128 | 2074.7 KB
+  Output:  gallery-4.webp (28.6 KB) + gallery-4.jpg (50.9 KB)
+  Status:  ✅ SUCCESS
+
+[soma/turkey-tail-mushroom-extract-30ml] gallery-5
+  Source:  DANES\SOMA\Turkey Tail Mushroom Extract\turkey tail side.jpg
+  Input:   5942x3264 | 1936.5 KB
+  Output:  gallery-5.webp (21.9 KB) + gallery-5.jpg (44.8 KB)
+  Status:  ✅ SUCCESS
+
+[tea/classic-black-tea] gallery-1
+  Source:  DANES\TEA\Classic Black Tea\8908007661724 _1.jpg
+  Input:   1024x1024 | 610.6 KB
+  Output:  gallery-1.webp (79.3 KB) + gallery-1.jpg (173.3 KB)
+  Status:  ✅ SUCCESS
+
+[tea/classic-black-tea] gallery-2
+  Source:  DANES\TEA\Classic Black Tea\8908007661724 _2.jpg
+  Input:   3000x3000 | 567.6 KB
+  Output:  gallery-2.webp (85.0 KB) + gallery-2.jpg (169.5 KB)
+  Status:  ✅ SUCCESS
+
+[tea/classic-black-tea] gallery-3
+  Source:  DANES\TEA\Classic Black Tea\8908007661724 _3.jpg
+  Input:   3000x3000 | 952.4 KB
+  Output:  gallery-3.webp (161.3 KB) + gallery-3.jpg (263.4 KB)
+  Status:  ✅ SUCCESS
+
+[tea/classic-black-tea] gallery-4
+  Source:  DANES\TEA\Classic Black Tea\8908007661724 _4.jpg
+  Input:   3000x3000 | 943.6 KB
+  Output:  gallery-4.webp (171.1 KB) + gallery-4.jpg (274.4 KB)
+  Status:  ✅ SUCCESS
+
+[tea/classic-black-tea] gallery-5
+  Source:  DANES\TEA\Classic Black Tea\8908007661724 _6.jpg
+  Input:   3000x3000 | 951.1 KB
+  Output:  gallery-5.webp (158.4 KB) + gallery-5.jpg (269.1 KB)
+  Status:  ✅ SUCCESS
+
+[tea/roselle-with-indian-olive] gallery-1
+  Source:  DANES\TEA\Fruity Roselle\8908007661281 _1.jpg
+  Input:   1024x1024 | 573.2 KB
+  Output:  gallery-1.webp (81.2 KB) + gallery-1.jpg (166.8 KB)
+  Status:  ✅ SUCCESS
+
+[tea/roselle-with-indian-olive] gallery-2
+  Source:  DANES\TEA\Fruity Roselle\8908007661281 _2.jpg
+  Input:   3000x3000 | 612.1 KB
+  Output:  gallery-2.webp (98.4 KB) + gallery-2.jpg (185.1 KB)
+  Status:  ✅ SUCCESS
+
+[tea/roselle-with-indian-olive] gallery-3
+  Source:  DANES\TEA\Fruity Roselle\8908007661281 _3.jpg
+  Input:   3000x3000 | 992.5 KB
+  Output:  gallery-3.webp (164.8 KB) + gallery-3.jpg (271.1 KB)
+  Status:  ✅ SUCCESS
+
+[tea/roselle-with-indian-olive] gallery-4
+  Source:  DANES\TEA\Fruity Roselle\8908007661281 _4.jpg
+  Input:   3000x3000 | 1332.9 KB
+  Output:  gallery-4.webp (235.0 KB) + gallery-4.jpg (330.8 KB)
+  Status:  ✅ SUCCESS
+
+[tea/roselle-with-indian-olive] gallery-5
+  Source:  DANES\TEA\Fruity Roselle\8908007661281 _5.jpg
+  Input:   3000x3000 | 891.6 KB
+  Output:  gallery-5.webp (157.9 KB) + gallery-5.jpg (261.0 KB)
+  Status:  ✅ SUCCESS
+
+[tea/roselle-with-indian-olive] gallery-6
+  Source:  DANES\TEA\Fruity Roselle\8908007661281 _7.jpg
+  Input:   3000x3000 | 952.5 KB
+  Output:  gallery-6.webp (158.7 KB) + gallery-6.jpg (269.5 KB)
+  Status:  ✅ SUCCESS
+
+[tea/ginger-green-tea] gallery-1
+  Source:  DANES\TEA\Ginger Green Tea\8908007661250 _1.jpg
+  Input:   1024x1024 | 600.1 KB
+  Output:  gallery-1.webp (77.9 KB) + gallery-1.jpg (166.6 KB)
+  Status:  ✅ SUCCESS
+
+[tea/ginger-green-tea] gallery-2
+  Source:  DANES\TEA\Ginger Green Tea\8908007661250 _2.jpg
+  Input:   3000x3000 | 876.9 KB
+  Output:  gallery-2.webp (156.5 KB) + gallery-2.jpg (267.8 KB)
+  Status:  ✅ SUCCESS
+
+[tea/ginger-green-tea] gallery-3
+  Source:  DANES\TEA\Ginger Green Tea\8908007661250 _3.jpg
+  Input:   3000x3000 | 950.8 KB
+  Output:  gallery-3.webp (169.2 KB) + gallery-3.jpg (270.5 KB)
+  Status:  ✅ SUCCESS
+
+[tea/ginger-green-tea] gallery-4
+  Source:  DANES\TEA\Ginger Green Tea\8908007661250 _4.jpg
+  Input:   3000x3000 | 1204.8 KB
+  Output:  gallery-4.webp (149.5 KB) + gallery-4.jpg (261.6 KB)
+  Status:  ✅ SUCCESS
+
+[tea/ginger-green-tea] gallery-5
+  Source:  DANES\TEA\Ginger Green Tea\8908007661250 _5.jpg
+  Input:   3000x3000 | 910.2 KB
+  Output:  gallery-5.webp (162.1 KB) + gallery-5.jpg (264.5 KB)
+  Status:  ✅ SUCCESS
+
+[tea/ginger-green-tea] gallery-6
+  Source:  DANES\TEA\Ginger Green Tea\8908007661250 _6.jpg
+  Input:   3000x3000 | 947.6 KB
+  Output:  gallery-6.webp (157.5 KB) + gallery-6.jpg (268.0 KB)
+  Status:  ✅ SUCCESS
+
+[tea/lakadong-turmeric-with-star-anise] gallery-1
+  Source:  DANES\TEA\Lakadong Turmeric with Star Anise\8908007661632 _1.jpg
+  Input:   1024x1024 | 596.3 KB
+  Output:  gallery-1.webp (83.9 KB) + gallery-1.jpg (171.7 KB)
+  Status:  ✅ SUCCESS
+
+[tea/lakadong-turmeric-with-star-anise] gallery-2
+  Source:  DANES\TEA\Lakadong Turmeric with Star Anise\8908007661632 _3.jpg
+  Input:   3000x3000 | 671.3 KB
+  Output:  gallery-2.webp (111.1 KB) + gallery-2.jpg (203.5 KB)
+  Status:  ✅ SUCCESS
+
+[tea/lakadong-turmeric-with-star-anise] gallery-3
+  Source:  DANES\TEA\Lakadong Turmeric with Star Anise\8908007661632 _4.jpg
+  Input:   3000x3000 | 1013.8 KB
+  Output:  gallery-3.webp (175.2 KB) + gallery-3.jpg (282.0 KB)
+  Status:  ✅ SUCCESS
+
+[tea/lakadong-turmeric-with-star-anise] gallery-4
+  Source:  DANES\TEA\Lakadong Turmeric with Star Anise\8908007661632 _5.jpg
+  Input:   3000x3000 | 1038.4 KB
+  Output:  gallery-4.webp (202.5 KB) + gallery-4.jpg (303.9 KB)
+  Status:  ✅ SUCCESS
+
+[tea/lakadong-turmeric-with-star-anise] gallery-5
+  Source:  DANES\TEA\Lakadong Turmeric with Star Anise\8908007661632 _7.jpg
+  Input:   3000x3000 | 836.4 KB
+  Output:  gallery-5.webp (132.6 KB) + gallery-5.jpg (241.7 KB)
+  Status:  ✅ SUCCESS
+
+[tea/lakadong-turmeric-with-star-anise] gallery-6
+  Source:  DANES\TEA\Lakadong Turmeric with Star Anise\8908007661632 _8.jpg
+  Input:   3000x3000 | 872.3 KB
+  Output:  gallery-6.webp (131.7 KB) + gallery-6.jpg (244.0 KB)
+  Status:  ✅ SUCCESS
+
+[tea/lemongrass-ginger-tea] gallery-1
+  Source:  DANES\TEA\Lemongrass Ginger\8908007661144 _1.jpg
+  Input:   1024x1024 | 607.6 KB
+  Output:  gallery-1.webp (82.8 KB) + gallery-1.jpg (178.8 KB)
+  Status:  ✅ SUCCESS
+
+[tea/lemongrass-ginger-tea] gallery-2
+  Source:  DANES\TEA\Lemongrass Ginger\8908007661144 _2.jpg
+  Input:   3000x3000 | 761.7 KB
+  Output:  gallery-2.webp (132.2 KB) + gallery-2.jpg (232.3 KB)
+  Status:  ✅ SUCCESS
+
+[tea/lemongrass-ginger-tea] gallery-3
+  Source:  DANES\TEA\Lemongrass Ginger\8908007661144 _3.jpg
+  Input:   3000x3000 | 862.6 KB
+  Output:  gallery-3.webp (130.3 KB) + gallery-3.jpg (240.1 KB)
+  Status:  ✅ SUCCESS
+
+[tea/lemongrass-ginger-tea] gallery-4
+  Source:  DANES\TEA\Lemongrass Ginger\8908007661144 _5.jpg
+  Input:   3000x3000 | 1273.6 KB
+  Output:  gallery-4.webp (293.8 KB) + gallery-4.jpg (380.7 KB)
+  Status:  ✅ SUCCESS
+
+[tea/lemongrass-ginger-tea] gallery-5
+  Source:  DANES\TEA\Lemongrass Ginger\8908007661144 _6.jpg
+  Input:   3000x3000 | 834.2 KB
+  Output:  gallery-5.webp (132.1 KB) + gallery-5.jpg (240.0 KB)
+  Status:  ✅ SUCCESS
+
+[tea/lemongrass-ginger-tea] gallery-6
+  Source:  DANES\TEA\Lemongrass Ginger\8908007661144 _7.jpg
+  Input:   3000x3000 | 881.9 KB
+  Output:  gallery-6.webp (133.6 KB) + gallery-6.jpg (246.1 KB)
+  Status:  ✅ SUCCESS
+
+[tea/sumac-berry-tea] gallery-1
+  Source:  DANES\TEA\Sumac Berry Tea\8908007661625 _1.jpg
+  Input:   1024x1024 | 557.7 KB
+  Output:  gallery-1.webp (77.3 KB) + gallery-1.jpg (157.8 KB)
+  Status:  ✅ SUCCESS
+
+[tea/sumac-berry-tea] gallery-2
+  Source:  DANES\TEA\Sumac Berry Tea\8908007661625 _2.jpg
+  Input:   3000x3000 | 585.2 KB
+  Output:  gallery-2.webp (88.6 KB) + gallery-2.jpg (173.0 KB)
+  Status:  ✅ SUCCESS
+
+[tea/sumac-berry-tea] gallery-3
+  Source:  DANES\TEA\Sumac Berry Tea\8908007661625 _3.jpg
+  Input:   3000x3000 | 740.6 KB
+  Output:  gallery-3.webp (143.8 KB) + gallery-3.jpg (235.2 KB)
+  Status:  ✅ SUCCESS
+
+[tea/sumac-berry-tea] gallery-4
+  Source:  DANES\TEA\Sumac Berry Tea\8908007661625 _4.jpg
+  Input:   3000x3000 | 1041.6 KB
+  Output:  gallery-4.webp (188.4 KB) + gallery-4.jpg (284.4 KB)
+  Status:  ✅ SUCCESS
+
+[tea/sumac-berry-tea] gallery-5
+  Source:  DANES\TEA\Sumac Berry Tea\8908007661625 _5.jpg
+  Input:   3000x3000 | 945.3 KB
+  Output:  gallery-5.webp (165.5 KB) + gallery-5.jpg (269.0 KB)
+  Status:  ✅ SUCCESS
+
+[tea/sumac-berry-tea] gallery-6
+  Source:  DANES\TEA\Sumac Berry Tea\8908007661625 _6.jpg
+  Input:   3000x3000 | 868.0 KB
+  Output:  gallery-6.webp (144.0 KB) + gallery-6.jpg (249.2 KB)
+  Status:  ✅ SUCCESS
+
+[tea/sumac-berry-tea] gallery-7
+  Source:  DANES\TEA\Sumac Berry Tea\8908007661625 _7.jpg
+  Input:   3000x3000 | 874.4 KB
+  Output:  gallery-7.webp (132.1 KB) + gallery-7.jpg (244.6 KB)
+  Status:  ✅ SUCCESS
+
+========================================
+GALLERY COPY RUN SUMMARY
+========================================
+Total assignments      : 161
+Successfully copied    : 161
+Skipped (missing src)  : 0
+Errors                 : 0
+Products updated       : 25
+Total gallery images   : 161
+Average WebP size      : 73.1 KB
+Average JPG size       : 132.5 KB
+========================================

@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Calm Tea",
+    "slug": "calm-tea",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/BLOOM 3ml.jpeg",
+    "hover": null,
+    "confidence": 0.36363636363636365
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Bliss (RX)",
+    "slug": "bliss-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/BLISS MINT 10ml.jpeg",
+    "hover": "DANES/BOHECO/hover/BLISS MINT 10ml.png",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Sleep (RX)",
+    "slug": "sleep-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/SLEEP FENNEL 10ml.jpeg",
+    "hover": "DANES/BOHECO/hover/SLEEP FENNEL 10ml.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Peace+ (RX)",
+    "slug": "peace-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/peace+T-30ml.jpeg",
+    "hover": "DANES/BOHECO/hover/peace+T-30ml.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Peace Capsules \u2014 Pack of 3 (RX)",
+    "slug": "peace-capsules-pack-of-3-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/PEACE (capsules) 23mg.jpeg",
+    "hover": "DANES/BOHECO/hover/PEACE (capsules) 23mg.jpeg",
+    "confidence": 0.6153846153846154
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Combat (RX)",
+    "slug": "combat-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/COMBAT NATURAL 10ml.jpeg",
+    "hover": "DANES/BOHECO/hover/COMBAT NATURAL 10ml.png",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Digest Capsules (Non-Rx)",
+    "slug": "digest-capsules-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/DIGEST (tabs).jpeg",
+    "hover": "DANES/BOHECO/hover/DIGEST (tabs).png",
+    "confidence": 0.5625
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Desire Capsules (Non-Rx)",
+    "slug": "desire-capsules-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/PEACE (capsules) 23mg.jpeg",
+    "hover": "DANES/BOHECO/hover/PEACE (capsules) 23mg.jpeg",
+    "confidence": 0.5365853658536586
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Ease Oil (Non-Rx)",
+    "slug": "ease-oil-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/EASE 50ml.jpeg",
+    "hover": "DANES/BOHECO/hover/EASE 50ml.png",
+    "confidence": 0.5454545454545454
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Glide+ Oil (Non-Rx)",
+    "slug": "glide-oil-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/GLIDE + (oil).jpeg",
+    "hover": "DANES/BOHECO/hover/GLIDE + (oil).jpeg",
+    "confidence": 0.7142857142857143
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Glide+ Gel (Non-Rx)",
+    "slug": "glide-gel-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/GLIDE+ (gel).jpeg",
+    "hover": "DANES/BOHECO/hover/GLIDE+ (gel).jpeg",
+    "confidence": 0.7407407407407407
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Recover Spray (Non-Rx)",
+    "slug": "recover-spray-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/recover.jpeg",
+    "hover": "DANES/BOHECO/hover/recover.jpeg",
+    "confidence": 0.64
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Bloom Roll-On (Non-Rx)",
+    "slug": "bloom-roll-on-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/BLOOM 3ml.jpeg",
+    "hover": "DANES/BOHECO/hover/BLOOM 3ml.png",
+    "confidence": 0.5185185185185185
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Digest Navel Oil (Non-Rx)",
+    "slug": "digest-navel-oil-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/DIGEST NAVEL OIL 10ML.jpeg",
+    "hover": "DANES/BOHECO/hover/DIGEST NAVEL OIL 10ML.png",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Rescue Balm (Non-Rx)",
+    "slug": "rescue-balm-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/RESCUE 15g.jpeg",
+    "hover": "DANES/BOHECO/hover/RESCUE 15g.jpeg",
+    "confidence": 0.5384615384615384
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Relax Roll-On (Non-Rx)",
+    "slug": "relax-roll-on-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/Relax 10ml.jpeg",
+    "hover": "DANES/BOHECO/hover/Relax 10ml.jpeg",
+    "confidence": 0.5
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Pristine Cream (Non-Rx)",
+    "slug": "pristine-cream-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/PRISTINE CREAM 25g.jpeg",
+    "hover": "DANES/BOHECO/hover/PRISTINE CREAM 25g.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Hemp Seed Oil (Non-Rx)",
+    "slug": "hemp-seed-oil-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/HEMP SEED OIL 50ml.jpeg",
+    "hover": "DANES/BOHECO/hover/HEMP SEED OIL 50ml.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Hemp Hearts (Non-Rx)",
+    "slug": "hemp-hearts-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/HIMALAYAN HEMP HEARTS 100g.jpeg",
+    "hover": "DANES/BOHECO/hover/HIMALAYAN HEMP HEARTS 100g.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "BOHECO",
+    "name": "Hemp Protein Powder (Non-Rx)",
+    "slug": "hemp-protein-powder-non-rx",
+    "status": "success",
+    "catalogue": "DANES/BOHECO/Catalogue/HIMALAYAN HEMP PROTEIN 500g.jpeg",
+    "hover": "DANES/BOHECO/hover/HIMALAYAN HEMP PROTEIN 500g.jpeg",
+    "confidence": 0.5882352941176471
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Uplift (RX)",
+    "slug": "uplift-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/Afghan Kush Uplift Extract+.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/Afghan Kush Uplift Extract+.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Vijaya Ambrosia (RX)",
+    "slug": "vijaya-ambrosia-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/Vijaya Ambrosia.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/Vijaya Ambrosia.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Vijaya Amrit (RX)",
+    "slug": "vijaya-amrit-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/Vijaya Amrit.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/Vijaya Amrit.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Calm Drops (RX)",
+    "slug": "calm-drops-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/calm drops bottle old.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/calm drops bottle old.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Placidiol (RX)",
+    "slug": "placidiol-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/placidiol.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/placidiol.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Uplift Gummies (RX)",
+    "slug": "uplift-gummies-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/Blueberry Uplift Gummies.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/Blueberry Uplift Gummies.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Uplift+ Extract (RX)",
+    "slug": "uplift-extract-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/Afghan Kush Uplift Extract+.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/Afghan Kush Uplift Extract+.jpeg",
+    "confidence": 0.5957446808510638
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Cannaronil \u2014 Extract Paste (RX) THC rich",
+    "slug": "cannaronil-extract-paste-rx-thc-rich",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/Cannaronil .jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/cannaronil .jpeg",
+    "confidence": 0.46153846153846156
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Revive Pain Relief Roll-On (Non-Rx)",
+    "slug": "revive-pain-relief-roll-on-non-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/revive.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/revive.jpeg",
+    "confidence": 0.43243243243243246
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Sinus Aid Roll-On (Non-Rx)",
+    "slug": "sinus-aid-roll-on-non-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/muscle aid.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/muscle aid.jpeg",
+    "confidence": 0.375
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Migraine Aid Roll-On (Non-Rx)",
+    "slug": "migraine-aid-roll-on-non-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/migraine aid.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/migraine aid.jpeg",
+    "confidence": 0.6486486486486487
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Daily Skin Repair Cream (Non-Rx)",
+    "slug": "daily-skin-repair-cream-non-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/Daily Skin Repair Cream.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/Daily Skin Repair Cream.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Hemp Seed Oil Softgels (Non-Rx)",
+    "slug": "hemp-seed-oil-softgels-non-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/Pet Oil.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/Pet Oil.jpeg",
+    "confidence": 0.35294117647058826
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Trailokya Vijaya Vati Advanced (Non-Rx)",
+    "slug": "trailokya-vijaya-vati-advanced-non-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/Vijaya Ambrosia.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/Vijaya Ambrosia.jpeg",
+    "confidence": 0.44
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Liposomal Berberine 98% HCL+ (Non-Rx)",
+    "slug": "liposomal-berberine-98-hcl-non-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/berberine.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/berberine.jpeg",
+    "confidence": 0.42857142857142855
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Slimfit++ Gut Health Capsules (Non-Rx)",
+    "slug": "slimfit-gut-health-capsules-non-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/Gut health gummies.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/Gut health gummies.jpeg",
+    "confidence": 0.5384615384615384
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Astaxanthin Continuity Softgels (Non-Rx)",
+    "slug": "astaxanthin-continuity-softgels-non-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/Mango Uplift Gummies.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/Mango Uplift Gummies.jpeg",
+    "confidence": 0.2857142857142857
+  },
+  {
+    "id": "",
+    "brand": "CANAZO",
+    "name": "Pet Oil (RX)",
+    "slug": "pet-oil-rx",
+    "status": "success",
+    "catalogue": "DANES/CANNAZO/Catalogue/Pet Oil.jpeg",
+    "hover": "DANES/CANNAZO/Hover Images/Pet Oil.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "SANAN",
+    "name": "Gummy Vati (RX)",
+    "slug": "gummy-vati-rx",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "SANAN",
+    "name": "Mewa Modak Vati (RX)",
+    "slug": "mewa-modak-vati-rx",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "SANAN",
+    "name": "Pain Relief Oil (Non-Rx)",
+    "slug": "pain-relief-oil-non-rx",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "SANAN",
+    "name": "Pain Relief Roll-On (Non-Rx)",
+    "slug": "pain-relief-roll-on-non-rx",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "MediCann",
+    "name": "Cannabis Leaf Extract Gummies 350mg (RX)",
+    "slug": "cannabis-leaf-extract-gummies-350mg-rx",
+    "status": "success",
+    "catalogue": "DANES/MediCann/CANNABIS LEAF EXTRACT PREMIUM/Catalogue/Front with BG (3).jpg",
+    "hover": "DANES/MediCann/CANNABIS LEAF EXTRACT PREMIUM/Hover/Front with BG (3).jpg",
+    "confidence": 0.75
+  },
+  {
+    "id": "",
+    "brand": "MediCann",
+    "name": "Cannabis Leaf Extract Gummies 135mg (RX)",
+    "slug": "cannabis-leaf-extract-gummies-135mg-rx",
+    "status": "success",
+    "catalogue": "DANES/MediCann/CANNABIS LEAF EXTRACT PREMIUM/Catalogue/Front with BG (3).jpg",
+    "hover": "DANES/MediCann/CANNABIS LEAF EXTRACT PREMIUM/Hover/Front with BG (3).jpg",
+    "confidence": 0.75
+  },
+  {
+    "id": "",
+    "brand": "MediCann",
+    "name": "Cannabis Leaf Extract \u2014 5g Normal (RX)",
+    "slug": "cannabis-leaf-extract-5g-normal-rx",
+    "status": "success",
+    "catalogue": "DANES/MediCann/CANNABIS LEAF EXTRACT PREMIUM/Catalogue/Front with BG (3).jpg",
+    "hover": "DANES/MediCann/CANNABIS LEAF EXTRACT PREMIUM/Hover/Front with BG (3).jpg",
+    "confidence": 0.7741935483870968
+  },
+  {
+    "id": "",
+    "brand": "MediCann",
+    "name": "Cannabis Leaf Extract Premium \u2014 5g (RX)",
+    "slug": "cannabis-leaf-extract-premium-5g-rx",
+    "status": "success",
+    "catalogue": "DANES/MediCann/CANNABIS LEAF EXTRACT PREMIUM/Catalogue/Front with BG (3).jpg",
+    "hover": "DANES/MediCann/CANNABIS LEAF EXTRACT PREMIUM/Hover/Front with BG (3).jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "MediCann",
+    "name": "Cannabis Leaf Extract Oil \u2014 Peppermint (RX)",
+    "slug": "cannabis-leaf-extract-oil-peppermint-rx",
+    "status": "success",
+    "catalogue": "DANES/MediCann/CANNABIS LEAF EXTRACT PREMIUM/Catalogue/Front with BG (3).jpg",
+    "hover": "DANES/MediCann/CANNABIS LEAF EXTRACT PREMIUM/Hover/Front with BG (3).jpg",
+    "confidence": 0.7761194029850746
+  },
+  {
+    "id": "",
+    "brand": "MediCann",
+    "name": "Cannabis Leaf Extract Capsules \u2014 100mg & 250mg (RX)",
+    "slug": "cannabis-leaf-extract-capsules-100mg-250mg-rx",
+    "status": "success",
+    "catalogue": "DANES/MediCann/CANNABIS LEAF EXTRACT PREMIUM/Catalogue/Front with BG (3).jpg",
+    "hover": "DANES/MediCann/CANNABIS LEAF EXTRACT PREMIUM/Hover/Front with BG (3).jpg",
+    "confidence": 0.6666666666666666
+  },
+  {
+    "id": "",
+    "brand": "MediCann",
+    "name": "Cannabis Pain Relief Oil (Non-Rx)",
+    "slug": "cannabis-pain-relief-oil-non-rx",
+    "status": "success",
+    "catalogue": "DANES/MediCann/PAIN RELIEF OIL 50ml/Catalogue/Front with BG.jpg",
+    "hover": "DANES/MediCann/PAIN RELIEF OIL 50ml/Hover/Front with BG.jpg",
+    "confidence": 0.6818181818181818
+  },
+  {
+    "id": "",
+    "brand": "PollyHerbs",
+    "name": "Chill Gummies (RX)",
+    "slug": "chill-gummies-rx",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "PollyHerbs",
+    "name": "CALM Gummies (RX)",
+    "slug": "calm-gummies-rx",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "PollyHerbs",
+    "name": "Sleep Gummies (RX)",
+    "slug": "sleep-gummies-rx",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "PollyHerbs",
+    "name": "Intimacy Gummies (RX)",
+    "slug": "intimacy-gummies-rx",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "PollyHerbs",
+    "name": "Extra Potent Extract (RX)",
+    "slug": "extra-potent-extract-rx",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Kalaravedic",
+    "name": "Kameshwara Modak (RX)",
+    "slug": "kameshwara-modak-rx",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Hemplife",
+    "name": "Indi Strong \u2014 150mg Capsules (RX)",
+    "slug": "indi-strong-150mg-capsules-rx",
+    "status": "success",
+    "catalogue": "DANES/Hemplife/INDI MILD cap/Catalogue/INDI Mild 50mg Capsules.jpg",
+    "hover": "DANES/Hemplife/INDI MILD cap/Hover/INDI Mild 50mg Capsules.jpg",
+    "confidence": 0.4878048780487805
+  },
+  {
+    "id": "",
+    "brand": "Hemplife",
+    "name": "Indi Mild \u2014 50mg Capsules (RX)",
+    "slug": "indi-mild-50mg-capsules-rx",
+    "status": "success",
+    "catalogue": "DANES/Hemplife/INDI MILD cap/Catalogue/INDI Mild 50mg Capsules.jpg",
+    "hover": "DANES/Hemplife/INDI MILD cap/Hover/INDI Mild 50mg Capsules.jpg",
+    "confidence": 0.6842105263157895
+  },
+  {
+    "id": "",
+    "brand": "Hemplife",
+    "name": "Indi30 Tincture \u2014 5ml (RX)",
+    "slug": "indi30-tincture-5ml-rx",
+    "status": "success",
+    "catalogue": "DANES/Hemplife/INDI30/Catalogue/INDI30 1500mg 5ml.jpg",
+    "hover": "DANES/Hemplife/INDI30/Hover/INDI30 1500mg 5ml.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Hemplife",
+    "name": "Indi30 Tincture \u2014 10ml & 30ml (RX)",
+    "slug": "indi30-tincture-10ml-30ml-rx",
+    "status": "success",
+    "catalogue": "DANES/Hemplife/INDI30/Catalogue/INDI30 1500mg 5ml.jpg",
+    "hover": "DANES/Hemplife/INDI30/Hover/INDI30 1500mg 5ml.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Hemplife",
+    "name": "Satv Mild \u2014 50mg Capsules (RX)",
+    "slug": "satv-mild-50mg-capsules-rx",
+    "status": "success",
+    "catalogue": "DANES/Hemplife/SATV mild cap/Catalogue/SATV Mild 50mg Capsules.jpg",
+    "hover": "DANES/Hemplife/SATV mild cap/Hover/SATV Mild 50mg Capsules.jpg",
+    "confidence": 0.6842105263157895
+  },
+  {
+    "id": "",
+    "brand": "Hemplife",
+    "name": "Satv30 Tincture \u2014 10ml (RX)",
+    "slug": "satv30-tincture-10ml-rx",
+    "status": "success",
+    "catalogue": "DANES/Hemplife/SATV30/Catalogue/SATV30 1500mg 5ml.jpg",
+    "hover": "DANES/Hemplife/SATV30/Hover/SATV30 1500mg 5ml.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Hemplife",
+    "name": "Satv30 Tincture \u2014 5ml (RX)",
+    "slug": "satv30-tincture-5ml-rx",
+    "status": "success",
+    "catalogue": "DANES/Hemplife/SATV30/Catalogue/SATV30 1500mg 5ml.jpg",
+    "hover": "DANES/Hemplife/SATV30/Hover/SATV30 1500mg 5ml.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Hemplife",
+    "name": "Satv30 Tincture \u2014 30ml (RX)",
+    "slug": "satv30-tincture-30ml-rx",
+    "status": "success",
+    "catalogue": "DANES/Hemplife/SATV30/Catalogue/SATV30 1500mg 5ml.jpg",
+    "hover": "DANES/Hemplife/SATV30/Hover/SATV30 1500mg 5ml.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Hemplife",
+    "name": "Satv Pets Tincture (RX)",
+    "slug": "satv-pets-tincture-rx",
+    "status": "success",
+    "catalogue": "DANES/Hemplife/SATV PETS/Catalogue/SATV Pets 500mg 10ml.jpg",
+    "hover": "DANES/Hemplife/SATV PETS/Hover/SATV Pets 500mg 10ml.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "SOMA",
+    "name": "Reishi Mushroom Extract (30ml)",
+    "slug": "reishi-mushroom-extract-30ml",
+    "status": "success",
+    "catalogue": "DANES/SOMA/REISHI MUSHROOM EXTRACT/Catalogue/Reishi listing 1.png",
+    "hover": "DANES/SOMA/REISHI MUSHROOM EXTRACT/Hover/Reishi listing 1.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "SOMA",
+    "name": "Turkey Tail Mushroom Extract (30ml)",
+    "slug": "turkey-tail-mushroom-extract-30ml",
+    "status": "success",
+    "catalogue": "DANES/SOMA/Turkey Tail Mushroom Extract/Catalogue/1.png",
+    "hover": "DANES/SOMA/Turkey Tail Mushroom Extract/Hover/1.jpeg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "SOMA",
+    "name": "Shiitake Mushroom Extract (30ml)",
+    "slug": "shiitake-mushroom-extract-30ml",
+    "status": "success",
+    "catalogue": "DANES/SOMA/SHIITAKE MUSHROOM EXTRACT/Catalogue/shiitake listing 1.png",
+    "hover": "DANES/SOMA/SHIITAKE MUSHROOM EXTRACT/Hover/shiitake listing 1.png",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "SOMA",
+    "name": "Lion's Mane Mushroom Extract (30ml)",
+    "slug": "lion-s-mane-mushroom-extract-30ml",
+    "status": "success",
+    "catalogue": "DANES/SOMA/LIONS MANE MUSHROOM EXTRACT/Catalogue/1 lions mane1.jpg",
+    "hover": "DANES/SOMA/LIONS MANE MUSHROOM EXTRACT/Hover/1 lions mane1.jpg",
+    "confidence": 0.9818181818181818
+  },
+  {
+    "id": "",
+    "brand": "SOMA",
+    "name": "Cordyceps Militaris Extract (30ml)",
+    "slug": "cordyceps-militaris-extract-30ml",
+    "status": "success",
+    "catalogue": "DANES/SOMA/CORDYCEPS MILITARIS/Catalogue/Copy of Cordycep front.jpg",
+    "hover": "DANES/SOMA/CORDYCEPS MILITARIS/Hover/Copy of Cordycep front.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "SOMA",
+    "name": "Soma Synergy 6-Shroom Blend (30ml)",
+    "slug": "soma-synergy-6-shroom-blend-30ml",
+    "status": "success",
+    "catalogue": "DANES/SOMA/SUPER SHROOM BLEND EXTRACT/Catalogue/Synergy blend listing.png",
+    "hover": "DANES/SOMA/SUPER SHROOM BLEND EXTRACT/Hover/Synergy blend listing.jpeg",
+    "confidence": 0.6037735849056604
+  },
+  {
+    "id": "",
+    "brand": "SOMA",
+    "name": "Cordyceps Militaris \u2014 Dried Whole (10g)",
+    "slug": "cordyceps-militaris-dried-whole-10g",
+    "status": "success",
+    "catalogue": "DANES/SOMA/CORDYCEPS MILITARIS/Catalogue/Copy of Cordycep front.jpg",
+    "hover": "DANES/SOMA/CORDYCEPS MILITARIS/Hover/Copy of Cordycep front.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "SOMA",
+    "name": "Lion's Mane \u2014 Dried Whole (50g)",
+    "slug": "lion-s-mane-dried-whole-50g",
+    "status": "success",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 0.6666666666666666
+  },
+  {
+    "id": "",
+    "brand": "SOMA",
+    "name": "Lion's Mane Mushroom Powder (50g)",
+    "slug": "lion-s-mane-mushroom-powder-50g",
+    "status": "success",
+    "catalogue": "DANES/SOMA/LIONS MANE MUSHROOM POWDER/Catalogue/LM powder back.jpg",
+    "hover": "DANES/SOMA/LIONS MANE MUSHROOM POWDER/Hover/LM powder back.jpg",
+    "confidence": 0.9811320754716981
+  },
+  {
+    "id": "",
+    "brand": "SOMA",
+    "name": "Reishi Mushroom Powder (50g)",
+    "slug": "reishi-mushroom-powder-50g",
+    "status": "success",
+    "catalogue": "DANES/SOMA/REISHI MUSHROOM EXTRACT/Catalogue/Reishi listing 1.png",
+    "hover": "DANES/SOMA/REISHI MUSHROOM EXTRACT/Hover/Reishi listing 1.jpeg",
+    "confidence": 0.8
+  },
+  {
+    "id": "",
+    "brand": "SOMA",
+    "name": "Oyster Mushroom Powder (100g)",
+    "slug": "oyster-mushroom-powder-100g",
+    "status": "success",
+    "catalogue": "DANES/SOMA/OYSTER MUSHROOM POWDER/Catalogue/oys powder front.png",
+    "hover": "DANES/SOMA/OYSTER MUSHROOM POWDER/Hover/oys powder front.png",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "SOMA",
+    "name": "Shiitake Mushroom \u2014 Dried (50g)",
+    "slug": "shiitake-mushroom-dried-50g",
+    "status": "success",
+    "catalogue": "DANES/SOMA/SHIITAKE MUSHROOM EXTRACT/Catalogue/shiitake listing 1.png",
+    "hover": "DANES/SOMA/SHIITAKE MUSHROOM EXTRACT/Hover/shiitake listing 1.png",
+    "confidence": 0.76
+  },
+  {
+    "id": "",
+    "brand": "DECODE AGE",
+    "name": "Longevity Blend",
+    "slug": "longevity-blend",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "DECODE AGE",
+    "name": "DAKE (Vitamin D3, K2, A & E)",
+    "slug": "dake-vitamin-d3-k2-a-e",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "DECODE AGE",
+    "name": "NMN  500/1000 \u2014 Beta-Nicotinamide Mononucleotide",
+    "slug": "nmn-500-1000-beta-nicotinamide-mononucleotide",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "DECODE AGE",
+    "name": "Ca-AKG \u2014 Calcium Alpha-Ketoglutarate",
+    "slug": "ca-akg-calcium-alpha-ketoglutarate",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "KIMAYA BLENDS",
+    "name": "Natural Perfume \u2014 Saffron Fields",
+    "slug": "natural-perfume-saffron-fields",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "KIMAYA BLENDS",
+    "name": "Natural Perfume \u2014 Floral Musk",
+    "slug": "natural-perfume-floral-musk",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "KIMAYA BLENDS",
+    "name": "Natural Perfume \u2014 Saffron Bloom",
+    "slug": "natural-perfume-saffron-bloom",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "KIMAYA BLENDS",
+    "name": "Natural Perfume \u2014 Mystic Spices",
+    "slug": "natural-perfume-mystic-spices",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "KIMAYA BLENDS",
+    "name": "Natural Perfume \u2014 Deep Forest",
+    "slug": "natural-perfume-deep-forest",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "KIMAYA BLENDS",
+    "name": "Car Diffuser \u2014 Woody",
+    "slug": "car-diffuser-woody",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "KIMAYA BLENDS",
+    "name": "Car Diffuser \u2014 Citrus",
+    "slug": "car-diffuser-citrus",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "KIMAYA BLENDS",
+    "name": "Car Diffuser \u2014 Floral",
+    "slug": "car-diffuser-floral",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "KIMAYA BLENDS",
+    "name": "Lip Balm \u2014 Mandarin",
+    "slug": "lip-balm-mandarin",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "KIMAYA BLENDS",
+    "name": "Lip Balm \u2014 Lavender",
+    "slug": "lip-balm-lavender",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "KIMAYA BLENDS",
+    "name": "Lip Balm \u2014 Spearmint",
+    "slug": "lip-balm-spearmint",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Langoor",
+    "name": "Himalayan Smoking Herbs \u2014 Earth Mix",
+    "slug": "himalayan-smoking-herbs-earth-mix",
+    "status": "success",
+    "catalogue": "DANES/Langoor/EARTH/Catalogue/langoorSmoking_earthMix_01_1700x1700.jpg",
+    "hover": "DANES/Langoor/EARTH/Hover/langoorSmoking_earthMix_01_1700x1700.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Langoor",
+    "name": "Himalayan Smoking Herbs \u2014 Moon Mix",
+    "slug": "himalayan-smoking-herbs-moon-mix",
+    "status": "success",
+    "catalogue": "DANES/Langoor/MOON/Catalogue/langoorSmoking_moonMix_01_1700x1700.jpg",
+    "hover": "DANES/Langoor/MOON/Hover/langoorSmoking_moonMix_01_1700x1700.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Langoor",
+    "name": "Himalayan Smoking Herbs \u2014 Snow Mix",
+    "slug": "himalayan-smoking-herbs-snow-mix",
+    "status": "success",
+    "catalogue": "DANES/Langoor/SNOW/Catalogue/langoorSmoking_snowMix_01_1700x1700.jpg",
+    "hover": "DANES/Langoor/SNOW/Hover/langoorSmoking_snowMix_01_1700x1700.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Langoor",
+    "name": "Himalayan Smoking Herbs \u2014 Sun Mix",
+    "slug": "himalayan-smoking-herbs-sun-mix",
+    "status": "success",
+    "catalogue": "DANES/Langoor/SUN/Catalogue/langoorSmoking_sunMix_01_1700x1700.jpg",
+    "hover": "DANES/Langoor/SUN/Hover/langoorSmoking_sunMix_01_1700x1700.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Dweller",
+    "name": "Lakadong Turmeric with Star Anise",
+    "slug": "lakadong-turmeric-with-star-anise",
+    "status": "success",
+    "catalogue": "DANES/TEA/Lakadong Turmeric with Star Anise/Catalogue/8908007661632 _1.jpg",
+    "hover": "DANES/TEA/Lakadong Turmeric with Star Anise/Hover/8908007661632 _1.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Dweller",
+    "name": "Sumac Berry Tea",
+    "slug": "sumac-berry-tea",
+    "status": "success",
+    "catalogue": "DANES/TEA/Sumac Berry Tea/Catalogue/8908007661625 _1.jpg",
+    "hover": "DANES/TEA/Sumac Berry Tea/Hover/8908007661625 _1.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Dweller",
+    "name": "Ginger Green Tea",
+    "slug": "ginger-green-tea",
+    "status": "success",
+    "catalogue": "DANES/TEA/Ginger Green Tea/Catalogue/8908007661250 _1.jpg",
+    "hover": "DANES/TEA/Ginger Green Tea/Hover/8908007661250 _1.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Dweller",
+    "name": "Classic Black Tea",
+    "slug": "classic-black-tea",
+    "status": "success",
+    "catalogue": "DANES/TEA/Classic Black Tea/Catalogue/8908007661724 _1.jpg",
+    "hover": "DANES/TEA/Classic Black Tea/Hover/8908007661724 _1.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Dweller",
+    "name": "Lemongrass Ginger Tea",
+    "slug": "lemongrass-ginger-tea",
+    "status": "success",
+    "catalogue": "DANES/TEA/Lemongrass Ginger/Catalogue/8908007661144 _1.jpg",
+    "hover": "DANES/TEA/Lemongrass Ginger/Hover/8908007661144 _1.jpg",
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Dweller",
+    "name": "Green Tea with Lotus Leaf",
+    "slug": "green-tea-with-lotus-leaf",
+    "status": "success",
+    "catalogue": "DANES/TEA/Ginger Green Tea/Catalogue/8908007661250 _1.jpg",
+    "hover": "DANES/TEA/Ginger Green Tea/Hover/8908007661250 _1.jpg",
+    "confidence": 0.43902439024390244
+  },
+  {
+    "id": "",
+    "brand": "Dweller",
+    "name": "Nong-mang-kha Green Tea",
+    "slug": "nong-mang-kha-green-tea",
+    "status": "success",
+    "catalogue": "DANES/TEA/Ginger Green Tea/Catalogue/8908007661250 _1.jpg",
+    "hover": "DANES/TEA/Ginger Green Tea/Hover/8908007661250 _1.jpg",
+    "confidence": 0.6153846153846154
+  },
+  {
+    "id": "",
+    "brand": "Dweller",
+    "name": "Roselle with Indian Olive",
+    "slug": "roselle-with-indian-olive",
+    "status": "success",
+    "catalogue": "DANES/TEA/Lakadong Turmeric with Star Anise/Catalogue/8908007661632 _1.jpg",
+    "hover": "DANES/TEA/Lakadong Turmeric with Star Anise/Hover/8908007661632 _1.jpg",
+    "confidence": 0.41379310344827586
+  },
+  {
+    "id": "",
+    "brand": "Pique & Play",
+    "name": "Salternative \u2014 Mineral Salt Lick",
+    "slug": "salternative-mineral-salt-lick",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Pique & Play",
+    "name": "Lickies \u2014 Flavoured Treat Sticks",
+    "slug": "lickies-flavoured-treat-sticks",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Happy Puppy Organics",
+    "name": "Tick Bomb Spray",
+    "slug": "tick-bomb-spray",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Happy Puppy Organics",
+    "name": "Hemp Seed Oil for Pets",
+    "slug": "hemp-seed-oil-for-pets",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Happy Puppy Organics",
+    "name": "Hemp Hearts for Pets",
+    "slug": "hemp-hearts-for-pets",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Happy Puppy Organics",
+    "name": "Hemp + Neem Healing Balm",
+    "slug": "hemp-neem-healing-balm",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis 11:11",
+    "slug": "maachis-11-11",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Joker Maachis",
+    "slug": "joker-maachis",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis MAKE ART",
+    "slug": "maachis-make-art",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis Post Card",
+    "slug": "maachis-post-card",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis Scissor",
+    "slug": "maachis-scissor",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis RAJA NO FD",
+    "slug": "maachis-raja-no-fd",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis Anti Nazar",
+    "slug": "maachis-anti-nazar",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis Big DAWGS",
+    "slug": "maachis-big-dawgs",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis Happy Pride",
+    "slug": "maachis-happy-pride",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis The Sundari",
+    "slug": "maachis-the-sundari",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis BISMILLAH",
+    "slug": "maachis-bismillah",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Danes Post Box Maachis",
+    "slug": "danes-post-box-maachis",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis BULLET RANI",
+    "slug": "maachis-bullet-rani",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis Patakha Guddi",
+    "slug": "maachis-patakha-guddi",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis Mysore Mangoes",
+    "slug": "maachis-mysore-mangoes",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis Democratic Again",
+    "slug": "maachis-democratic-again",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis",
+    "name": "Maachis Baby you're my firework",
+    "slug": "maachis-baby-you-re-my-firework",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis/Post Card",
+    "name": "Post Card \u2014 11:11:00",
+    "slug": "post-card-11-11-00",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis/Post Card",
+    "name": "Post Card \u2014 Joker Maachis",
+    "slug": "post-card-joker-maachis",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis/Post Card",
+    "name": "Post Card \u2014 RAJA NO FD",
+    "slug": "post-card-raja-no-fd",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis/Post Card",
+    "name": "Post Card \u2014 Anti Nazar",
+    "slug": "post-card-anti-nazar",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis/Post Card",
+    "name": "Post Card \u2014 The Sundari",
+    "slug": "post-card-the-sundari",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis/Post Card",
+    "name": "Post Card \u2014 BISMILLAH",
+    "slug": "post-card-bismillah",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis/Post Card",
+    "name": "Post Card \u2014 BULLET RANI",
+    "slug": "post-card-bullet-rani",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis/Post Card",
+    "name": "Post Card \u2014 Patakha Guddi",
+    "slug": "post-card-patakha-guddi",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis/Post Card",
+    "name": "Post Card \u2014 Mysore Mangoes",
+    "slug": "post-card-mysore-mangoes",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Maachis/Post Card",
+    "name": "Post Card \u2014 Baby you're my firework",
+    "slug": "post-card-baby-you-re-my-firework",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Millit",
+    "name": "Hunger Bar \u2014 Chilli",
+    "slug": "hunger-bar-chilli",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Millit",
+    "name": "Hunger Bar \u2014 Classic",
+    "slug": "hunger-bar-classic",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Millit",
+    "name": "Hunger Bar \u2014 Flax & Dates",
+    "slug": "hunger-bar-flax-dates",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Millit",
+    "name": "Hunger Bar \u2014 Ginger & Raisin",
+    "slug": "hunger-bar-ginger-raisin",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Millit",
+    "name": "Hunger Bar \u2014 Pepper & Curry Leaf",
+    "slug": "hunger-bar-pepper-curry-leaf",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Millit",
+    "name": "Hunger Bar \u2014 Pumpkin & Cranberry",
+    "slug": "hunger-bar-pumpkin-cranberry",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Ecentric",
+    "name": "Women's High-Low Top",
+    "slug": "women-s-high-low-top",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Ecentric",
+    "name": "Women's Long Kurta",
+    "slug": "women-s-long-kurta",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Ecentric",
+    "name": "Women's Lounge Pant",
+    "slug": "women-s-lounge-pant",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Ecentric",
+    "name": "Men's Lounge Pant",
+    "slug": "men-s-lounge-pant",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Ecentric",
+    "name": "Men's Short Kurta",
+    "slug": "men-s-short-kurta",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Ecentric",
+    "name": "Men's Long Kurta",
+    "slug": "men-s-long-kurta",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Ecentric",
+    "name": "Men's Half-Sleeve Casual Shirt",
+    "slug": "men-s-half-sleeve-casual-shirt",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Ecentric",
+    "name": "Men's Full-Sleeve Formal Shirt",
+    "slug": "men-s-full-sleeve-formal-shirt",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "Ecentric",
+    "name": "Men's Shorts",
+    "slug": "men-s-shorts",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "",
+    "brand": "REM Ritual",
+    "name": "Women's Night Suit",
+    "slug": "women-s-night-suit",
+    "status": "brand_dir_missing",
+    "catalogue": null,
+    "hover": null,
+    "confidence": 1.0
+  }
+]

@@ -1,0 +1,751 @@
+Found 73 product folders to process.
+
+[boheco\bliss-rx] catalogue.jpg
+  Original:  151.8 KB
+  Output:    1200x1200  |  catalogue.webp (66.8 KB) + catalogue.jpg (152.0 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[boheco\bliss-rx] catalogue.webp
+  Original:  66.8 KB
+  Output:    1200x1200  |  catalogue.webp (62.2 KB) + catalogue.jpg (137.7 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[boheco\bliss-rx] hover.png
+  Original:  521.6 KB
+  Output:    1200x1200  |  hover.webp (45.8 KB) + hover.jpg (113.4 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\bloom-roll-on-non-rx] catalogue.jpeg
+  Original:  608.2 KB
+  Output:    1200x1200  |  catalogue.webp (85.1 KB) + catalogue.jpg (181.9 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\bloom-roll-on-non-rx] hover.png
+  Original:  521.0 KB
+  Output:    1200x1200  |  hover.webp (48.0 KB) + hover.jpg (114.9 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\combat-rx] catalogue.jpeg
+  Original:  540.9 KB
+  Output:    1200x1200  |  catalogue.webp (64.9 KB) + catalogue.jpg (148.8 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\combat-rx] hover.png
+  Original:  497.0 KB
+  Output:    1200x1200  |  hover.webp (41.2 KB) + hover.jpg (103.7 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\desire-capsules-non-rx] catalogue.jpeg
+  Original:  567.1 KB
+  Output:    1200x1200  |  catalogue.webp (65.0 KB) + catalogue.jpg (152.9 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\desire-capsules-non-rx] hover.jpeg
+  Original:  548.6 KB
+  Output:    1200x1200  |  hover.webp (52.9 KB) + hover.jpg (125.9 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\digest-capsules-non-rx] catalogue.jpeg
+  Original:  554.1 KB
+  Output:    1200x1200  |  catalogue.webp (76.6 KB) + catalogue.jpg (160.1 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\digest-capsules-non-rx] hover.png
+  Original:  585.2 KB
+  Output:    1200x1200  |  hover.webp (74.2 KB) + hover.jpg (156.8 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\digest-navel-oil-non-rx] catalogue.jpeg
+  Original:  483.4 KB
+  Output:    1200x1200  |  catalogue.webp (53.4 KB) + catalogue.jpg (123.2 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\digest-navel-oil-non-rx] hover.png
+  Original:  554.0 KB
+  Output:    1200x1200  |  hover.webp (62.8 KB) + hover.jpg (138.0 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\ease-oil-non-rx] catalogue.jpeg
+  Original:  581.0 KB
+  Output:    1200x1200  |  catalogue.webp (80.5 KB) + catalogue.jpg (176.0 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\ease-oil-non-rx] hover.png
+  Original:  520.8 KB
+  Output:    1200x1200  |  hover.webp (53.7 KB) + hover.jpg (125.1 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\glide-gel-non-rx] catalogue.jpeg
+  Original:  595.4 KB
+  Output:    1200x1200  |  catalogue.webp (69.1 KB) + catalogue.jpg (156.3 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\glide-gel-non-rx] hover.jpeg
+  Original:  534.4 KB
+  Output:    1200x1200  |  hover.webp (52.1 KB) + hover.jpg (122.7 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\glide-oil-non-rx] catalogue.jpeg
+  Original:  567.5 KB
+  Output:    1200x1200  |  catalogue.webp (78.3 KB) + catalogue.jpg (164.0 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\glide-oil-non-rx] hover.jpeg
+  Original:  509.7 KB
+  Output:    1200x1200  |  hover.webp (50.9 KB) + hover.jpg (120.3 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\hemp-hearts-non-rx] catalogue.jpeg
+  Original:  519.5 KB
+  Output:    1200x1200  |  catalogue.webp (74.2 KB) + catalogue.jpg (152.2 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\hemp-hearts-non-rx] hover.jpeg
+  Original:  596.7 KB
+  Output:    1200x1200  |  hover.webp (74.5 KB) + hover.jpg (151.2 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\hemp-protein-powder-non-rx] catalogue.jpeg
+  Original:  608.7 KB
+  Output:    1200x1200  |  catalogue.webp (81.2 KB) + catalogue.jpg (169.4 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\hemp-protein-powder-non-rx] hover.jpeg
+  Original:  545.8 KB
+  Output:    1200x1200  |  hover.webp (62.9 KB) + hover.jpg (132.4 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\hemp-seed-oil-non-rx] catalogue.jpeg
+  Original:  570.2 KB
+  Output:    1200x1200  |  catalogue.webp (81.0 KB) + catalogue.jpg (168.7 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\hemp-seed-oil-non-rx] hover.jpeg
+  Original:  532.4 KB
+  Output:    1200x1200  |  hover.webp (68.7 KB) + hover.jpg (136.6 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\peace-capsules-pack-of-3-rx] catalogue.jpeg
+  Original:  567.1 KB
+  Output:    1200x1200  |  catalogue.webp (65.0 KB) + catalogue.jpg (152.9 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\peace-capsules-pack-of-3-rx] hover.jpeg
+  Original:  548.6 KB
+  Output:    1200x1200  |  hover.webp (52.9 KB) + hover.jpg (125.9 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\peace-rx] catalogue.jpeg
+  Original:  632.5 KB
+  Output:    1200x1200  |  catalogue.webp (67.1 KB) + catalogue.jpg (164.2 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\peace-rx] hover.jpeg
+  Original:  570.7 KB
+  Output:    1200x1200  |  hover.webp (57.3 KB) + hover.jpg (132.2 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\pristine-cream-non-rx] catalogue.jpeg
+  Original:  595.8 KB
+  Output:    1200x1200  |  catalogue.webp (89.6 KB) + catalogue.jpg (184.5 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\pristine-cream-non-rx] hover.jpeg
+  Original:  530.2 KB
+  Output:    1200x1200  |  hover.webp (49.5 KB) + hover.jpg (119.7 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\recover-spray-non-rx] catalogue.jpeg
+  Original:  670.6 KB
+  Output:    1200x1200  |  catalogue.webp (104.1 KB) + catalogue.jpg (205.0 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\recover-spray-non-rx] hover.jpeg
+  Original:  551.4 KB
+  Output:    1200x1200  |  hover.webp (49.8 KB) + hover.jpg (122.4 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\relax-roll-on-non-rx] catalogue.jpeg
+  Original:  482.2 KB
+  Output:    1200x1200  |  catalogue.webp (57.1 KB) + catalogue.jpg (132.4 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\relax-roll-on-non-rx] hover.jpeg
+  Original:  503.7 KB
+  Output:    1200x1200  |  hover.webp (42.6 KB) + hover.jpg (103.3 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\rescue-balm-non-rx] catalogue.jpeg
+  Original:  563.6 KB
+  Output:    1200x1200  |  catalogue.webp (68.4 KB) + catalogue.jpg (154.7 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\rescue-balm-non-rx] hover.jpeg
+  Original:  494.7 KB
+  Output:    1200x1200  |  hover.webp (44.7 KB) + hover.jpg (112.6 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\sleep-rx] catalogue.jpeg
+  Original:  554.5 KB
+  Output:    1200x1200  |  catalogue.webp (62.7 KB) + catalogue.jpg (150.4 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[boheco\sleep-rx] hover.jpeg
+  Original:  528.7 KB
+  Output:    1200x1200  |  hover.webp (44.9 KB) + hover.jpg (113.4 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\calm-drops-rx] catalogue.jpeg
+  Original:  1715.7 KB
+  Output:    1200x1200  |  catalogue.webp (46.8 KB) + catalogue.jpg (110.1 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\calm-drops-rx] hover.jpeg
+  Original:  2314.9 KB
+  Output:    1200x1200  |  hover.webp (105.6 KB) + hover.jpg (177.1 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\cannaronil-extract-paste-rx-thc-rich] catalogue.jpeg
+  Original:  1892.3 KB
+  Output:    1200x1200  |  catalogue.webp (65.0 KB) + catalogue.jpg (129.0 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\cannaronil-extract-paste-rx-thc-rich] hover.jpeg
+  Original:  1868.5 KB
+  Output:    1200x1200  |  hover.webp (71.5 KB) + hover.jpg (137.4 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\daily-skin-repair-cream-non-rx] catalogue.jpeg
+  Original:  1719.0 KB
+  Output:    1200x1200  |  catalogue.webp (53.1 KB) + catalogue.jpg (117.8 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\daily-skin-repair-cream-non-rx] hover.jpeg
+  Original:  1958.7 KB
+  Output:    1200x1200  |  hover.webp (51.6 KB) + hover.jpg (107.6 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\liposomal-berberine-98-hcl-non-rx] catalogue.jpeg
+  Original:  1890.1 KB
+  Output:    1200x1200  |  catalogue.webp (60.6 KB) + catalogue.jpg (128.4 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\liposomal-berberine-98-hcl-non-rx] hover.jpeg
+  Original:  2014.2 KB
+  Output:    1200x1200  |  hover.webp (70.1 KB) + hover.jpg (137.6 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\migraine-aid-roll-on-non-rx] catalogue.jpeg
+  Original:  2188.7 KB
+  Output:    1200x1200  |  catalogue.webp (88.3 KB) + catalogue.jpg (173.5 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\migraine-aid-roll-on-non-rx] hover.jpeg
+  Original:  1962.1 KB
+  Output:    1200x1200  |  hover.webp (74.5 KB) + hover.jpg (141.7 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\pet-oil-rx] catalogue.jpeg
+  Original:  1843.8 KB
+  Output:    1200x1200  |  catalogue.webp (56.5 KB) + catalogue.jpg (126.1 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\pet-oil-rx] hover.jpeg
+  Original:  1813.2 KB
+  Output:    1200x1200  |  hover.webp (51.6 KB) + hover.jpg (107.3 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\placidiol-rx] catalogue.jpeg
+  Original:  1762.6 KB
+  Output:    1200x1200  |  catalogue.webp (49.2 KB) + catalogue.jpg (109.9 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\placidiol-rx] hover.jpeg
+  Original:  2029.8 KB
+  Output:    1200x1200  |  hover.webp (89.9 KB) + hover.jpg (161.9 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\revive-pain-relief-roll-on-non-rx] catalogue.jpeg
+  Original:  1844.8 KB
+  Output:    1200x1200  |  catalogue.webp (51.1 KB) + catalogue.jpg (115.6 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\revive-pain-relief-roll-on-non-rx] hover.jpeg
+  Original:  2149.7 KB
+  Output:    1200x1200  |  hover.webp (68.1 KB) + hover.jpg (132.0 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\slimfit-gut-health-capsules-non-rx] catalogue.jpeg
+  Original:  1781.1 KB
+  Output:    1200x1200  |  catalogue.webp (54.8 KB) + catalogue.jpg (123.6 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\slimfit-gut-health-capsules-non-rx] hover.jpeg
+  Original:  2093.3 KB
+  Output:    1200x1200  |  hover.webp (82.1 KB) + hover.jpg (151.5 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\trailokya-vijaya-vati-advanced-non-rx] catalogue.jpeg
+  Original:  1757.5 KB
+  Output:    1200x1200  |  catalogue.webp (52.3 KB) + catalogue.jpg (113.2 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\trailokya-vijaya-vati-advanced-non-rx] hover.jpeg
+  Original:  1983.8 KB
+  Output:    1200x1200  |  hover.webp (91.4 KB) + hover.jpg (156.1 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\uplift-extract-rx] catalogue.jpeg
+  Original:  1891.0 KB
+  Output:    1200x1200  |  catalogue.webp (69.1 KB) + catalogue.jpg (141.6 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\uplift-extract-rx] hover.jpeg
+  Original:  2011.3 KB
+  Output:    1200x1200  |  hover.webp (81.2 KB) + hover.jpg (155.5 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\uplift-gummies-rx] catalogue.jpeg
+  Original:  2017.8 KB
+  Output:    1200x1200  |  catalogue.webp (89.3 KB) + catalogue.jpg (161.8 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\uplift-gummies-rx] hover.jpeg
+  Original:  2201.3 KB
+  Output:    1200x1200  |  hover.webp (107.3 KB) + hover.jpg (188.6 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\uplift-rx] catalogue.jpeg
+  Original:  1891.0 KB
+  Output:    1200x1200  |  catalogue.webp (69.1 KB) + catalogue.jpg (141.6 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\uplift-rx] hover.jpeg
+  Original:  2011.3 KB
+  Output:    1200x1200  |  hover.webp (81.2 KB) + hover.jpg (155.5 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\vijaya-ambrosia-rx] catalogue.jpeg
+  Original:  1757.5 KB
+  Output:    1200x1200  |  catalogue.webp (52.3 KB) + catalogue.jpg (113.2 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\vijaya-ambrosia-rx] hover.jpeg
+  Original:  1983.8 KB
+  Output:    1200x1200  |  hover.webp (91.4 KB) + hover.jpg (156.1 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\vijaya-amrit-rx] catalogue.jpeg
+  Original:  1914.6 KB
+  Output:    1200x1200  |  catalogue.webp (65.0 KB) + catalogue.jpg (133.5 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[cannazo\vijaya-amrit-rx] hover.jpeg
+  Original:  2021.4 KB
+  Output:    1200x1200  |  hover.webp (81.6 KB) + hover.jpg (156.3 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[hemplife\indi-mild-50mg-capsules-rx] catalogue.jpg
+  Original:  2268.6 KB
+  Output:    1200x1200  |  catalogue.webp (87.8 KB) + catalogue.jpg (158.4 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\indi-mild-50mg-capsules-rx] hover.jpg
+  Original:  533.1 KB
+  Output:    1200x1200  |  hover.webp (58.8 KB) + hover.jpg (128.2 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\indi-strong-150mg-capsules-rx] catalogue.jpg
+  Original:  2268.6 KB
+  Output:    1200x1200  |  catalogue.webp (87.8 KB) + catalogue.jpg (158.4 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\indi-strong-150mg-capsules-rx] hover.jpg
+  Original:  533.1 KB
+  Output:    1200x1200  |  hover.webp (58.8 KB) + hover.jpg (128.2 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\indi30-tincture-10ml-30ml-rx] catalogue.jpg
+  Original:  1820.0 KB
+  Output:    1200x1200  |  catalogue.webp (46.4 KB) + catalogue.jpg (104.9 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\indi30-tincture-10ml-30ml-rx] hover.jpg
+  Original:  533.9 KB
+  Output:    1200x1200  |  hover.webp (53.5 KB) + hover.jpg (119.3 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\indi30-tincture-5ml-rx] catalogue.jpg
+  Original:  1820.0 KB
+  Output:    1200x1200  |  catalogue.webp (46.4 KB) + catalogue.jpg (104.9 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\indi30-tincture-5ml-rx] hover.jpg
+  Original:  533.9 KB
+  Output:    1200x1200  |  hover.webp (53.5 KB) + hover.jpg (119.3 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\satv-mild-50mg-capsules-rx] catalogue.jpg
+  Original:  2281.2 KB
+  Output:    1200x1200  |  catalogue.webp (96.1 KB) + catalogue.jpg (176.2 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\satv-mild-50mg-capsules-rx] hover.jpg
+  Original:  536.0 KB
+  Output:    1200x1200  |  hover.webp (56.6 KB) + hover.jpg (128.6 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\satv-pets-tincture-rx] catalogue.jpg
+  Original:  1927.9 KB
+  Output:    1200x1200  |  catalogue.webp (59.0 KB) + catalogue.jpg (118.1 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\satv-pets-tincture-rx] hover.jpg
+  Original:  569.0 KB
+  Output:    1200x1200  |  hover.webp (65.8 KB) + hover.jpg (143.6 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\satv30-tincture-10ml-rx] catalogue.jpg
+  Original:  1790.2 KB
+  Output:    1200x1200  |  catalogue.webp (39.7 KB) + catalogue.jpg (93.1 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\satv30-tincture-10ml-rx] hover.jpg
+  Original:  537.6 KB
+  Output:    1200x1200  |  hover.webp (49.8 KB) + hover.jpg (121.6 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\satv30-tincture-30ml-rx] catalogue.jpg
+  Original:  1790.2 KB
+  Output:    1200x1200  |  catalogue.webp (39.7 KB) + catalogue.jpg (93.1 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\satv30-tincture-30ml-rx] hover.jpg
+  Original:  537.6 KB
+  Output:    1200x1200  |  hover.webp (49.8 KB) + hover.jpg (121.6 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\satv30-tincture-5ml-rx] catalogue.jpg
+  Original:  1790.2 KB
+  Output:    1200x1200  |  catalogue.webp (39.7 KB) + catalogue.jpg (93.1 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[hemplife\satv30-tincture-5ml-rx] hover.jpg
+  Original:  537.6 KB
+  Output:    1200x1200  |  hover.webp (49.8 KB) + hover.jpg (121.6 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[langoor\himalayan-smoking-herbs-earth-mix] catalogue.jpg
+  Original:  449.9 KB
+  Output:    1200x1200  |  catalogue.webp (53.3 KB) + catalogue.jpg (118.3 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[langoor\himalayan-smoking-herbs-earth-mix] hover.jpg
+  Original:  556.9 KB
+  Output:    1200x1200  |  hover.webp (58.5 KB) + hover.jpg (133.8 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[langoor\himalayan-smoking-herbs-moon-mix] catalogue.jpg
+  Original:  549.2 KB
+  Output:    1200x1200  |  catalogue.webp (88.6 KB) + catalogue.jpg (170.8 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[langoor\himalayan-smoking-herbs-moon-mix] hover.jpg
+  Original:  637.1 KB
+  Output:    1200x1200  |  hover.webp (96.3 KB) + hover.jpg (178.0 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[langoor\himalayan-smoking-herbs-snow-mix] catalogue.jpg
+  Original:  443.8 KB
+  Output:    1200x1200  |  catalogue.webp (51.7 KB) + catalogue.jpg (117.5 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[langoor\himalayan-smoking-herbs-snow-mix] hover.jpg
+  Original:  516.7 KB
+  Output:    1200x1200  |  hover.webp (55.2 KB) + hover.jpg (118.6 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[langoor\himalayan-smoking-herbs-sun-mix] catalogue.jpg
+  Original:  455.0 KB
+  Output:    1200x1200  |  catalogue.webp (55.8 KB) + catalogue.jpg (123.9 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[langoor\himalayan-smoking-herbs-sun-mix] hover.jpg
+  Original:  553.0 KB
+  Output:    1200x1200  |  hover.webp (52.3 KB) + hover.jpg (126.1 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-leaf-extract-5g-normal-rx] catalogue.jpg
+  Original:  302.0 KB
+  Output:    1200x1200  |  catalogue.webp (25.5 KB) + catalogue.jpg (68.7 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-leaf-extract-5g-normal-rx] hover.jpg
+  Original:  528.0 KB
+  Output:    1200x1200  |  hover.webp (42.3 KB) + hover.jpg (112.8 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-leaf-extract-capsules-100mg-250mg-rx] catalogue.jpg
+  Original:  302.0 KB
+  Output:    1200x1200  |  catalogue.webp (25.5 KB) + catalogue.jpg (68.7 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-leaf-extract-capsules-100mg-250mg-rx] hover.jpg
+  Original:  528.0 KB
+  Output:    1200x1200  |  hover.webp (42.3 KB) + hover.jpg (112.8 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-leaf-extract-gummies-135mg-rx] catalogue.jpg
+  Original:  302.0 KB
+  Output:    1200x1200  |  catalogue.webp (25.5 KB) + catalogue.jpg (68.7 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-leaf-extract-gummies-135mg-rx] hover.jpg
+  Original:  528.0 KB
+  Output:    1200x1200  |  hover.webp (42.3 KB) + hover.jpg (112.8 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-leaf-extract-gummies-350mg-rx] catalogue.jpg
+  Original:  302.0 KB
+  Output:    1200x1200  |  catalogue.webp (25.5 KB) + catalogue.jpg (68.7 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-leaf-extract-gummies-350mg-rx] hover.jpg
+  Original:  528.0 KB
+  Output:    1200x1200  |  hover.webp (42.3 KB) + hover.jpg (112.8 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-leaf-extract-oil-peppermint-rx] catalogue.jpg
+  Original:  302.0 KB
+  Output:    1200x1200  |  catalogue.webp (25.5 KB) + catalogue.jpg (68.7 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-leaf-extract-oil-peppermint-rx] hover.jpg
+  Original:  528.0 KB
+  Output:    1200x1200  |  hover.webp (42.3 KB) + hover.jpg (112.8 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-leaf-extract-premium-5g-rx] catalogue.jpg
+  Original:  302.0 KB
+  Output:    1200x1200  |  catalogue.webp (25.5 KB) + catalogue.jpg (68.7 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-leaf-extract-premium-5g-rx] hover.jpg
+  Original:  528.0 KB
+  Output:    1200x1200  |  hover.webp (42.3 KB) + hover.jpg (112.8 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-pain-relief-oil-non-rx] catalogue.jpg
+  Original:  410.5 KB
+  Output:    1200x1200  |  catalogue.webp (36.9 KB) + catalogue.jpg (100.4 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[medicann\cannabis-pain-relief-oil-non-rx] hover.jpg
+  Original:  559.7 KB
+  Output:    1200x1200  |  hover.webp (56.5 KB) + hover.jpg (134.9 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[soma\cordyceps-militaris-dried-whole-10g] catalogue.jpg
+  Original:  406.6 KB
+  Output:    1200x1200  |  catalogue.webp (46.7 KB) + catalogue.jpg (105.0 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[soma\cordyceps-militaris-dried-whole-10g] hover.jpg
+  Original:  614.7 KB
+  Output:    1200x1200  |  hover.webp (71.9 KB) + hover.jpg (154.2 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[soma\cordyceps-militaris-extract-30ml] catalogue.jpg
+  Original:  406.6 KB
+  Output:    1200x1200  |  catalogue.webp (46.7 KB) + catalogue.jpg (105.0 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[soma\cordyceps-militaris-extract-30ml] hover.jpg
+  Original:  614.7 KB
+  Output:    1200x1200  |  hover.webp (71.9 KB) + hover.jpg (154.2 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[soma\lion-s-mane-mushroom-extract-30ml] catalogue.jpg
+  Original:  551.1 KB
+  Output:    1200x1200  |  catalogue.webp (90.4 KB) + catalogue.jpg (170.6 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[soma\lion-s-mane-mushroom-extract-30ml] hover.jpg
+  Original:  683.3 KB
+  Output:    1200x1200  |  hover.webp (113.8 KB) + hover.jpg (199.5 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[soma\lion-s-mane-mushroom-powder-50g] catalogue.jpg
+  Original:  483.9 KB
+  Output:    1200x1200  |  catalogue.webp (52.9 KB) + catalogue.jpg (118.5 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[soma\lion-s-mane-mushroom-powder-50g] hover.jpg
+  Original:  616.6 KB
+  Output:    1200x1200  |  hover.webp (79.3 KB) + hover.jpg (161.8 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[soma\oyster-mushroom-powder-100g] catalogue.png
+  Original:  491.1 KB
+  Output:    1200x1200  |  catalogue.webp (51.7 KB) + catalogue.jpg (127.7 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[soma\oyster-mushroom-powder-100g] hover.png
+  Original:  579.6 KB
+  Output:    1200x1200  |  hover.webp (55.3 KB) + hover.jpg (135.0 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[soma\reishi-mushroom-extract-30ml] catalogue.png
+  Original:  597.1 KB
+  Output:    1200x1200  |  catalogue.webp (107.8 KB) + catalogue.jpg (194.6 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[soma\reishi-mushroom-extract-30ml] hover.jpeg
+  Original:  700.8 KB
+  Output:    1200x1200  |  hover.webp (112.4 KB) + hover.jpg (206.1 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[soma\reishi-mushroom-powder-50g] catalogue.png
+  Original:  597.1 KB
+  Output:    1200x1200  |  catalogue.webp (107.8 KB) + catalogue.jpg (194.6 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[soma\reishi-mushroom-powder-50g] hover.jpeg
+  Original:  700.8 KB
+  Output:    1200x1200  |  hover.webp (112.4 KB) + hover.jpg (206.1 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[soma\shiitake-mushroom-dried-50g] catalogue.png
+  Original:  504.5 KB
+  Output:    1200x1200  |  catalogue.webp (69.3 KB) + catalogue.jpg (146.4 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[soma\shiitake-mushroom-dried-50g] hover.png
+  Original:  641.1 KB
+  Output:    1200x1200  |  hover.webp (81.6 KB) + hover.jpg (168.4 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[soma\shiitake-mushroom-extract-30ml] catalogue.png
+  Original:  504.5 KB
+  Output:    1200x1200  |  catalogue.webp (69.3 KB) + catalogue.jpg (146.4 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[soma\shiitake-mushroom-extract-30ml] hover.png
+  Original:  641.1 KB
+  Output:    1200x1200  |  hover.webp (81.6 KB) + hover.jpg (168.4 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[soma\soma-synergy-6-shroom-blend-30ml] catalogue.png
+  Original:  649.0 KB
+  Output:    1200x1200  |  catalogue.webp (122.5 KB) + catalogue.jpg (217.2 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[soma\soma-synergy-6-shroom-blend-30ml] hover.jpeg
+  Original:  626.0 KB
+  Output:    1200x1200  |  hover.webp (100.2 KB) + hover.jpg (178.0 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[soma\turkey-tail-mushroom-extract-30ml] catalogue.png
+  Original:  552.8 KB
+  Output:    1200x1200  |  catalogue.webp (81.3 KB) + catalogue.jpg (164.1 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[soma\turkey-tail-mushroom-extract-30ml] hover.jpeg
+  Original:  646.1 KB
+  Output:    1200x1200  |  hover.webp (93.5 KB) + hover.jpg (174.7 KB)
+  Status:    ✅ SUCCESS  |  Original deleted
+
+[tea\classic-black-tea] catalogue.jpg
+  Original:  610.6 KB
+  Output:    1200x1200  |  catalogue.webp (79.3 KB) + catalogue.jpg (173.3 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\classic-black-tea] hover.jpg
+  Original:  607.7 KB
+  Output:    1200x1200  |  hover.webp (70.9 KB) + hover.jpg (155.5 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\ginger-green-tea] catalogue.jpg
+  Original:  600.1 KB
+  Output:    1200x1200  |  catalogue.webp (77.9 KB) + catalogue.jpg (166.6 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\ginger-green-tea] hover.jpg
+  Original:  525.8 KB
+  Output:    1200x1200  |  hover.webp (48.9 KB) + hover.jpg (112.7 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\green-tea-with-lotus-leaf] catalogue.jpg
+  Original:  600.1 KB
+  Output:    1200x1200  |  catalogue.webp (77.9 KB) + catalogue.jpg (166.6 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\green-tea-with-lotus-leaf] hover.jpg
+  Original:  525.8 KB
+  Output:    1200x1200  |  hover.webp (48.9 KB) + hover.jpg (112.7 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\lakadong-turmeric-with-star-anise] catalogue.jpg
+  Original:  596.3 KB
+  Output:    1200x1200  |  catalogue.webp (83.9 KB) + catalogue.jpg (171.7 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\lakadong-turmeric-with-star-anise] hover.jpg
+  Original:  615.6 KB
+  Output:    1200x1200  |  hover.webp (73.3 KB) + hover.jpg (153.0 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\lemongrass-ginger-tea] catalogue.jpg
+  Original:  607.6 KB
+  Output:    1200x1200  |  catalogue.webp (82.8 KB) + catalogue.jpg (178.8 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\lemongrass-ginger-tea] hover.jpg
+  Original:  564.6 KB
+  Output:    1200x1200  |  hover.webp (61.6 KB) + hover.jpg (135.6 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\nong-mang-kha-green-tea] catalogue.jpg
+  Original:  600.1 KB
+  Output:    1200x1200  |  catalogue.webp (77.9 KB) + catalogue.jpg (166.6 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\nong-mang-kha-green-tea] hover.jpg
+  Original:  525.8 KB
+  Output:    1200x1200  |  hover.webp (48.9 KB) + hover.jpg (112.7 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\roselle-with-indian-olive] catalogue.jpg
+  Original:  596.3 KB
+  Output:    1200x1200  |  catalogue.webp (83.9 KB) + catalogue.jpg (171.7 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\roselle-with-indian-olive] hover.jpg
+  Original:  615.6 KB
+  Output:    1200x1200  |  hover.webp (73.3 KB) + hover.jpg (153.0 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\sumac-berry-tea] catalogue.jpg
+  Original:  557.7 KB
+  Output:    1200x1200  |  catalogue.webp (77.3 KB) + catalogue.jpg (157.8 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+[tea\sumac-berry-tea] hover.jpg
+  Original:  570.5 KB
+  Output:    1200x1200  |  hover.webp (62.9 KB) + hover.jpg (135.3 KB)
+  Status:    ✅ SUCCESS  |  Original is output file (kept)
+
+
+========================================
+CLEAN RUN SUMMARY
+========================================
+Total images processed : 147
+Success                : 147
+Errors                 : 0
+Original files deleted : 81
+Average WebP size      : 65.3 KB
+Average JPG size       : 138.7 KB
+Total size before      : 130.67 MB
+Total size after       : 29.28 MB
+Size reduction         : 77.6%
+========================================

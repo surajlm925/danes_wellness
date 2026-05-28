@@ -1,0 +1,1575 @@
+[
+  {
+    "id": "2",
+    "brand": "BOHECO",
+    "name": "Bliss (RX)",
+    "slug": "bliss-rx",
+    "category": "Mental Health / Anxiety",
+    "price": "",
+    "tagline": "Find your calm — naturally.",
+    "shortDescription": "CBD-dominant Ayurvedic tincture for anxiety, stress and emotional balance. Available in 10 ml & 30 ml.",
+    "longDescription": "BLISS by BOHECO is a CBD-dominant, full-spectrum Vijaya (Cannabis Sativa) leaf extract tincture formulated with Ayurvedic precision for individuals managing anxiety, chronic stress, and emotional imbalance. Delivered sublingually, BLISS interacts directly with the Endocannabinoid System (ECS), binding to CB1 and CB2 receptors to modulate neurotransmitter activity and restore hormonal equilibrium.\n\nBacked by clinical evidence supporting CBD's anxiolytic and neuroprotective properties, BLISS offers a prescription-grade natural therapeutic option where conventional anxiolytics have limitations — with far fewer side effects and no habit-forming potential. Available in Peach and Mint flavours.",
+    "benefits": "Reduces anxiety and panic attacks | Manages chronic stress | Promotes emotional stability | Improves mental clarity | Non-habit-forming | Supports hormonal balance",
+    "howToUse": "Fill dropper to prescribed dosage. Dispense drops under the tongue and hold for 30–50 seconds before swallowing. Sublingual administration ensures faster absorption. Use strictly as per doctor's prescription.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract (CBD-dominant), MCT Oil (Cocos nucifera).",
+    "images": {
+      "catalogue": "/images/products/boheco/bliss-rx/catalogue.webp",
+      "hover": "/images/products/boheco/bliss-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "3",
+    "brand": "BOHECO",
+    "name": "Sleep (RX)",
+    "slug": "sleep-rx",
+    "category": "Mental Health / Sleep",
+    "price": "",
+    "tagline": "Sleep deeper. Wake better.",
+    "shortDescription": "Vijaya-based Ayurvedic tincture for restful sleep and insomnia relief. Available in 10 ml & 30 ml.",
+    "longDescription": "SLEEP by BOHECO is a Vijaya leaf extract Ayurvedic tincture designed to support healthy sleep cycles, reduce sleep onset time, and improve overall sleep quality. The full-spectrum formulation works on the body's Endocannabinoid System to calm overactive neural pathways, reduce nighttime anxiety, and promote the natural release of sleep-supporting neurotransmitters.\n\nA harmonious blend of Lavender and Rose oils adds complementary aromatherapeutic benefits — improving sleep quality and easing fatigue. SLEEP is an Rx prescription medicine available in Fennel and Peppermint flavours, offering a natural, doctor-prescribed alternative to pharmaceutical sleep aids.",
+    "benefits": "Reduces sleep onset time | Improves sleep quality | Relieves insomnia | Reduces nighttime anxiety | Eases fatigue | Non-habit-forming",
+    "howToUse": "Fill dropper to prescribed dose. Administer sublingually 30–60 minutes before bedtime. Hold for 30–50 seconds then swallow. Follow physician's prescription strictly.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract (CBD-rich), MCT Oil, Fennel or Peppermint flavouring.",
+    "images": {
+      "catalogue": "/images/products/boheco/sleep-rx/catalogue.webp",
+      "hover": "/images/products/boheco/sleep-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "4",
+    "brand": "BOHECO",
+    "name": "Peace+ (RX)",
+    "slug": "peace-rx",
+    "category": "Pain / Neurological",
+    "price": "",
+    "tagline": "Reclaim your life from pain.",
+    "shortDescription": "Full-spectrum Vijaya tincture for chronic pain and neurological relief. Available in 10 ml & 30 ml.",
+    "longDescription": "PEACE+ by BOHECO is a full-spectrum Vijaya (Cannabis Sativa) leaf extract tincture formulated for individuals living with chronic pain, neuropathic pain, and neurological conditions. The formulation's cannabinoids activate CB1 and CB2 receptors along pain signalling pathways in the central and peripheral nervous system, delivering analgesic, anti-inflammatory, and neuroprotective effects.\n\nPEACE+ offers an evidence-backed, AYUSH-licensed prescription-grade alternative for patients with conditions unresponsive to conventional analgesics, with significantly fewer adverse effects. Available in Natural and Peppermint flavours.",
+    "benefits": "Manages chronic and neuropathic pain | Anti-inflammatory action | Neuroprotective | Supports neurological health | Prescription-grade therapy",
+    "howToUse": "Fill dropper to prescribed dose. Administer sublingually; hold for 30–50 seconds then swallow. Begin with a low dose and titrate gradually under medical supervision.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract (full spectrum), MCT Oil.",
+    "images": {
+      "catalogue": "/images/products/boheco/peace-rx/catalogue.webp",
+      "hover": "/images/products/boheco/peace-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "5",
+    "brand": "BOHECO",
+    "name": "Peace Capsules — Pack of 3 (RX)",
+    "slug": "peace-capsules-pack-of-3-rx",
+    "category": "Pain / Neurological",
+    "price": "",
+    "tagline": "Targeted pain relief, precisely dosed.",
+    "shortDescription": "Full-spectrum Vijaya extract capsules for chronic pain. Pack of 3 capsules.",
+    "longDescription": "PEACE Capsules by BOHECO deliver the therapeutic power of full-spectrum Vijaya (Cannabis Sativa) leaf extract in a precise, easy-to-consume capsule format. Designed for chronic and neuropathic pain management, each capsule activates the body's Endocannabinoid System to regulate pain neurotransmitters, reduce inflammation, and provide sustained analgesic relief.\n\nConvenience-packed in sets of 3 capsules, PEACE Capsules offer an alternative dosing format for patients who prefer capsules over sublingual oils. Available in 115 mg and 58 mg strengths.",
+    "benefits": "Manages chronic pain | Neuropathic pain relief | Reduces inflammation | Muscle spasm relief | Prescription capsule format",
+    "howToUse": "Swallow capsule with water 30 minutes after a meal. Follow dosage prescribed by physician. Do not exceed recommended dose.",
+    "keyIngredients": "Full Spectrum Vijaya (Cannabis Sativa) Leaf Extract, vegetarian capsule shell.",
+    "images": {
+      "catalogue": "/images/products/boheco/peace-capsules-pack-of-3-rx/catalogue.webp",
+      "hover": "/images/products/boheco/peace-capsules-pack-of-3-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "6",
+    "brand": "BOHECO",
+    "name": "Combat (RX)",
+    "slug": "combat-rx",
+    "category": "Chronic / Severe Pain",
+    "price": "",
+    "tagline": "The strongest weapon against severe pain.",
+    "shortDescription": "High-potency full-spectrum Vijaya tincture for severe chronic pain and cancer care. 10 ml / 5 ml.",
+    "longDescription": "COMBAT by BOHECO is a high-potency, full-spectrum Vijaya leaf extract Ayurvedic tincture formulated for severe chronic pain, late-stage cancer pain, and complex neurological pain disorders. It addresses critical symptom clusters including pain, sleep disturbance, nausea, and mood — improving quality of life where standard pain management falls short.\n\nCOMBAT's full-spectrum cannabinoid profile interacts synergistically with the Endocannabinoid System for broader therapeutic benefit than isolated compounds. Available in Citrus and Natural flavours, prescribed at a doctor's discretion for patients requiring maximum-strength cannabinoid therapy.",
+    "benefits": "Manages severe chronic pain | Late-stage cancer symptom relief | Anti-nausea | Improves sleep and appetite | Multiple Sclerosis support | Palliative care aid",
+    "howToUse": "Fill dropper to prescribed dose. Administer drops sublingually; hold for 30–50 seconds then swallow. Start low and titrate gradually under physician guidance.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract (full spectrum, high potency), MCT Oil.",
+    "images": {
+      "catalogue": "/images/products/boheco/combat-rx/catalogue.webp",
+      "hover": "/images/products/boheco/combat-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "7",
+    "brand": "BOHECO",
+    "name": "Digest Capsules (Non-Rx)",
+    "slug": "digest-capsules-non-rx",
+    "category": "Digestive Wellness",
+    "price": "",
+    "tagline": "Heal your gut, naturally.",
+    "shortDescription": "Ayurvedic hemp capsules for gut health, digestion, and bloating relief. 30 capsules.",
+    "longDescription": "DIGEST Capsules by BOHECO are an Ayurvedic formulation combining hemp-derived active ingredients with powerful digestive herbs including Fennel, Ginger, and Hemp Seed Oil. Working through the Endocannabinoid System — which plays a key role in gut health — DIGEST stimulates digestive enzyme production, supports gastrointestinal motility, alleviates bloating, and promotes overall digestive wellness.\n\nDesigned for daily use, DIGEST Capsules offer a natural, prescription-free solution for individuals experiencing poor digestion, gas, or gut discomfort.",
+    "benefits": "Improves digestion | Reduces bloating and gas | Supports gut motility | Anti-inflammatory for gut | Relieves constipation | Daily digestive wellness",
+    "howToUse": "Take 1 capsule daily with water 30 minutes after meals, or as directed by healthcare professional.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract, Ayurvedic digestive herb blend.",
+    "images": {
+      "catalogue": "/images/products/boheco/digest-capsules-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/digest-capsules-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "8",
+    "brand": "BOHECO",
+    "name": "Desire Capsules (Non-Rx)",
+    "slug": "desire-capsules-non-rx",
+    "category": "Sexual Wellness",
+    "price": "",
+    "tagline": "Reignite your vitality.",
+    "shortDescription": "Ayurvedic wellness capsules for sexual health and vitality. 30 capsules.",
+    "longDescription": "DESIRE Capsules by BOHECO are an Ayurvedic formulation blending adaptogenic herbs — including Ashwagandha and Shilajit — with modern nutritional science to support sexual health, vitality, and hormonal balance in adults. The formula works to enhance libido, improve stamina, reduce fatigue, and restore hormonal equilibrium for both men and women.\n\nDesigned for adults seeking a natural, holistic approach to sexual wellness without the side effects of pharmaceutical interventions.",
+    "benefits": "Enhances libido and sexual health | Improves stamina and energy | Restores hormonal balance | Reduces fatigue | Boosts vitality | Adaptogenic support",
+    "howToUse": "Take 1–2 capsules per day with water after a meal, or as directed by healthcare professional.",
+    "keyIngredients": "Ashwagandha, Shilajit, and other traditional Ayurvedic aphrodisiac and vitality-enhancing botanical extracts.",
+    "images": {
+      "catalogue": "/images/products/boheco/desire-capsules-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/desire-capsules-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "9",
+    "brand": "BOHECO",
+    "name": "Ease Oil (Non-Rx)",
+    "slug": "ease-oil-non-rx",
+    "category": "Pain / Muscle Relief",
+    "price": "",
+    "tagline": "Relief that moves with you.",
+    "shortDescription": "Ayurvedic topical oil for muscle stiffness, sprains, and body aches. 50 ml.",
+    "longDescription": "EASE by BOHECO is a proprietary Ayurvedic topical oil formulated to alleviate muscle stiffness, sprains, and general body aches through the body's Endocannabinoid System. Combining Vijaya leaf extract with Vijaya seed oil and an Ayurvedic herbal base, EASE penetrates deeply to provide targeted, localised relief without the systemic effects of oral analgesics.\n\nIdeal for athletes, active individuals, or anyone experiencing everyday physical discomfort, EASE offers fast-acting, natural pain relief in a convenient, non-greasy oil format.",
+    "benefits": "Relieves muscle stiffness and aches | Reduces inflammation | Soothes sprains | Penetrating topical action | Fast-acting relief | Non-habit-forming",
+    "howToUse": "Apply a few drops to the affected area. Massage gently in circular motion until fully absorbed. Use 2–3 times daily or as needed. For external use only.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract, Vijaya Seed Oil, Ayurvedic herbal base.",
+    "images": {
+      "catalogue": "/images/products/boheco/ease-oil-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/ease-oil-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "10",
+    "brand": "BOHECO",
+    "name": "Glide+ Oil (Non-Rx)",
+    "slug": "glide-oil-non-rx",
+    "category": "Joint / Arthritis Pain",
+    "price": "",
+    "tagline": "Move freely. Live fully.",
+    "shortDescription": "Ayurvedic joint pain oil for arthritis and joint stiffness. 100 ml / 50 ml.",
+    "longDescription": "GLIDE+ by BOHECO is an Ayurvedic oil formulation for arthritis and chronic joint pain. Combining full-spectrum Vijaya leaf extract with an Ayurvedic anti-inflammatory base, GLIDE+ penetrates joint tissue to activate local cannabinoid receptors, reduce inflammation, decrease stiffness, and restore mobility.\n\nClinically positioned as a natural adjunct therapy for osteoarthritis, rheumatoid arthritis, and general joint degeneration, GLIDE+ enables daily physical activity without the systemic side effects of oral NSAIDs. Available in 100 ml and 50 ml.",
+    "benefits": "Reduces joint inflammation | Relieves arthritis pain | Decreases joint stiffness | Restores mobility | Analgesic topical action | Safe for long-term use",
+    "howToUse": "Apply to the affected joint area. Massage gently for 3–5 minutes until absorbed. Use 2–3 times daily. For external use only.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract, Vijaya Seed Oil, Ayurvedic anti-inflammatory herbal base.",
+    "images": {
+      "catalogue": "/images/products/boheco/glide-oil-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/glide-oil-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "11",
+    "brand": "BOHECO",
+    "name": "Glide+ Gel (Non-Rx)",
+    "slug": "glide-gel-non-rx",
+    "category": "Joint / Arthritis Pain",
+    "price": "",
+    "tagline": "Cool relief. Deep comfort.",
+    "shortDescription": "Cooling Ayurvedic gel for arthritis and joint pain. Lightweight, non-greasy. 50 g.",
+    "longDescription": "GLIDE+ Gel by BOHECO is a cooling Ayurvedic gel formulation delivering the same joint pain-relieving benefits of GLIDE+ oil in a lightweight, fast-absorbing gel format. Ideal for those who prefer a non-greasy topical — particularly for knee, elbow, and finger joints — GLIDE+ Gel provides targeted cannabinoid therapy with immediate cooling sensation and sustained anti-inflammatory action.\n\nNon-staining, travel-friendly, and suitable for use under clothing.",
+    "benefits": "Reduces joint inflammation | Cooling analgesic effect | Fast-absorbing, non-greasy | Relieves arthritis pain | Restores mobility",
+    "howToUse": "Apply a small amount of gel to the affected joint or muscle. Massage gently until absorbed. Use 2–3 times daily or as needed.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract, cooling gel base, Ayurvedic anti-inflammatory botanicals.",
+    "images": {
+      "catalogue": "/images/products/boheco/glide-gel-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/glide-gel-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "12",
+    "brand": "BOHECO",
+    "name": "Recover Spray (Non-Rx)",
+    "slug": "recover-spray-non-rx",
+    "category": "Pain / Muscle Recovery",
+    "price": "",
+    "tagline": "Spray away the pain. Get back in the game.",
+    "shortDescription": "Fast-acting Ayurvedic pain relief spray for muscles and joints. 48 ml.",
+    "longDescription": "RECOVER by BOHECO is a fast-acting Ayurvedic pain relief spray combining the analgesic properties of Vijaya leaf extract with camphor, menthol, and traditional healing herbs. Designed for athletes, active individuals, and anyone experiencing acute or chronic muscle and joint pain, RECOVER delivers instant targeted relief with a convenient spray application.\n\nThe spray format allows for precise, mess-free application directly to the pain site — making it ideal for on-the-go use post-exercise or for targeted pain management throughout the day.",
+    "benefits": "Instant pain relief | Muscle soreness recovery | Anti-inflammatory action | Cooling camphor and menthol sensation | Convenient spray format",
+    "howToUse": "Spray 2–3 pumps directly onto the affected area from 10–15 cm distance. Massage gently until absorbed. Repeat up to 3 times daily or as needed.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract, Vijaya Seed Oil, camphor, menthol, Ayurvedic herbal base.",
+    "images": {
+      "catalogue": "/images/products/boheco/recover-spray-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/recover-spray-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "13",
+    "brand": "BOHECO",
+    "name": "Bloom Roll-On (Non-Rx)",
+    "slug": "bloom-roll-on-non-rx",
+    "category": "Women's Health / Menstrual Pain",
+    "price": "",
+    "tagline": "Ease every month. Naturally.",
+    "shortDescription": "Ayurvedic roll-on for menstrual cramp and pain relief. 10 ml.",
+    "longDescription": "BLOOM by BOHECO is a proprietary Ayurvedic roll-on formulated specifically for menstrual pain and cramp relief. Working through the body's Endocannabinoid System — which plays a significant role in pain regulation and hormonal balance — BLOOM delivers targeted relief to the lower abdomen, back, and thighs during menstruation.\n\nWith a unique blend of Vijaya leaf extract, Pudina Sattva (Peppermint crystals), Karpur (Camphor) oil, and Ajwain oil, BLOOM offers fast-acting, natural relief without the need for NSAIDs or hormonal interventions. Start using 5 days before your cycle for optimal relief.",
+    "benefits": "Relieves menstrual cramps | Reduces lower back and abdominal pain | Anti-inflammatory | Hormonal balance support | Natural NSAID alternative | No residue, no stain",
+    "howToUse": "Roll onto the lower abdomen, lower back, and thighs during menstruation. For deeper relief, begin 5 days before the cycle up to day 5. Apply 3–5 strokes (~1–2 ml) and massage until absorbed. Shake well before use.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract, Vijaya Seed Oil, Pudina Sattva (Mentha arvensis) crystals, Karpur (Cinnamomum camphora) Oil, Ajwain Oil, Wintergreen Oil, Katuvira (Capsicum annuum) crystals.",
+    "images": {
+      "catalogue": "/images/products/boheco/bloom-roll-on-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/bloom-roll-on-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "14",
+    "brand": "BOHECO",
+    "name": "Digest Navel Oil (Non-Rx)",
+    "slug": "digest-navel-oil-non-rx",
+    "category": "Digestive / Gut Health",
+    "price": "",
+    "tagline": "Ancient wisdom, modern wellness.",
+    "shortDescription": "Ayurvedic navel therapy oil for digestion and gut health. 10 ml.",
+    "longDescription": "DIGEST Navel Oil by BOHECO is a unique Ayurvedic formulation rooted in the ancient practice of Navel Therapy (Nabhi Chikitsa) — wherein therapeutic oils applied to the navel travel through the body's Sira (microchannels) to nourish organs and restore balance. The blend of Ginger, Fennel, and Hemp Seed oils targets digestive wellness, relieves abdominal discomfort, and reduces bloating.\n\nGinger oil's gastroprotective properties combined with Fennel's antispasmodic effects and Hemp Seed oil's anti-inflammatory action create a synergistic formula for comprehensive digestive support — through the simplest of daily rituals.",
+    "benefits": "Enhances digestion | Reduces bloating | Relieves abdominal discomfort | Gut microbiome support | Anti-inflammatory | Ancient Navel Therapy tradition",
+    "howToUse": "Before meals, lie on your back. Fill the navel with oil and keep for 5–10 minutes. Gently massage the oil on the stomach in a clockwise circular motion. Wash off during bath.",
+    "keyIngredients": "Ginger (Zingiber officinale) Oil, Fennel (Foeniculum vulgare) Seed Oil, Hemp (Cannabis Sativa) Seed Oil.",
+    "images": {
+      "catalogue": "/images/products/boheco/digest-navel-oil-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/digest-navel-oil-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "15",
+    "brand": "BOHECO",
+    "name": "Rescue Balm (Non-Rx)",
+    "slug": "rescue-balm-non-rx",
+    "category": "Pain / Skin Healing",
+    "price": "",
+    "tagline": "Heal fast. Naturally.",
+    "shortDescription": "Therapeutic Ayurvedic healing balm for pain, skin inflammation, and muscle discomfort. 15 g.",
+    "longDescription": "RESCUE by BOHECO is a dense, therapeutic Ayurvedic healing balm that delivers sustained relief from localised pain, skin inflammation, and muscle discomfort. The thick balm texture ensures prolonged skin contact, allowing Vijaya leaf extract and complementary Ayurvedic botanicals to penetrate deeply and work over an extended period.\n\nIdeal for targeted treatment of small areas — such as sore joints, muscle knots, skin irritation, or bruised tissue — RESCUE can be used as needed throughout the day without concern for overuse.",
+    "benefits": "Relieves localised pain | Heals skin inflammation | Soothes muscle discomfort | Deep penetration balm | Extended-release action",
+    "howToUse": "Take a small amount of balm and apply to the affected area. Massage gently in circular motion until absorbed. Use 2–3 times daily as required.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract, plant wax base, Ayurvedic healing botanicals including camphor and essential oils.",
+    "images": {
+      "catalogue": "/images/products/boheco/rescue-balm-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/rescue-balm-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "16",
+    "brand": "BOHECO",
+    "name": "Relax Roll-On (Non-Rx)",
+    "slug": "relax-roll-on-non-rx",
+    "category": "Sleep / Stress Relief",
+    "price": "",
+    "tagline": "Roll on calm. Breathe in peace.",
+    "shortDescription": "Aromatherapy roll-on for relaxation and restful sleep. 10 ml.",
+    "longDescription": "RELAX by BOHECO is an aromatherapy roll-on combining Vijaya-derived cannabinoids with soothing essential oils including Lavender, Bergamot, and Amber Rose. Working through both the Endocannabinoid System and the olfactory-limbic pathway, RELAX provides dual-action calming — topical cannabinoid absorption at the pulse points combined with powerful aromatherapeutic inhalation.\n\nA perfect pre-sleep ritual, RELAX helps quiet an overactive mind, ease tension, and gently guide the body toward rest — without any sedating compounds or side effects.",
+    "benefits": "Promotes deep relaxation | Reduces anxiety and tension | Supports restful sleep | Dual-action aromatherapy + ECS | Instant calming effect",
+    "howToUse": "Roll onto pulse points — temples, wrists, and behind the ears — before bedtime. Inhale the fragrance deeply and allow it to aid relaxation. Use as needed.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract, Lavender Oil, Bergamot Oil, Amber Rose / Citrus blend, Ayurvedic herbal base.",
+    "images": {
+      "catalogue": "/images/products/boheco/relax-roll-on-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/relax-roll-on-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "17",
+    "brand": "BOHECO",
+    "name": "Pristine Cream (Non-Rx)",
+    "slug": "pristine-cream-non-rx",
+    "category": "Skin Wellness",
+    "price": "",
+    "tagline": "Nourish your skin from within.",
+    "shortDescription": "Vijaya-infused Ayurvedic skin healing cream for deep moisturisation. 25 g.",
+    "longDescription": "PRISTINE by BOHECO is a Vijaya-infused Ayurvedic skin healing cream formulated to restore, nourish, and protect skin. The cannabinoids in Vijaya leaf extract interact with CB2 receptors in the skin to regulate sebum production, reduce inflammation, and support the skin's natural barrier function — addressing dryness, irritation, and inflammation at the cellular level.\n\nEnriched with Vijaya Seed Oil and a skin-conditioning Ayurvedic base, PRISTINE delivers deep, lasting moisture and is suitable for all skin types — including sensitive skin.",
+    "benefits": "Deep moisturisation | Skin barrier repair | Reduces inflammation | Controls sebum | Soothes irritated skin | Suitable for all skin types",
+    "howToUse": "Apply a small amount to clean skin and massage gently until absorbed. Use morning and/or night as part of your skincare routine.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract, Vijaya Seed Oil, moisturising and skin-conditioning Ayurvedic base.",
+    "images": {
+      "catalogue": "/images/products/boheco/pristine-cream-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/pristine-cream-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "18",
+    "brand": "BOHECO",
+    "name": "Hemp Seed Oil (Non-Rx)",
+    "slug": "hemp-seed-oil-non-rx",
+    "category": "Nutrition / Skin & Hair",
+    "price": "",
+    "tagline": "Nourish your body from within — one drop at a time.",
+    "shortDescription": "100% pure cold-pressed Hemp Seed Oil. Balanced 3:1 Omega ratio. Supports heart, skin, hair, and brain. 100 ml / 250 ml.",
+    "longDescription": "Hemp Seed Oil by BOHECO is extracted from the nutrient-rich seeds of the Hemp plant (Cannabis sativa), cold-pressed to preserve its natural goodness. It is a powerhouse of three essential polyunsaturated fatty acids — Omega-3, Omega-6, and Omega-9 — in the ideal 3:1 ratio clinically recognised for cardiovascular and cognitive health benefits.\n\nRich in essential amino acids, vitamins, and minerals, BOHECO Hemp Seed Oil supports heart health, strengthens immunity, promotes radiant skin and hair, enhances brain function, and reduces systemic inflammation. It can be used both as a culinary oil and a topical skin and hair nourishment product. Available in 100 ml and 250 ml.",
+    "benefits": "Supports heart health | Promotes healthy skin and hair | Enhances brain function | Boosts immunity | Anti-inflammatory | Balances Omega-3:6 ratio | Plant-based complete nutrition",
+    "howToUse": "Culinary: Drizzle on salads, dips, and smoothies. Avoid high heat. Topical: Massage a few drops directly onto skin or hair.",
+    "keyIngredients": "100% Pure Cold-Pressed Hemp (Cannabis Sativa) Seed Oil — rich in Omega-3, Omega-6, Omega-9, linoleic acid, alpha-linolenic acid, and gamma-linolenic acid.",
+    "images": {
+      "catalogue": "/images/products/boheco/hemp-seed-oil-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/hemp-seed-oil-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "19",
+    "brand": "BOHECO",
+    "name": "Hemp Hearts (Non-Rx)",
+    "slug": "hemp-hearts-non-rx",
+    "category": "Nutrition / Superfood",
+    "price": "",
+    "tagline": "Fuel your body with nature's most balanced nutrition.",
+    "shortDescription": "100% pure organic hulled hemp seeds. 34.87g protein per 100g. Omega 3, 6 & 9. 100 g / 500 g.",
+    "longDescription": "Hemp Hearts by BOHECO are the hulled seeds of the Hemp plant (Cannabis sativa), known as one of nature's most complete nutritional sources. These tiny, nutty-flavored seeds are packed with essential fatty acids (Omega-3, Omega-6, and Omega-9), high-quality complete plant protein containing all essential amino acids, and a rich array of vitamins and minerals.\n\nWith 34.87 g of protein per 100 g, Hemp Hearts are among the highest plant-protein foods available. They support heart health, brain function, hormonal balance, healthy skin and hair, immune strength, and digestive wellness — making them an ideal daily superfood for vegans, athletes, and health-conscious individuals. Available in 100 g and 500 g.",
+    "benefits": "Complete plant protein (34.87g/100g) | Heart and vascular health | Brain function | Healthy skin, hair, and nails | Hormonal balance | Immune support | Digestive wellness | Vegan and gluten-free",
+    "howToUse": "Sprinkle on salads, smoothies, or breakfast bowls. Add to baked goods or energy bites. Recommended: two teaspoons per day.",
+    "keyIngredients": "100% Pure Organic Hemp (Cannabis Sativa) Hulled Seeds — complete protein, Omega-3, Omega-6, Omega-9, arginine, vitamins, and minerals.",
+    "images": {
+      "catalogue": "/images/products/boheco/hemp-hearts-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/hemp-hearts-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "20",
+    "brand": "BOHECO",
+    "name": "Hemp Protein Powder (Non-Rx)",
+    "slug": "hemp-protein-powder-non-rx",
+    "category": "Nutrition / Fitness",
+    "price": "",
+    "tagline": "Clean protein. Pure power.",
+    "shortDescription": "Plant-based hemp protein powder from cold-pressed hemp seeds. All essential amino acids. 100 g / 500 g.",
+    "longDescription": "Hemp Protein Powder by BOHECO is a clean, plant-based protein supplement made from cold-pressed hemp seeds. Rich in all essential amino acids, Omega fatty acids, and dietary fibre, it provides a complete protein source for vegans, athletes, and health-conscious individuals seeking an alternative to whey or soy protein.\n\nUnlike most plant proteins, hemp protein contains all essential amino acids including leucine, isoleucine, and valine (BCAAs), making it highly effective for muscle recovery and growth. Its natural Omega-3 and Omega-6 content further supports cardiovascular and cognitive health alongside the protein benefits. Available in 100 g and 500 g.",
+    "benefits": "Complete plant-based protein | All essential amino acids | BCAAs for muscle recovery | Omega-3 and Omega-6 fatty acids | High dietary fibre | Vegan and gluten-free",
+    "howToUse": "Mix 1–2 scoops with water, milk, or smoothie. Can be added to oatmeal or baked goods. Consume post-workout or as a daily protein supplement.",
+    "keyIngredients": "100% Hemp (Cannabis Sativa) Seed Protein Powder — complete amino acid profile, Omega-3 and Omega-6 fatty acids, dietary fibre.",
+    "images": {
+      "catalogue": "/images/products/boheco/hemp-protein-powder-non-rx/catalogue.webp",
+      "hover": "/images/products/boheco/hemp-protein-powder-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "21",
+    "brand": "CANAZO",
+    "name": "Uplift (RX)",
+    "slug": "uplift-rx",
+    "category": "Chronic Pain / Sleep / CINV",
+    "price": "",
+    "tagline": "Rise above pain. Reclaim your life.",
+    "shortDescription": "THC-rich full-spectrum Vijaya tincture for chronic pain, sleep, CINV, and addiction recovery. 3 ml / 10 ml.",
+    "longDescription": "Uplift by Cannazo India is a THC-rich, full-spectrum Vijaya (Cannabis Sativa) leaf extract tincture — AYUSH-approved and designed for individuals managing severe chronic pain, disturbed sleep, chemotherapy-induced nausea and vomiting (CINV), and addiction recovery from alcohol or tobacco.\n\nThe THC-dominant profile provides potent analgesic, antiemetic, and sedative properties that complement the broader entourage effect of the full-spectrum formulation. Available in 3 ml and 10 ml sizes.",
+    "benefits": "Chronic pain relief | Improves sleep | Antiemetic (anti-nausea) | Supports addiction recovery | Full-spectrum entourage effect",
+    "howToUse": "Fill dropper to prescribed dose. Administer sublingually; hold 30–50 seconds then swallow. Start with 5 drops (~0.25 ml) and titrate gradually every 3–4 days under medical supervision.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract (THC-dominant, full spectrum), MCT Oil (Cocos nucifera).",
+    "images": {
+      "catalogue": "/images/products/cannazo/uplift-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/uplift-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "22",
+    "brand": "CANAZO",
+    "name": "Vijaya Ambrosia (RX)",
+    "slug": "vijaya-ambrosia-rx",
+    "category": "Chronic Pain / Sleep / CINV",
+    "price": "",
+    "tagline": "Ancient medicine. Modern relief.",
+    "shortDescription": "THC-rich full-spectrum Vijaya Ambrosia (1:4 CBD:THC). 300mg/ml. For chronic pain, sleep, CINV. 15 ml.",
+    "longDescription": "Vijaya Ambrosia by Cannazo India is a premium THC-rich, full-spectrum Ayurvedic medicine with a 1:4 CBD:THC ratio and a concentration of 300 mg/ml. Formulated for chronic pain management, chemotherapy-induced nausea and vomiting, appetite restoration, and restful sleep, Vijaya Ambrosia harnesses the full therapeutic potential of the Cannabis Sativa plant through an AYUSH-approved, doctor-prescribed formulation.\n\nThe high THC content provides potent analgesic, antiemetic, and sedative effects, while CBD's balancing role reduces THC-associated adverse effects. Available in 15 ml and 3 ml travel formats.",
+    "benefits": "Potent chronic pain relief | CINV management | Appetite stimulation | Deep sleep support | Anti-inflammatory | Full-spectrum therapeutic action",
+    "howToUse": "Fill dropper to prescribed dosage. Dispense under the tongue and hold for 5–50 seconds. Start with 5 drops; titrate every 3–4 days under medical supervision. Max: 1 ml per dose.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract 30% (1:4 CBD:THC), Cocos Nucifera (MCT Oil) 70%.",
+    "images": {
+      "catalogue": "/images/products/cannazo/vijaya-ambrosia-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/vijaya-ambrosia-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "23",
+    "brand": "CANAZO",
+    "name": "Vijaya Amrit (RX)",
+    "slug": "vijaya-amrit-rx",
+    "category": "Neurological / Psychiatric / Anxiety",
+    "price": "",
+    "tagline": "Calm the mind. Heal the brain.",
+    "shortDescription": "CBD-rich full-spectrum Vijaya Amrit (4:1 CBD:THC). 133mg/ml. For neurological and psychiatric health. 15 ml.",
+    "longDescription": "Vijaya Amrit by Cannazo India is a CBD-rich, full-spectrum Ayurvedic medicine with a 4:1 CBD:THC ratio and 133 mg/ml concentration. Designed for neurological and psychiatric health, it enhances GABA levels to promote calmness, cognitive clarity, and emotional stability.\n\nClinically relevant for Autism Spectrum Disorder (ASD), cognitive decline, cerebellar ataxia, menopausal mood irregularities, and treatment-resistant anxiety, Vijaya Amrit offers a science-backed, AYUSH-approved therapeutic option where conventional neurological and psychiatric medications have limitations.",
+    "benefits": "Reduces anxiety and panic | Cognitive support | Neuroprotective | Benefits ASD and ADHD | Manages menopausal mood swings | Promotes emotional calm | Cerebellar ataxia support",
+    "howToUse": "Fill dropper to required dosage. Squeeze drops sublingually. Hold for 30–50 seconds, then swallow. Start with 5 drops; increase gradually every 3–4 days. Max: 1 ml per dose.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract (CBD-rich, 4:1) 13.33%, Cocos Nucifera (MCT Oil) 86.67%.",
+    "images": {
+      "catalogue": "/images/products/cannazo/vijaya-amrit-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/vijaya-amrit-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "24",
+    "brand": "CANAZO",
+    "name": "Calm Drops (RX)",
+    "slug": "calm-drops-rx",
+    "category": "Anxiety / Stress / Sleep",
+    "price": "",
+    "tagline": "Drop stress. Find calm.",
+    "shortDescription": "CBD-dominant full-spectrum tincture for anxiety, stress, and relaxation. Natural citrus. 10 ml.",
+    "longDescription": "Calm Drops by Cannazo India is a CBD-dominant, full-spectrum Vijaya leaf extract tincture with a natural citrus flavour, formulated to restore emotional balance, ease anxiety, and promote deep relaxation. At 100 mg/ml, Calm Drops delivers effective anxiety relief through its interaction with CB1 receptors, GABA receptors, and serotonin pathways.\n\nDesigned for individuals experiencing generalised anxiety, social anxiety, daily stress, or mild sleep difficulty, Calm Drops offers a gentler, more balanced therapeutic experience compared to THC-heavy formulations.",
+    "benefits": "Reduces anxiety and stress | Promotes emotional balance | Improves relaxation | Supports sleep onset | Enhances mood | Non-intoxicating",
+    "howToUse": "Fill dropper to prescribed dosage. Squeeze drops under the tongue and hold for 5–50 seconds. Swallow after waiting. Start with 5 drops (~0.25 ml); titrate every 3–4 days. Max: 1 ml (~20 drops) per dose.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract (CBD-dominant), MCT Oil (Cocos nucifera), Natural Citrus Flavour.",
+    "images": {
+      "catalogue": "/images/products/cannazo/calm-drops-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/calm-drops-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "25",
+    "brand": "CANAZO",
+    "name": "Placidiol (RX)",
+    "slug": "placidiol-rx",
+    "category": "Epilepsy / ASD / Anxiety / Neurological",
+    "price": "",
+    "tagline": "Precision CBD. Enhanced absorption.",
+    "shortDescription": "Nano-lipid CBD-rich tincture for epilepsy, ASD, anxiety. 166mg/ml with superior bioavailability. 15 ml.",
+    "longDescription": "Placidiol by Cannazo India is a next-generation CBD-rich Ayurvedic formulation employing nano-lipid technology for dramatically enhanced bioavailability. At 166 mg/ml, Placidiol delivers high-concentration CBD with greater absorption efficiency than conventional tinctures — making it ideal for conditions requiring consistent, therapeutic-level CBD plasma concentrations.\n\nFormulated for epilepsy, Autism Spectrum Disorder, ADHD, and treatment-resistant anxiety, Placidiol's neuroprotective and brain-modulating properties are amplified by the nano-lipid delivery system, which reduces first-pass metabolism and increases cellular uptake.",
+    "benefits": "Manages epilepsy and seizures | ASD and ADHD support | Neuroprotective | Enhanced bioavailability via nano-lipid | Anxiety reduction | Cognitive support",
+    "howToUse": "Fill dropper to prescribed dosage. Place drops under the tongue. Hold for 5–50 seconds then swallow. Follow prescribed routine consistently.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract (CBD-rich, Full Spectrum), MCT Oil — nano-lipid technology for enhanced bioavailability.",
+    "images": {
+      "catalogue": "/images/products/cannazo/placidiol-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/placidiol-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "26",
+    "brand": "CANAZO",
+    "name": "Uplift Gummies (RX)",
+    "slug": "uplift-gummies-rx",
+    "category": "Pain / Sleep / Wellness",
+    "price": "",
+    "tagline": "Good vibes. Great relief.",
+    "shortDescription": "Premium full-spectrum Vijaya gummies with Ashwagandha. 500mg each. OG Kush Mango. Pack of 10.",
+    "longDescription": "Uplift Gummies Vati by Cannazo India are premium full-spectrum Vijaya extract gummies blended with Ashwagandha, Lemon Extract, Pepper Root, and Myrobalan for comprehensive mind-body balance. Each gummy delivers 500 mg of full-spectrum cannabis extract in a delicious OG Kush Mango flavour, making therapeutic dosing a pleasurable experience.\n\nThe multi-herb formulation amplifies the therapeutic benefits through Ayurvedic synergy — Ashwagandha adds adaptogenic stress relief, Pippali Mool improves bioavailability, and Haritaki supports digestive wellness alongside the cannabis extract.",
+    "benefits": "Chronic pain relief | Stress and anxiety reduction | Sleep support | Appetite stimulation | Adaptogenic benefits from Ashwagandha | Convenient and enjoyable format",
+    "howToUse": "Beginners: Start with 1/2 gummy; wait 60–90 minutes before increasing. Regular users: Take 1 full gummy for 6–8 hours of relief. Can be taken sublingually, or with food or beverages.",
+    "keyIngredients": "Vijaya (Cannabis) Extract 3%, Ashwagandha 11%, Pippali Mool 10%, Shunthi (Ginger) 8%, Nimbu Sat (Lemon Extract) 7%, Arjun Tvak 10%, Haritaki 10%, Sugar 15%, Setting Agent 5%.",
+    "images": {
+      "catalogue": "/images/products/cannazo/uplift-gummies-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/uplift-gummies-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "27",
+    "brand": "CANAZO",
+    "name": "Uplift+ Extract (RX)",
+    "slug": "uplift-extract-rx",
+    "category": "Chronic Pain / CINV / Addiction Recovery",
+    "price": "",
+    "tagline": "Pure. Potent. Precise.",
+    "shortDescription": "THC-dominant 100% Vijaya leaf extract with natural terpenes. AYUSH-approved. 1g / 5g syringe.",
+    "longDescription": "Uplift+ Extract by Cannazo India is a 100% pure, THC-dominant, full-spectrum medical cannabis extract enhanced with natural terpenes for maximum therapeutic efficacy. Available in a precision syringe for accurate dosing, Uplift+ is AYUSH-approved for chronic pain, disturbed sleep, CINV, and addiction recovery.\n\nWith no MCT oil or carrier — just pure Vijaya leaf extract and natural terpenes — Uplift+ delivers the highest concentration and most direct cannabis therapy available in the Cannazo range.",
+    "benefits": "High-potency pain relief | CINV management | Sleep support | Addiction recovery | Full-spectrum terpene profile | Precise syringe dosing",
+    "howToUse": "Start with 1–2 drops (~0.02 ml) under the tongue after meals. Titrate gradually every 3–4 days. Max: 0.1 ml (~5–6 drops) as prescribed. Onset: 30–60 minutes. Duration: 4–8 hours.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract 100%, Natural Terpenes — THC-Dominant, Full Spectrum.",
+    "images": {
+      "catalogue": "/images/products/cannazo/uplift-extract-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/uplift-extract-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "28",
+    "brand": "CANAZO",
+    "name": "Cannaronil — Extract Paste (RX) THC rich",
+    "slug": "cannaronil-extract-paste-rx-thc-rich",
+    "category": "Pain / Neurological / Cancer Care",
+    "price": "",
+    "tagline": "The purest form of Vijaya therapy.",
+    "shortDescription": "100% pure Vijaya leaf extract paste in CBD-rich, balanced, or THC-rich profiles. 5g syringe.",
+    "longDescription": "Cannaronil by Cannazo India is 100% pure raw Vijaya leaf extract paste — the most concentrated and complete form of cannabis medicine. Available in three therapeutic profiles: CBD-Rich (4:1 CBD:THC) for neurological and psychiatric conditions, Balanced (1:1) for chronic pain and general wellness, and THC-Rich (1:4) for cancer pain, CINV, and severe insomnia.\n\nFormulated without carriers, Cannaronil preserves the full spectrum of cannabinoids, terpenes, and flavonoids as nature intended — delivering what researchers call the 'entourage effect'. Available in a 5g precision syringe.",
+    "benefits": "Full entourage effect | Three therapeutic profiles | Maximum potency | Neuroprotective | Cancer care adjunct | Pain management | CINV relief",
+    "howToUse": "Dispense prescribed quantity under the tongue using the syringe. Hold for 45–50 seconds before swallowing. Start with 1–2 drops (~0.02 ml); titrate gradually every 3–4 days. Onset: 30–60 minutes.",
+    "keyIngredients": "100% Full Spectrum Vijaya (Cannabis Sativa) Leaf Extract Paste — naturally occurring cannabinoids, terpenes, and flavonoids.",
+    "images": {
+      "catalogue": "/images/products/cannazo/cannaronil-extract-paste-rx-thc-rich/catalogue.webp",
+      "hover": "/images/products/cannazo/cannaronil-extract-paste-rx-thc-rich/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "29",
+    "brand": "CANAZO",
+    "name": "Revive Pain Relief Roll-On (Non-Rx)",
+    "slug": "revive-pain-relief-roll-on-non-rx",
+    "category": "Pain / Muscle Relief",
+    "price": "",
+    "tagline": "Roll it on. Pain rolls off.",
+    "shortDescription": "Ayurvedic cannabis topical roll-on for targeted pain relief. 10 ml.",
+    "longDescription": "Revive Pain Relief Roll-On by Cannazo India is an Ayurvedic topical roll-on combining cannabis-derived active ingredients with Ayurvedic analgesic botanicals for fast, targeted relief from muscle and joint pain. The roll-on format ensures precise, mess-free application directly to the pain site — ideal for targeted pain management throughout the day.",
+    "benefits": "Targeted pain relief | Reduces muscle tension | Anti-inflammatory | Convenient roll-on format | Fast-acting topical action",
+    "howToUse": "Apply by rolling directly onto the affected area. Massage gently until absorbed. Use 2–3 times daily or as needed. For external use only.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract, Ayurvedic analgesic and anti-inflammatory herbal base.",
+    "images": {
+      "catalogue": "/images/products/cannazo/revive-pain-relief-roll-on-non-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/revive-pain-relief-roll-on-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "31",
+    "brand": "CANAZO",
+    "name": "Migraine Aid Roll-On (Non-Rx)",
+    "slug": "migraine-aid-roll-on-non-rx",
+    "category": "Migraine / Headache Relief",
+    "price": "",
+    "tagline": "Stop the pain before it starts.",
+    "shortDescription": "Ayurvedic topical roll-on for migraine and tension headache relief. 10 ml.",
+    "longDescription": "Migraine Aid Roll-On by Cannazo India is a plant-based Ayurvedic topical roll-on for migraine and tension headache relief. Formulated with hemp extract, peppermint oil, and lavender oil, it provides cooling analgesic and vasodilatory effects when applied to the temples and neck at headache onset.",
+    "benefits": "Migraine pain relief | Tension headache relief | Cooling analgesic effect | Reduces headache frequency when used regularly | Convenient topical format",
+    "howToUse": "Roll onto temples, forehead, and back of neck at onset of migraine or tension headache. Massage gently.",
+    "keyIngredients": "Hemp extract, peppermint oil, lavender oil, Ayurvedic analgesic herbal base.",
+    "images": {
+      "catalogue": "/images/products/cannazo/migraine-aid-roll-on-non-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/migraine-aid-roll-on-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "32",
+    "brand": "CANAZO",
+    "name": "Daily Skin Repair Cream (Non-Rx)",
+    "slug": "daily-skin-repair-cream-non-rx",
+    "category": "Skin Care",
+    "price": "",
+    "tagline": "Your skin. Restored. Daily.",
+    "shortDescription": "Nano Hemp, Hyaluronic Acid & Vitamin E skin repair cream. 24-hour hydration. All skin types. 40 g.",
+    "longDescription": "Daily Skin Repair Cream by Cannazo India is a cutting-edge skincare formulation combining Nano Hemp Extract with Hyaluronic Acid, Squalene, Vitamin E, and Vitamin B5. The nano-lipid encapsulation of hemp extract ensures superior penetration into skin layers, delivering anti-inflammatory cannabinoid therapy directly to skin cells.\n\nHyaluronic Acid provides deep, long-lasting hydration; Squalene repairs the skin barrier; Vitamins E and B5 deliver antioxidant and regenerative benefits. The result is a multi-action repair cream that addresses dryness, inflammation, sensitivity, and ageing simultaneously — suitable for all skin types.",
+    "benefits": "24-hour deep hydration | Skin barrier repair | Anti-inflammatory | Antioxidant protection | Brightens and evens skin tone | Non-comedogenic | Suitable for all skin types",
+    "howToUse": "AM: Cleanse face, apply pea-sized amount and massage in upward strokes until absorbed. Follow with sunscreen. PM: Apply as the final step in your skincare routine.",
+    "keyIngredients": "Nano Hemp Extract, Hyaluronic Acid, Squalene, Vitamin E, Vitamin B5 (Panthenol). Free from parabens, fragrance, silicones, and mineral oils.",
+    "images": {
+      "catalogue": "/images/products/cannazo/daily-skin-repair-cream-non-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/daily-skin-repair-cream-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "34",
+    "brand": "CANAZO",
+    "name": "Trailokya Vijaya Vati Advanced (Non-Rx)",
+    "slug": "trailokya-vijaya-vati-advanced-non-rx",
+    "category": "Pain / Sleep / Anxiety / Digestion",
+    "price": "",
+    "tagline": "Balance the doshas. End the pain.",
+    "shortDescription": "Vijaya + Vansh Lochan Ayurvedic tablet for pain, sleep, anxiety, and digestion. 500mg. 30 tablets.",
+    "longDescription": "Trailokya Vijaya Vati Advanced by Cannazo India is a 500 mg Ayurvedic tablet combining Vijaya (Cannabis Sativa) leaf extract with Vansh Lochan to balance Vata, Pitta, and Kapha doshas. Rooted in classical Ayurvedic pharmacology and enhanced with modern standardisation, it addresses chronic pain, insomnia, neuropathic pain, anxiety, and digestive wellness.\n\nThe tablet format ensures precise dosing and convenient daily consumption — suitable for patients who prefer oral tablets over tinctures or gummies.",
+    "benefits": "Manages chronic pain | Neuropathic pain relief | Insomnia management | Reduces anxiety | Digestive wellness | Dosha balancing",
+    "howToUse": "Swallow with water 30 minutes after a meal. Dosage as per prescription. Consult Ayurvedic practitioner for customised dosage.",
+    "keyIngredients": "Vijaya (Cannabis Sativa Leaf Extract) 50%, Vansh Lochan 50%.",
+    "images": {
+      "catalogue": "/images/products/cannazo/trailokya-vijaya-vati-advanced-non-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/trailokya-vijaya-vati-advanced-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "35",
+    "brand": "CANAZO",
+    "name": "Liposomal Berberine 98% HCL+ (Non-Rx)",
+    "slug": "liposomal-berberine-98-hcl-non-rx",
+    "category": "Blood Sugar / Metabolic Health",
+    "price": "",
+    "tagline": "The gold standard of berberine. Bioavailability redefined.",
+    "shortDescription": "India's first Liposomal Berberine 98% HCl+ with 13.6x superior bioavailability. For blood sugar and metabolism. 30 caps.",
+    "longDescription": "Liposomal Berberine 98% HCl+ by Cannazo India is India's first liposomal berberine supplement with 13.6x superior bioavailability compared to standard berberine. Synergistically combined with Gymnema Sylvestre, Apple Cider Vinegar, Piperine, and Chromium Picolinate, it delivers a comprehensive metabolic health solution for blood sugar regulation, fat metabolism, and weight management.\n\nThe liposomal delivery system encapsulates berberine in phospholipid vesicles identical to the body's cell membranes, dramatically increasing cellular uptake and plasma concentration compared to conventional berberine supplements.",
+    "benefits": "Blood sugar regulation | Improved insulin sensitivity | Fat metabolism support | Weight management | Gut microbiome support | 13.6x better bioavailability than standard berberine",
+    "howToUse": "Take 2 capsules daily (1 morning, 1 night) before or after any meal. Recommended duration: 8–12 weeks.",
+    "keyIngredients": "Berberine HCl 98%, Liposomal Berberine, Gymnema Sylvestre, Piperine Extract 98%, Chromium Picolinate, Vegetable Cellulose Capsule (HPMC).",
+    "images": {
+      "catalogue": "/images/products/cannazo/liposomal-berberine-98-hcl-non-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/liposomal-berberine-98-hcl-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "36",
+    "brand": "CANAZO",
+    "name": "Slimfit++ Gut Health Capsules (Non-Rx)",
+    "slug": "slimfit-gut-health-capsules-non-rx",
+    "category": "Gut Health / Digestion",
+    "price": "",
+    "tagline": "Happy gut. Healthy you.",
+    "shortDescription": "Bi-layer Ayurvedic gut health capsules with Hemp Seed Oil, Bael, and Ginger. For IBS, bloating, digestion. 60 caps.",
+    "longDescription": "Slimfit++ Gut Health Capsules by Cannazo India are advanced bi-layer Ayurvedic capsules blending Bael, Ginger, Coriander, Fennel, and 25% Cold-Pressed Hemp Seed Oil for comprehensive gut health management. The bi-layer technology allows for sequential release of ingredients — ensuring the hemp seed oil and Ayurvedic botanicals act synergistically at different points in the gastrointestinal tract.\n\nFormulated for IBS, bloating, constipation, and poor digestion, Slimfit++ also supports weight management through improved metabolic function and gut microbiome balance.",
+    "benefits": "Alleviates IBS symptoms | Reduces bloating and acidity | Relieves constipation | Strengthens gut microbiome | Boosts metabolism | Digestive enzyme support",
+    "howToUse": "Take 1–2 capsules daily 30 minutes after meals with water. Best results after 2–4 weeks; recommended course: 60–90 days.",
+    "keyIngredients": "Aegle marmelos (Bael) 20%, Zingiber officinale (Ginger) 15%, Coriandrum sativum 10%, Foeniculum vulgare (Fennel) 10%, 100% Pure Cold-Pressed Hemp Seed Oil 25%.",
+    "images": {
+      "catalogue": "/images/products/cannazo/slimfit-gut-health-capsules-non-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/slimfit-gut-health-capsules-non-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "38",
+    "brand": "CANAZO",
+    "name": "Pet Oil (RX)",
+    "slug": "pet-oil-rx",
+    "category": "Pet Wellness — Anxiety / Joints",
+    "price": "",
+    "tagline": "Because your pet deserves the best.",
+    "shortDescription": "Full-spectrum Hemp Extract tincture for pet anxiety, joint health, and immunity. 1000mg/10ml.",
+    "longDescription": "Pet Oil by Cannazo India is a premium Full Spectrum Hemp Extract formulation developed specifically for animals, combining phytocannabinoids with organic coconut oil for maximum bioavailability. Cats and dogs have an Endocannabinoid System (ECS) similar to humans — making hemp extract an effective natural tool for managing pet anxiety, joint pain, skin conditions, and immune function.\n\nEach 10 ml bottle contains 1000 mg of full-spectrum hemp extract providing approximately 200 drops. The subtle coconut oil taste makes it easily mixable into pet food.",
+    "benefits": "Reduces anxiety and stress in pets | Joint health support | Skin and coat improvement | Immune function | Anti-inflammatory | Appetite support",
+    "howToUse": "Consult veterinarian for correct dosage based on pet's weight and condition. Administer orally (directly into mouth using dropper) or mix into pet's food. Start low and go slow. Each 10 ml bottle: ~200 drops.",
+    "keyIngredients": "Vijaya (Cannabis Sativa) Leaf Extract, Cocos Nucifera (Coconut Oil). Full Spectrum Hemp Extract.",
+    "images": {
+      "catalogue": "/images/products/cannazo/pet-oil-rx/catalogue.webp",
+      "hover": "/images/products/cannazo/pet-oil-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "43",
+    "brand": "MediCann",
+    "name": "Cannabis Leaf Extract Gummies 350mg (RX)",
+    "slug": "cannabis-leaf-extract-gummies-350mg-rx",
+    "category": "Pain / Sleep / Neuropathic",
+    "price": "",
+    "tagline": "Powerful relief. Naturally dosed.",
+    "shortDescription": "High-potency 350mg Vijaya gummies (no sugar) for chronic pain and sleep. Pack of 10.",
+    "longDescription": "MediCann Cannabis Leaf Extract Gummies 350 mg are high-potency, doctor-prescribed Ayurvedic cannabis gummies formulated for persistent sleep disturbances, chronic pain, nerve-related discomfort, and muscular rigidity. Each gummy delivers 350 mg of standardised Vijaya (Cannabis Sativa) leaf extract — among the highest doses available in gummy form in India.\n\nFormulated with FOS prebiotic for gut health benefits and cola flavour with no added sugar, these gummies are a palatable, precisely dosed therapeutic option for patients requiring stronger cannabinoid intervention.",
+    "benefits": "High-potency pain relief | Restores deep sleep | Neuropathic pain management | Reduces muscular rigidity | FOS prebiotic gut support | No added sugar",
+    "howToUse": "Take 1 gummy or as prescribed. Preferably in the evening. Allow 45–90 minutes for onset. Strictly under certified Ayurvedic medical supervision.",
+    "keyIngredients": "350 mg Standardised Vijaya (Cannabis Sativa) Leaf Extract, FOS (Fructo-Oligosaccharide), Plant-Based Pectin, Citric Acid, Cola Flavour. No added sugar.",
+    "images": {
+      "catalogue": "/images/products/medicann/cannabis-leaf-extract-gummies-350mg-rx/catalogue.webp",
+      "hover": "/images/products/medicann/cannabis-leaf-extract-gummies-350mg-rx/hover.webp",
+      "gallery": [
+        "/images/products/medicann/cannabis-leaf-extract-gummies-350mg-rx/gallery-1.webp",
+        "/images/products/medicann/cannabis-leaf-extract-gummies-350mg-rx/gallery-2.webp",
+        "/images/products/medicann/cannabis-leaf-extract-gummies-350mg-rx/gallery-3.webp",
+        "/images/products/medicann/cannabis-leaf-extract-gummies-350mg-rx/gallery-4.webp",
+        "/images/products/medicann/cannabis-leaf-extract-gummies-350mg-rx/gallery-5.webp"
+      ]
+    }
+  },
+  {
+    "id": "44",
+    "brand": "MediCann",
+    "name": "Cannabis Leaf Extract Gummies 135mg (RX)",
+    "slug": "cannabis-leaf-extract-gummies-135mg-rx",
+    "category": "Sleep / Stress / Pain / Digestion",
+    "price": "",
+    "tagline": "Sleep well. Feel better. Naturally.",
+    "shortDescription": "Doctor-prescribed 135mg Vijaya gummies for sleep, stress, and pain. No sugar. Pack of 10.",
+    "longDescription": "MediCann Cannabis Leaf Extract Gummies 135 mg are doctor-prescribed Ayurvedic cannabis gummies formulated for sleep restoration, stress and mood elevation, digestive regulation, and natural pain relief. Each gummy delivers 135 mg of premium Cannabis Leaf Extract rich in enhanced cannabinoids, with FOS prebiotic and cola flavour — no added sugar.\n\nThe lower dose compared to the 350 mg variant makes these gummies ideal as an entry-level therapeutic option or for patients requiring moderate cannabinoid therapy.",
+    "benefits": "Sleep restoration | Stress and mood management | Natural pain relief | Digestive regulation | FOS prebiotic support | No added sugar",
+    "howToUse": "Start with 1 gummy and monitor response. For sleep: take in the evening or 1 hour before dinner. Chew thoroughly. Onset: ~2 hours.",
+    "keyIngredients": "135 mg Premium Cannabis Leaf Extract, Plant-Based Pectin, FOS (Fructo-Oligosaccharide), Cola Flavour. No added sugar.",
+    "images": {
+      "catalogue": "/images/products/medicann/cannabis-leaf-extract-gummies-135mg-rx/catalogue.webp",
+      "hover": "/images/products/medicann/cannabis-leaf-extract-gummies-135mg-rx/hover.webp",
+      "gallery": [
+        "/images/products/medicann/cannabis-leaf-extract-gummies-135mg-rx/gallery-1.webp",
+        "/images/products/medicann/cannabis-leaf-extract-gummies-135mg-rx/gallery-2.webp",
+        "/images/products/medicann/cannabis-leaf-extract-gummies-135mg-rx/gallery-3.webp",
+        "/images/products/medicann/cannabis-leaf-extract-gummies-135mg-rx/gallery-4.webp",
+        "/images/products/medicann/cannabis-leaf-extract-gummies-135mg-rx/gallery-5.webp",
+        "/images/products/medicann/cannabis-leaf-extract-gummies-135mg-rx/gallery-6.webp"
+      ]
+    }
+  },
+  {
+    "id": "45",
+    "brand": "MediCann",
+    "name": "Cannabis Leaf Extract — 5g Normal (RX)",
+    "slug": "cannabis-leaf-extract-5g-normal-rx",
+    "category": "Pain / De-Addiction / Sleep",
+    "price": "",
+    "tagline": "The purest path to natural de-addiction.",
+    "shortDescription": "Pure Vijaya leaf extract for natural de-addiction and wellness. Non-habit-forming. 5g syringe.",
+    "longDescription": "Medicann Cannabis Leaf Extract 5g Normal is a 100% pure Vijaya (Cannabis Sativa) leaf extract formulated for natural de-addiction support — easing withdrawal symptoms from alcohol, tobacco, or substance use — as well as general chronic pain management and sleep improvement. The extract calms the central nervous system, restores emotional stability, enhances mood, reduces irritability, boosts appetite, and addresses sleep issues.\n\nCritically, it is non-habit-forming, making it a particularly valuable therapeutic tool for patients recovering from addictive substances.",
+    "benefits": "Natural de-addiction support | Withdrawal symptom relief | CNS calming | Emotional stability | Mood enhancement | Sleep improvement | Non-habit-forming",
+    "howToUse": "Take sublingual dose prescribed by physician (rice-grain to pea size). Mix with ghee or honey for enhanced absorption. Allow ~60 minutes for onset.",
+    "keyIngredients": "100% Pure Vijaya (Cannabis Sativa) Leaf Extract — no fillers or additives. Standardised for optimal potency and purity.",
+    "images": {
+      "catalogue": "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/catalogue.webp",
+      "hover": "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/hover.webp",
+      "gallery": [
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-1.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-2.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-3.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-4.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-5.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-6.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-7.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-8.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-9.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-10.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-11.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-12.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-13.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-14.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-15.webp",
+        "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-16.webp"
+      ]
+    }
+  },
+  {
+    "id": "46",
+    "brand": "MediCann",
+    "name": "Cannabis Leaf Extract Premium — 5g (RX)",
+    "slug": "cannabis-leaf-extract-premium-5g-rx",
+    "category": "Chronic Pain / Cancer / De-Addiction",
+    "price": "",
+    "tagline": "Premium purity. Maximum efficacy.",
+    "shortDescription": "Highly purified full-spectrum Vijaya extract. Reduced chlorophyll for superior taste. 5g syringe.",
+    "longDescription": "Medicann Cannabis Leaf Extract Premium 5g is a highly purified full-spectrum cannabis extract processed to remove plant impurities and chlorophyll — resulting in a superior taste, higher potency, and cleaner extract profile compared to the standard extract.\n\nDesigned for chronic pain management, palliative cancer care, post-chemotherapy discomfort, and alcohol de-addiction support, the premium purification process increases the concentration of active cannabinoids per gram while eliminating the earthy, bitter taste that can be a barrier to consistent therapeutic use.",
+    "benefits": "Superior-purity chronic pain relief | Palliative cancer care | Post-chemotherapy support | Alcohol de-addiction | Enhanced taste | Higher potency per gram",
+    "howToUse": "Take prescribed sublingual dose (rice-grain to pea size). Blend with ghee or honey. Effect takes 1–3 hours. Consult healthcare provider for personalised dosage.",
+    "keyIngredients": "Highly Purified Full Spectrum Vijaya (Cannabis Sativa) Leaf Extract — reduced plant impurities and chlorophyll. No fillers or additives.",
+    "images": {
+      "catalogue": "/images/products/medicann/cannabis-leaf-extract-premium-5g-rx/catalogue.webp",
+      "hover": "/images/products/medicann/cannabis-leaf-extract-premium-5g-rx/hover.webp",
+      "gallery": [
+        "/images/products/medicann/cannabis-leaf-extract-premium-5g-rx/gallery-1.webp",
+        "/images/products/medicann/cannabis-leaf-extract-premium-5g-rx/gallery-2.webp",
+        "/images/products/medicann/cannabis-leaf-extract-premium-5g-rx/gallery-3.webp",
+        "/images/products/medicann/cannabis-leaf-extract-premium-5g-rx/gallery-4.webp",
+        "/images/products/medicann/cannabis-leaf-extract-premium-5g-rx/gallery-5.webp",
+        "/images/products/medicann/cannabis-leaf-extract-premium-5g-rx/gallery-6.webp"
+      ]
+    }
+  },
+  {
+    "id": "47",
+    "brand": "MediCann",
+    "name": "Cannabis Leaf Extract Oil — Peppermint (RX)",
+    "slug": "cannabis-leaf-extract-oil-peppermint-rx",
+    "category": "Anxiety / Pain / Sleep / Stress",
+    "price": "",
+    "tagline": "Therapy with a fresh twist.",
+    "shortDescription": "20% Vijaya extract in MCT oil. Peppermint flavour. For anxiety, pain, and sleep. 30ml/10ml.",
+    "longDescription": "Medicann Cannabis Leaf Extract Oil in Peppermint flavour delivers a refreshing, palatable sublingual tincture containing 20% Vijaya (Cannabis Sativa) leaf extract blended with MCT oil. Designed for effective management of stress, anxiety, pain, sleep issues, and mood imbalance, the peppermint flavour significantly improves the daily consumption experience compared to unflavoured extracts.\n\nAvailable in 30 ml (full treatment format) and 10 ml (starter / travel size), Medicann Peppermint Oil offers consistent, measurable dosing with rapid sublingual absorption.",
+    "benefits": "Anxiety and stress relief | Pain management | Sleep quality improvement | Mood stabilisation | Refreshing peppermint taste | Rapid sublingual absorption",
+    "howToUse": "Sublingual: Place ~0.5 ml under the tongue and hold briefly for absorption. Advisable to consume before dinner or 30 minutes before bedtime. Effects begin within 30 minutes to 2 hours.",
+    "keyIngredients": "20% Vijaya (Cannabis Sativa) Leaf Extract, MCT Oil, Natural Peppermint Flavour.",
+    "images": {
+      "catalogue": "/images/products/medicann/cannabis-leaf-extract-oil-peppermint-rx/catalogue.webp",
+      "hover": "/images/products/medicann/cannabis-leaf-extract-oil-peppermint-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "48",
+    "brand": "MediCann",
+    "name": "Cannabis Leaf Extract Capsules — 100mg & 250mg (RX)",
+    "slug": "cannabis-leaf-extract-capsules-100mg-250mg-rx",
+    "category": "Pain / Anxiety / Sleep / Sports Recovery",
+    "price": "",
+    "tagline": "Precise dose. Powerful relief.",
+    "shortDescription": "Full-spectrum Vijaya capsules in 100mg and 250mg strengths. For pain, sports injuries, and mental health.",
+    "longDescription": "Medicann Cannabis Leaf Extract Capsules are available in 100 mg and 250 mg strengths — both containing full-spectrum Vijaya (Cannabis Sativa) leaf extract preserving the natural cannabinoid and terpene profile for maximum therapeutic effect.\n\n100 mg capsules are ideal for pain management, sports injuries, anxiety, and mild depression. 250 mg capsules provide higher-potency intervention for severe chronic pain, neuropathic conditions, and significant sports injuries requiring stronger cannabinoid therapy. Both are non-habit-forming Schedule E-1 Ayurvedic formulations.",
+    "benefits": "Chronic pain management | Sports injury recovery | Anxiety and depression | Neuropathic pain | Non-habit-forming | Precise dose format | Full-spectrum benefit",
+    "howToUse": "Take one capsule daily, ideally 1 hour before meals. Effects begin within 1–2 hours. Always under medical supervision.",
+    "keyIngredients": "Full-Spectrum Vijaya (Cannabis Sativa) Leaf Extract — 100 mg or 250 mg per capsule. Preserves natural cannabinoids and terpenes.",
+    "images": {
+      "catalogue": "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/catalogue.webp",
+      "hover": "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/hover.webp",
+      "gallery": [
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-1.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-2.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-3.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-4.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-5.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-6.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-7.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-8.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-9.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-10.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-11.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-12.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-13.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-14.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-15.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-16.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-17.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-18.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-19.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-20.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-21.webp",
+        "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-22.webp"
+      ]
+    }
+  },
+  {
+    "id": "49",
+    "brand": "MediCann",
+    "name": "Cannabis Pain Relief Oil (Non-Rx)",
+    "slug": "cannabis-pain-relief-oil-non-rx",
+    "category": "Pain / Inflammation / Arthritis",
+    "price": "",
+    "tagline": "Powerful relief. No prescription needed.",
+    "shortDescription": "Cannabis Pain Relief Oil with Vijaya Extract, Camphor, and Mint. Fast-acting topical. 50 ml.",
+    "longDescription": "Medicann Cannabis Pain Relief Oil is a Schedule E-1 Ayurvedic proprietary topical medicine formulated with Vijaya (Hemp Leaf) Extract, Hemp Seed Oil, Pudina (Mint), and Kapoor (Camphor) for fast-acting, deep-penetrating pain relief. Designed for back pain, neck pain, muscle and joint discomfort, sprains, and inflammation, it delivers the therapeutic benefits of cannabis topically without requiring a prescription.\n\nAlso available as a Pack of 3 (150 ml) for ongoing treatment needs.",
+    "benefits": "Fast-acting pain relief | Deep-penetrating action | Back and neck pain | Muscle and joint discomfort | Anti-inflammatory | No prescription required",
+    "howToUse": "Apply 2–3 ml to the affected area and massage gently. Use 2–3 times daily or as needed. Shake well before use. For external use only.",
+    "keyIngredients": "Vijaya (Hemp Leaf) Extract, Hemp Seed Oil, Pudina (Mint), Kapoor (Camphor).",
+    "images": {
+      "catalogue": "/images/products/medicann/cannabis-pain-relief-oil-non-rx/catalogue.webp",
+      "hover": "/images/products/medicann/cannabis-pain-relief-oil-non-rx/hover.webp",
+      "gallery": [
+        "/images/products/medicann/cannabis-pain-relief-oil-non-rx/gallery-1.webp",
+        "/images/products/medicann/cannabis-pain-relief-oil-non-rx/gallery-2.webp",
+        "/images/products/medicann/cannabis-pain-relief-oil-non-rx/gallery-3.webp",
+        "/images/products/medicann/cannabis-pain-relief-oil-non-rx/gallery-4.webp",
+        "/images/products/medicann/cannabis-pain-relief-oil-non-rx/gallery-5.webp",
+        "/images/products/medicann/cannabis-pain-relief-oil-non-rx/gallery-6.webp"
+      ]
+    }
+  },
+  {
+    "id": "56",
+    "brand": "Hemplife",
+    "name": "Indi Strong — 150mg Capsules (RX)",
+    "slug": "indi-strong-150mg-capsules-rx",
+    "category": "Chronic Pain / Neuropathic / Mobility",
+    "price": "",
+    "tagline": "Strong enough for serious pain.",
+    "shortDescription": "AYUSH-approved C1:T1 full-spectrum Vijaya capsules. 150mg. Stronger dose for chronic pain. 10 caps.",
+    "longDescription": "Hemplife Indi Strong capsules deliver 150 mg of C1:T1 (CBD:THC balanced) full-spectrum Vijaya extract in a convenient capsule format. AYUSH-approved and manufactured by Hemplife Co. — which blends Ayurvedic wisdom with cannabinoid science — Indi Strong targets chronic and neuropathic pain, muscular spasms, and mobility conditions.\n\nAt 150 mg, Indi Strong provides a more potent dose than Indi Mild, making it suitable for patients with established cannabis tolerance or conditions requiring stronger intervention. Promotes homeostasis, reduces fatigue, and improves sleep quality as secondary benefits.",
+    "benefits": "Chronic pain relief | Neuropathic pain | Muscle spasm reduction | Promotes homeostasis | Reduces fatigue | Improves sleep",
+    "howToUse": "As prescribed by physician. Swallow capsule with water after meals. Start low, increase gradually.",
+    "keyIngredients": "Full Spectrum Vijaya (Cannabis Sativa) Leaf Extract (CBD-dominant, C1:T1), vegetarian capsule shell.",
+    "images": {
+      "catalogue": "/images/products/hemplife/indi-strong-150mg-capsules-rx/catalogue.webp",
+      "hover": "/images/products/hemplife/indi-strong-150mg-capsules-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "57",
+    "brand": "Hemplife",
+    "name": "Indi Mild — 50mg Capsules (RX)",
+    "slug": "indi-mild-50mg-capsules-rx",
+    "category": "Mild Chronic Pain / Stress / Sleep",
+    "price": "",
+    "tagline": "Gentle start. Real results.",
+    "shortDescription": "AYUSH-approved full-spectrum Vijaya capsules. 50mg. Gentle dose for first-time users. 10 caps.",
+    "longDescription": "Hemplife Indi Mild capsules deliver 50 mg of full-spectrum Vijaya extract in a capsule designed for gentle, introductory cannabinoid therapy. AYUSH-approved and ideal for patients new to cannabis medicine or those requiring mild pain and stress management without strong sedative effects.\n\nIndi Mild enables patients to establish their cannabinoid tolerance before progressing to stronger formulations.",
+    "benefits": "Mild chronic pain relief | Stress management | Sleep support | First-time cannabis medicine users | Gentle dosing",
+    "howToUse": "As prescribed by physician. Swallow with water after meals. Begin with low dose.",
+    "keyIngredients": "Full Spectrum Vijaya (Cannabis Sativa) Leaf Extract (mild strength), vegetarian capsule shell.",
+    "images": {
+      "catalogue": "/images/products/hemplife/indi-mild-50mg-capsules-rx/catalogue.webp",
+      "hover": "/images/products/hemplife/indi-mild-50mg-capsules-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "58",
+    "brand": "Hemplife",
+    "name": "Indi30 Tincture — 5ml (RX)",
+    "slug": "indi30-tincture-5ml-rx",
+    "category": "Chronic Pain / Neuropathic / Sciatica",
+    "price": "",
+    "tagline": "30mg/ml. Targeted. Effective.",
+    "shortDescription": "AYUSH-approved C1:T1 Vijaya tincture. 1500mg/5ml. For sciatica, neuralgia, and pain. 5ml.",
+    "longDescription": "Hemplife INDI30 is an AYUSH-approved, all-natural Ayurvedic C1:T1 full-spectrum Vijaya tincture delivering 1500 mg per 5 ml (300 mg/ml). Formulated for sciatica, trigeminal neuralgia, muscular spasms, and general neuropathic pain, INDI30 provides targeted cannabinoid therapy through a convenient sublingual tincture format.\n\nThe C1:T1 ratio balances the analgesic potency of THC with CBD's neuroprotective and anti-anxiety properties, reducing adverse effects while maximising pain relief.",
+    "benefits": "Sciatica management | Trigeminal neuralgia | Muscle spasm relief | Neuropathic pain | Reduces fatigue | Improves sleep and appetite",
+    "howToUse": "Administer sublingually as prescribed. Start low (5 drops), increase gradually every 3–4 days under medical supervision.",
+    "keyIngredients": "Full Spectrum Vijaya (Cannabis Sativa) Leaf Extract (C1:T1), MCT Oil base.",
+    "images": {
+      "catalogue": "/images/products/hemplife/indi30-tincture-5ml-rx/catalogue.webp",
+      "hover": "/images/products/hemplife/indi30-tincture-5ml-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "59",
+    "brand": "Hemplife",
+    "name": "Indi30 Tincture — 10ml & 30ml (RX)",
+    "slug": "indi30-tincture-10ml-30ml-rx",
+    "category": "Chronic Pain / Neuropathic / Sciatica",
+    "price": "",
+    "tagline": "30mg/ml. Sustained therapy.",
+    "shortDescription": "AYUSH-approved C1:T1 Vijaya tincture. 3000mg/10ml or 9000mg/30ml. For sciatica and nerve pain.",
+    "longDescription": "Hemplife INDI30 in 10 ml (3000 mg) and 30 ml (9000 mg) formats provides the same high-quality C1:T1 full-spectrum Vijaya extract for sustained chronic pain management. The larger formats are designed for patients on ongoing therapeutic regimens — reducing frequency of purchase and ensuring consistent supply.\n\nThe 30 ml format represents 90+ days of therapy at standard dosing, making it the most cost-effective option for long-term INDI30 users.",
+    "benefits": "Sciatica and neuralgia management | Sustained chronic pain relief | Muscle spasm relief | Neuropathic pain | Long-term therapy format",
+    "howToUse": "Administer sublingually as prescribed. Start low (5 drops), increase gradually every 3–4 days under medical supervision.",
+    "keyIngredients": "Full Spectrum Vijaya (Cannabis Sativa) Leaf Extract (C1:T1), MCT Oil base.",
+    "images": {
+      "catalogue": "/images/products/hemplife/indi30-tincture-10ml-30ml-rx/catalogue.webp",
+      "hover": "/images/products/hemplife/indi30-tincture-10ml-30ml-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "60",
+    "brand": "Hemplife",
+    "name": "Satv Mild — 50mg Capsules (RX)",
+    "slug": "satv-mild-50mg-capsules-rx",
+    "category": "Inflammation / IBS / Skin / Immune",
+    "price": "",
+    "tagline": "Calm the inflammation. Gently.",
+    "shortDescription": "AYUSH-approved C10:T1 CBD-rich Vijaya capsules. 50mg. For inflammation, IBS, skin. 10 caps.",
+    "longDescription": "Hemplife SATV Mild capsules deliver 50 mg of C10:T1 (CBD-dominant) full-spectrum Vijaya extract — a ratio formulated specifically for conditions driven by inflammation and immune dysregulation. AYUSH-approved and designed for chronic inflammation, IBS, skin diseases (eczema, psoriasis), stress management, and immune resilience.\n\nThe high CBD:THC ratio (10:1) ensures potent anti-inflammatory and immunomodulatory effects without significant psychoactive action, making SATV Mild suitable for daily use and long-term management of inflammatory conditions.",
+    "benefits": "Chronic inflammation relief | IBS management | Skin disease support | Immune resilience | Stress management | CBD-dominant formula",
+    "howToUse": "As prescribed. Swallow capsule with water after meals.",
+    "keyIngredients": "Full Spectrum Vijaya (Cannabis Sativa) Leaf Extract (CBD-rich, C10:T1), vegetarian capsule shell.",
+    "images": {
+      "catalogue": "/images/products/hemplife/satv-mild-50mg-capsules-rx/catalogue.webp",
+      "hover": "/images/products/hemplife/satv-mild-50mg-capsules-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "61",
+    "brand": "Hemplife",
+    "name": "Satv30 Tincture — 10ml (RX)",
+    "slug": "satv30-tincture-10ml-rx",
+    "category": "Inflammation / Immunity / Gut / Skin",
+    "price": "",
+    "tagline": "CBD-powered anti-inflammatory therapy.",
+    "shortDescription": "AYUSH-approved C10:T1 CBD-rich Vijaya tincture. 3000mg/10ml. For inflammation and immunity. 10ml.",
+    "longDescription": "Hemplife SATV30 10 ml is an AYUSH-approved C10:T1 CBD-rich full-spectrum Vijaya tincture (3000 mg/10 ml) — the liquid tincture equivalent of SATV Mild capsules for those who prefer sublingual administration. The 10:1 CBD:THC ratio maximises anti-inflammatory and immunomodulatory effects with minimal psychoactivity.\n\nDesigned for chronic inflammation, autoimmune conditions, gut health, skin diseases, and immune support.",
+    "benefits": "Potent anti-inflammatory | Immune modulation | Gut health support | Skin condition management | CBD-dominant full-spectrum | Rapid sublingual absorption",
+    "howToUse": "Administer sublingually as prescribed. Start with 5 drops, titrate gradually under medical supervision.",
+    "keyIngredients": "Full Spectrum Vijaya (Cannabis Sativa) Leaf Extract (C10:T1, CBD-rich), MCT Oil base.",
+    "images": {
+      "catalogue": "/images/products/hemplife/satv30-tincture-10ml-rx/catalogue.webp",
+      "hover": "/images/products/hemplife/satv30-tincture-10ml-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "62",
+    "brand": "Hemplife",
+    "name": "Satv30 Tincture — 5ml (RX)",
+    "slug": "satv30-tincture-5ml-rx",
+    "category": "Inflammation / Immunity / Gut / Skin",
+    "price": "",
+    "tagline": "Anti-inflammatory. In every drop.",
+    "shortDescription": "AYUSH-approved C10:T1 CBD-rich Vijaya tincture. 1500mg/5ml. Starter or travel size. 5ml.",
+    "longDescription": "Hemplife SATV30 5 ml is the starter or travel size format of the SATV30 tincture — delivering 1500 mg of C10:T1 CBD-rich full-spectrum Vijaya extract in a convenient 5 ml bottle. Ideal for patients beginning SATV30 therapy or requiring a portable format for on-the-go dosing.",
+    "benefits": "Anti-inflammatory | Immune support | Gut health | Skin condition management | Starter / travel format | CBD-dominant",
+    "howToUse": "Administer sublingually as prescribed. Start with 5 drops, titrate gradually under medical supervision.",
+    "keyIngredients": "Full Spectrum Vijaya (Cannabis Sativa) Leaf Extract (C10:T1, CBD-rich), MCT Oil base.",
+    "images": {
+      "catalogue": "/images/products/hemplife/satv30-tincture-5ml-rx/catalogue.webp",
+      "hover": "/images/products/hemplife/satv30-tincture-5ml-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "63",
+    "brand": "Hemplife",
+    "name": "Satv30 Tincture — 30ml (RX)",
+    "slug": "satv30-tincture-30ml-rx",
+    "category": "Inflammation / Immunity / Gut / Skin",
+    "price": "",
+    "tagline": "Long-term anti-inflammatory therapy. Sustained.",
+    "shortDescription": "AYUSH-approved C10:T1 CBD-rich Vijaya tincture. 9000mg/30ml. Long-term treatment format. 30ml.",
+    "longDescription": "Hemplife SATV30 30 ml is the large-format option for ongoing SATV30 anti-inflammatory therapy — delivering 9000 mg of C10:T1 CBD-rich full-spectrum Vijaya extract in a 30 ml bottle. Designed for patients with established dosing regimens requiring sustained supply for long-term conditions.\n\nThe 30 ml format provides 3+ months of standard therapy and represents the best value per dose in the SATV30 range.",
+    "benefits": "Sustained anti-inflammatory therapy | Immune support | Gut health | Skin disease management | CBD-dominant full-spectrum | Best value per dose",
+    "howToUse": "Administer sublingually as prescribed. Start with 5 drops, titrate gradually under medical supervision.",
+    "keyIngredients": "Full Spectrum Vijaya (Cannabis Sativa) Leaf Extract (C10:T1, CBD-rich), MCT Oil base.",
+    "images": {
+      "catalogue": "/images/products/hemplife/satv30-tincture-30ml-rx/catalogue.webp",
+      "hover": "/images/products/hemplife/satv30-tincture-30ml-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "64",
+    "brand": "Hemplife",
+    "name": "Satv Pets Tincture (RX)",
+    "slug": "satv-pets-tincture-rx",
+    "category": "Pet Wellness — Inflammation / Anxiety",
+    "price": "",
+    "tagline": "Calm. Healthy. Happy pet.",
+    "shortDescription": "AYUSH-approved full-spectrum Vijaya extract for pet inflammation, anxiety, and immunity. 500mg/10ml.",
+    "longDescription": "Hemplife SATV Pets is an AYUSH-approved full-spectrum Vijaya extract (500 mg/10 ml) formulated specifically for animals. Pets have an Endocannabinoid System similar to humans, making hemp extract effective for managing inflammation, anxiety, pain, and immune function in dogs and cats.\n\nThe SATV Pets formulation is designed with a pet-appropriate concentration and coconut oil base, ensuring safety and easy administration.",
+    "benefits": "Reduces pet anxiety and stress | Anti-inflammatory for pets | Joint health support | Immune function | Coat and skin improvement",
+    "howToUse": "Consult veterinarian for dosage. Add to pet's food or administer directly into mouth.",
+    "keyIngredients": "Full Spectrum Vijaya (Cannabis Sativa) Leaf Extract, Coconut Oil base.",
+    "images": {
+      "catalogue": "/images/products/hemplife/satv-pets-tincture-rx/catalogue.webp",
+      "hover": "/images/products/hemplife/satv-pets-tincture-rx/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "65",
+    "brand": "SOMA",
+    "name": "Reishi Mushroom Extract (30ml)",
+    "slug": "reishi-mushroom-extract-30ml",
+    "category": "Immunity / Stress / Sleep",
+    "price": "",
+    "tagline": "The mushroom of immortality. In every drop.",
+    "shortDescription": "Dual-extract Reishi mushroom liquid extract. 1:2 potency. For immunity, sleep, and stress. 30ml.",
+    "longDescription": "SOMA Reishi Mushroom Extract by SomaShrooms™ is a premium dual-extract liquid tincture from 100% Ganoderma lucidum fruiting bodies, using both water and alcohol extraction to capture the full spectrum of bioactive compounds — including triterpenes (ganoderic acids) for anti-inflammatory and adaptogenic benefits, and beta-glucans for immune modulation.\n\nReishi, known in Traditional Chinese Medicine as the 'Mushroom of Immortality', has one of the most extensive bodies of scientific research of any medicinal mushroom — with documented benefits for immunity, stress reduction, liver protection, and sleep quality.",
+    "benefits": "Immune modulation | Stress and cortisol reduction | Promotes restful sleep | Liver protection | Anti-inflammatory | Anti-ageing adaptogen | Antibacterial properties",
+    "howToUse": "Add 1 ml (1 full dropper) in water or favourite drinks. Can be taken under tongue. Ideally in evenings to calm down and support good sleep.",
+    "keyIngredients": "Reishi Mushroom (Ganoderma Lucidum) 100% Fruiting Body Extract, Purified Water, Pure Vegetable Glycerine.",
+    "images": {
+      "catalogue": "/images/products/soma/reishi-mushroom-extract-30ml/catalogue.webp",
+      "hover": "/images/products/soma/reishi-mushroom-extract-30ml/hover.webp",
+      "gallery": [
+        "/images/products/soma/reishi-mushroom-extract-30ml/gallery-1.webp",
+        "/images/products/soma/reishi-mushroom-extract-30ml/gallery-2.webp",
+        "/images/products/soma/reishi-mushroom-extract-30ml/gallery-3.webp",
+        "/images/products/soma/reishi-mushroom-extract-30ml/gallery-4.webp"
+      ]
+    }
+  },
+  {
+    "id": "66",
+    "brand": "SOMA",
+    "name": "Turkey Tail Mushroom Extract (30ml)",
+    "slug": "turkey-tail-mushroom-extract-30ml",
+    "category": "Immunity / Gut Health",
+    "price": "",
+    "tagline": "Nature's most studied immune booster.",
+    "shortDescription": "Dual-extract Turkey Tail mushroom liquid extract. PSK/PSP rich. For immunity and gut health. 30ml.",
+    "longDescription": "SOMA Turkey Tail Mushroom Extract by SomaShrooms™ is a dual-extract liquid tincture from 100% Trametes versicolor fruiting bodies. Turkey Tail (Yun Zhi) is one of the most extensively researched medicinal mushrooms globally, with its polysaccharopeptides (PSK and PSP) approved as adjunct cancer care compounds in Japan and China.\n\nRich in beta-glucans and prebiotics that feed beneficial gut bacteria, Turkey Tail delivers powerful immune support, gut microbiome enhancement, and potential adjunct oncological benefits.",
+    "benefits": "Powerful immune enhancement | Gut microbiome support | Prebiotic effect | Anti-cancer adjunct (PSK/PSP) | Anti-viral | Anti-bacterial | Anti-oxidant",
+    "howToUse": "Add 1 ml (1 full dropper) in water or favourite drinks. Can also be taken under the tongue.",
+    "keyIngredients": "Turkey Tail (Trametes versicolor) 100% Fruiting Body Extract, Purified Water, Vegetable Glycerine.",
+    "images": {
+      "catalogue": "/images/products/soma/turkey-tail-mushroom-extract-30ml/catalogue.webp",
+      "hover": "/images/products/soma/turkey-tail-mushroom-extract-30ml/hover.webp",
+      "gallery": [
+        "/images/products/soma/turkey-tail-mushroom-extract-30ml/gallery-1.webp",
+        "/images/products/soma/turkey-tail-mushroom-extract-30ml/gallery-2.webp",
+        "/images/products/soma/turkey-tail-mushroom-extract-30ml/gallery-3.webp",
+        "/images/products/soma/turkey-tail-mushroom-extract-30ml/gallery-4.webp",
+        "/images/products/soma/turkey-tail-mushroom-extract-30ml/gallery-5.webp"
+      ]
+    }
+  },
+  {
+    "id": "67",
+    "brand": "SOMA",
+    "name": "Shiitake Mushroom Extract (30ml)",
+    "slug": "shiitake-mushroom-extract-30ml",
+    "category": "Immunity / Heart / Gut / Skin & Hair",
+    "price": "",
+    "tagline": "From forest to vitality.",
+    "shortDescription": "Dual-extract Shiitake mushroom liquid extract. Lentinan-rich. For immunity, heart, and gut. 30ml.",
+    "longDescription": "SOMA Shiitake Mushroom Extract by SomaShrooms™ is a high-potency 1:2 dual-extract liquid tincture from 100% Lentinula edodes fruiting bodies. Shiitake is the second most consumed mushroom in the world — renowned for its exceptional nutritional and medicinal properties.\n\nThe extract is particularly rich in lentinan (a powerful beta-glucan polysaccharide), eritadenine (which reduces cholesterol), selenium, and B vitamins — delivering immune enhancement, cardiovascular protection, gut health support, and skin and hair nourishment.",
+    "benefits": "Immune enhancement | Cardiovascular protection | Cholesterol management | Gut health | Healthy skin and hair | B vitamin supplementation | Anti-viral",
+    "howToUse": "Add 1 ml (1 full dropper) in water or favourite drinks like herbal tea, coffee, juices, or smoothies. Can be taken under the tongue.",
+    "keyIngredients": "Lentinula edodes (Shiitake) 100% Fruiting Body Extract, Purified Water, Vegetable Glycerine.",
+    "images": {
+      "catalogue": "/images/products/soma/shiitake-mushroom-extract-30ml/catalogue.webp",
+      "hover": "/images/products/soma/shiitake-mushroom-extract-30ml/hover.webp",
+      "gallery": [
+        "/images/products/soma/shiitake-mushroom-extract-30ml/gallery-1.webp",
+        "/images/products/soma/shiitake-mushroom-extract-30ml/gallery-2.webp",
+        "/images/products/soma/shiitake-mushroom-extract-30ml/gallery-3.webp",
+        "/images/products/soma/shiitake-mushroom-extract-30ml/gallery-4.webp"
+      ]
+    }
+  },
+  {
+    "id": "68",
+    "brand": "SOMA",
+    "name": "Lion's Mane Mushroom Extract (30ml)",
+    "slug": "lion-s-mane-mushroom-extract-30ml",
+    "category": "Brain Health / Cognition / Mood",
+    "price": "",
+    "tagline": "Food for your brain. Fuel for your mind.",
+    "shortDescription": "Dual-extract Lion's Mane mushroom liquid extract. Hericenones & erinacines. For brain and cognition. 30ml.",
+    "longDescription": "SOMA Lion's Mane Mushroom Extract by SomaShrooms™ is a concentrated liquid extract from 100% Hericium erinaceus fruiting bodies — the only mushroom known to stimulate Nerve Growth Factor (NGF) and Brain-Derived Neurotrophic Factor (BDNF) production, supporting neurogenesis and synaptic plasticity.\n\nRich in hericenones (from fruiting body) and erinacines (from mycelium), Lion's Mane is clinically studied for memory improvement, cognitive enhancement, anxiety and depression reduction, and potential neuroprotective benefits for neurodegenerative conditions. A true natural nootropic.",
+    "benefits": "Stimulates NGF and BDNF production | Memory and cognition enhancement | Anxiety and depression reduction | Neuroprotective | Creativity and focus | Mood improvement | Gut-brain axis support",
+    "howToUse": "Add 1 ml (1 full dropper) in water or favourite drinks like protein shakes, green tea, coffee, or smoothies. Can be taken under tongue. Ideal for the entire family.",
+    "keyIngredients": "Lion's Mane (Hericium Erinaceus) 100% Fruiting Body Extract, Purified Water, Pure Vegetable Glycerine.",
+    "images": {
+      "catalogue": "/images/products/soma/lion-s-mane-mushroom-extract-30ml/catalogue.webp",
+      "hover": "/images/products/soma/lion-s-mane-mushroom-extract-30ml/hover.webp",
+      "gallery": [
+        "/images/products/soma/lion-s-mane-mushroom-extract-30ml/gallery-1.webp",
+        "/images/products/soma/lion-s-mane-mushroom-extract-30ml/gallery-2.webp",
+        "/images/products/soma/lion-s-mane-mushroom-extract-30ml/gallery-3.webp"
+      ]
+    }
+  },
+  {
+    "id": "69",
+    "brand": "SOMA",
+    "name": "Cordyceps Militaris Extract (30ml)",
+    "slug": "cordyceps-militaris-extract-30ml",
+    "category": "Energy / Stamina / Respiratory",
+    "price": "",
+    "tagline": "Energy from nature. Power from within.",
+    "shortDescription": "Dual-extract Cordyceps Militaris liquid extract. Cordycepin-rich. For energy and stamina. 30ml.",
+    "longDescription": "SOMA Cordyceps Militaris Extract by SomaShrooms™ is a dual-extract liquid tincture from 100% cultivated Cordyceps militaris fruiting bodies, using Ultrasonic-Assisted Extraction (UAE) for maximum cordycepin bioavailability. Cordyceps is the premier adaptogenic mushroom for physical performance — clinically shown to improve ATP synthesis, oxygen utilisation (VO2 max), and mitochondrial function.\n\nNaturally cultivated on vegan substrates (not insects), SOMA Cordyceps is free from ethical concerns associated with wild-harvested Cordyceps sinensis.",
+    "benefits": "Increases ATP energy production | Improves VO2 max | Enhances stamina and endurance | Respiratory support | Adaptogenic stress resilience | Libido and vitality | Anti-fatigue",
+    "howToUse": "Add 1 ml (1 full dropper) in water or favourite drinks like protein shakes, green tea, coffee. Ideally in the morning.",
+    "keyIngredients": "Cordyceps Militaris 100% Fruiting Body Extract, Purified Water, Pure Vegetable Glycerine.",
+    "images": {
+      "catalogue": "/images/products/soma/cordyceps-militaris-extract-30ml/catalogue.webp",
+      "hover": "/images/products/soma/cordyceps-militaris-extract-30ml/hover.webp",
+      "gallery": [
+        "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-1.webp",
+        "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-2.webp",
+        "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-3.webp",
+        "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-4.webp",
+        "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-5.webp",
+        "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-6.webp",
+        "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-7.webp",
+        "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-8.webp",
+        "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-9.webp",
+        "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-10.webp",
+        "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-11.webp",
+        "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-12.webp"
+      ]
+    }
+  },
+  {
+    "id": "70",
+    "brand": "SOMA",
+    "name": "Soma Synergy 6-Shroom Blend (30ml)",
+    "slug": "soma-synergy-6-shroom-blend-30ml",
+    "category": "Immunity / Brain / Energy / Gut",
+    "price": "",
+    "tagline": "Six mushrooms. One synergy.",
+    "shortDescription": "6-mushroom dual-extract blend: Lion's Mane, Reishi, Cordyceps, Shiitake, Turkey Tail, Chaga. 30ml.",
+    "longDescription": "SOMA Synergy by SomaShrooms™ is the flagship 6-mushroom dual-extract blend — combining Lion's Mane, Reishi, Cordyceps Militaris, Shiitake, Turkey Tail, and Chaga into one comprehensive functional mushroom supplement. Each mushroom contributes unique bioactive compounds, and their synergistic combination amplifies individual benefits across immunity, brain, energy, gut, and longevity pathways.\n\nFor the wellness enthusiast who wants comprehensive mushroom supplementation in a single daily dose, Soma Synergy delivers the full spectrum of functional mushroom benefits.",
+    "benefits": "Comprehensive immunity support | Brain and cognitive function | Physical energy and stamina | Gut health | Anti-oxidant and anti-ageing | All six premium medicinal mushrooms in one",
+    "howToUse": "Add 1 ml (1 full dropper) in water or favourite drinks. Can be taken under the tongue.",
+    "keyIngredients": "Lion's Mane, Cordyceps Militaris, Reishi, Turkey Tail, Shiitake and Chaga Mushroom Extracts. Purified Water, Vegetable Glycerin.",
+    "images": {
+      "catalogue": "/images/products/soma/soma-synergy-6-shroom-blend-30ml/catalogue.webp",
+      "hover": "/images/products/soma/soma-synergy-6-shroom-blend-30ml/hover.webp",
+      "gallery": [
+        "/images/products/soma/soma-synergy-6-shroom-blend-30ml/gallery-1.webp",
+        "/images/products/soma/soma-synergy-6-shroom-blend-30ml/gallery-2.webp",
+        "/images/products/soma/soma-synergy-6-shroom-blend-30ml/gallery-3.webp",
+        "/images/products/soma/soma-synergy-6-shroom-blend-30ml/gallery-4.webp"
+      ]
+    }
+  },
+  {
+    "id": "71",
+    "brand": "SOMA",
+    "name": "Cordyceps Militaris — Dried Whole (10g)",
+    "slug": "cordyceps-militaris-dried-whole-10g",
+    "category": "Energy / Immunity / Adaptogenic",
+    "price": "",
+    "tagline": "Whole mushroom. Whole power.",
+    "shortDescription": "100% pure dried Cordyceps Militaris whole. Adaptogenic energy and stamina. 10g.",
+    "longDescription": "SOMA Dried Cordyceps Militaris by SomaShrooms™ are 100% pure dried Cordyceps militaris fruiting bodies — the whole mushroom preserved at the peak of its bioactive potential. Cordyceps is Ayurveda's and Traditional Chinese Medicine's foremost adaptogen for physical energy, respiratory strength, and immune resilience.\n\nCultivated on vegan substrates and sun-dried to preserve cordycepin, adenosine, and polysaccharides, SOMA Dried Cordyceps can be steeped as a tea, added to broths, or used in traditional preparations.",
+    "benefits": "Natural energy and stamina boost | Respiratory health | Immune support | Adaptogenic stress resistance | Libido and vitality",
+    "howToUse": "Add 5–7 whole dried Cordyceps to hot water and steep for 10–15 minutes for a nourishing tea. Or use in soups, broths, or tincture preparations. Consume daily or as needed.",
+    "keyIngredients": "Cordyceps Militaris Dried Whole — 100% pure.",
+    "images": {
+      "catalogue": "/images/products/soma/cordyceps-militaris-dried-whole-10g/catalogue.webp",
+      "hover": "/images/products/soma/cordyceps-militaris-dried-whole-10g/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "73",
+    "brand": "SOMA",
+    "name": "Lion's Mane Mushroom Powder (50g)",
+    "slug": "lion-s-mane-mushroom-powder-50g",
+    "category": "Brain / Cognition / Nerve Health",
+    "price": "",
+    "tagline": "Daily brain fuel. One scoop at a time.",
+    "shortDescription": "100% Lion's Mane mushroom powder from fruiting bodies. Nootropic. For memory and focus. 50g.",
+    "longDescription": "SOMA Lion's Mane Mushroom Powder by SomaShrooms™ is a premium nootropic powder made exclusively from 100% dried Hericium erinaceus fruiting bodies — free from mycelium or fillers. Each teaspoon delivers concentrated hericenones, erinacines, beta-glucans, and polysaccharides for daily cognitive support.\n\nSimply mixed into any beverage, Lion's Mane Powder makes daily nootropic supplementation effortless. Ideal for students, professionals, and anyone seeking natural cognitive enhancement.",
+    "benefits": "Memory enhancement | Improved focus and concentration | NGF stimulation | Anxiety and depression reduction | Daily nootropic | Easy to mix format",
+    "howToUse": "Add 1 teaspoon (2–3 g) to coffee, smoothie, tea, or any beverage. Mix well and consume consistently. Best in the morning or early afternoon. Avoid boiling to preserve active compounds.",
+    "keyIngredients": "Lion's Mane (Hericium erinaceus) Dried Whole — 100% pure mushroom powder.",
+    "images": {
+      "catalogue": "/images/products/soma/lion-s-mane-mushroom-powder-50g/catalogue.webp",
+      "hover": "/images/products/soma/lion-s-mane-mushroom-powder-50g/hover.webp",
+      "gallery": [
+        "/images/products/soma/lion-s-mane-mushroom-powder-50g/gallery-1.webp",
+        "/images/products/soma/lion-s-mane-mushroom-powder-50g/gallery-2.webp",
+        "/images/products/soma/lion-s-mane-mushroom-powder-50g/gallery-3.webp",
+        "/images/products/soma/lion-s-mane-mushroom-powder-50g/gallery-4.webp"
+      ]
+    }
+  },
+  {
+    "id": "74",
+    "brand": "SOMA",
+    "name": "Reishi Mushroom Powder (50g)",
+    "slug": "reishi-mushroom-powder-50g",
+    "category": "Immunity / Stress / Sleep",
+    "price": "",
+    "tagline": "Ancient wisdom in every spoon.",
+    "shortDescription": "100% Reishi mushroom powder from fruiting bodies. Immune and sleep support. 50g.",
+    "longDescription": "SOMA Reishi Mushroom Powder by SomaShrooms™ is made from 100% dried Ganoderma lucidum fruiting bodies — the 'Mushroom of Immortality' in a convenient daily powder format. Rich in triterpenes and beta-glucans, the powder supports immune modulation, adaptogenic stress relief, liver health, and sleep quality.\n\nSimply stirred into warm drinks, Reishi Powder makes the therapeutic benefits of this revered medicinal mushroom accessible as part of any daily wellness routine.",
+    "benefits": "Immune modulation | Stress and cortisol reduction | Improved sleep | Liver protection | Anti-ageing adaptogen | Anti-inflammatory",
+    "howToUse": "Add 1 teaspoon (2–3 g) to herbal tea, coffee, warm milk, or smoothies. Consume once daily for best results. Avoid boiling.",
+    "keyIngredients": "Reishi (Ganoderma lucidum) Dried Whole — 100% pure mushroom powder.",
+    "images": {
+      "catalogue": "/images/products/soma/reishi-mushroom-powder-50g/catalogue.webp",
+      "hover": "/images/products/soma/reishi-mushroom-powder-50g/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "75",
+    "brand": "SOMA",
+    "name": "Oyster Mushroom Powder (100g)",
+    "slug": "oyster-mushroom-powder-100g",
+    "category": "Immunity / Gut / Nutrition",
+    "price": "",
+    "tagline": "Nutrition in every serving.",
+    "shortDescription": "100% Oyster mushroom powder. Beta-glucan rich. For immunity and gut health. 100g.",
+    "longDescription": "SOMA Oyster Mushroom Powder by SomaShrooms™ is made from 100% dried Pleurotus ostreatus — a widely loved culinary mushroom that is also a nutritional powerhouse. Rich in beta-glucans, selenium, B vitamins, and dietary fibre, Oyster Mushroom Powder supports immune health, gut microbiome diversity, and cardiovascular wellness while adding a mild, savoury umami flavour to foods.\n\nWith 100 g per pack at ₹250, it's the most affordable way to incorporate functional mushroom nutrition into daily life.",
+    "benefits": "Immune support | Gut microbiome support | Beta-glucan nutrition | B vitamins | Selenium antioxidant | Cardiovascular health | Culinary versatility",
+    "howToUse": "Add 1 teaspoon (2–3 g) of Oyster Mushroom Powder daily to smoothies, soups, teas, or any recipe. Mix well. Avoid boiling to preserve nutrients.",
+    "keyIngredients": "Oyster (Pleurotus ostreatus) Mushroom Whole — 100% dried powder.",
+    "images": {
+      "catalogue": "/images/products/soma/oyster-mushroom-powder-100g/catalogue.webp",
+      "hover": "/images/products/soma/oyster-mushroom-powder-100g/hover.webp",
+      "gallery": [
+        "/images/products/soma/oyster-mushroom-powder-100g/gallery-1.webp",
+        "/images/products/soma/oyster-mushroom-powder-100g/gallery-2.webp",
+        "/images/products/soma/oyster-mushroom-powder-100g/gallery-3.webp",
+        "/images/products/soma/oyster-mushroom-powder-100g/gallery-4.webp",
+        "/images/products/soma/oyster-mushroom-powder-100g/gallery-5.webp",
+        "/images/products/soma/oyster-mushroom-powder-100g/gallery-6.webp",
+        "/images/products/soma/oyster-mushroom-powder-100g/gallery-7.webp",
+        "/images/products/soma/oyster-mushroom-powder-100g/gallery-8.webp"
+      ]
+    }
+  },
+  {
+    "id": "76",
+    "brand": "SOMA",
+    "name": "Shiitake Mushroom — Dried (50g)",
+    "slug": "shiitake-mushroom-dried-50g",
+    "category": "Immunity / Heart / Gut",
+    "price": "",
+    "tagline": "Umami. Wellness. Perfected.",
+    "shortDescription": "100% pure dried Shiitake mushrooms. Rich umami flavour. Immune and heart health. 50g.",
+    "longDescription": "SOMA Shiitake Mushroom Dried by SomaShrooms™ are 100% pure dried Lentinula edodes — the world's most beloved culinary medicinal mushroom. Sun-dried to preserve their rich umami flavour, meaty texture, and full lentinan (immune-boosting beta-glucan) content, SOMA Dried Shiitake brings both exceptional culinary quality and therapeutic value to the kitchen.\n\nUsed in stir-fries, soups, broths, and grilled preparations, Dried Shiitake delivers the dual benefit of gourmet cooking enhancement and daily immune support.",
+    "benefits": "Rich umami culinary flavour | Immune enhancement via lentinan | Cardiovascular protection | Cholesterol management | Gut health | Vitamin D and B vitamins",
+    "howToUse": "Rehydrate dried Shiitake in warm water for 30–45 minutes; squeeze gently. Ready for any dish.",
+    "keyIngredients": "Lentinula edodes (Shiitake) — 100% dried whole mushroom.",
+    "images": {
+      "catalogue": "/images/products/soma/shiitake-mushroom-dried-50g/catalogue.webp",
+      "hover": "/images/products/soma/shiitake-mushroom-dried-50g/hover.webp",
+      "gallery": [
+        "/images/products/soma/shiitake-mushroom-dried-50g/gallery-1.webp",
+        "/images/products/soma/shiitake-mushroom-dried-50g/gallery-2.webp",
+        "/images/products/soma/shiitake-mushroom-dried-50g/gallery-3.webp",
+        "/images/products/soma/shiitake-mushroom-dried-50g/gallery-4.webp",
+        "/images/products/soma/shiitake-mushroom-dried-50g/gallery-5.webp",
+        "/images/products/soma/shiitake-mushroom-dried-50g/gallery-6.webp",
+        "/images/products/soma/shiitake-mushroom-dried-50g/gallery-7.webp",
+        "/images/products/soma/shiitake-mushroom-dried-50g/gallery-8.webp"
+      ]
+    }
+  },
+  {
+    "id": "92",
+    "brand": "Langoor",
+    "name": "Himalayan Smoking Herbs — Earth Mix",
+    "slug": "himalayan-smoking-herbs-earth-mix",
+    "category": "Herbal Lifestyle / Tobacco Alternative",
+    "price": "",
+    "tagline": "Ground yourself. Naturally.",
+    "shortDescription": "Earth Mix — earthy tobacco-free herbal smoke blend. Mullein, Chamomile, Calendula. 10g.",
+    "longDescription": "Langoor Earth Mix is an earthy, grounding tobacco-free herbal smoking blend for everyday use. Designed for those who enjoy the ritual of rolling and smoking but seek to move away from nicotine and tobacco, Earth Mix delivers a satisfying, mild, and balanced smoke experience.\n\nThe Mullein base provides smooth, lung-friendly smoke; Chamomile and Calendula add gentle warmth and calm; Raspberry Leaf gives body and structure; Nettle provides mineral richness; and Stevia adds a natural sweetness. Entirely free from nicotine, chemicals, and additives.",
+    "benefits": "Nicotine-free tobacco alternative | Smooth Mullein base | Grounding and calm | Natural herbal smoke ritual | Non-addictive | 100% natural ingredients",
+    "howToUse": "Roll solo or blend with other mixes. Use as a tobacco replacement in rolling papers or a pipe.",
+    "keyIngredients": "Mullein (lung-friendly), Stevia (natural sweetness), Raspberry Leaf (body and structure), Chamomile (smooths and calms), Calendula (warmth, anti-inflammatory), Nettle (mineral-rich, grounding).",
+    "images": {
+      "catalogue": "/images/products/langoor/himalayan-smoking-herbs-earth-mix/catalogue.webp",
+      "hover": "/images/products/langoor/himalayan-smoking-herbs-earth-mix/hover.webp",
+      "gallery": [
+        "/images/products/langoor/himalayan-smoking-herbs-earth-mix/gallery-1.webp",
+        "/images/products/langoor/himalayan-smoking-herbs-earth-mix/gallery-2.webp",
+        "/images/products/langoor/himalayan-smoking-herbs-earth-mix/gallery-3.webp"
+      ]
+    }
+  },
+  {
+    "id": "93",
+    "brand": "Langoor",
+    "name": "Himalayan Smoking Herbs — Moon Mix",
+    "slug": "himalayan-smoking-herbs-moon-mix",
+    "category": "Herbal Lifestyle / Tobacco Alternative",
+    "price": "",
+    "tagline": "Wind down. Switch off.",
+    "shortDescription": "Moon Mix — calming tobacco-free herbal smoke blend. Lavender, Blue Pea Flower, Chamomile. 10g.",
+    "longDescription": "Langoor Moon Mix is a light, mellow, calming tobacco-free herbal smoking blend designed for unwinding, relaxation, and easing the edge at the end of the day. The floral-forward formula combines Lavender's nervous system calming action, Blue Pea Flower's gentle sedative properties, and Chamomile's body-relaxing effects in a smooth, Mullein-based smoke.\n\nFor those who use smoking as a stress relief ritual, Moon Mix provides the comfort of the ritual without nicotine or harmful chemicals.",
+    "benefits": "Calming and relaxing | Nervous system support | Sleep-supportive herbs | Smooth light smoke | Nicotine-free | Natural stress ritual replacement",
+    "howToUse": "Roll solo for a calming experience or blend with other mixes to soften. Use in rolling papers or a pipe.",
+    "keyIngredients": "Mullein (smooth airway support), Stevia (natural sweetness), Raspberry Leaf (body and balance), Blue Pea Flower (calming, soft floral), Lavender (tension relief, nervous system relaxation), Chamomile (calms body and mind).",
+    "images": {
+      "catalogue": "/images/products/langoor/himalayan-smoking-herbs-moon-mix/catalogue.webp",
+      "hover": "/images/products/langoor/himalayan-smoking-herbs-moon-mix/hover.webp",
+      "gallery": [
+        "/images/products/langoor/himalayan-smoking-herbs-moon-mix/gallery-1.webp",
+        "/images/products/langoor/himalayan-smoking-herbs-moon-mix/gallery-2.webp",
+        "/images/products/langoor/himalayan-smoking-herbs-moon-mix/gallery-3.webp"
+      ]
+    }
+  },
+  {
+    "id": "94",
+    "brand": "Langoor",
+    "name": "Himalayan Smoking Herbs — Snow Mix",
+    "slug": "himalayan-smoking-herbs-snow-mix",
+    "category": "Herbal Lifestyle / Tobacco Alternative",
+    "price": "",
+    "tagline": "Clear your head. Cool your fire.",
+    "shortDescription": "Snow Mix — energising mint tobacco-free herbal smoke blend. Spearmint, Peppermint, Rhododendron. 10g.",
+    "longDescription": "Langoor Snow Mix is a stimulating, refreshing, mint-forward tobacco-free herbal smoking blend for clarity, freshness, and a cool energy lift. The combination of Spearmint and Peppermint delivers an immediate cooling, clearing sensation reminiscent of menthol cigarettes — without nicotine or tobacco.\n\nRhododendron adds an aromatic floral complexity, while Nettle provides grounding minerals and Mullein ensures a smooth, lung-friendly base. Perfect for those transitioning from menthol cigarettes.",
+    "benefits": "Refreshing and clearing | Cooling menthol-like sensation | Stimulating and energising | Menthol cigarette alternative | Nicotine-free | Natural herbal clarity",
+    "howToUse": "Roll solo for a cool, refreshing experience or blend into other mixes for a menthol edge. Use in rolling papers or a pipe.",
+    "keyIngredients": "Mullein (lung-friendly base), Stevia (softens sharp edges), Rhododendron (aromatic light floral), Spearmint (cooling and uplifting), Peppermint (menthol edge, clearing), Nettle (mineral-rich anchor).",
+    "images": {
+      "catalogue": "/images/products/langoor/himalayan-smoking-herbs-snow-mix/catalogue.webp",
+      "hover": "/images/products/langoor/himalayan-smoking-herbs-snow-mix/hover.webp",
+      "gallery": [
+        "/images/products/langoor/himalayan-smoking-herbs-snow-mix/gallery-1.webp",
+        "/images/products/langoor/himalayan-smoking-herbs-snow-mix/gallery-2.webp",
+        "/images/products/langoor/himalayan-smoking-herbs-snow-mix/gallery-3.webp"
+      ]
+    }
+  },
+  {
+    "id": "95",
+    "brand": "Langoor",
+    "name": "Himalayan Smoking Herbs — Sun Mix",
+    "slug": "himalayan-smoking-herbs-sun-mix",
+    "category": "Herbal Lifestyle / Tobacco Alternative",
+    "price": "",
+    "tagline": "Bold. Bright. Unapologetically you.",
+    "shortDescription": "Sun Mix — bold full-bodied tobacco-free herbal smoke blend. Jasmine, Hibiscus, Mugwort. 10g.",
+    "longDescription": "Langoor Sun Mix is a bold, full-bodied, uplifting tobacco-free herbal smoking blend for those who want a strong, punchy tobacco replacement. Jasmine adds a smooth floral note; Hibiscus brings a bold, tart edge; Calendula provides warming anti-inflammatory properties; and Mugwort — traditionally used in smoke rituals across cultures — adds a distinctive, rich aroma.\n\nFor those who smoked full-flavoured cigarettes and seek a bold, satisfying tobacco-free alternative.",
+    "benefits": "Bold full-bodied tobacco replacement | Uplifting and energising | Rich aroma from Mugwort | Hibiscus and Jasmine complexity | Nicotine-free | Strong satisfying smoke",
+    "howToUse": "Roll solo for a full-bodied tobacco-replacement experience or blend with other mixes for extra punch. Use in rolling papers or a pipe.",
+    "keyIngredients": "Mullein (lung-friendly airway support), Stevia (natural sweetness), Jasmine (smooth floral note), Hibiscus (bold, tart edge), Calendula (warmth, anti-inflammatory), Mugwort (distinctive aroma, used in smoke rituals).",
+    "images": {
+      "catalogue": "/images/products/langoor/himalayan-smoking-herbs-sun-mix/catalogue.webp",
+      "hover": "/images/products/langoor/himalayan-smoking-herbs-sun-mix/hover.webp",
+      "gallery": [
+        "/images/products/langoor/himalayan-smoking-herbs-sun-mix/gallery-1.webp",
+        "/images/products/langoor/himalayan-smoking-herbs-sun-mix/gallery-2.webp",
+        "/images/products/langoor/himalayan-smoking-herbs-sun-mix/gallery-3.webp"
+      ]
+    }
+  },
+  {
+    "id": "96",
+    "brand": "Dweller",
+    "name": "Lakadong Turmeric with Star Anise",
+    "slug": "lakadong-turmeric-with-star-anise",
+    "category": "Wellness / Anti-Inflammatory",
+    "price": "",
+    "tagline": "The world's most potent turmeric. From Meghalaya.",
+    "shortDescription": "Premium Lakadong turmeric (highest curcumin) blended with aromatic star anise. Anti-inflammatory daily spice. 6g/36g.",
+    "longDescription": "Dweller Lakadong Turmeric with Star Anise is a premium wellness spice blend combining Lakadong turmeric — sourced from Meghalaya's Jaintia Hills and known for its exceptional curcumin content (6–8% vs the standard 2–3%) — with aromatic Star Anise.\n\nLakadong turmeric's superior curcumin concentration makes it the gold standard for anti-inflammatory, antioxidant, and immune-boosting supplementation. Star Anise adds complementary anti-bacterial and digestive benefits. A daily golden milk or spice addition that harnesses the most potent form of nature's most studied anti-inflammatory compound.",
+    "benefits": "Potent anti-inflammatory | High curcumin (6-8%) | Antioxidant protection | Immune support | Digestive aid | Joint health support | Brain health",
+    "howToUse": "Add to warm milk (golden milk), tea, smoothies, or food as a daily wellness spice. 1/4 tsp daily recommended.",
+    "keyIngredients": "Lakadong Turmeric (Curcuma longa, high curcumin content), Star Anise (Illicium verum).",
+    "images": {
+      "catalogue": "/images/products/tea/lakadong-turmeric-with-star-anise/catalogue.webp",
+      "hover": "/images/products/tea/lakadong-turmeric-with-star-anise/hover.webp",
+      "gallery": [
+        "/images/products/tea/lakadong-turmeric-with-star-anise/gallery-1.webp",
+        "/images/products/tea/lakadong-turmeric-with-star-anise/gallery-2.webp",
+        "/images/products/tea/lakadong-turmeric-with-star-anise/gallery-3.webp",
+        "/images/products/tea/lakadong-turmeric-with-star-anise/gallery-4.webp",
+        "/images/products/tea/lakadong-turmeric-with-star-anise/gallery-5.webp",
+        "/images/products/tea/lakadong-turmeric-with-star-anise/gallery-6.webp"
+      ]
+    }
+  },
+  {
+    "id": "97",
+    "brand": "Dweller",
+    "name": "Sumac Berry Tea",
+    "slug": "sumac-berry-tea",
+    "category": "Wellness / Antioxidant",
+    "price": "",
+    "tagline": "Tart. Refreshing. Antioxidant-rich.",
+    "shortDescription": "Antioxidant-rich Sumac Berry herbal tea from North-East India. Polyphenol-rich. 6g/36g.",
+    "longDescription": "Dweller Sumac Berry Tea is an antioxidant-rich herbal infusion featuring sumac berries (Rhus coriaria) sourced from the lush landscapes of North-East India. Sumac has one of the highest ORAC (antioxidant) scores of any spice, making it exceptionally rich in polyphenols, tannins, and flavonoids.\n\nThe naturally tart, cranberry-like flavour makes Sumac Berry Tea both therapeutically valuable and a genuinely enjoyable beverage — a rare combination in functional wellness teas.",
+    "benefits": "Potent antioxidant (high ORAC score) | Anti-inflammatory | Supports blood sugar regulation | Digestive wellness | Antimicrobial | Vitamin C rich",
+    "howToUse": "Steep 1 bag or teaspoon in hot water for 3–5 minutes. Consume 1–2 cups daily.",
+    "keyIngredients": "Sumac Berry (Rhus coriaria), herbal tea base.",
+    "images": {
+      "catalogue": "/images/products/tea/sumac-berry-tea/catalogue.webp",
+      "hover": "/images/products/tea/sumac-berry-tea/hover.webp",
+      "gallery": [
+        "/images/products/tea/sumac-berry-tea/gallery-1.webp",
+        "/images/products/tea/sumac-berry-tea/gallery-2.webp",
+        "/images/products/tea/sumac-berry-tea/gallery-3.webp",
+        "/images/products/tea/sumac-berry-tea/gallery-4.webp",
+        "/images/products/tea/sumac-berry-tea/gallery-5.webp",
+        "/images/products/tea/sumac-berry-tea/gallery-6.webp",
+        "/images/products/tea/sumac-berry-tea/gallery-7.webp"
+      ]
+    }
+  },
+  {
+    "id": "98",
+    "brand": "Dweller",
+    "name": "Ginger Green Tea",
+    "slug": "ginger-green-tea",
+    "category": "Wellness / Energy / Digestion",
+    "price": "",
+    "tagline": "Wake up. Tune in.",
+    "shortDescription": "Energising single-origin green tea with fresh ginger from North-East India. Digestive and immunity support. 6g/36g.",
+    "longDescription": "Dweller Ginger Green Tea is a vibrant, energising single-origin green tea from the pristine tea gardens of North-East India, blended with warming fresh ginger. Green tea's EGCG (epigallocatechin gallate) combined with ginger's gingerols creates a synergistic anti-inflammatory and metabolic health duo.\n\nThe combination is particularly effective for digestive support, immunity, and gentle weight management — delivering a fresh, spicy morning cup with functional benefits.",
+    "benefits": "Digestive support | Immune boost | Metabolism support | EGCG antioxidants | Ginger anti-inflammatory | Weight management support | Gentle energy from green tea caffeine",
+    "howToUse": "Steep 1 bag or teaspoon in water at 80°C for 2–3 minutes. Do not oversteep.",
+    "keyIngredients": "Green Tea leaves (Camellia sinensis), Ginger (Zingiber officinale).",
+    "images": {
+      "catalogue": "/images/products/tea/ginger-green-tea/catalogue.webp",
+      "hover": "/images/products/tea/ginger-green-tea/hover.webp",
+      "gallery": [
+        "/images/products/tea/ginger-green-tea/gallery-1.webp",
+        "/images/products/tea/ginger-green-tea/gallery-2.webp",
+        "/images/products/tea/ginger-green-tea/gallery-3.webp",
+        "/images/products/tea/ginger-green-tea/gallery-4.webp",
+        "/images/products/tea/ginger-green-tea/gallery-5.webp",
+        "/images/products/tea/ginger-green-tea/gallery-6.webp"
+      ]
+    }
+  },
+  {
+    "id": "99",
+    "brand": "Dweller",
+    "name": "Classic Black Tea",
+    "slug": "classic-black-tea",
+    "category": "Wellness / Energy",
+    "price": "",
+    "tagline": "Pure. Robust. North-Eastern.",
+    "shortDescription": "Premium single-origin Assam/North-East black tea. Full-bodied and robust. 6g/36g.",
+    "longDescription": "Dweller Classic Black Tea is a premium single-origin black tea sourced from the finest tea gardens of Assam and North-East India — the world's most recognised black tea region. Full-bodied, robust, and rich in flavour, it delivers the quintessential Indian tea experience with the quality assurance of direct, ethical sourcing from small-scale North-Eastern tea farmers.\n\nRich in theaflavins, thearubigins, and L-theanine, Dweller Classic Black Tea supports heart health, cognitive focus, and immune function alongside its rich flavour profile.",
+    "benefits": "Rich robust flavour | Heart health support | Cognitive focus via L-theanine | Antioxidant theaflavins | Immune support | Ethical North-Eastern sourcing",
+    "howToUse": "Steep 1 bag or teaspoon in boiling water for 3–5 minutes. Add milk or honey as desired.",
+    "keyIngredients": "Black Tea leaves (Camellia sinensis).",
+    "images": {
+      "catalogue": "/images/products/tea/classic-black-tea/catalogue.webp",
+      "hover": "/images/products/tea/classic-black-tea/hover.webp",
+      "gallery": [
+        "/images/products/tea/classic-black-tea/gallery-1.webp",
+        "/images/products/tea/classic-black-tea/gallery-2.webp",
+        "/images/products/tea/classic-black-tea/gallery-3.webp",
+        "/images/products/tea/classic-black-tea/gallery-4.webp",
+        "/images/products/tea/classic-black-tea/gallery-5.webp"
+      ]
+    }
+  },
+  {
+    "id": "100",
+    "brand": "Dweller",
+    "name": "Lemongrass Ginger Tea",
+    "slug": "lemongrass-ginger-tea",
+    "category": "Wellness / Digestion / Relaxation",
+    "price": "",
+    "tagline": "Refresh. Soothe. Reset.",
+    "shortDescription": "Refreshing caffeine-free Lemongrass and Ginger herbal tea from North-East India. Digestive and relaxation support. 6g/36g.",
+    "longDescription": "Dweller Lemongrass Ginger Tea is a caffeine-free, naturally soothing herbal infusion combining fragrant lemongrass and warming ginger from North-East India. Lemongrass contains citral, which has documented anti-anxiety, anti-inflammatory, and digestive benefits; ginger adds gingerol-powered digestive and anti-nausea support.\n\nTogether, they create a naturally sweet, citrusy, warming tea that can be enjoyed at any time of day — particularly effective after meals for digestive wellness.",
+    "benefits": "Digestive support | Anti-nausea | Anti-anxiety | Anti-inflammatory | Caffeine-free | Naturally sweetened | Suitable any time of day",
+    "howToUse": "Steep in hot water for 5 minutes. Consume warm 1–2 times daily.",
+    "keyIngredients": "Lemongrass (Cymbopogon citratus), Ginger (Zingiber officinale).",
+    "images": {
+      "catalogue": "/images/products/tea/lemongrass-ginger-tea/catalogue.webp",
+      "hover": "/images/products/tea/lemongrass-ginger-tea/hover.webp",
+      "gallery": [
+        "/images/products/tea/lemongrass-ginger-tea/gallery-1.webp",
+        "/images/products/tea/lemongrass-ginger-tea/gallery-2.webp",
+        "/images/products/tea/lemongrass-ginger-tea/gallery-3.webp",
+        "/images/products/tea/lemongrass-ginger-tea/gallery-4.webp",
+        "/images/products/tea/lemongrass-ginger-tea/gallery-5.webp",
+        "/images/products/tea/lemongrass-ginger-tea/gallery-6.webp"
+      ]
+    }
+  },
+  {
+    "id": "101",
+    "brand": "Dweller",
+    "name": "Green Tea with Lotus Leaf",
+    "slug": "green-tea-with-lotus-leaf",
+    "category": "Wellness / Antioxidant / Calming",
+    "price": "",
+    "tagline": "Calm focus. Natural clarity.",
+    "shortDescription": "Calming antioxidant green tea with Lotus Leaf from North-East India. Metabolism and focus support. 6g/36g.",
+    "longDescription": "Dweller Green Tea with Lotus Leaf is a calming, antioxidant-rich green tea infused with Lotus Leaf (Nelumbo nucifera) — a botanical revered in both Ayurveda and Traditional Chinese Medicine for its metabolism-boosting, calming, and lipid-reducing properties.\n\nThe combination of green tea's EGCG with Lotus Leaf's nuciferine creates a synergistic blend for weight management, mental calm, focus, and antioxidant protection.",
+    "benefits": "Metabolism support | Mental calm and focus | EGCG antioxidant | Lotus Leaf nuciferine | Lipid management | Caffeine for alertness without jitters",
+    "howToUse": "Steep in water at 80°C for 2–3 minutes. Best consumed without milk.",
+    "keyIngredients": "Green Tea leaves (Camellia sinensis), Lotus Leaf (Nelumbo nucifera).",
+    "images": {
+      "catalogue": "/images/products/tea/green-tea-with-lotus-leaf/catalogue.webp",
+      "hover": "/images/products/tea/green-tea-with-lotus-leaf/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "102",
+    "brand": "Dweller",
+    "name": "Nong-mang-kha Green Tea",
+    "slug": "nong-mang-kha-green-tea",
+    "category": "Wellness / Rare Botanical",
+    "price": "",
+    "tagline": "Rare. Wild. North-Eastern.",
+    "shortDescription": "Rare single-origin Nong-mang-kha (Elephant Apple / Dillenia indica) green tea from Meghalaya. 6g/36g.",
+    "longDescription": "Dweller Nong-mang-kha Green Tea is a truly rare and unique botanical infusion featuring Nong-mang-kha (the Meghalayan name for Dillenia indica, or Elephant Apple) — a fruit used in traditional Khasi and Jaintia tribal wellness practices for centuries.\n\nSourced exclusively from the forests of Meghalaya, Nong-mang-kha delivers a distinctive tangy-floral-fruity character unlike any other tea. Rich in polyphenols and Vitamin C, it is both a therapeutic wellness drink and a window into the extraordinary biodiversity of North-East India.",
+    "benefits": "Rare Meghalayan botanical | Rich in polyphenols and Vitamin C | Traditional tribal wellness ingredient | Distinctive tangy-floral flavour | Unique North-East Indian terroir",
+    "howToUse": "Steep in water at 80°C for 2–3 minutes.",
+    "keyIngredients": "Nong-mang-kha (Dillenia indica / Elephant Apple) green tea.",
+    "images": {
+      "catalogue": "/images/products/tea/nong-mang-kha-green-tea/catalogue.webp",
+      "hover": "/images/products/tea/nong-mang-kha-green-tea/hover.webp",
+      "gallery": []
+    }
+  },
+  {
+    "id": "103",
+    "brand": "Dweller",
+    "name": "Roselle with Indian Olive",
+    "slug": "roselle-with-indian-olive",
+    "category": "Wellness / Antioxidant / Blood Pressure",
+    "price": "",
+    "tagline": "Heart health, beautifully steeped.",
+    "shortDescription": "Antioxidant Roselle (Hibiscus) and Indian Olive herbal tea. Cardiovascular and blood pressure support. 6g/36g.",
+    "longDescription": "Dweller Roselle with Indian Olive Tea combines the antioxidant, cardiovascular, and blood pressure-supporting properties of Roselle (Hibiscus sabdariffa) with Indian Olive (Elaeocarpus) from North-East India. Roselle's hibiscus anthocyanins are clinically shown to reduce systolic and diastolic blood pressure; Indian Olive adds complementary antioxidant and liver-protective benefits.\n\nVibrant deep red colour, naturally tart and fruity flavour, and high antioxidant content make this one of Dweller's most therapeutically potent tea offerings.",
+    "benefits": "Blood pressure support | Anthocyanin antioxidants | Cardiovascular health | Liver protection | High Vitamin C | Anti-inflammatory | Vibrant red colour",
+    "howToUse": "Steep in hot water for 5 minutes. Consume warm or chilled.",
+    "keyIngredients": "Roselle (Hibiscus sabdariffa), Indian Olive (Elaeocarpus).",
+    "images": {
+      "catalogue": "/images/products/tea/roselle-with-indian-olive/catalogue.webp",
+      "hover": "/images/products/tea/roselle-with-indian-olive/hover.webp",
+      "gallery": [
+        "/images/products/tea/roselle-with-indian-olive/gallery-1.webp",
+        "/images/products/tea/roselle-with-indian-olive/gallery-2.webp",
+        "/images/products/tea/roselle-with-indian-olive/gallery-3.webp",
+        "/images/products/tea/roselle-with-indian-olive/gallery-4.webp",
+        "/images/products/tea/roselle-with-indian-olive/gallery-5.webp",
+        "/images/products/tea/roselle-with-indian-olive/gallery-6.webp"
+      ]
+    }
+  }
+]

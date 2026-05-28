@@ -1,22 +1,44 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
-import { products } from '@/lib/mockdata';
+import products from '@/lib/products.json';
 import { useCart } from '@/context/CartContext';
 import Link from 'next/link';
 import ProductCard from '@/components/ProductCard';
-import { getImageByHandle } from '@/lib/imageMap';
 import { motion, AnimatePresence } from 'framer-motion';
 
+const renderPipedField = (text) => {
+  if (!text) return null;
+  const items = text.split('|').map(item => item.trim()).filter(Boolean);
+  if (items.length <= 1) return <p className="text-lg leading-relaxed text-[var(--text)] opacity-80">{text}</p>;
+  return (
+    <ul className="space-y-3">
+      {items.map((item, i) => (
+        <div key={i} className="mb-4 flex gap-4">
+          <span className="text-[var(--accent)] flex-shrink-0 mt-1">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+          </span>
+          <span className="text-lg leading-relaxed text-[var(--text)] opacity-80">{item}</span>
+        </div>
+      ))}
+    </ul>
+  );
+};
+
 export default function ProductDetailClient({ product, handle }) {
-  const [activeTab, setActiveTab] = useState('howItWorks');
+  const [activeTab, setActiveTab] = useState('longDescription');
   const { addItem } = useCart();
-  const imgSrc = getImageByHandle(handle);
+
+  const [activeImage, setActiveImage] = useState(
+    product?.images?.catalogue || null
+  );
 
   const relatedProducts = useMemo(() => {
     if (!product) return [];
     return products
-      .filter((p) => p.pillar === product.pillar && p.id !== product.id)
+      .filter((p) => p.category === product.category && p.id !== product.id)
       .slice(0, 4);
   }, [product]);
 
@@ -34,7 +56,7 @@ export default function ProductDetailClient({ product, handle }) {
   const isRx = product.prescription === 'Rx' || product.requiresConsultation;
 
   const tabs = [
-    { id: 'howItWorks', label: 'How It Works', content: product.howItWorks },
+    { id: 'longDescription', label: 'How It Works', content: product.longDescription },
     { id: 'keyIngredients', label: 'Key Ingredients', content: product.keyIngredients },
     { id: 'howToUse', label: 'How to Use', content: product.howToUse },
     { id: 'benefits', label: 'Benefits', content: product.benefits },
@@ -62,18 +84,31 @@ export default function ProductDetailClient({ product, handle }) {
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 mb-24">
           
           {/* LEFT: Image Section (55%) */}
-          <div className="lg:w-[55%] space-y-6">
+          <div className="lg:w-[55%] space-y-4">
             <div className="aspect-[4/5] bg-[var(--bg-dark)] overflow-hidden relative border border-[var(--border)]">
-              {imgSrc ? (
+              {activeImage ? (
                 <img 
-                  src={imgSrc || '/images/placeholder.jpg'} 
-                  alt={product.name} 
+                  src={activeImage}
+                  alt={product.name}
                   onError={(e) => { e.target.style.display = 'none'; }}
-                  className="w-full h-full object-cover" 
+                  className="w-full h-full object-cover"
                 />
               ) : (
-                <div style={{background: '#105232', display:'flex', alignItems:'center', justifyContent:'center', width:'100%', height:'100%'}}>
-                  <span style={{color:'#D8E0D1', fontSize:'24px', fontFamily:'Jost', textAlign:'center', padding:'32px'}}>
+                <div style={{
+                  background: '#105232',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  width: '100%',
+                  height: '100%'
+                }}>
+                  <span style={{
+                    color: '#D8E0D1',
+                    fontSize: '24px',
+                    fontFamily: 'Jost',
+                    textAlign: 'center',
+                    padding: '32px'
+                  }}>
                     {product.brand}
                   </span>
                 </div>
@@ -84,13 +119,47 @@ export default function ProductDetailClient({ product, handle }) {
                 </div>
               )}
             </div>
-            
-            {/* Thumbnail Placeholder */}
-            <div className="flex gap-4">
-              {[1, 2, 3].map((i) => (
-                <div key={i} className="w-24 h-24 bg-[var(--bg-dark)] opacity-20 border border-[var(--border)]" />
-              ))}
-            </div>
+
+            {/* Gallery Thumbnail Strip */}
+            {product.images?.gallery?.length > 0 && (
+              <div className="flex gap-2 mt-3 overflow-x-auto pb-1">
+                {/* Catalogue thumbnail first */}
+                {product.images?.catalogue && (
+                  <button
+                    onClick={() => setActiveImage(product.images.catalogue)}
+                    className={`flex-shrink-0 w-16 h-16 rounded overflow-hidden border-2 transition-all ${
+                      activeImage === product.images.catalogue
+                        ? 'border-[#105232]'
+                        : 'border-transparent opacity-60 hover:opacity-100'
+                    }`}
+                  >
+                    <img
+                      src={product.images.catalogue}
+                      alt="Main"
+                      className="w-full h-full object-cover"
+                    />
+                  </button>
+                )}
+                {/* Gallery thumbnails */}
+                {product.images.gallery.map((src, index) => (
+                  <button
+                    key={src}
+                    onClick={() => setActiveImage(src)}
+                    className={`flex-shrink-0 w-16 h-16 rounded overflow-hidden border-2 transition-all ${
+                      activeImage === src
+                        ? 'border-[#105232]'
+                        : 'border-transparent opacity-60 hover:opacity-100'
+                    }`}
+                  >
+                    <img
+                      src={src}
+                      alt={`Gallery ${index + 1}`}
+                      className="w-full h-full object-cover"
+                    />
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* RIGHT: Detail Section (45%) */}
@@ -99,9 +168,11 @@ export default function ProductDetailClient({ product, handle }) {
               <span className="text-[10px] uppercase tracking-[0.3em] font-medium text-[var(--text-muted)]">
                 {product.brand}
               </span>
-              <div className="inline-block px-3 py-1 bg-[var(--bg-alt)] text-[var(--bg-dark)] text-[10px] uppercase tracking-widest font-bold rounded-full">
-                {product.pillar}
-              </div>
+              {product.category && (
+                <div className="inline-block px-3 py-1 bg-[var(--bg-alt)] text-[var(--bg-dark)] text-[10px] uppercase tracking-widest font-bold rounded-full">
+                  {product.category}
+                </div>
+              )}
             </div>
 
             <h1 className="font-[var(--font-heading)] text-4xl lg:text-5xl text-[var(--bg-dark)] uppercase leading-tight mb-4">
@@ -109,7 +180,7 @@ export default function ProductDetailClient({ product, handle }) {
             </h1>
 
             <p className="text-2xl text-[var(--bg-dark)] font-medium mb-4">
-              {product.price ? `₹${product.price}` : <span className="text-xl opacity-60 italic">Price on Consultation</span>}
+              {product.price ? `₹${product.price}` : <span className="text-xl opacity-60 italic">Price on request</span>}
             </p>
 
             <p className="text-[var(--text)] italic text-lg leading-relaxed mb-8 opacity-80 font-light border-l-2 border-[var(--accent)] pl-6 py-2">
@@ -118,16 +189,9 @@ export default function ProductDetailClient({ product, handle }) {
 
             <div className="space-y-8 mb-12">
               <div>
-                <span className="text-[10px] uppercase tracking-widest font-bold text-[var(--text-muted)] block mb-2">Format / Size</span>
-                <p className="text-sm tracking-wide text-[var(--bg-dark)] font-medium">
-                  {product.size || product.productType || 'Standard'}
-                </p>
-              </div>
-
-              <div>
                 <span className="text-[10px] uppercase tracking-widest font-bold text-[var(--text-muted)] block mb-2">Overview</span>
                 <p className="text-[var(--text)] leading-relaxed opacity-70">
-                  {product.shortDesc}
+                  {product.shortDescription}
                 </p>
               </div>
             </div>
@@ -148,7 +212,7 @@ export default function ProductDetailClient({ product, handle }) {
             )}
 
             <button
-              onClick={() => addItem({ ...product, image: imgSrc })}
+              onClick={() => addItem({ ...product, image: activeImage })}
               className="w-full bg-[var(--bg-dark)] text-white py-5 px-8 font-[var(--font-heading)] uppercase tracking-[0.2em] text-sm hover:bg-[var(--accent)] transition-all duration-500 transform hover:scale-[1.01] active:scale-[0.99] shadow-xl hover:shadow-[var(--accent)]/20"
             >
               Add to Cart
@@ -180,18 +244,10 @@ export default function ProductDetailClient({ product, handle }) {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
-              className="text-lg leading-relaxed text-[var(--text)] opacity-80 whitespace-pre-line"
             >
-              {tabs.find(t => t.id === activeTab)?.content?.split('|').map((item, i) => (
-                <div key={i} className="mb-4 flex gap-4">
-                  <span className="text-[var(--accent)] flex-shrink-0 mt-1">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-                  </span>
-                  <span>{item.trim()}</span>
-                </div>
-              )) || 'Information coming soon.'}
+              {renderPipedField(tabs.find(t => t.id === activeTab)?.content) || (
+                <p className="text-lg leading-relaxed text-[var(--text)] opacity-80">Information coming soon.</p>
+              )}
             </motion.div>
           </div>
         </section>

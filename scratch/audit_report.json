@@ -1,0 +1,1731 @@
+{
+  "summary": {
+    "total_products_both": 73,
+    "total_products_cat_only": 0,
+    "total_products_hover_only": 0,
+    "total_products_neither": 0,
+    "format_counts": {
+      "JPEG": 146
+    },
+    "avg_size_kb": "918.7",
+    "total_images_count": 146
+  },
+  "results": [
+    {
+      "brand_slug": "boheco",
+      "product_slug": "bliss-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "544.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "bliss-rx",
+      "file": "hover.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "521.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "bloom-roll-on-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "608.2",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "bloom-roll-on-non-rx",
+      "file": "hover.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "521.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "combat-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "540.9",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "combat-rx",
+      "file": "hover.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "497.0",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "desire-capsules-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "567.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "desire-capsules-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "548.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "digest-capsules-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "554.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "digest-capsules-non-rx",
+      "file": "hover.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "585.2",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "digest-navel-oil-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "483.4",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "digest-navel-oil-non-rx",
+      "file": "hover.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "554.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "ease-oil-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "581.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "ease-oil-non-rx",
+      "file": "hover.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "520.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "glide-gel-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "595.4",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "glide-gel-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "534.4",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "glide-oil-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "567.5",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "glide-oil-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "509.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "hemp-hearts-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "519.5",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "hemp-hearts-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "596.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "hemp-protein-powder-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "608.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "hemp-protein-powder-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "545.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "hemp-seed-oil-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "570.2",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "hemp-seed-oil-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "532.4",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "peace-capsules-pack-of-3-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "567.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "peace-capsules-pack-of-3-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "548.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "peace-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "632.5",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "peace-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "570.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "pristine-cream-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "595.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "pristine-cream-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "530.2",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "recover-spray-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "670.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "recover-spray-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "551.4",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "relax-roll-on-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "482.2",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "relax-roll-on-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "503.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "rescue-balm-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "563.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "rescue-balm-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "494.7",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "sleep-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "554.5",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "boheco",
+      "product_slug": "sleep-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "528.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "calm-drops-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1715.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "calm-drops-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2314.9",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "cannaronil-extract-paste-rx-thc-rich",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1892.3",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "cannaronil-extract-paste-rx-thc-rich",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1868.5",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "daily-skin-repair-cream-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1719.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "daily-skin-repair-cream-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1958.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "liposomal-berberine-98-hcl-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1890.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "liposomal-berberine-98-hcl-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2014.2",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "migraine-aid-roll-on-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2188.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "migraine-aid-roll-on-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1962.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "pet-oil-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1843.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "pet-oil-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1813.2",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "placidiol-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1762.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "placidiol-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2029.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "revive-pain-relief-roll-on-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1844.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "revive-pain-relief-roll-on-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2149.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "slimfit-gut-health-capsules-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1781.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "slimfit-gut-health-capsules-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2093.3",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "trailokya-vijaya-vati-advanced-non-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1757.5",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "trailokya-vijaya-vati-advanced-non-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1983.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "uplift-extract-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1891.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "uplift-extract-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2011.3",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "uplift-gummies-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2017.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "uplift-gummies-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2201.3",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "uplift-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1891.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "uplift-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2011.3",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "vijaya-ambrosia-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1757.5",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "vijaya-ambrosia-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1983.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "vijaya-amrit-rx",
+      "file": "catalogue.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1914.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "cannazo",
+      "product_slug": "vijaya-amrit-rx",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2021.4",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "indi-mild-50mg-capsules-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2268.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "indi-mild-50mg-capsules-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "533.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "indi-strong-150mg-capsules-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2268.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "indi-strong-150mg-capsules-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "533.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "indi30-tincture-10ml-30ml-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1820.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "indi30-tincture-10ml-30ml-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "533.9",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "indi30-tincture-5ml-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1820.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "indi30-tincture-5ml-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "533.9",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "satv-mild-50mg-capsules-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "2281.2",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "satv-mild-50mg-capsules-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "536.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "satv-pets-tincture-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1927.9",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "satv-pets-tincture-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "569.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "satv30-tincture-10ml-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1790.2",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "satv30-tincture-10ml-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "537.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "satv30-tincture-30ml-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1790.2",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "satv30-tincture-30ml-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "537.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "satv30-tincture-5ml-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "2048x2048",
+      "file_size": "1790.2",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "hemplife",
+      "product_slug": "satv30-tincture-5ml-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "537.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "langoor",
+      "product_slug": "himalayan-smoking-herbs-earth-mix",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "449.9",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "langoor",
+      "product_slug": "himalayan-smoking-herbs-earth-mix",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "556.9",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "langoor",
+      "product_slug": "himalayan-smoking-herbs-moon-mix",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "549.2",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "langoor",
+      "product_slug": "himalayan-smoking-herbs-moon-mix",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "637.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "langoor",
+      "product_slug": "himalayan-smoking-herbs-snow-mix",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "443.8",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "langoor",
+      "product_slug": "himalayan-smoking-herbs-snow-mix",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "516.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "langoor",
+      "product_slug": "himalayan-smoking-herbs-sun-mix",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "455.0",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "langoor",
+      "product_slug": "himalayan-smoking-herbs-sun-mix",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "553.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-leaf-extract-5g-normal-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "302.0",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-leaf-extract-5g-normal-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "528.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-leaf-extract-capsules-100mg-250mg-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "302.0",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-leaf-extract-capsules-100mg-250mg-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "528.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-leaf-extract-gummies-135mg-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "302.0",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-leaf-extract-gummies-135mg-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "528.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-leaf-extract-gummies-350mg-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "302.0",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-leaf-extract-gummies-350mg-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "528.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-leaf-extract-oil-peppermint-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "302.0",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-leaf-extract-oil-peppermint-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "528.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-leaf-extract-premium-5g-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "302.0",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-leaf-extract-premium-5g-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "528.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-pain-relief-oil-non-rx",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "410.5",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "medicann",
+      "product_slug": "cannabis-pain-relief-oil-non-rx",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "559.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "cordyceps-militaris-dried-whole-10g",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "406.6",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "cordyceps-militaris-dried-whole-10g",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "614.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "cordyceps-militaris-extract-30ml",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "406.6",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "cordyceps-militaris-extract-30ml",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "614.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "lion-s-mane-mushroom-extract-30ml",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "551.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "lion-s-mane-mushroom-extract-30ml",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "683.3",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "lion-s-mane-mushroom-powder-50g",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "483.9",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "lion-s-mane-mushroom-powder-50g",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "616.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "oyster-mushroom-powder-100g",
+      "file": "catalogue.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "491.1",
+      "aspect_ratio": "1.00",
+      "issues": []
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "oyster-mushroom-powder-100g",
+      "file": "hover.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "579.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "reishi-mushroom-extract-30ml",
+      "file": "catalogue.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "597.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "reishi-mushroom-extract-30ml",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "700.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "reishi-mushroom-powder-50g",
+      "file": "catalogue.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "597.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "reishi-mushroom-powder-50g",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "700.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "shiitake-mushroom-dried-50g",
+      "file": "catalogue.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "504.5",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "shiitake-mushroom-dried-50g",
+      "file": "hover.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "641.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "shiitake-mushroom-extract-30ml",
+      "file": "catalogue.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "504.5",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "shiitake-mushroom-extract-30ml",
+      "file": "hover.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "641.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "soma-synergy-6-shroom-blend-30ml",
+      "file": "catalogue.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "649.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "soma-synergy-6-shroom-blend-30ml",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "626.0",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "turkey-tail-mushroom-extract-30ml",
+      "file": "catalogue.png",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "552.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "soma",
+      "product_slug": "turkey-tail-mushroom-extract-30ml",
+      "file": "hover.jpeg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "646.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "classic-black-tea",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "610.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "classic-black-tea",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "607.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "ginger-green-tea",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "600.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "ginger-green-tea",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "525.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "green-tea-with-lotus-leaf",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "600.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "green-tea-with-lotus-leaf",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "525.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "lakadong-turmeric-with-star-anise",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "596.3",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "lakadong-turmeric-with-star-anise",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "615.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "lemongrass-ginger-tea",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "607.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "lemongrass-ginger-tea",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "564.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "nong-mang-kha-green-tea",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "600.1",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "nong-mang-kha-green-tea",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "525.8",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "roselle-with-indian-olive",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "596.3",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "roselle-with-indian-olive",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "615.6",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "sumac-berry-tea",
+      "file": "catalogue.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "557.7",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    },
+    {
+      "brand_slug": "tea",
+      "product_slug": "sumac-berry-tea",
+      "file": "hover.jpg",
+      "format": "JPEG",
+      "dimensions": "1024x1024",
+      "file_size": "570.5",
+      "aspect_ratio": "1.00",
+      "issues": [
+        "\u26a0\ufe0f LARGE FILE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danes - Hemp Wellness Clinic</title>
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+    <!-- Google Fonts: Jost -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="logo-loader">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <mask id="preloaderLogoMask">
+                        <rect width="100%" height="100%" fill="black" />
+                        <circle class="reveal-circle" cx="250" cy="250" r="120" fill="white" />
+                    </mask>
+                </defs>
+                <g mask="url(#preloaderLogoMask)">
+                    <g transform="translate(100, 100) scale(6)">
+                        <path class="logo-shape"
+                            d="M24.7217 1.08128C24.656 0.401193 25.3455 -0.161639 25.9975 0.0423868C26.5955 0.124466 26.8464 0.783446 26.8159 1.32048C26.8347 7.57259 26.8042 13.827 26.83 20.0815C26.7971 21.2212 28.094 21.6809 29.0414 21.6809C29.8458 21.6293 30.2093 20.8132 30.5962 20.2245C32.4465 17.2298 34.3086 14.2445 36.173 11.2568C36.4215 10.7995 36.9539 10.4266 37.4862 10.6611C38.2507 10.7901 38.3938 11.7985 38.0068 12.3566C35.99 15.6539 33.9029 18.9113 31.8954 22.2132C31.1028 23.3412 32.6975 24.9336 33.8325 24.1526C39.2076 21.2447 44.5685 18.3086 49.9412 15.3936C50.3961 15.1473 51.0528 15.0864 51.3999 15.5484C51.951 16.1018 51.5757 17.0281 50.9168 17.2978C45.6473 20.1776 40.3707 23.0434 35.0965 25.9138C34.7049 26.1366 34.2945 26.4274 34.1843 26.8917C33.9287 27.7665 34.6768 28.7866 35.6148 28.6975C39.5265 28.7022 43.4382 28.7045 47.3498 28.6928C47.7227 28.7022 48.1097 28.6881 48.4731 28.8077C49.1908 29.0493 49.3338 30.1632 48.7147 30.5924C48.3324 30.9089 47.7978 30.8433 47.3381 30.8714C42.3383 30.862 37.3385 30.8691 32.3387 30.8667C32.4161 29.2251 32.1675 27.5085 31.1825 26.1507C29.9068 24.2582 27.5617 23.1536 25.2916 23.3928C23.0801 23.5921 21.0469 25.0391 20.1065 27.0442C19.5179 28.2261 19.485 29.5746 19.4827 30.8667C14.4665 30.8714 9.45023 30.8597 4.43166 30.8738C3.97436 30.8503 3.44906 30.9043 3.07384 30.5924C2.59074 30.2171 2.56963 29.4057 3.02693 29.007C3.40684 28.667 3.95091 28.7162 4.42463 28.6951C8.3363 28.7045 12.2503 28.6998 16.1643 28.6998C16.9312 28.7678 17.6558 28.1159 17.6511 27.3397C17.7027 26.751 17.2454 26.289 16.7694 26.0287C11.4061 23.1044 6.03339 20.1941 0.674771 17.2626C-0.0686341 16.9812 -0.263281 15.8438 0.423841 15.3983C0.937424 14.9879 1.60813 15.3092 2.10061 15.5882C7.05351 18.3133 12.0322 20.9938 16.9922 23.7094C17.4799 23.9721 17.9607 24.2746 18.5048 24.42C19.5718 24.5114 20.4653 23.1841 19.7969 22.2765C17.7895 18.9769 15.7141 15.7196 13.6855 12.434C13.2259 11.8313 13.4088 10.7409 14.2577 10.633C14.8018 10.4477 15.2755 10.8769 15.5241 11.3178C17.5433 14.5517 19.5437 17.7973 21.5722 21.0242C22.3461 22.368 24.7991 21.5824 24.6983 20.044C24.7405 13.7239 24.6936 7.4014 24.7217 1.08128Z" />
+                        <path class="logo-shape"
+                            d="M24.4777 26.801C26.1357 26.0552 28.298 26.9933 28.8162 28.7521C29.3955 30.3538 28.4762 32.3026 26.844 32.8279C25.3454 33.4072 23.5069 32.6591 22.8432 31.1981C22.0247 29.6081 22.815 27.467 24.4777 26.801Z" />
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </div>
+
+
+    <!-- Hero Section Wrapper -->
+    <header class="hero-section">
+        <!-- Background Video -->
+        <video class="hero-bg" autoplay muted loop playsinline>
+            <source src="assets/Hero video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="#" class="logo">
+                    <div class="logo-loader play-once">
+                        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <mask id="navbarLogoMask">
+                                    <rect width="100%" height="100%" fill="black" />
+                                    <circle class="reveal-circle" cx="250" cy="250" r="120" fill="white" />
+                                </mask>
+                            </defs>
+                            <g mask="url(#navbarLogoMask)">
+                                <g transform="translate(100, 100) scale(6)">
+                                    <path class="logo-shape"
+                                        d="M24.7217 1.08128C24.656 0.401193 25.3455 -0.161639 25.9975 0.0423868C26.5955 0.124466 26.8464 0.783446 26.8159 1.32048C26.8347 7.57259 26.8042 13.827 26.83 20.0815C26.7971 21.2212 28.094 21.6809 29.0414 21.6809C29.8458 21.6293 30.2093 20.8132 30.5962 20.2245C32.4465 17.2298 34.3086 14.2445 36.173 11.2568C36.4215 10.7995 36.9539 10.4266 37.4862 10.6611C38.2507 10.7901 38.3938 11.7985 38.0068 12.3566C35.99 15.6539 33.9029 18.9113 31.8954 22.2132C31.1028 23.3412 32.6975 24.9336 33.8325 24.1526C39.2076 21.2447 44.5685 18.3086 49.9412 15.3936C50.3961 15.1473 51.0528 15.0864 51.3999 15.5484C51.951 16.1018 51.5757 17.0281 50.9168 17.2978C45.6473 20.1776 40.3707 23.0434 35.0965 25.9138C34.7049 26.1366 34.2945 26.4274 34.1843 26.8917C33.9287 27.7665 34.6768 28.7866 35.6148 28.6975C39.5265 28.7022 43.4382 28.7045 47.3498 28.6928C47.7227 28.7022 48.1097 28.6881 48.4731 28.8077C49.1908 29.0493 49.3338 30.1632 48.7147 30.5924C48.3324 30.9089 47.7978 30.8433 47.3381 30.8714C42.3383 30.862 37.3385 30.8691 32.3387 30.8667C32.4161 29.2251 32.1675 27.5085 31.1825 26.1507C29.9068 24.2582 27.5617 23.1536 25.2916 23.3928C23.0801 23.5921 21.0469 25.0391 20.1065 27.0442C19.5179 28.2261 19.485 29.5746 19.4827 30.8667C14.4665 30.8714 9.45023 30.8597 4.43166 30.8738C3.97436 30.8503 3.44906 30.9043 3.07384 30.5924C2.59074 30.2171 2.56963 29.4057 3.02693 29.007C3.40684 28.667 3.95091 28.7162 4.42463 28.6951C8.3363 28.7045 12.2503 28.6998 16.1643 28.6998C16.9312 28.7678 17.6558 28.1159 17.6511 27.3397C17.7027 26.751 17.2454 26.289 16.7694 26.0287C11.4061 23.1044 6.03339 20.1941 0.674771 17.2626C-0.0686341 16.9812 -0.263281 15.8438 0.423841 15.3983C0.937424 14.9879 1.60813 15.3092 2.10061 15.5882C7.05351 18.3133 12.0322 20.9938 16.9922 23.7094C17.4799 23.9721 17.9607 24.2746 18.5048 24.42C19.5718 24.5114 20.4653 23.1841 19.7969 22.2765C17.7895 18.9769 15.7141 15.7196 13.6855 12.434C13.2259 11.8313 13.4088 10.7409 14.2577 10.633C14.8018 10.4477 15.2755 10.8769 15.5241 11.3178C17.5433 14.5517 19.5437 17.7973 21.5722 21.0242C22.3461 22.368 24.7991 21.5824 24.6983 20.044C24.7405 13.7239 24.6936 7.4014 24.7217 1.08128Z" />
+                                    <path class="logo-shape"
+                                        d="M24.4777 26.801C26.1357 26.0552 28.298 26.9933 28.8162 28.7521C29.3955 30.3538 28.4762 32.3026 26.844 32.8279C25.3454 33.4072 23.5069 32.6591 22.8432 31.1981C22.0247 29.6081 22.815 27.467 24.4777 26.801Z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li class="dropdown">
+                        <a href="#">Shop by Concern
+                            <svg class="dropdown-icon" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li><a href="#">All Products</a></li>
+                    <li><a href="#">Consult a Doctor</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Learn</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-right">
+                <a href="#" class="icon-link"><img src="assets/search.svg" alt="Search"></a>
+                <a href="#" class="icon-link"><img src="assets/user.svg" alt="User"></a>
+                <a href="#" class="icon-link bag-icon"><img src="assets/bag.svg" alt="Bag"></a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Hero Content -->
+        <main class="hero-content">
+            <div class="hero-text-container">
+                <p class="subheading reveal delay-1">INDIA'S 1ST HEMP WELLNESS CLINIC.</p>
+                <h1 class="heading reveal delay-2">YOUR BODY ALREADY<br>KNOWS HOW TO HEAL.</h1>
+            </div>
+        </main>
+
+        <!-- Bottom Links -->
+        <div class="hero-bottom">
+            <a href="#" class="bottom-link fade-in-load" style="transition-delay: 0.8s;">BOOK A CONSULTATION <span
+                    class="arrow">&rarr;</span></a>
+            <a href="#" class="bottom-link fade-in-load" style="transition-delay: 1s;">SHOP BY GOALS <span
+                    class="arrow">&rarr;</span></a>
+        </div>
+    </header>
+
+    <!-- Shop by Concern Section -->
+    <section class="shop-by-concern">
+        <div class="vector-bg-container">
+            <img src="assets/vector1_inverted.svg" class="vector-bg vector-reveal" alt="Decorative Vector Inverted">
+            <img src="assets/vector1.svg" class="vector-bg vector-overlay vector-reveal" alt="Decorative Vector">
+        </div>
+
+        <div class="section-header reveal">
+            <img src="assets/brand_icon1_evergreen.svg" alt="Danes Icon" class="brand-icon">
+            <h2 class="section-title">SHOP BY CONCERN</h2>
+        </div>
+
+        <div class="cards-container">
+            <div class="concern-card reveal delay-1">
+                <h3>CALM</h3>
+                <p>Nervous system, stress, anxiety</p>
+                <a href="#" class="view-link">View <span class="arrow">&rarr;</span></a>
+            </div>
+            <div class="concern-card reveal delay-2">
+                <h3>REST</h3>
+                <p>Sleep, circadian rhythm, insomnia</p>
+                <a href="#" class="view-link">View <span class="arrow">&rarr;</span></a>
+            </div>
+            <div class="concern-card reveal delay-3">
+                <h3>CLARITY</h3>
+                <p>Focus, cognitive function, brain fog</p>
+                <a href="#" class="view-link">View <span class="arrow">&rarr;</span></a>
+            </div>
+            <div class="concern-card reveal delay-4">
+                <h3>PAIN</h3>
+                <p>Inflammation, joint pain, recovery</p>
+                <a href="#" class="view-link">View <span class="arrow">&rarr;</span></a>
+            </div>
+            <div class="concern-card reveal delay-5">
+                <h3>VIEW ALL</h3>
+                <p>10+ categories</p>
+                <a href="#" class="view-link">View <span class="arrow">&rarr;</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapping Section -->
+    <section class="mapping-section">
+        <div class="mapping-vectors">
+            <img src="assets/vector3_left.svg" class="vector-left" alt="Decorative Left Vector">
+            <img src="assets/vector2.svg" class="vector-center vector-reveal" alt="Decorative Center Vector">
+            <img src="assets/vector3_right.svg" class="vector-right" alt="Decorative Right Vector">
+        </div>
+
+        <div class="mapping-content">
+            <img src="assets/brand_icon_3rd.svg" alt="Danes Brand Icon" class="sunburst-icon reveal">
+            <h2 class="mapping-heading reveal delay-1">WE MAP YOUR CONCERNS TO THE ENDOCANNABINOID SYSTEM AND DESIGN A
+                NATURAL PLAN.</h2>
+            <p class="mapping-paragraph reveal delay-2">The endocannabinoid system governs sleep, mood, pain, digestion,
+                and immunity. It is also the system most overlooked by conventional medicine. Every recommendation at
+                Danes begins here.</p>
+            <a href="#" class="learn-link reveal delay-3">Learn how it works &rarr;</a>
+        </div>
+    </section>
+
+    <!-- Chosen For A Reason Section -->
+    <section class="chosen-section">
+        <img src="assets/vector4.svg" class="chosen-bg-vector vector-reveal" alt="">
+        <div class="section-container">
+            <p class="section-subtitle reveal">CHOSEN FOR A REASON</p>
+            <div class="product-grid">
+                <div class="product-card reveal delay-1">
+                    <div class="product-image">
+                        <img src="assets/product_calm.png" alt="CALM CBD Oil">
+                    </div>
+                    <div class="product-info">
+                        <p class="category">CALM</p>
+                        <h3 class="product-name">Full Spectrum CBD Oil 1000mg</h3>
+                    </div>
+                </div>
+                <div class="product-card reveal delay-2">
+                    <div class="product-image">
+                        <img src="assets/product_clarity.png" alt="CLARITY Capsules">
+                    </div>
+                    <div class="product-info">
+                        <p class="category">CLARITY</p>
+                        <h3 class="product-name">Lion's Mane + Brahmi Stack</h3>
+                    </div>
+                </div>
+                <div class="product-card reveal delay-3">
+                    <div class="product-image">
+                        <img src="assets/product_vitality.png" alt="VITALITY Capsules">
+                    </div>
+                    <div class="product-info">
+                        <p class="category">VITALITY</p>
+                        <h3 class="product-name">Ashwagandha KSM-66 Extract</h3>
+                    </div>
+                </div>
+                <div class="product-card reveal delay-4">
+                    <div class="product-image">
+                        <img src="assets/product_rest.png" alt="REST Blend">
+                    </div>
+                    <div class="product-info">
+                        <p class="category">REST</p>
+                        <h3 class="product-name">Jatamansi Sleep Ritual Blend</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Section -->
+    <section class="consultation-section">
+        <img src="assets/hemp leaf.svg" class="section-bg-leaf" alt="Decorative Hemp Leaf">
+        <div class="section-overlay"></div>
+
+        <div class="section-container">
+            <div class="consultation-grid">
+                <div class="consultation-text">
+                    <img src="assets/brand_icon_3rd.svg" alt="Danes Icon" class="sunburst-icon white-icon reveal">
+                    <h2 class="consultation-heading reveal delay-1">EVERY CONSULTATION IS DESIGNED TO HELP YOU FIND THE
+                        RIGHT ONE.</h2>
+                    <p class="consultation-paragraph reveal delay-2">Our in-house doctors map your specific concerns to
+                        your biology before recommending anything.</p>
+                    <a href="#" class="consultation-link reveal delay-3">BOOK A CONSULTATION &rarr;</a>
+                </div>
+                <div class="consultation-visual reveal delay-4">
+                    <div class="visual-stack">
+                        <div class="visual-img main-img">
+                            <img src="assets/consultation1.png" alt="Wellness Shop Interior">
+                        </div>
+                        <div class="visual-img overlay-img">
+                            <img src="assets/consultation2.png" alt="Minimalist Space">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ancient Systems Section -->
+    <section class="ancient-systems-section">
+        <div class="section-container">
+            <h2 class="systems-title reveal">ANCIENT SYSTEMS, REFINED FOR MODERN LIFE.</h2>
+            <div class="systems-grid">
+                <div class="system-card reveal delay-1">
+                    <p class="card-category">INGREDIENT GUIDE</p>
+                    <h3 class="card-title">Lion's Mane: From Buddhist Monasteries to Modern Neuroscience</h3>
+                </div>
+                <div class="system-card reveal delay-2">
+                    <p class="card-category">SYSTEM EXPLAINER</p>
+                    <h3 class="card-title">The Endocannabinoid System: What Your Doctor Didn't Tell You</h3>
+                </div>
+                <div class="system-card reveal delay-3">
+                    <p class="card-category">WELLNESS JOURNEY</p>
+                    <h3 class="card-title">For Rest: Why Most Sleep Problems Aren't Sleep Problems</h3>
+                </div>
+            </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="section-container">
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-item reveal">
+                    <img src="assets/rating.svg" alt="5 Stars" class="rating-stars">
+                    <p class="testimonial-author">Arjun, Bengaluru</p>
+                    <blockquote class="testimonial-quote">
+                        "I had tried everything for two years. The consultation was the first time someone mapped my
+                        specific biology before recommending anything. Three months in, I sleep through the night."
+                    </blockquote>
+                    <p class="testimonial-tags">CHRONIC STRESS, SLEEP</p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial-item reveal delay-1">
+                    <img src="assets/rating.svg" alt="5 Stars" class="rating-stars">
+                    <p class="testimonial-author">Priya, Mumbai</p>
+                    <blockquote class="testimonial-quote">
+                        "The approach here is different. They listened first. The protocol they recommended has
+                        genuinely changed how I experience my body."
+                    </blockquote>
+                    <p class="testimonial-tags">PERIMENOPAUSE, HORMONAL BALANCE</p>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial-item reveal delay-2">
+                    <img src="assets/rating.svg" alt="5 Stars" class="rating-stars">
+                    <p class="testimonial-author">Vikram, Hyderabad</p>
+                    <blockquote class="testimonial-quote">
+                        "I was sceptical. I am not anymore. The lion's mane stack has done more for my focus than
+                        anything I tried before."
+                    </blockquote>
+                    <p class="testimonial-tags">COGNITIVE FATIGUE, FOCUS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="main-footer reveal">
+        <div class="footer-bg-wrap">
+            <img src="assets/bg.jpg" alt="Footer Background" class="footer-bg">
+        </div>
+
+        <div class="footer-container">
+            <div class="footer-content-box">
+                <div class="footer-grid">
+                    <!-- Branding -->
+                    <div class="footer-brand reveal delay-1">
+                        <div class="footer-logo-wrap">
+                            <img src="assets/logo.svg" alt="Danes Logo" class="footer-logo">
+                        </div>
+                        <p class="footer-tagline">Natural Curatives.<br>India's 1st hemp wellness clinic.</p>
+                    </div>
+
+                    <!-- Links Columns -->
+                    <div class="footer-column reveal delay-2">
+                        <h4>SHOP</h4>
+                        <ul>
+                            <li><a href="#">All Products</a></li>
+                            <li><a href="#">For Calm</a></li>
+                            <li><a href="#">For Rest</a></li>
+                            <li><a href="#">For Clarity</a></li>
+                            <li><a href="#">For Pain</a></li>
+                            <li><a href="#">View All Pillars</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column reveal delay-3">
+                        <h4>HELP</h4>
+                        <ul>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Shipping and Returns</a></li>
+                            <li><a href="#">Track Your Order</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Consultation Info</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column reveal delay-4">
+                        <h4>COMPANY</h4>
+                        <ul>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Learn</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column reveal delay-5">
+                        <h4>CONNECT</h4>
+                        <ul>
+                            <li><a href="#">WhatsApp</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">+91 78994 23033</a></li>
+                            <li><a href="#">Indiranagar Bengaluru</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-bottom reveal">
+                    <p>Danes Medical Solutions. Bengaluru. 2021.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

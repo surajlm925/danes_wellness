@@ -39,10 +39,10 @@ export function CartProvider({ children }) {
         ...prevCart, 
         { 
           id: product.id,
-          handle: product.handle,
+          slug: product.slug,
           name: product.name,
           brand: product.brand,
-          pillar: product.pillar,
+          category: product.category,
           price: product.price,
           image: product.image,
           requiresConsultation: product.requiresConsultation || product.prescription === 'Rx',

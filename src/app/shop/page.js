@@ -1,15 +1,23 @@
 'use client';
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { PILLARS, BRANDS, products } from '@/lib/mockdata';
+import products from '@/lib/products.json';
 import ProductCard from '@/components/ProductCard';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const PRODUCTS_PER_PAGE = 24;
 
+const BRANDS = [...new Set(
+  products.map((p) => p.brand).filter(Boolean)
+)].sort();
+
+const CATEGORIES = [...new Set(
+  products.map((p) => p.category).filter(Boolean)
+)].sort();
+
 export default function ShopPage() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedPillar, setSelectedPillar] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState('All');
   const [selectedBrands, setSelectedBrands] = useState([]);
   const [visibleCount, setVisibleCount] = useState(PRODUCTS_PER_PAGE);
 
@@ -17,15 +25,15 @@ export default function ShopPage() {
     return products.filter((product) => {
       const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
                             product.brand.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                            product.pillar.toLowerCase().includes(searchQuery.toLowerCase());
+                            (product.category || '').toLowerCase().includes(searchQuery.toLowerCase());
       
-      const matchesPillar = selectedPillar === 'All' || product.pillar === selectedPillar;
+      const matchesCategory = selectedCategory === 'All' || product.category === selectedCategory;
       
       const matchesBrand = selectedBrands.length === 0 || selectedBrands.includes(product.brand);
 
-      return matchesSearch && matchesPillar && matchesBrand;
+      return matchesSearch && matchesCategory && matchesBrand;
     });
-  }, [searchQuery, selectedPillar, selectedBrands]);
+  }, [searchQuery, selectedCategory, selectedBrands]);
 
   const toggleBrand = (brand) => {
     setSelectedBrands(prev => 
@@ -35,14 +43,14 @@ export default function ShopPage() {
 
   const resetFilters = () => {
     setSearchQuery('');
-    setSelectedPillar('All');
+    setSelectedCategory('All');
     setSelectedBrands([]);
     setVisibleCount(PRODUCTS_PER_PAGE);
   };
 
   useEffect(() => {
     setVisibleCount(PRODUCTS_PER_PAGE);
-  }, [selectedPillar, selectedBrands, searchQuery]);
+  }, [selectedCategory, selectedBrands, searchQuery]);
 
   const visibleProducts = useMemo(() => {
     return filteredProducts.slice(0, visibleCount);
@@ -60,23 +68,23 @@ export default function ShopPage() {
               style={{ maxHeight: 'calc(100vh - 140px)', overflowY: 'auto' }}
             >
               
-              {/* Pillars Filter */}
+              {/* Category Filter */}
               <div>
                 <h3 className="font-[var(--font-heading)] text-xs uppercase tracking-widest text-[var(--bg-dark)] mb-6 pb-2 border-b border-[var(--border)]">
-                  Shop by Pillar
+                  Shop by Category
                 </h3>
                 <ul className="space-y-3">
-                  {PILLARS.map((pillar) => (
-                    <li key={pillar}>
+                  {['All', ...CATEGORIES].map((category) => (
+                    <li key={category}>
                       <button
-                        onClick={() => setSelectedPillar(pillar)}
+                        onClick={() => setSelectedCategory(category)}
                         className={`text-sm tracking-wide transition-all duration-300 ${
-                          selectedPillar === pillar 
+                          selectedCategory === category 
                             ? 'text-[var(--accent)] font-bold pl-2 border-l-2 border-[var(--accent)]' 
                             : 'text-[var(--text-muted)] hover:text-[var(--bg-dark)] pl-0'
                         }`}
                       >
-                        {pillar}
+                        {category}
                       </button>
                     </li>
                   ))}
@@ -133,9 +141,9 @@ export default function ShopPage() {
                     Wellness <span className="text-[var(--accent)]">Shop</span>
                   </h1>
                   <p className="text-[var(--text-muted)] mt-2 text-sm tracking-wide">
-                    {selectedPillar === 'All' 
+                    {selectedCategory === 'All' 
                       ? 'Browse our complete collection of natural curatives.' 
-                      : `Exploring our ${selectedPillar} solutions.`}
+                      : `Exploring our ${selectedCategory} solutions.`}
                   </p>
                 </div>
 
@@ -157,13 +165,13 @@ export default function ShopPage() {
               </div>
 
               {/* Active Filters Display */}
-              {(selectedPillar !== 'All' || selectedBrands.length > 0 || searchQuery) && (
+              {(selectedCategory !== 'All' || selectedBrands.length > 0 || searchQuery) && (
                 <div className="flex flex-wrap items-center gap-3">
                   <span className="text-[10px] uppercase tracking-widest text-[var(--text-muted)] font-bold mr-2">Filtering by:</span>
-                  {selectedPillar !== 'All' && (
+                  {selectedCategory !== 'All' && (
                     <span className="bg-[var(--bg-dark)] text-white text-[10px] py-1 px-3 rounded-full flex items-center gap-2">
-                      {selectedPillar}
-                      <button onClick={() => setSelectedPillar('All')}>×</button>
+                      {selectedCategory}
+                      <button onClick={() => setSelectedCategory('All')}>×</button>
                     </span>
                   )}
                   {selectedBrands.map((brand) => (
