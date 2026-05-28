@@ -8,6 +8,7 @@
 }
 
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 @config "../../tailwind.config.js";
 
 @layer base {
@@ -116,17 +117,44 @@
   to   { transform: translateX(-50%); }
 }
 
-/* Custom Scrollbar */
-.scrollbar-thin {
-  scrollbar-width: thin;
+/* =========================================
+   Premium Custom Global Scrollbars
+   ========================================= */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
-.scrollbar-thin::-webkit-scrollbar {
-  width: 4px;
-}
-.scrollbar-thin::-webkit-scrollbar-thumb {
-  background: #105232;
-  border-radius: 2px;
-}
-.scrollbar-thin::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(16, 82, 50, 0.2);
+  border-radius: 9999px;
+  border: 2.5px solid transparent;
+  background-clip: padding-box;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.dark ::-webkit-scrollbar-thumb,
+.dark::-webkit-scrollbar-thumb {
+  background-color: rgba(248, 243, 223, 0.25);
+  border: 2.5px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #C4922A !important;
+  border: 1.5px solid transparent;
+}
+.dark ::-webkit-scrollbar-thumb:hover,
+.dark::-webkit-scrollbar-thumb:hover {
+  background-color: #C4922A !important;
+  border: 1.5px solid transparent;
+}
+
+/* Firefox compatibility */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(16, 82, 50, 0.2) transparent;
+}
+.dark * {
+  scrollbar-color: rgba(248, 243, 223, 0.25) transparent;
 }

@@ -1,6 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
+import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence, useScroll } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -8,6 +9,8 @@ import Link from 'next/link'
 import { useCart } from '@/context/CartContext'
 
 export default function Nav() {
+  const pathname = usePathname()
+  const isHome = pathname === '/'
   const [scrolled, setScrolled] = useState(false)
   const [mounted, setMounted] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -43,8 +46,8 @@ export default function Nav() {
     { label: 'Learn', href: '/#articles' },
   ]
 
-  const navBg = scrolled && mounted
-    ? resolvedTheme === 'dark'
+  const navBg = (scrolled || !isHome)
+    ? (mounted && resolvedTheme === 'dark')
       ? 'rgba(10,26,15,0.97)'
       : 'rgba(248,243,223,0.97)'
     : 'transparent'
@@ -58,16 +61,16 @@ export default function Nav() {
   after:absolute after:-bottom-1 after:left-0 after:h-[1px]
   after:w-full after:bg-current after:origin-left after:scale-x-0
   hover:after:scale-x-100 after:transition-transform after:duration-300
-  ${scrolled && mounted
-    ? resolvedTheme === 'dark'
+  ${(scrolled || !isHome)
+    ? (mounted && resolvedTheme === 'dark')
       ? 'text-[#D8E0D1] hover:text-[#F8F3DF]'
       : 'text-evergreen hover:text-midgreen'
     : 'text-[rgba(248,243,223,0.8)] hover:text-cream'
   }`
   
   const iconClasses = `transition-colors duration-300 cursor-pointer relative
-  ${scrolled && mounted
-    ? resolvedTheme === 'dark'
+  ${(scrolled || !isHome)
+    ? (mounted && resolvedTheme === 'dark')
       ? 'text-[#D8E0D1] hover:text-[#F8F3DF]'
       : 'text-evergreen hover:text-midgreen'
     : 'text-[rgba(248,243,223,0.8)] hover:text-cream'
@@ -96,8 +99,8 @@ export default function Nav() {
               viewBox="0 0 48 36" 
               fill="none"
               style={{
-                color: scrolled && mounted
-                  ? resolvedTheme === 'dark' ? '#D8E0D1' : '#105232'
+                color: (scrolled || !isHome)
+                  ? (mounted && resolvedTheme === 'dark') ? '#D8E0D1' : '#105232'
                   : '#F8F3DF',
                 transition: 'color 0.3s ease'
               }}
@@ -117,8 +120,8 @@ export default function Nav() {
               fontFamily: '"Copperplate", "Cinzel", serif',
               fontSize: '16px',
               letterSpacing: '0.22em',
-              color: scrolled && mounted
-                ? resolvedTheme === 'dark' ? '#D8E0D1' : '#105232'
+              color: (scrolled || !isHome)
+                ? (mounted && resolvedTheme === 'dark') ? '#D8E0D1' : '#105232'
                 : '#F8F3DF',
               transition: 'color 0.3s ease'
             }}>

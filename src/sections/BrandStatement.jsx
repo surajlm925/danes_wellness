@@ -55,7 +55,8 @@ export default function BrandStatement() {
           text-decoration: none;
           font-family: var(--font-body);
           font-size: 13px;
-          font-weight: 400;
+          font-weight: 500;
+          text-transform: uppercase;
           border-bottom: 1px solid rgba(216,224,209,0.4);
           padding-bottom: 6px;
           transition: border-color 0.3s ease;
@@ -63,6 +64,26 @@ export default function BrandStatement() {
           letter-spacing: 0.5px;
         }
         .bs-learn-link:hover { border-bottom-color: #D8E0D1; }
+
+        /* Animations */
+        @keyframes floatSlow {
+          0%, 100% { transform: translateY(0) translateX(-50%); }
+          50% { transform: translateY(-10px) translateX(-50%); }
+        }
+        @keyframes pulseRotate {
+          0% { transform: rotate(0deg) scale(1); }
+          50% { transform: rotate(5deg) scale(1.05); }
+          100% { transform: rotate(0deg) scale(1); }
+        }
+        
+        .animated-sunburst {
+          animation: pulseRotate 6s ease-in-out infinite;
+          transform-origin: center;
+        }
+        .floating-arch {
+          animation: floatSlow 8s ease-in-out infinite;
+        }
+        
         @media (max-width: 900px) {
           .bs-vectors { opacity: 0.6; }
         }
@@ -80,12 +101,13 @@ export default function BrandStatement() {
           alt=""
           style={{
             position: 'absolute', left: 0, bottom: '-10px',
-            width: '35%', maxWidth: '600px', height: 'auto', zIndex: 3
+            width: '35%', maxWidth: '600px', height: 'auto', zIndex: 3,
+            transition: 'clip-path 3s ease'
           }}
         />
         <img
           src="/assets/vector2.svg"
-          className="vector-reveal-el"
+          className="vector-reveal-el floating-arch"
           alt=""
           style={{
             position: 'absolute', left: '50%', bottom: 0,
@@ -100,7 +122,8 @@ export default function BrandStatement() {
           alt=""
           style={{
             position: 'absolute', right: 0, bottom: '-10px',
-            width: '35%', maxWidth: '600px', height: 'auto', zIndex: 3
+            width: '35%', maxWidth: '600px', height: 'auto', zIndex: 3,
+            transition: 'clip-path 3s ease'
           }}
         />
       </div>
@@ -111,20 +134,21 @@ export default function BrandStatement() {
           <img
             src="/assets/brand_icon_3rd.svg"
             alt="Danes Brand Icon"
+            className="animated-sunburst"
             style={{ width: '52px', height: 'auto', display: 'block', margin: '0 auto' }}
           />
         </div>
         <h2 className="bs-reveal" style={{
-          fontFamily: 'var(--font-body)',
-          fontSize: 'clamp(22px, 3vw, 36px)',
-          fontWeight: 300,
+          fontFamily: 'var(--font-heading)',
+          fontSize: 'clamp(28px, 4vw, 48px)',
+          fontWeight: 400,
           letterSpacing: '0.07em',
           textTransform: 'uppercase',
           lineHeight: 1.3,
-          marginBottom: '3.5rem',
+          marginBottom: '2rem',
           color: '#D8E0D1'
         }}>
-          WE MAP YOUR CONCERNS TO THE ENDOCANNABINOID SYSTEM AND DESIGN A NATURAL PLAN.
+          ANCIENT SYSTEMS, REFINED FOR MODERN LIFE.
         </h2>
         <p className="bs-reveal" style={{
           fontFamily: 'var(--font-body)',

@@ -1,25 +1,35 @@
 'use client'
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
+
+const doctorsPhotos = [
+  "/doctors/Health_and_wellness_store_display_202605280812.jpeg",
+  "/doctors/Health_and_wellness_store_display_202605280816.jpeg",
+  "/doctors/Health_store_with_plants_202605280817.jpeg",
+  "/doctors/Recreate_image_use_reference_202605280805.jpeg"
+];
 
 export default function Consultation() {
   const sectionRef = useRef(null);
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
     const section = sectionRef.current;
     if (!section) return;
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          section.querySelectorAll('.consult-reveal').forEach((el, i) => {
-            setTimeout(() => el.classList.add('consult-visible'), i * 150);
-          });
-          observer.unobserve(section);
-        }
+    const timer = setTimeout(() => {
+      section.querySelectorAll('.consult-reveal').forEach((el, i) => {
+        setTimeout(() => el.classList.add('consult-visible'), i * 150);
       });
-    }, { threshold: 0.15 });
-    observer.observe(section);
-    return () => observer.disconnect();
+    }, 100);
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Slide deck interval
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % doctorsPhotos.length);
+    }, 4000);
+    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -47,55 +57,77 @@ export default function Consultation() {
           opacity: 1;
           transform: translateY(0);
         }
+        
+        /* Material UI inspired Button */
         .consult-book-link {
-          display: inline-block;
-          color: #F8F3DF;
+          display: inline-flex;
+          align-items: center;
+          background: #F8F3DF;
+          color: #105232;
           text-decoration: none;
           font-family: var(--font-body);
           font-size: 12px;
-          letter-spacing: 0.18em;
-          font-weight: 500;
+          letter-spacing: 0.12em;
+          font-weight: 600;
           text-transform: uppercase;
-          border-bottom: 1px solid rgba(255,255,255,0.3);
-          padding-bottom: 4px;
-          transition: border-color 0.3s ease, padding-left 0.3s ease;
+          padding: 14px 28px;
+          border-radius: 4px;
+          box-shadow: 0 3px 1px -2px rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12);
+          transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s ease;
         }
         .consult-book-link:hover {
-          border-bottom-color: #F8F3DF;
-          padding-left: 5px;
+          background: #ffffff;
+          box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2), 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12);
+          transform: translateY(-1px);
         }
-        /* Visual stack */
+
+        /* Slide Deck */
         .consult-visual-stack {
           position: relative;
           width: 100%;
           height: 550px;
-        }
-        .consult-main-img {
-          position: absolute;
-          top: 50px; left: 0;
-          width: 370px; height: 480px;
+          border-radius: 12px;
           overflow: hidden;
-          box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-          z-index: 2;
+          box-shadow: 0 24px 48px rgba(0,0,0,0.4);
         }
-        .consult-overlay-img {
+        .slide-img {
           position: absolute;
-          top: 0; right: 0;
-          width: 400px; height: 550px;
-          overflow: hidden;
-          box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-          z-index: 1;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          opacity: 0;
+          transition: opacity 1s ease-in-out, transform 4s ease-in-out;
+          transform: scale(1.05);
         }
+        .slide-img.active {
+          opacity: 1;
+          transform: scale(1);
+        }
+        .slide-dots {
+          position: absolute;
+          bottom: 24px;
+          left: 50%;
+          transform: translateX(-50%);
+          display: flex;
+          gap: 8px;
+          z-index: 10;
+        }
+        .slide-dot {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: rgba(255,255,255,0.4);
+          transition: all 0.3s ease;
+        }
+        .slide-dot.active {
+          background: #fff;
+          transform: scale(1.3);
+        }
+        
         @media (max-width: 1100px) {
           .consult-grid { grid-template-columns: 1fr !important; }
-          .consult-visual-stack { height: 500px; max-width: 600px; margin: 0 auto; }
-          .consult-main-img { width: 300px; height: 380px; }
-          .consult-overlay-img { width: 340px; height: 440px; }
-        }
-        @media (max-width: 640px) {
-          .consult-visual-stack { height: 400px; }
-          .consult-main-img { width: 220px; height: 300px; }
-          .consult-overlay-img { width: 260px; height: 360px; }
+          .consult-visual-stack { height: 450px; max-width: 700px; margin: 40px auto 0; }
         }
       `}</style>
 
@@ -155,40 +187,37 @@ export default function Consultation() {
               Our in-house doctors map your specific concerns to your biology before recommending anything.
             </p>
             <a href="#" className="consult-reveal consult-book-link">
-              BOOK A CONSULTATION →
+              BOOK A CONSULTATION
             </a>
           </div>
 
-          {/* Visual Stack */}
+          {/* Slide Deck */}
           <div className="consult-reveal" style={{ transitionDelay: '0.4s' }}>
             <div className="consult-visual-stack">
-              {/* Main image — left, overlapping */}
-              <div className="consult-main-img">
-                <div style={{
-                  width: '100%', height: '100%',
-                  background: 'linear-gradient(145deg, rgba(216,224,209,0.15) 0%, rgba(16,82,50,0.3) 100%)',
-                  display: 'flex', alignItems: 'center', justifyContent: 'center'
-                }}>
-                  <img
-                    src="/assets/brand_icon_3rd.svg"
-                    alt=""
-                    style={{ width: '80px', opacity: 0.2, filter: 'brightness(0) invert(1)' }}
+              {doctorsPhotos.map((photo, i) => (
+                <img 
+                  key={i}
+                  src={photo}
+                  alt={`Doctor consultation ${i+1}`}
+                  className={`slide-img ${currentSlide === i ? 'active' : ''}`}
+                />
+              ))}
+              
+              {/* Overlay Gradient for contrast */}
+              <div style={{
+                position: 'absolute', inset: 0,
+                background: 'linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 40%)',
+                zIndex: 5
+              }} />
+              
+              {/* Dots */}
+              <div className="slide-dots">
+                {doctorsPhotos.map((_, i) => (
+                  <div 
+                    key={i} 
+                    className={`slide-dot ${currentSlide === i ? 'active' : ''}`}
                   />
-                </div>
-              </div>
-              {/* Overlay image — right, behind */}
-              <div className="consult-overlay-img">
-                <div style={{
-                  width: '100%', height: '100%',
-                  background: 'linear-gradient(145deg, rgba(16,82,50,0.5) 0%, rgba(17,37,25,0.8) 100%)',
-                  display: 'flex', alignItems: 'center', justifyContent: 'center'
-                }}>
-                  <img
-                    src="/assets/hemp leaf.svg"
-                    alt=""
-                    style={{ width: '160px', opacity: 0.15, filter: 'brightness(0) invert(1)' }}
-                  />
-                </div>
+                ))}
               </div>
             </div>
           </div>

@@ -28,16 +28,16 @@ export default function PillarGrid() {
   }, []);
 
   const pillars = [
-    { name: "CALM",     href: "/shop?category=Calm",     desc: "Nervous system, stress, anxiety" },
-    { name: "REST",     href: "/shop?category=Rest",      desc: "Sleep, circadian rhythm, insomnia" },
-    { name: "CLARITY",  href: "/shop?category=Clarity",   desc: "Focus, cognitive function, brain fog" },
-    { name: "PAIN",     href: "/shop?category=Pain",      desc: "Inflammation, joint pain, recovery" },
-    { name: "VITALITY", href: "/shop?category=Vitality",  desc: "Energy, performance, recovery" },
-    { name: "HORMONAL BALANCE", href: "/shop?category=Hormonal+Balance", desc: "PMS, PCOS, perimenopause" },
-    { name: "IMMUNITY", href: "/shop?category=Immunity",  desc: "Immune resilience, post-viral recovery" },
-    { name: "DIGESTION", href: "/shop?category=Digestive+Balance", desc: "Gut health, IBS, absorption" },
-    { name: "LONGEVITY", href: "/shop?category=Longevity", desc: "Cellular ageing, metabolic health" },
-    { name: "VIEW ALL", href: "/shop",                    desc: "10+ categories" }
+    { name: "CALM",     href: "/shop?category=Calm",     desc: "Nervous system, stress, anxiety", icon: "meditation.png" },
+    { name: "SLEEP",    href: "/shop?category=Sleep",    desc: "Sleep, circadian rhythm, insomnia", icon: "sleep-face.png" },
+    { name: "CLARITY",  href: "/shop?category=Clarity",   desc: "Focus, cognitive function, brain fog", icon: "moon-cloud.png" },
+    { name: "PAIN",     href: "/shop?category=Pain",      desc: "Inflammation, joint pain, recovery", icon: "head-massage.png" },
+    { name: "VITALITY", href: "/shop?category=Vitality",  desc: "Energy, performance, recovery", icon: "lotus.png" },
+    { name: "HORMONES", href: "/shop?category=Hormones",  desc: "PMS, PCOS, perimenopause", icon: "heart-hands.png" },
+    { name: "IMMUNITY", href: "/shop?category=Immunity",  desc: "Immune resilience, post-viral recovery", icon: "bottle-mat.png" },
+    { name: "DIGESTION", href: "/shop?category=Digestion", desc: "Gut health, IBS, absorption", icon: "towel.png" },
+    { name: "LONGEVITY", href: "/shop?category=Longevity", desc: "Cellular ageing, metabolic health", icon: "candle.png" },
+    { name: "VIEW ALL", href: "/shop",                    desc: "10+ categories", icon: "diffuser.png" }
   ];
 
   return (
@@ -85,28 +85,73 @@ export default function PillarGrid() {
           flex-direction: column;
           min-height: 250px;
           cursor: pointer;
-          transition: transform 0.3s ease;
+          transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
           text-decoration: none;
+          position: relative;
+          overflow: hidden;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
+        
+        /* Shine effect */
+        .danes-concern-card::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -100%;
+          width: 50%;
+          height: 100%;
+          background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+          transform: skewX(-25deg);
+          transition: all 0.6s ease;
+        }
+        .danes-concern-card:hover::after {
+          animation: shine 1s;
+        }
+        @keyframes shine {
+          100% { left: 200%; }
+        }
+
+        /* Hover Color Change */
         .danes-concern-card:hover {
-          transform: translateY(-5px);
+          transform: translateY(-8px);
+          background: #186f44;
+          box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
         }
+
         .danes-concern-card h3 {
           font-family: var(--font-body);
-          font-size: 12px;
-          font-weight: 500;
+          font-size: 13px;
+          font-weight: 600;
           letter-spacing: 1px;
           margin-bottom: 1rem;
           text-transform: uppercase;
           color: #D8E0D1;
+          position: relative;
+          z-index: 2;
         }
         .danes-concern-card p {
           font-family: var(--font-body);
           font-size: 11px;
           font-weight: 400;
           line-height: 1.6;
-          opacity: 0.7;
+          opacity: 0.8;
           color: #D8E0D1;
+          position: relative;
+          z-index: 2;
+        }
+        .danes-concern-card .icon-wrapper {
+          margin-bottom: 1.5rem;
+          width: 40px;
+          height: 40px;
+          position: relative;
+          z-index: 2;
+          transition: transform 0.3s ease;
+          filter: brightness(0) invert(1) opacity(0.8);
+        }
+        .danes-concern-card:hover .icon-wrapper {
+          transform: scale(1.1);
+          filter: brightness(0) invert(1) opacity(1);
         }
         .danes-concern-card .view-link {
           margin-top: auto;
@@ -121,9 +166,11 @@ export default function PillarGrid() {
           opacity: 0.7;
           transition: opacity 0.3s ease;
           padding-top: 24px;
+          position: relative;
+          z-index: 2;
+          font-weight: 500;
         }
         .danes-concern-card:hover .view-link { opacity: 1; }
-        .danes-concern-card:hover h3, .danes-concern-card:hover p { opacity: 1; }
 
         @media (max-width: 900px) {
           .pillar-cards-container {
@@ -131,7 +178,7 @@ export default function PillarGrid() {
             flex-wrap: nowrap !important;
             overflow-x: auto;
             justify-content: flex-start !important;
-            gap: 12px !important;
+            gap: 16px !important;
             padding: 1rem 0 2rem;
             -webkit-overflow-scrolling: touch;
             scrollbar-width: none;
@@ -172,7 +219,7 @@ export default function PillarGrid() {
             style={{ width: '40px', height: 'auto', marginBottom: '0.5rem', display: 'block', margin: '0 auto 0.5rem' }}
           />
           <p style={{
-            fontFamily: 'var(--font-body)', fontWeight: 500,
+            fontFamily: 'var(--font-body)', fontWeight: 600,
             fontSize: '12px', letterSpacing: '0.18em',
             textTransform: 'uppercase', color: '#105232'
           }}>
@@ -194,6 +241,9 @@ export default function PillarGrid() {
               href={p.href}
               className={`danes-concern-card pillar-reveal`}
             >
+              <div className="icon-wrapper">
+                <Image src={`/assets/icons-img/${p.icon}`} alt={p.name} fill style={{objectFit: 'contain'}} />
+              </div>
               <h3>{p.name}</h3>
               <p>{p.desc}</p>
               <span className="view-link">

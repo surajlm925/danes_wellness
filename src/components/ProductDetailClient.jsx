@@ -1,39 +1,64 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import products from '@/lib/products.json';
 import { useCart } from '@/context/CartContext';
 import Link from 'next/link';
 import ProductCard from '@/components/ProductCard';
+import Testimonials from '@/sections/Testimonials';
+import Consultation from '@/sections/Consultation';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const renderPipedField = (text) => {
-  if (!text) return null;
-  const items = text.split('|').map(item => item.trim()).filter(Boolean);
-  if (items.length <= 1) return <p className="text-lg leading-relaxed text-[var(--text)] opacity-80">{text}</p>;
+const AccordionItem = ({ title, content, isOpen, onClick }) => {
+  if (!content) return null;
   return (
-    <ul className="space-y-3">
-      {items.map((item, i) => (
-        <div key={i} className="mb-4 flex gap-4">
-          <span className="text-[var(--accent)] flex-shrink-0 mt-1">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
-          </span>
-          <span className="text-lg leading-relaxed text-[var(--text)] opacity-80">{item}</span>
-        </div>
-      ))}
-    </ul>
+    <div className="border-b border-[var(--border)]">
+      <button 
+        onClick={onClick} 
+        className="w-full flex justify-between items-center py-4 text-left group"
+      >
+        <span className="font-semibold uppercase text-[10px] tracking-[0.2em] text-[var(--heading)] group-hover:opacity-80 transition-opacity">
+          {title}
+        </span>
+        <svg 
+          width="12" 
+          height="12" 
+          viewBox="0 0 24 24" 
+          fill="none" 
+          stroke="currentColor" 
+          strokeWidth="2" 
+          strokeLinecap="round" 
+          strokeLinejoin="round"
+          className={`transition-transform duration-300 text-[var(--heading)] ${isOpen ? 'rotate-180' : ''}`}
+        >
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </button>
+      <AnimatePresence initial={false}>
+        {isOpen && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.3, ease: 'easeInOut' }}
+            className="overflow-hidden"
+          >
+            <div className="pb-6 text-xs text-[var(--text)] opacity-80 leading-relaxed max-w-[90%]">
+              {content.split('|').map((p, i) => (
+                <p key={i} className="mb-2 last:mb-0">{p.trim()}</p>
+              ))}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
   );
 };
 
 export default function ProductDetailClient({ product, handle }) {
-  const [activeTab, setActiveTab] = useState('longDescription');
   const { addItem } = useCart();
-
-  const [activeImage, setActiveImage] = useState(
-    product?.images?.catalogue || null
-  );
+  const [quantity, setQuantity] = useState(1);
+  const [openAccordion, setOpenAccordion] = useState('details');
 
   const relatedProducts = useMemo(() => {
     if (!product) return [];
@@ -42,11 +67,41 @@ export default function ProductDetailClient({ product, handle }) {
       .slice(0, 4);
   }, [product]);
 
+  // Extract sizes from product description
+  const sizes = useMemo(() => {
+    if (!product) return null;
+    const desc = product.shortDescription || '';
+    const match = desc.match(/Available in ([^.]+)/i);
+    if (match) {
+      return match[1].split('&').map(s => s.trim().replace('and', '').trim());
+    }
+    if (desc.includes('6g/36g')) return ['6g', '36g'];
+    if (desc.includes('10 ml & 30 ml') || product.longDescription?.includes('10 ml & 30 ml')) return ['10 ml', '30 ml'];
+    if (desc.includes('5g')) return ['5g'];
+    if (desc.includes('50g')) return ['50g'];
+    if (desc.includes('100g')) return ['100g'];
+    if (desc.includes('30ml') || desc.includes('30 ml')) return ['30 ml'];
+    if (desc.includes('10ml') || desc.includes('10 ml')) return ['10 ml'];
+    return null;
+  }, [product]);
+
+  const [selectedSize, setSelectedSize] = useState(null);
+
+  useEffect(() => {
+    if (sizes && sizes.length > 0) {
+      setSelectedSize(sizes[0]);
+    } else {
+      setSelectedSize(null);
+    }
+    setQuantity(1);
+    setOpenAccordion('details');
+  }, [product, sizes]);
+
   if (!product) {
     return (
-      <div className="min-h-screen bg-[var(--bg)] pt-40 text-center">
+      <div className="min-h-screen bg-[#F2F1E8] dark:bg-[var(--bg)] pt-40 text-center transition-colors duration-300">
         <h1 className="font-[var(--font-heading)] text-3xl mb-8">Product Not Found</h1>
-        <Link href="/shop" className="text-[var(--bg-dark)] underline font-bold uppercase tracking-widest text-xs">
+        <Link href="/shop" className="text-[var(--heading)] underline font-bold uppercase tracking-widest text-xs">
           Back to Shop
         </Link>
       </div>
@@ -55,225 +110,398 @@ export default function ProductDetailClient({ product, handle }) {
 
   const isRx = product.prescription === 'Rx' || product.requiresConsultation;
 
-  const tabs = [
-    { id: 'longDescription', label: 'How It Works', content: product.longDescription },
-    { id: 'keyIngredients', label: 'Key Ingredients', content: product.keyIngredients },
-    { id: 'howToUse', label: 'How to Use', content: product.howToUse },
-    { id: 'benefits', label: 'Benefits', content: product.benefits },
+  // Mock pricing logic matching the design screenshot
+  const getProductPrices = (p) => {
+    if (p.price && p.price !== '') {
+      return { price: p.price, originalPrice: p.originalPrice || null };
+    }
+    let price = 649;
+    let originalPrice = 1200;
+    if (p.slug?.includes('drops') || p.slug?.includes('oil') || p.slug?.includes('rx')) {
+      price = 1499;
+      originalPrice = 2499;
+    } else if (p.slug?.includes('powder') || p.slug?.includes('protein')) {
+      price = 999;
+      originalPrice = 1799;
+    } else if (p.slug?.includes('tea') || p.slug?.includes('blend')) {
+      price = 649;
+      originalPrice = 1200;
+    } else if (p.slug?.includes('capsule')) {
+      price = 899;
+      originalPrice = 1499;
+    } else if (p.slug?.includes('roll-on') || p.slug?.includes('balm')) {
+      price = 499;
+      originalPrice = 799;
+    } else {
+      price = 649;
+      originalPrice = 1200;
+    }
+    return { price, originalPrice };
+  };
+
+  const { price: displayPrice, originalPrice } = getProductPrices(product);
+
+  const accordions = [
+    { id: 'details', label: 'Product Details', content: product.longDescription || product.shortDescription },
+    { id: 'ingredients', label: 'Key Ingredients', content: product.keyIngredients },
+    { id: 'howWorks', label: 'How it works', content: product.benefits },
+    { id: 'howToUse', label: 'How to use', content: product.howToUse },
+    { id: 'dosage', label: 'Dosage', content: isRx ? "To be consumed strictly under medical supervision. Fill dropper to prescribed dosage. Administer sublingually or as directed by your physician." : "Use 1-2 times daily or as needed. Follow directions on package." },
+    { id: 'care', label: 'Care and precaution', content: "Keep out of reach of children. Store in a cool, dry place away from direct sunlight. Consult a physician before use if pregnant, lactating, or on medication." },
+    { id: 'shelfLife', label: 'Shelf life', content: "Best before 24 months from the date of manufacture. Once opened, store securely." }
   ];
 
+  // Dynamic Benefit Badges based on product tags/categories
+  const getBenefitBadges = (p) => {
+    const category = (p.category || p.pillar || '').toLowerCase();
+    
+    if (category.includes('calm') || category.includes('anxiety') || p.slug?.includes('calm') || p.slug?.includes('bliss')) {
+      return [
+        { name: 'Reduces stress & anxiety', icon: (
+          <><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 11 11 13 15 9"/></>
+        )},
+        { name: 'Promotes mental calm', icon: (
+          <><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></>
+        )},
+        { name: 'Supports restful sleep', icon: (
+          <><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></>
+        )},
+        { name: 'Caffeine-free', icon: (
+          <><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></>
+        )},
+        { name: 'Suitable for daily use', icon: (
+          <><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></>
+        )},
+        { name: 'No side effects', icon: (
+          <><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v8M8 12h8"/></>
+        )}
+      ];
+    }
+  
+    if (category.includes('sleep') || category.includes('rest') || p.slug?.includes('sleep')) {
+      return [
+        { name: 'Reduces sleep onset time', icon: (
+          <><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></>
+        )},
+        { name: 'Supports restful sleep', icon: (
+          <><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></>
+        )},
+        { name: 'Promotes mental calm', icon: (
+          <><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></>
+        )},
+        { name: 'Non-habit-forming', icon: (
+          <><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20z"/><path d="M8 12h8"/></>
+        )},
+        { name: 'Suitable for daily use', icon: (
+          <><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></>
+        )},
+        { name: 'No side effects', icon: (
+          <><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v8M8 12h8"/></>
+        )}
+      ];
+    }
+  
+    if (category.includes('pain') || p.slug?.includes('pain') || p.slug?.includes('combat') || p.slug?.includes('ease')) {
+      return [
+        { name: 'Relieves chronic pain', icon: (
+          <><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v8M8 12h8"/></>
+        )},
+        { name: 'Reduces muscle stiffness', icon: (
+          <><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></>
+        )},
+        { name: 'Reduces inflammation', icon: (
+          <><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 8v8M8 12h8"/></>
+        )},
+        { name: 'Fast acting relief', icon: (
+          <><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></>
+        )},
+        { name: 'Suitable for daily use', icon: (
+          <><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></>
+        )},
+        { name: 'No side effects', icon: (
+          <><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v8M8 12h8"/></>
+        )}
+      ];
+    }
+  
+    // Default / Wellness / Tea
+    return [
+      { name: '100% Organic & Genuine', icon: (
+        <><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 11 11 13 15 9"/></>
+      )},
+      { name: 'Ayush Licensed', icon: (
+        <><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></>
+      )},
+      { name: 'FSSAI Certified', icon: (
+        <><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></>
+      )},
+      { name: 'Cruelty Free', icon: (
+        <><path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9z"/></>
+      )},
+      { name: '100% Vegan', icon: (
+        <><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></>
+      )},
+      { name: 'Gluten Free', icon: (
+        <><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></>
+      )}
+    ];
+  };
+
+  const badges = getBenefitBadges(product);
+
   return (
-    <div className="min-h-screen bg-[var(--bg)] pt-24 pb-20">
-      <div className="container-danes">
+    <div className="min-h-screen bg-[#F2F1E8] dark:bg-[var(--bg)] pt-32 pb-0 transition-colors duration-300">
+      
+      {/* Top Section */}
+      <div className="container-danes px-4 md:px-8 max-w-[1400px] mx-auto mb-20">
         
         {/* Breadcrumbs */}
-        <nav className="flex items-center gap-4 mb-12">
-          <Link href="/shop" className="group flex items-center gap-2 text-[var(--text-muted)] hover:text-[var(--bg-dark)] transition-colors">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform group-hover:-translate-x-1">
-              <line x1="19" y1="12" x2="5" y2="12"></line>
-              <polyline points="12 19 5 12 12 5"></polyline>
-            </svg>
-            <span className="text-[10px] uppercase tracking-widest font-bold">Shop</span>
-          </Link>
-          <span className="text-[var(--text-muted)] opacity-30">/</span>
-          <span className="text-[10px] uppercase tracking-widest font-bold text-[var(--bg-dark)] opacity-40 truncate max-w-[200px]">
-            {product.name}
-          </span>
+        <nav className="flex items-center gap-2 mb-8 text-[9px] uppercase tracking-[0.2em] text-[var(--heading)] font-bold">
+          <Link href="/" className="hover:opacity-70 transition-opacity">Home</Link>
+          <span className="opacity-40">/</span>
+          <Link href="/shop" className="hover:opacity-70 transition-opacity">Shop</Link>
+          <span className="opacity-40">/</span>
+          <span className="opacity-60 truncate">{product.name}</span>
         </nav>
 
-        <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 mb-24">
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-20">
           
-          {/* LEFT: Image Section (55%) */}
-          <div className="lg:w-[55%] space-y-4">
-            <div className="aspect-[4/5] bg-[var(--bg-dark)] overflow-hidden relative border border-[var(--border)]">
-              {activeImage ? (
+          {/* LEFT COLUMN: Main Image & Gallery Grids (50%) */}
+          <div className="lg:w-1/2 flex flex-col gap-6">
+            
+            {/* Main Product Image Container */}
+            <div className="aspect-[4/5] bg-[#E8EAE6] dark:bg-[var(--bg-alt)] relative flex items-center justify-center p-8 border border-[var(--border)] overflow-hidden group transition-colors duration-300">
+              {isRx && (
+                <div className="absolute top-4 left-4 z-10 w-12 h-12 flex items-center justify-center">
+                  <svg viewBox="0 0 100 100" className="absolute inset-0 w-full h-full text-[#B81F25] fill-current drop-shadow-md">
+                    <polygon points="50,0 60,15 78,12 82,28 98,35 90,50 98,65 82,72 78,88 60,85 50,100 40,85 22,88 18,72 2,65 10,50 2,35 18,28 22,12 40,15" />
+                  </svg>
+                  <span className="relative z-10 text-white text-[10px] font-bold font-[var(--font-heading)]">Rx</span>
+                </div>
+              )}
+              {product.images?.catalogue ? (
                 <img 
-                  src={activeImage}
+                  src={product.images.catalogue}
                   alt={product.name}
-                  onError={(e) => { e.target.style.display = 'none'; }}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
                 />
               ) : (
-                <div style={{
-                  background: '#105232',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: '100%',
-                  height: '100%'
-                }}>
-                  <span style={{
-                    color: '#D8E0D1',
-                    fontSize: '24px',
-                    fontFamily: 'Jost',
-                    textAlign: 'center',
-                    padding: '32px'
-                  }}>
-                    {product.brand}
-                  </span>
-                </div>
+                <span className="text-2xl font-[var(--font-heading)] text-[var(--heading)] opacity-50 uppercase tracking-widest">{product.brand}</span>
               )}
-              {isRx && (
-                <div className="absolute top-6 left-6 bg-[var(--accent)] text-white text-[10px] uppercase tracking-widest font-bold py-2 px-4 shadow-lg">
-                  Consultation Required
-                </div>
-              )}
+              
+              {/* Expand Icon in bottom right */}
+              <div className="absolute bottom-4 right-4 bg-white/80 dark:bg-black/50 p-2.5 rounded-full shadow-md backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="text-[var(--heading)]" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                </svg>
+              </div>
             </div>
-
-            {/* Gallery Thumbnail Strip */}
-            {product.images?.gallery?.length > 0 && (
-              <div className="flex gap-2 mt-3 overflow-x-auto pb-1">
-                {/* Catalogue thumbnail first */}
-                {product.images?.catalogue && (
-                  <button
-                    onClick={() => setActiveImage(product.images.catalogue)}
-                    className={`flex-shrink-0 w-16 h-16 rounded overflow-hidden border-2 transition-all ${
-                      activeImage === product.images.catalogue
-                        ? 'border-[#105232]'
-                        : 'border-transparent opacity-60 hover:opacity-100'
-                    }`}
-                  >
-                    <img
-                      src={product.images.catalogue}
-                      alt="Main"
-                      className="w-full h-full object-cover"
-                    />
-                  </button>
-                )}
-                {/* Gallery thumbnails */}
+            
+            {/* Infographics Gallery Grid (2 columns) - Fully visible, not thumbnails */}
+            {product.images?.gallery && product.images.gallery.length > 0 && (
+              <div className="grid grid-cols-2 gap-4">
                 {product.images.gallery.map((src, index) => (
-                  <button
-                    key={src}
-                    onClick={() => setActiveImage(src)}
-                    className={`flex-shrink-0 w-16 h-16 rounded overflow-hidden border-2 transition-all ${
-                      activeImage === src
-                        ? 'border-[#105232]'
-                        : 'border-transparent opacity-60 hover:opacity-100'
-                    }`}
+                  <div
+                    key={src + index}
+                    className="aspect-square bg-[#E8EAE6] dark:bg-[var(--bg-alt)] relative overflow-hidden border border-[var(--border)] rounded-sm group/gallery transition-colors duration-300"
                   >
                     <img
                       src={src}
-                      alt={`Gallery ${index + 1}`}
-                      className="w-full h-full object-cover"
+                      alt={`Infographic ${index + 1}`}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover/gallery:scale-[1.03]"
                     />
-                  </button>
+                  </div>
                 ))}
               </div>
             )}
           </div>
 
-          {/* RIGHT: Detail Section (45%) */}
-          <div className="lg:w-[45%] flex flex-col pt-4">
-            <div className="space-y-2 mb-6">
-              <span className="text-[10px] uppercase tracking-[0.3em] font-medium text-[var(--text-muted)]">
+          {/* RIGHT COLUMN: Product Info details (50%) */}
+          <div className="lg:w-1/2 flex flex-col pt-4">
+            
+            {/* Brand Title */}
+            <div className="mb-2">
+              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--heading)] opacity-70">
                 {product.brand}
               </span>
-              {product.category && (
-                <div className="inline-block px-3 py-1 bg-[var(--bg-alt)] text-[var(--bg-dark)] text-[10px] uppercase tracking-widest font-bold rounded-full">
-                  {product.category}
-                </div>
-              )}
             </div>
 
-            <h1 className="font-[var(--font-heading)] text-4xl lg:text-5xl text-[var(--bg-dark)] uppercase leading-tight mb-4">
+            {/* Product Title */}
+            <h1 className="font-[var(--font-heading)] text-3xl lg:text-4xl text-[var(--heading)] uppercase mb-4 leading-tight">
               {product.name}
             </h1>
 
-            <p className="text-2xl text-[var(--bg-dark)] font-medium mb-4">
-              {product.price ? `₹${product.price}` : <span className="text-xl opacity-60 italic">Price on request</span>}
-            </p>
-
-            <p className="text-[var(--text)] italic text-lg leading-relaxed mb-8 opacity-80 font-light border-l-2 border-[var(--accent)] pl-6 py-2">
-              "{product.tagline}"
-            </p>
-
-            <div className="space-y-8 mb-12">
-              <div>
-                <span className="text-[10px] uppercase tracking-widest font-bold text-[var(--text-muted)] block mb-2">Overview</span>
-                <p className="text-[var(--text)] leading-relaxed opacity-70">
-                  {product.shortDescription}
-                </p>
-              </div>
-            </div>
-
+            {/* Consultation Banner for Rx products */}
             {isRx && (
-              <div className="bg-[rgba(196,146,42,0.1)] border border-[var(--accent)] p-4 mb-8 flex gap-4 items-center">
-                <div className="w-8 h-8 rounded-full bg-[var(--accent)] flex items-center justify-center flex-shrink-0 text-white">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
-                    <line x1="12" y1="9" x2="12" y2="13"></line>
-                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
-                  </svg>
-                </div>
-                <p className="text-xs text-[var(--accent)] font-bold uppercase tracking-wider leading-relaxed">
-                  Requires doctor consultation before delivery. Our in-house doctors will call you post-purchase.
-                </p>
+              <div className="flex items-center gap-1.5 text-[11px] uppercase tracking-wider text-[#C68B59] font-bold mb-4">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="12" y1="16" x2="12" y2="12"/>
+                  <line x1="12" y1="8" x2="12.01" y2="8"/>
+                </svg>
+                <span>Consultation required</span>
               </div>
             )}
 
-            <button
-              onClick={() => addItem({ ...product, image: activeImage })}
-              className="w-full bg-[var(--bg-dark)] text-white py-5 px-8 font-[var(--font-heading)] uppercase tracking-[0.2em] text-sm hover:bg-[var(--accent)] transition-all duration-500 transform hover:scale-[1.01] active:scale-[0.99] shadow-xl hover:shadow-[var(--accent)]/20"
-            >
-              Add to Cart
-            </button>
-          </div>
-        </div>
+            {/* Tagline / Subtext */}
+            <p className="text-sm text-[var(--text)] font-medium leading-relaxed mb-4">
+              {product.tagline}
+            </p>
 
-        {/* TABS SECTION */}
-        <section className="border-t border-[var(--border)] pt-20 mb-32">
-          <div className="flex flex-wrap gap-8 lg:gap-16 mb-12 justify-center lg:justify-start">
-            {tabs.map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
-                className={`text-[10px] uppercase tracking-[0.3em] font-bold pb-2 border-b-2 transition-all duration-300 ${
-                  activeTab === tab.id 
-                    ? 'text-[var(--bg-dark)] border-[var(--bg-dark)]' 
-                    : 'text-[var(--text-muted)] border-transparent hover:text-[var(--bg-dark)]'
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
-          </div>
+            {/* Short Description */}
+            <p className="text-xs text-[var(--text)] leading-relaxed mb-6 opacity-80">
+              {product.shortDescription}
+            </p>
 
-          <div className="max-w-4xl">
-            <motion.div
-              key={activeTab}
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4 }}
-            >
-              {renderPipedField(tabs.find(t => t.id === activeTab)?.content) || (
-                <p className="text-lg leading-relaxed text-[var(--text)] opacity-80">Information coming soon.</p>
+            {/* Pill Badges */}
+            <div className="flex flex-wrap gap-2 mb-8">
+              {product.category && (
+                <span className="text-[9px] uppercase tracking-wider font-bold px-3.5 py-1.5 rounded-full bg-[#EAE8DD] dark:bg-[var(--bg-alt)] text-[#105232] dark:text-[var(--text)]">
+                  {product.category}
+                </span>
               )}
-            </motion.div>
-          </div>
-        </section>
-
-        {/* RELATED PRODUCTS */}
-        {relatedProducts.length > 0 && (
-          <section className="pt-20 border-t border-[var(--border)]">
-            <div className="flex justify-between items-end mb-12">
-              <div>
-                <span className="text-[10px] uppercase tracking-[0.3em] font-medium text-[var(--text-muted)] block mb-2">Continue Exploring</span>
-                <h2 className="font-[var(--font-heading)] text-3xl text-[var(--bg-dark)] uppercase">Related Curatives</h2>
-              </div>
-              <Link href="/shop" className="text-[10px] uppercase tracking-widest font-bold text-[var(--bg-dark)] underline underline-offset-8 hover:text-[var(--accent)] transition-colors">
-                View All
-              </Link>
+              {product.pillar && (
+                <span className="text-[9px] uppercase tracking-wider font-bold px-3.5 py-1.5 rounded-full bg-[#FCE8E6] text-[#B81F25]">
+                  For {product.pillar}
+                </span>
+              )}
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {relatedProducts.map((p) => (
-                <ProductCard key={p.id} product={p} />
+            {/* Size Selector */}
+            {sizes && sizes.length > 0 && (
+              <div className="mb-8">
+                <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-[var(--heading)] block mb-3">Select Size</span>
+                <div className="flex flex-wrap gap-3">
+                  {sizes.map((sz) => (
+                    <button
+                      key={sz}
+                      onClick={() => setSelectedSize(sz)}
+                      className={`px-4 py-2.5 text-[10px] uppercase tracking-widest font-semibold border transition-all ${
+                        selectedSize === sz
+                          ? 'bg-[#105232] dark:bg-[var(--heading)] border-[#105232] dark:border-[var(--heading)] text-white dark:text-[#0d1f14]'
+                          : 'border-[#105232] dark:border-[var(--heading)] text-[#105232] dark:text-[var(--heading)] bg-transparent hover:bg-[#105232]/5 dark:hover:bg-[var(--heading)]/5'
+                      }`}
+                    >
+                      {sz}
+                    </button>
+                  ))}
+                  {/* Out of Stock visual fallback badge */}
+                  {sizes.length === 1 && (
+                    <button
+                      disabled
+                      className="px-4 py-2.5 text-[10px] uppercase tracking-widest font-semibold border border-dashed border-gray-400 text-gray-400 bg-transparent cursor-not-allowed opacity-50"
+                    >
+                      Bulk Pack (Out of Stock)
+                    </button>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Price block */}
+            <div className="mb-8 border-b border-[var(--border)] pb-6">
+              <div className="flex items-baseline gap-3">
+                <span className="text-3xl font-bold text-[var(--heading)]">₹{displayPrice}</span>
+                {originalPrice && (
+                  <span className="text-base text-gray-400 line-through">₹{originalPrice}</span>
+                )}
+              </div>
+              <p className="text-[9px] text-[var(--text)] opacity-60 mt-1 uppercase tracking-wider font-bold">
+                MRP incl. all taxes
+              </p>
+            </div>
+
+            {/* Action buttons (Quantity, Add to Cart, Buy Now) */}
+            <div className="flex flex-col sm:flex-row items-stretch gap-4 mb-12">
+              <div className="flex border border-[#105232] dark:border-[var(--heading)] h-12 w-full sm:w-32 items-center justify-between px-4 bg-transparent select-none">
+                <button 
+                  onClick={() => setQuantity(q => Math.max(1, q - 1))}
+                  className="text-[#105232] dark:text-[var(--heading)] text-lg font-light px-2 hover:opacity-70 transition-opacity"
+                >
+                  -
+                </button>
+                <span className="text-[#105232] dark:text-[var(--heading)] font-bold text-sm">{quantity}</span>
+                <button 
+                  onClick={() => setQuantity(q => q + 1)}
+                  className="text-[#105232] dark:text-[var(--heading)] text-lg font-light px-2 hover:opacity-70 transition-opacity"
+                >
+                  +
+                </button>
+              </div>
+              
+              <button
+                onClick={() => addItem({ ...product, price: displayPrice, size: selectedSize, quantity, image: product.images?.catalogue })}
+                className="flex-grow h-12 bg-[#105232] dark:bg-[var(--heading)] text-white dark:text-[#0d1f14] uppercase tracking-widest text-[10px] font-bold hover:bg-[#0a3822] dark:hover:bg-[#c9d4c2] transition-colors"
+              >
+                Add to Cart
+              </button>
+              
+              <button
+                onClick={() => {
+                  addItem({ ...product, price: displayPrice, size: selectedSize, quantity, image: product.images?.catalogue });
+                  window.location.href = '/cart';
+                }}
+                className="flex-grow h-12 border border-[#105232] dark:border-[var(--heading)] text-[#105232] dark:text-[var(--heading)] bg-transparent uppercase tracking-widest text-[10px] font-bold hover:bg-[#105232]/5 dark:hover:bg-[var(--heading)]/5 transition-colors"
+              >
+                Buy Now
+              </button>
+            </div>
+
+            {/* Benefit Icons Grid (3 columns, 2 rows) */}
+            <div className="grid grid-cols-3 gap-y-8 gap-x-4 mb-12 border-b border-[var(--border)] pb-12">
+              {badges.map((badge, i) => (
+                <div key={i} className="flex flex-col items-center text-center gap-3">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="text-[var(--heading)]" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    {badge.icon}
+                  </svg>
+                  <span className="text-[9px] uppercase tracking-wider text-[var(--text)] font-bold leading-normal px-1">
+                    {badge.name}
+                  </span>
+                </div>
               ))}
             </div>
-          </section>
-        )}
 
+            {/* Accordions */}
+            <div className="flex flex-col mb-12">
+              {accordions.map(acc => (
+                <AccordionItem 
+                  key={acc.id} 
+                  title={acc.label} 
+                  content={acc.content}
+                  isOpen={openAccordion === acc.id}
+                  onClick={() => setOpenAccordion(openAccordion === acc.id ? null : acc.id)}
+                />
+              ))}
+            </div>
+
+          </div>
+        </div>
       </div>
+
+      {/* Testimonials Block */}
+      <div className="bg-[#105232] py-20">
+        <Testimonials />
+      </div>
+
+      {/* Related Products Grid */}
+      {relatedProducts.length > 0 && (
+        <div className="bg-[#F2F1E8] dark:bg-[var(--bg)] py-20 border-b border-[var(--border)] transition-colors duration-300">
+          <div className="container-danes px-4 md:px-8 max-w-[1400px] mx-auto">
+            <h2 className="text-center font-[var(--font-heading)] text-sm tracking-[0.3em] uppercase text-[var(--heading)] mb-12 opacity-80 font-bold">
+              Related Products
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {relatedProducts.map(p => (
+                <ProductCard key={"rel-" + p.id} product={p} />
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Consultation Banner Block (featuring Doctor photo slide deck) */}
+      <Consultation />
+
     </div>
   );
 }

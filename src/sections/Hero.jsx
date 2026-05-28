@@ -1,8 +1,6 @@
 'use client'
 import React, { useEffect, useRef } from 'react';
-
-const LOGO_PATH_1 = "M24.7217 1.08128C24.656 0.401193 25.3455 -0.161639 25.9975 0.0423868C26.5955 0.124466 26.8464 0.783446 26.8159 1.32048C26.8347 7.57259 26.8042 13.827 26.83 20.0815C26.7971 21.2212 28.094 21.6809 29.0414 21.6809C29.8458 21.6293 30.2093 20.8132 30.5962 20.2245C32.4465 17.2298 34.3086 14.2445 36.173 11.2568C36.4215 10.7995 36.9539 10.4266 37.4862 10.6611C38.2507 10.7901 38.3938 11.7985 38.0068 12.3566C35.99 15.6539 33.9029 18.9113 31.8954 22.2132C31.1028 23.3412 32.6975 24.9336 33.8325 24.1526C39.2076 21.2447 44.5685 18.3086 49.9412 15.3936C50.3961 15.1473 51.0528 15.0864 51.3999 15.5484C51.951 16.1018 51.5757 17.0281 50.9168 17.2978C45.6473 20.1776 40.3707 23.0434 35.0965 25.9138C34.7049 26.1366 34.2945 26.4274 34.1843 26.8917C33.9287 27.7665 34.6768 28.7866 35.6148 28.6975C39.5265 28.7022 43.4382 28.7045 47.3498 28.6928C47.7227 28.7022 48.1097 28.6881 48.4731 28.8077C49.1908 29.0493 49.3338 30.1632 48.7147 30.5924C48.3324 30.9089 47.7978 30.8433 47.3381 30.8714C42.3383 30.862 37.3385 30.8691 32.3387 30.8667C32.4161 29.2251 32.1675 27.5085 31.1825 26.1507C29.9068 24.2582 27.5617 23.1536 25.2916 23.3928C23.0801 23.5921 21.0469 25.0391 20.1065 27.0442C19.5179 28.2261 19.485 29.5746 19.4827 30.8667C14.4665 30.8714 9.45023 30.8597 4.43166 30.8738C3.97436 30.8503 3.44906 30.9043 3.07384 30.5924C2.59074 30.2171 2.56963 29.4057 3.02693 29.007C3.40684 28.667 3.95091 28.7162 4.42463 28.6951C8.3363 28.7045 12.2503 28.6998 16.1643 28.6998C16.9312 28.7678 17.6558 28.1159 17.6511 27.3397C17.7027 26.751 17.2454 26.289 16.7694 26.0287C11.4061 23.1044 6.03339 20.1941 0.674771 17.2626C-0.0686341 16.9812 -0.263281 15.8438 0.423841 15.3983C0.937424 14.9879 1.60813 15.3092 2.10061 15.5882C7.05351 18.3133 12.0322 20.9938 16.9922 23.7094C17.4799 23.9721 17.9607 24.2746 18.5048 24.42C19.5718 24.5114 20.4653 23.1841 19.7969 22.2765C17.7895 18.9769 15.7141 15.7196 13.6855 12.434C13.2259 11.8313 13.4088 10.7409 14.2577 10.633C14.8018 10.4477 15.2755 10.8769 15.5241 11.3178C17.5433 14.5517 19.5437 17.7973 21.5722 21.0242C22.3461 22.368 24.7991 21.5824 24.6983 20.044C24.7405 13.7239 24.6936 7.4014 24.7217 1.08128Z";
-const LOGO_PATH_2 = "M24.4777 26.801C26.1357 26.0552 28.298 26.9933 28.8162 28.7521C29.3955 30.3538 28.4762 32.3026 26.844 32.8279C25.3454 33.4072 23.5069 32.6591 22.8432 31.1981C22.0247 29.6081 22.815 27.467 24.4777 26.801Z";
+import Link from 'next/link';
 
 export default function Hero() {
   const heroBgRef = useRef(null);
@@ -10,7 +8,7 @@ export default function Hero() {
   useEffect(() => {
     const handleScroll = () => {
       if (heroBgRef.current && window.scrollY < window.innerHeight) {
-        heroBgRef.current.style.transform = `translateY(${window.scrollY * 0.3}px)`;
+        heroBgRef.current.style.transform = `translateY(${window.scrollY * 0.28}px)`;
       }
     };
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -21,51 +19,191 @@ export default function Hero() {
     <section id="hero" style={{
       position: 'relative',
       height: '100vh',
-      minHeight: '600px',
+      minHeight: '640px',
       width: '100%',
       overflow: 'hidden',
-      background: '#112519'
+      background: '#0d1f12'
     }}>
       <style>{`
-        @keyframes revealUp {
-          0%   { transform: translateY(180px) scale(0.2); }
-          40%  { transform: translateY(80px) scale(0.7); }
-          100% { transform: translateY(0px) scale(1.6); }
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
         @keyframes heroFadeUp {
-          from { opacity: 0; transform: translateY(20px); }
+          from { opacity: 0; transform: translateY(28px); }
           to   { opacity: 1; transform: translateY(0); }
         }
         @keyframes heroFadeIn {
           from { opacity: 0; }
           to   { opacity: 1; }
         }
-        .hero-bottom-link {
-          color: #F8F3DF;
-          text-decoration: none;
-          font-family: var(--font-body);
-          font-size: 12px;
+        @keyframes pulseRing {
+          0%   { box-shadow: 0 0 0 0 rgba(255,255,255,0.25); }
+          70%  { box-shadow: 0 0 0 12px rgba(255,255,255,0); }
+          100% { box-shadow: 0 0 0 0 rgba(255,255,255,0); }
+        }
+
+        .hero-tag {
+          font-family: 'Poppins', sans-serif;
+          font-size: 11px;
           font-weight: 500;
-          letter-spacing: 0.12em;
+          letter-spacing: 0.28em;
           text-transform: uppercase;
+          color: rgba(248,243,223,0.7);
+          margin-bottom: 22px;
+          opacity: 0;
+          animation: heroFadeUp 0.9s ease 0.4s forwards;
+        }
+        .hero-h1 {
+          font-family: 'Poppins', sans-serif;
+          font-size: clamp(38px, 5.5vw, 78px);
+          font-weight: 300;
+          color: #F8F3DF;
+          letter-spacing: -0.01em;
+          line-height: 1.08;
+          margin: 0 0 28px;
+          max-width: 820px;
+          opacity: 0;
+          animation: heroFadeUp 0.9s ease 0.65s forwards;
+        }
+        .hero-h1 strong {
+          font-weight: 600;
+          color: #C8D9C0;
+        }
+        .hero-sub {
+          font-family: 'Poppins', sans-serif;
+          font-size: 15px;
+          font-weight: 300;
+          color: rgba(248,243,223,0.72);
+          line-height: 1.65;
+          max-width: 520px;
+          margin-bottom: 44px;
+          opacity: 0;
+          animation: heroFadeUp 0.9s ease 0.85s forwards;
+        }
+
+        /* CTA Buttons */
+        .hero-cta-row {
           display: flex;
           align-items: center;
-          gap: 8px;
-          transition: color 0.3s ease;
+          gap: 16px;
+          flex-wrap: wrap;
           opacity: 0;
-          animation: heroFadeIn 1s ease 1.2s forwards;
+          animation: heroFadeIn 0.9s ease 1.05s forwards;
         }
-        .hero-bottom-link:hover { color: #D8E0D1; }
-        .hero-bottom-link .arrow { display: inline-block; transition: transform 0.3s ease; }
-        .hero-bottom-link:hover .arrow { transform: translateX(5px); }
-        .hero-nav-logo { display: flex; align-items: center; }
-        .logo-reveal-circle {
-          transform-origin: center;
-          animation: revealUp 2.5s ease-out 1 forwards;
+
+        .btn-quiz {
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          background: #F8F3DF;
+          color: #105232;
+          font-family: 'Poppins', sans-serif;
+          font-size: 13px;
+          font-weight: 600;
+          letter-spacing: 0.12em;
+          text-transform: uppercase;
+          padding: 16px 36px;
+          border-radius: 4px; /* Material UI style */
+          text-decoration: none;
+          border: none;
+          cursor: pointer;
+          white-space: nowrap;
+          box-shadow: 0 3px 1px -2px rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12);
+          transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s ease;
+        }
+        .btn-quiz:hover {
+          background: #ffffff;
+          box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2), 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12);
+          transform: translateY(-1px);
+        }
+        .btn-quiz .arrow {
+          font-size: 16px;
+          display: inline-block;
+          transition: transform 0.3s ease;
+        }
+        .btn-quiz:hover .arrow { transform: translateX(4px); }
+
+        /* WhatsApp floating button */
+        .wa-fab {
+          position: fixed;
+          bottom: 28px;
+          right: 28px;
+          width: 58px;
+          height: 58px;
+          background: #25D366;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          box-shadow: 0 4px 20px rgba(37,211,102,0.45);
+          z-index: 9999;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          animation: pulseRing 2.5s ease-out infinite;
+        }
+        .wa-fab:hover {
+          transform: scale(1.12);
+          box-shadow: 0 8px 30px rgba(37,211,102,0.6);
+          animation: none;
+        }
+        .wa-fab svg {
+          width: 30px;
+          height: 30px;
+          fill: #fff;
+        }
+
+        /* Scroll indicator */
+        @keyframes scrollBounce {
+          0%, 100% { transform: translateY(0); opacity: 0.6; }
+          50%       { transform: translateY(8px); opacity: 1; }
+        }
+        .hero-scroll-hint {
+          position: absolute;
+          bottom: 32px;
+          right: 80px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 6px;
+          animation: heroFadeIn 1s ease 1.6s forwards;
+          opacity: 0;
+        }
+        .hero-scroll-hint span {
+          font-family: 'Poppins', sans-serif;
+          font-size: 9px;
+          letter-spacing: 0.22em;
+          color: rgba(248,243,223,0.45);
+          text-transform: uppercase;
+        }
+        .scroll-arrow {
+          width: 1px;
+          height: 36px;
+          background: linear-gradient(to bottom, rgba(248,243,223,0.5), transparent);
+          animation: scrollBounce 2s ease-in-out infinite;
+        }
+
+        @media (max-width: 768px) {
+          .hero-h1 { font-size: clamp(30px, 8vw, 50px); }
+          .hero-cta-row { gap: 12px; }
+          .btn-quiz, .btn-consult { padding: 13px 22px; font-size: 11px; }
+          #hero > div { padding: 0 24px !important; }
+          .hero-scroll-hint { right: 24px; }
         }
       `}</style>
 
-      {/* Background Video with Parallax */}
+      {/* WhatsApp FAB — replaces "Speak to a Doctor" */}
+      <a
+        href="https://wa.me/917899423033"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="wa-fab"
+        aria-label="Chat on WhatsApp"
+      >
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+      </a>
+
+      {/* Background Video */}
       <video
         ref={heroBgRef}
         autoPlay muted playsInline loop
@@ -73,62 +211,54 @@ export default function Hero() {
           position: 'absolute', top: 0, left: 0,
           width: '100%', height: '110%',
           objectFit: 'cover', zIndex: 1,
-          opacity: 0.55
+          opacity: 0.6
         }}
       >
         <source src="/video/hero.mp4" type="video/mp4" />
       </video>
 
-      {/* Gradient Overlay */}
+      {/* Gradient Overlays */}
       <div style={{
         position: 'absolute', inset: 0, zIndex: 2,
-        background: 'linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 40%, rgba(0,0,0,0.35) 100%)'
+        background: 'linear-gradient(to right, rgba(13,31,18,0.92) 0%, rgba(13,31,18,0.55) 55%, rgba(13,31,18,0.15) 100%)'
+      }} />
+      <div style={{
+        position: 'absolute', inset: 0, zIndex: 2,
+        background: 'linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, transparent 30%, transparent 65%, rgba(0,0,0,0.5) 100%)'
       }} />
 
       {/* Hero Content */}
       <div style={{
         position: 'relative', zIndex: 10,
-        height: 'calc(100% - 120px)',
-        display: 'flex', flexDirection: 'column',
+        height: '100%',
+        display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
-        padding: '0 80px', maxWidth: '1280px'
+        padding: '0 80px',
+        maxWidth: '1440px'
       }}>
-        <p style={{
-          fontFamily: 'var(--font-body)', fontWeight: 500,
-          fontSize: '11px', letterSpacing: '0.22em',
-          textTransform: 'uppercase', color: '#F8F3DF',
-          marginBottom: '20px',
-          opacity: 0,
-          animation: 'heroFadeUp 0.9s ease 0.5s forwards'
-        }}>
-          India's first hemp wellness clinic
+        <p className="hero-tag">India's First Hemp Wellness Clinic</p>
+
+        <h1 className="hero-h1">
+          Your Body Already<br />
+          Knows How to <strong>Heal.</strong>
+        </h1>
+
+        <p className="hero-sub">
+          Science-backed hemp and mushroom protocols, personalised to your biology by in-house doctors.
         </p>
 
-        <h1 style={{
-          fontFamily: '"Copperplate", "Cinzel", serif',
-          fontSize: 'clamp(42px, 6vw, 82px)',
-          color: '#F8F3DF', letterSpacing: '0.06em',
-          textTransform: 'uppercase',
-          lineHeight: 1.05, margin: '0 0 24px', maxWidth: '860px',
-          opacity: 0,
-          animation: 'heroFadeUp 0.9s ease 0.75s forwards'
-        }}>
-          YOUR BODY ALREADY<br />KNOWS HOW TO HEAL.
-        </h1>
+        <div className="hero-cta-row">
+          <Link href="/quiz" className="btn-quiz">
+            Take the Quiz <span className="arrow">→</span>
+          </Link>
+        </div>
       </div>
 
-      {/* Bottom Links — positioned absolute like reference */}
-      <div style={{
-        position: 'absolute', zIndex: 10,
-        bottom: '3rem', left: '80px',
-        display: 'flex', gap: '2.5rem'
-      }}>
-        <a href="#concerns" className="hero-bottom-link" style={{ transitionDelay: '0s' }}>
-          SHOP BY CONCERN <span className="arrow">→</span>
-        </a>
-        <a href="#consultation" className="hero-bottom-link" style={{ transitionDelay: '0.15s' }}>
-          BOOK A CONSULTATION <span className="arrow">→</span>
-        </a>
+      {/* Scroll hint */}
+      <div className="hero-scroll-hint" style={{ zIndex: 10 }}>
+        <span>Scroll</span>
+        <div className="scroll-arrow" />
       </div>
     </section>
   );

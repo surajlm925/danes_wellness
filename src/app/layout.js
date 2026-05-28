@@ -11,7 +11,7 @@ import Nav from '@/components/Nav'
 import dynamic from 'next/dynamic'
 
 const Footer = dynamic(() => import('@/components/Footer'))
-const FloatingCTA = dynamic(() => import('@/components/FloatingCTA'))
+
 import PageTransition from '@/components/PageTransition'
 
 import { CartProvider } from '@/context/CartContext'
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
               <PageTransition>
                 {children}
               </PageTransition>
-              <FloatingCTA />
+
               <Footer />
             </LenisProvider>
           </CartProvider>

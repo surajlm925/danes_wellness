@@ -45,3 +45,8 @@ next-env.d.ts
 .kilo/
 graphify-out/
 
+# Design references & raw assets
+Shop detail_page-0001.jpg
+/doctor photos/
+/test-results/
+
