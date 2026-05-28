@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const doctorsPhotos = [
   "/doctors/Health_and_wellness_store_display_202605280812.jpeg",
@@ -186,9 +187,9 @@ export default function Consultation() {
             }}>
               Our in-house doctors map your specific concerns to your biology before recommending anything.
             </p>
-            <a href="#" className="consult-reveal consult-book-link">
+            <Link href="/consultation" className="consult-reveal consult-book-link">
               BOOK A CONSULTATION
-            </a>
+            </Link>
           </div>
 
           {/* Slide Deck */}

@@ -31,8 +31,45 @@ export default function Articles() {
     <section
       id="articles"
       ref={sectionRef}
-      style={{ background: '#D8E0D1', padding: '140px 0', color: '#105232' }}
+      style={{ 
+        background: '#D8E0D1', 
+        backgroundImage: 'radial-gradient(rgba(16,82,50,0.12) 1.5px, transparent 0)',
+        backgroundSize: '24px 24px',
+        padding: '140px 0', 
+        color: '#105232',
+        position: 'relative',
+        overflow: 'hidden'
+      }}
     >
+      {/* Decorative premium line art background */}
+      <div 
+        className="absolute right-[-10%] top-[-10%] w-[450px] h-[450px] pointer-events-none opacity-[0.08] text-evergreen select-none hidden md:block"
+        style={{ zIndex: 0 }}
+      >
+        <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" strokeWidth="0.5" className="w-full h-full">
+          <circle cx="100" cy="100" r="90" />
+          <circle cx="100" cy="100" r="70" />
+          <circle cx="100" cy="100" r="50" />
+          <circle cx="100" cy="100" r="30" />
+          <line x1="10" y1="100" x2="190" y2="100" />
+          <line x1="100" y1="10" x2="100" y2="190" />
+          <line x1="36" y1="36" x2="164" y2="164" />
+          <line x1="164" y1="36" x2="36" y2="164" />
+        </svg>
+      </div>
+      
+      <div 
+        className="absolute left-[-5%] bottom-[-5%] w-[300px] h-[300px] pointer-events-none opacity-[0.08] text-evergreen select-none hidden md:block"
+        style={{ zIndex: 0 }}
+      >
+        <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" strokeWidth="0.5" className="w-full h-full">
+          <circle cx="100" cy="100" r="80" />
+          <circle cx="100" cy="100" r="40" />
+          <line x1="20" y1="100" x2="180" y2="100" />
+          <line x1="100" y1="20" x2="100" y2="180" />
+        </svg>
+      </div>
+
       <style>{`
         .art-reveal {
           opacity: 0;

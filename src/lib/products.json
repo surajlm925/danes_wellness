@@ -16,7 +16,8 @@
       "catalogue": "/images/products/boheco/bliss-rx/catalogue.webp",
       "hover": "/images/products/boheco/bliss-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "3",
@@ -35,7 +36,8 @@
       "catalogue": "/images/products/boheco/sleep-rx/catalogue.webp",
       "hover": "/images/products/boheco/sleep-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "4",
@@ -54,7 +56,8 @@
       "catalogue": "/images/products/boheco/peace-rx/catalogue.webp",
       "hover": "/images/products/boheco/peace-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "5",
@@ -73,7 +76,8 @@
       "catalogue": "/images/products/boheco/peace-capsules-pack-of-3-rx/catalogue.webp",
       "hover": "/images/products/boheco/peace-capsules-pack-of-3-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "6",
@@ -92,7 +96,8 @@
       "catalogue": "/images/products/boheco/combat-rx/catalogue.webp",
       "hover": "/images/products/boheco/combat-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "7",
@@ -111,7 +116,8 @@
       "catalogue": "/images/products/boheco/digest-capsules-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/digest-capsules-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "8",
@@ -130,7 +136,8 @@
       "catalogue": "/images/products/boheco/desire-capsules-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/desire-capsules-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "9",
@@ -149,7 +156,8 @@
       "catalogue": "/images/products/boheco/ease-oil-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/ease-oil-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "10",
@@ -168,7 +176,8 @@
       "catalogue": "/images/products/boheco/glide-oil-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/glide-oil-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "11",
@@ -187,7 +196,8 @@
       "catalogue": "/images/products/boheco/glide-gel-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/glide-gel-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "12",
@@ -206,7 +216,8 @@
       "catalogue": "/images/products/boheco/recover-spray-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/recover-spray-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "13",
@@ -225,7 +236,8 @@
       "catalogue": "/images/products/boheco/bloom-roll-on-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/bloom-roll-on-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "14",
@@ -244,7 +256,8 @@
       "catalogue": "/images/products/boheco/digest-navel-oil-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/digest-navel-oil-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "15",
@@ -263,7 +276,8 @@
       "catalogue": "/images/products/boheco/rescue-balm-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/rescue-balm-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "16",
@@ -282,7 +296,8 @@
       "catalogue": "/images/products/boheco/relax-roll-on-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/relax-roll-on-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "17",
@@ -301,7 +316,8 @@
       "catalogue": "/images/products/boheco/pristine-cream-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/pristine-cream-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "18",
@@ -320,7 +336,8 @@
       "catalogue": "/images/products/boheco/hemp-seed-oil-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/hemp-seed-oil-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "19",
@@ -339,7 +356,8 @@
       "catalogue": "/images/products/boheco/hemp-hearts-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/hemp-hearts-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "20",
@@ -358,7 +376,8 @@
       "catalogue": "/images/products/boheco/hemp-protein-powder-non-rx/catalogue.webp",
       "hover": "/images/products/boheco/hemp-protein-powder-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "21",
@@ -377,7 +396,8 @@
       "catalogue": "/images/products/cannazo/uplift-rx/catalogue.webp",
       "hover": "/images/products/cannazo/uplift-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "22",
@@ -396,7 +416,8 @@
       "catalogue": "/images/products/cannazo/vijaya-ambrosia-rx/catalogue.webp",
       "hover": "/images/products/cannazo/vijaya-ambrosia-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "23",
@@ -415,7 +436,8 @@
       "catalogue": "/images/products/cannazo/vijaya-amrit-rx/catalogue.webp",
       "hover": "/images/products/cannazo/vijaya-amrit-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "24",
@@ -434,7 +456,8 @@
       "catalogue": "/images/products/cannazo/calm-drops-rx/catalogue.webp",
       "hover": "/images/products/cannazo/calm-drops-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "25",
@@ -453,7 +476,8 @@
       "catalogue": "/images/products/cannazo/placidiol-rx/catalogue.webp",
       "hover": "/images/products/cannazo/placidiol-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "26",
@@ -472,7 +496,8 @@
       "catalogue": "/images/products/cannazo/uplift-gummies-rx/catalogue.webp",
       "hover": "/images/products/cannazo/uplift-gummies-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "27",
@@ -491,7 +516,8 @@
       "catalogue": "/images/products/cannazo/uplift-extract-rx/catalogue.webp",
       "hover": "/images/products/cannazo/uplift-extract-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "28",
@@ -510,7 +536,8 @@
       "catalogue": "/images/products/cannazo/cannaronil-extract-paste-rx-thc-rich/catalogue.webp",
       "hover": "/images/products/cannazo/cannaronil-extract-paste-rx-thc-rich/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "29",
@@ -529,7 +556,8 @@
       "catalogue": "/images/products/cannazo/revive-pain-relief-roll-on-non-rx/catalogue.webp",
       "hover": "/images/products/cannazo/revive-pain-relief-roll-on-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "31",
@@ -548,7 +576,8 @@
       "catalogue": "/images/products/cannazo/migraine-aid-roll-on-non-rx/catalogue.webp",
       "hover": "/images/products/cannazo/migraine-aid-roll-on-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "32",
@@ -567,7 +596,8 @@
       "catalogue": "/images/products/cannazo/daily-skin-repair-cream-non-rx/catalogue.webp",
       "hover": "/images/products/cannazo/daily-skin-repair-cream-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "34",
@@ -586,7 +616,8 @@
       "catalogue": "/images/products/cannazo/trailokya-vijaya-vati-advanced-non-rx/catalogue.webp",
       "hover": "/images/products/cannazo/trailokya-vijaya-vati-advanced-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "35",
@@ -605,7 +636,8 @@
       "catalogue": "/images/products/cannazo/liposomal-berberine-98-hcl-non-rx/catalogue.webp",
       "hover": "/images/products/cannazo/liposomal-berberine-98-hcl-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "36",
@@ -624,7 +656,8 @@
       "catalogue": "/images/products/cannazo/slimfit-gut-health-capsules-non-rx/catalogue.webp",
       "hover": "/images/products/cannazo/slimfit-gut-health-capsules-non-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "38",
@@ -643,7 +676,8 @@
       "catalogue": "/images/products/cannazo/pet-oil-rx/catalogue.webp",
       "hover": "/images/products/cannazo/pet-oil-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "43",
@@ -668,7 +702,8 @@
         "/images/products/medicann/cannabis-leaf-extract-gummies-350mg-rx/gallery-4.webp",
         "/images/products/medicann/cannabis-leaf-extract-gummies-350mg-rx/gallery-5.webp"
       ]
-    }
+    },
+    "isRx": true
   },
   {
     "id": "44",
@@ -694,7 +729,8 @@
         "/images/products/medicann/cannabis-leaf-extract-gummies-135mg-rx/gallery-5.webp",
         "/images/products/medicann/cannabis-leaf-extract-gummies-135mg-rx/gallery-6.webp"
       ]
-    }
+    },
+    "isRx": true
   },
   {
     "id": "45",
@@ -730,7 +766,8 @@
         "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-15.webp",
         "/images/products/medicann/cannabis-leaf-extract-5g-normal-rx/gallery-16.webp"
       ]
-    }
+    },
+    "isRx": true
   },
   {
     "id": "46",
@@ -756,7 +793,8 @@
         "/images/products/medicann/cannabis-leaf-extract-premium-5g-rx/gallery-5.webp",
         "/images/products/medicann/cannabis-leaf-extract-premium-5g-rx/gallery-6.webp"
       ]
-    }
+    },
+    "isRx": true
   },
   {
     "id": "47",
@@ -775,7 +813,8 @@
       "catalogue": "/images/products/medicann/cannabis-leaf-extract-oil-peppermint-rx/catalogue.webp",
       "hover": "/images/products/medicann/cannabis-leaf-extract-oil-peppermint-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "48",
@@ -817,7 +856,8 @@
         "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-21.webp",
         "/images/products/medicann/cannabis-leaf-extract-capsules-100mg-250mg-rx/gallery-22.webp"
       ]
-    }
+    },
+    "isRx": true
   },
   {
     "id": "49",
@@ -843,7 +883,8 @@
         "/images/products/medicann/cannabis-pain-relief-oil-non-rx/gallery-5.webp",
         "/images/products/medicann/cannabis-pain-relief-oil-non-rx/gallery-6.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "56",
@@ -862,7 +903,8 @@
       "catalogue": "/images/products/hemplife/indi-strong-150mg-capsules-rx/catalogue.webp",
       "hover": "/images/products/hemplife/indi-strong-150mg-capsules-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "57",
@@ -881,7 +923,8 @@
       "catalogue": "/images/products/hemplife/indi-mild-50mg-capsules-rx/catalogue.webp",
       "hover": "/images/products/hemplife/indi-mild-50mg-capsules-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "58",
@@ -900,7 +943,8 @@
       "catalogue": "/images/products/hemplife/indi30-tincture-5ml-rx/catalogue.webp",
       "hover": "/images/products/hemplife/indi30-tincture-5ml-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "59",
@@ -919,7 +963,8 @@
       "catalogue": "/images/products/hemplife/indi30-tincture-10ml-30ml-rx/catalogue.webp",
       "hover": "/images/products/hemplife/indi30-tincture-10ml-30ml-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "60",
@@ -938,7 +983,8 @@
       "catalogue": "/images/products/hemplife/satv-mild-50mg-capsules-rx/catalogue.webp",
       "hover": "/images/products/hemplife/satv-mild-50mg-capsules-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "61",
@@ -957,7 +1003,8 @@
       "catalogue": "/images/products/hemplife/satv30-tincture-10ml-rx/catalogue.webp",
       "hover": "/images/products/hemplife/satv30-tincture-10ml-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "62",
@@ -976,7 +1023,8 @@
       "catalogue": "/images/products/hemplife/satv30-tincture-5ml-rx/catalogue.webp",
       "hover": "/images/products/hemplife/satv30-tincture-5ml-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "63",
@@ -995,7 +1043,8 @@
       "catalogue": "/images/products/hemplife/satv30-tincture-30ml-rx/catalogue.webp",
       "hover": "/images/products/hemplife/satv30-tincture-30ml-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "64",
@@ -1014,7 +1063,8 @@
       "catalogue": "/images/products/hemplife/satv-pets-tincture-rx/catalogue.webp",
       "hover": "/images/products/hemplife/satv-pets-tincture-rx/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": true
   },
   {
     "id": "65",
@@ -1038,7 +1088,8 @@
         "/images/products/soma/reishi-mushroom-extract-30ml/gallery-3.webp",
         "/images/products/soma/reishi-mushroom-extract-30ml/gallery-4.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "66",
@@ -1063,7 +1114,8 @@
         "/images/products/soma/turkey-tail-mushroom-extract-30ml/gallery-4.webp",
         "/images/products/soma/turkey-tail-mushroom-extract-30ml/gallery-5.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "67",
@@ -1087,7 +1139,8 @@
         "/images/products/soma/shiitake-mushroom-extract-30ml/gallery-3.webp",
         "/images/products/soma/shiitake-mushroom-extract-30ml/gallery-4.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "68",
@@ -1110,7 +1163,8 @@
         "/images/products/soma/lion-s-mane-mushroom-extract-30ml/gallery-2.webp",
         "/images/products/soma/lion-s-mane-mushroom-extract-30ml/gallery-3.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "69",
@@ -1142,7 +1196,8 @@
         "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-11.webp",
         "/images/products/soma/cordyceps-militaris-extract-30ml/gallery-12.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "70",
@@ -1166,7 +1221,8 @@
         "/images/products/soma/soma-synergy-6-shroom-blend-30ml/gallery-3.webp",
         "/images/products/soma/soma-synergy-6-shroom-blend-30ml/gallery-4.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "71",
@@ -1185,7 +1241,8 @@
       "catalogue": "/images/products/soma/cordyceps-militaris-dried-whole-10g/catalogue.webp",
       "hover": "/images/products/soma/cordyceps-militaris-dried-whole-10g/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "73",
@@ -1209,7 +1266,8 @@
         "/images/products/soma/lion-s-mane-mushroom-powder-50g/gallery-3.webp",
         "/images/products/soma/lion-s-mane-mushroom-powder-50g/gallery-4.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "74",
@@ -1228,7 +1286,8 @@
       "catalogue": "/images/products/soma/reishi-mushroom-powder-50g/catalogue.webp",
       "hover": "/images/products/soma/reishi-mushroom-powder-50g/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "75",
@@ -1256,7 +1315,8 @@
         "/images/products/soma/oyster-mushroom-powder-100g/gallery-7.webp",
         "/images/products/soma/oyster-mushroom-powder-100g/gallery-8.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "76",
@@ -1284,7 +1344,8 @@
         "/images/products/soma/shiitake-mushroom-dried-50g/gallery-7.webp",
         "/images/products/soma/shiitake-mushroom-dried-50g/gallery-8.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "92",
@@ -1307,7 +1368,8 @@
         "/images/products/langoor/himalayan-smoking-herbs-earth-mix/gallery-2.webp",
         "/images/products/langoor/himalayan-smoking-herbs-earth-mix/gallery-3.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "93",
@@ -1330,7 +1392,8 @@
         "/images/products/langoor/himalayan-smoking-herbs-moon-mix/gallery-2.webp",
         "/images/products/langoor/himalayan-smoking-herbs-moon-mix/gallery-3.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "94",
@@ -1353,7 +1416,8 @@
         "/images/products/langoor/himalayan-smoking-herbs-snow-mix/gallery-2.webp",
         "/images/products/langoor/himalayan-smoking-herbs-snow-mix/gallery-3.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "95",
@@ -1376,7 +1440,8 @@
         "/images/products/langoor/himalayan-smoking-herbs-sun-mix/gallery-2.webp",
         "/images/products/langoor/himalayan-smoking-herbs-sun-mix/gallery-3.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "96",
@@ -1402,7 +1467,8 @@
         "/images/products/tea/lakadong-turmeric-with-star-anise/gallery-5.webp",
         "/images/products/tea/lakadong-turmeric-with-star-anise/gallery-6.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "97",
@@ -1429,7 +1495,8 @@
         "/images/products/tea/sumac-berry-tea/gallery-6.webp",
         "/images/products/tea/sumac-berry-tea/gallery-7.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "98",
@@ -1455,7 +1522,8 @@
         "/images/products/tea/ginger-green-tea/gallery-5.webp",
         "/images/products/tea/ginger-green-tea/gallery-6.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "99",
@@ -1480,7 +1548,8 @@
         "/images/products/tea/classic-black-tea/gallery-4.webp",
         "/images/products/tea/classic-black-tea/gallery-5.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "100",
@@ -1506,7 +1575,8 @@
         "/images/products/tea/lemongrass-ginger-tea/gallery-5.webp",
         "/images/products/tea/lemongrass-ginger-tea/gallery-6.webp"
       ]
-    }
+    },
+    "isRx": false
   },
   {
     "id": "101",
@@ -1525,7 +1595,8 @@
       "catalogue": "/images/products/tea/green-tea-with-lotus-leaf/catalogue.webp",
       "hover": "/images/products/tea/green-tea-with-lotus-leaf/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "102",
@@ -1544,7 +1615,8 @@
       "catalogue": "/images/products/tea/nong-mang-kha-green-tea/catalogue.webp",
       "hover": "/images/products/tea/nong-mang-kha-green-tea/hover.webp",
       "gallery": []
-    }
+    },
+    "isRx": false
   },
   {
     "id": "103",
@@ -1570,6 +1642,7 @@
         "/images/products/tea/roselle-with-indian-olive/gallery-5.webp",
         "/images/products/tea/roselle-with-indian-olive/gallery-6.webp"
       ]
-    }
+    },
+    "isRx": false
   }
 ]

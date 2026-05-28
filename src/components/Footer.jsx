@@ -3,11 +3,83 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
 
+const MotionLink = motion(Link);
+
 export default function Footer() {
-  const shopLinks = ["All Products", "For Calm", "For Rest", "For Clarity", "For Pain", "View All Pillars"]
-  const helpLinks = ["FAQs", "Shipping & Returns", "Track Your Order", "Contact Us", "Consultation Info"]
-  const companyLinks = ["Our Story", "Learn", "Privacy Policy", "Terms of Service", "Refund Policy"]
-  const connectLinks = ["WhatsApp", "Instagram", "+91 78994 23033", "Indiranagar Bengaluru"]
+  const shopLinks = [
+    { label: "All Products", href: "/shop" },
+    { label: "For Calm", href: "/shop?category=Calm" },
+    { label: "For Rest", href: "/shop?category=Sleep" },
+    { label: "For Clarity", href: "/shop?category=Clarity" },
+    { label: "For Pain", href: "/shop?category=Pain" },
+    { label: "View All Pillars", href: "/shop" }
+  ];
+
+  const helpLinks = [
+    { label: "FAQs", href: "/#faq" },
+    { label: "Shipping & Returns", href: "/refund" },
+    { label: "Track Your Order", href: "/profile" },
+    { label: "Contact Us", href: "mailto:support@daneswellness.com" },
+    { label: "Consultation Info", href: "/consultation" }
+  ];
+
+  const companyLinks = [
+    { label: "Our Story", href: "/#story" },
+    { label: "Learn", href: "/#articles" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Terms of Service", href: "/terms" },
+    { label: "Refund Policy", href: "/refund" }
+  ];
+
+  const connectLinks = [
+    { label: "WhatsApp", href: "https://wa.me/917899423033" },
+    { label: "Instagram", href: "https://instagram.com/daneswellness" },
+    { label: "+91 78994 23033", href: "tel:+917899423033" },
+    { label: "Indiranagar Bengaluru", href: "https://maps.google.com/?q=Danes+Wellness+Indiranagar+Bengaluru" }
+  ];
+
+  const renderLink = (link) => {
+    const isExternal = link.href.startsWith('http') || link.href.startsWith('mailto') || link.href.startsWith('tel');
+    const style = {
+      fontFamily: 'var(--font-body)',
+      fontWeight: 300,
+      fontSize: '13px',
+      color: 'rgba(216,224,209,0.6)',
+      textDecoration: 'none',
+      display: 'block',
+      transition: 'color 0.2s'
+    };
+
+    if (isExternal) {
+      return (
+        <motion.a
+          whileHover={{ x: 4 }}
+          key={link.label}
+          href={link.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={style}
+          onMouseEnter={e => e.target.style.color = '#F8F3DF'}
+          onMouseLeave={e => e.target.style.color = 'rgba(216,224,209,0.6)'}
+        >
+          {link.label}
+        </motion.a>
+      );
+    }
+
+    return (
+      <MotionLink
+        whileHover={{ x: 4 }}
+        key={link.label}
+        href={link.href}
+        style={style}
+        onMouseEnter={e => e.target.style.color = '#F8F3DF'}
+        onMouseLeave={e => e.target.style.color = 'rgba(216,224,209,0.6)'}
+      >
+        {link.label}
+      </MotionLink>
+    );
+  };
 
   return (
     <footer style={{background:'#112519'}} className="pt-[80px] pb-[40px]">
@@ -44,73 +116,25 @@ export default function Footer() {
           {/* Shop */}
           <div className="flex flex-col gap-3">
             <div className="font-body font-medium text-[10px] tracking-label uppercase text-[rgba(216,224,209,0.38)] mb-4">Shop</div>
-            {shopLinks.map(link => (
-              <motion.a whileHover={{ x: 4 }} key={link} href="#" 
-                style={{
-                  fontFamily:'var(--font-body)', fontWeight:300, fontSize:'13px',
-                  color:'rgba(216,224,209,0.6)', textDecoration:'none', display:'block',
-                  transition:'color 0.2s'
-                }}
-                onMouseEnter={e => e.target.style.color='#F8F3DF'}
-                onMouseLeave={e => e.target.style.color='rgba(216,224,209,0.6)'}
-              >
-                {link}
-              </motion.a>
-            ))}
+            {shopLinks.map(link => renderLink(link))}
           </div>
 
           {/* Help */}
           <div className="flex flex-col gap-3">
             <div className="font-body font-medium text-[10px] tracking-label uppercase text-[rgba(216,224,209,0.38)] mb-4">Help</div>
-            {helpLinks.map(link => (
-              <motion.a whileHover={{ x: 4 }} key={link} href="#" 
-                style={{
-                  fontFamily:'var(--font-body)', fontWeight:300, fontSize:'13px',
-                  color:'rgba(216,224,209,0.6)', textDecoration:'none', display:'block',
-                  transition:'color 0.2s'
-                }}
-                onMouseEnter={e => e.target.style.color='#F8F3DF'}
-                onMouseLeave={e => e.target.style.color='rgba(216,224,209,0.6)'}
-              >
-                {link}
-              </motion.a>
-            ))}
+            {helpLinks.map(link => renderLink(link))}
           </div>
 
           {/* Company */}
           <div className="flex flex-col gap-3">
             <div className="font-body font-medium text-[10px] tracking-label uppercase text-[rgba(216,224,209,0.38)] mb-4">Company</div>
-            {companyLinks.map(link => (
-              <motion.a whileHover={{ x: 4 }} key={link} href="#" 
-                style={{
-                  fontFamily:'var(--font-body)', fontWeight:300, fontSize:'13px',
-                  color:'rgba(216,224,209,0.6)', textDecoration:'none', display:'block',
-                  transition:'color 0.2s'
-                }}
-                onMouseEnter={e => e.target.style.color='#F8F3DF'}
-                onMouseLeave={e => e.target.style.color='rgba(216,224,209,0.6)'}
-              >
-                {link}
-              </motion.a>
-            ))}
+            {companyLinks.map(link => renderLink(link))}
           </div>
 
           {/* Connect */}
           <div className="flex flex-col gap-3">
             <div className="font-body font-medium text-[10px] tracking-label uppercase text-[rgba(216,224,209,0.38)] mb-4">Connect</div>
-            {connectLinks.map(link => (
-              <motion.a whileHover={{ x: 4 }} key={link} href="#" 
-                style={{
-                  fontFamily:'var(--font-body)', fontWeight:300, fontSize:'13px',
-                  color:'rgba(216,224,209,0.6)', textDecoration:'none', display:'block',
-                  transition:'color 0.2s'
-                }}
-                onMouseEnter={e => e.target.style.color='#F8F3DF'}
-                onMouseLeave={e => e.target.style.color='rgba(216,224,209,0.6)'}
-              >
-                {link}
-              </motion.a>
-            ))}
+            {connectLinks.map(link => renderLink(link))}
           </div>
         </div>
 

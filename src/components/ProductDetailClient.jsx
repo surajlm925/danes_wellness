@@ -250,7 +250,43 @@ export default function ProductDetailClient({ product, handle }) {
   const badges = getBenefitBadges(product);
 
   return (
-    <div className="min-h-screen bg-[#F2F1E8] dark:bg-[var(--bg)] pt-32 pb-0 transition-colors duration-300">
+    <div className="min-h-screen bg-[#F2F1E8] dark:bg-[var(--bg)] pt-32 pb-0 transition-colors duration-300 relative overflow-hidden">
+      {/* Sun & Shivalingam Watermark Background Motif */}
+      <div className="absolute right-[-5%] top-[10%] w-[450px] h-[450px] pointer-events-none select-none opacity-[0.03] text-evergreen dark:text-moss hidden lg:block z-0">
+        <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" strokeWidth="0.4" className="w-full h-full">
+          {/* Minimalist Sun */}
+          <circle cx="100" cy="50" r="18" />
+          <line x1="100" y1="20" x2="100" y2="28" />
+          <line x1="100" y1="72" x2="100" y2="80" />
+          <line x1="70" y1="50" x2="78" y2="50" />
+          <line x1="122" y1="50" x2="130" y2="50" />
+          <line x1="79" y1="29" x2="85" y2="35" />
+          <line x1="121" y1="71" x2="115" y2="65" />
+          <line x1="121" y1="29" x2="115" y2="35" />
+          <line x1="79" y1="71" x2="85" y2="65" />
+
+          {/* Minimalist Shivalingam */}
+          <path d="M92,130 C92,108 108,108 108,130" />
+          <path d="M78,130 C78,137 122,137 122,130 L132,130 C137,130 137,135 132,137 L118,143 C113,145 105,145 100,145 L90,145 C80,145 72,138 78,130" />
+          <path d="M86,143 L82,155 L118,155 L114,143" />
+        </svg>
+      </div>
+
+      <div className="absolute left-[-5%] bottom-[15%] w-[350px] h-[350px] pointer-events-none select-none opacity-[0.025] text-evergreen dark:text-moss hidden lg:block z-0">
+        <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" strokeWidth="0.4" className="w-full h-full">
+          {/* Minimalist Sun */}
+          <circle cx="100" cy="50" r="18" />
+          <line x1="100" y1="20" x2="100" y2="28" />
+          <line x1="100" y1="72" x2="100" y2="80" />
+          <line x1="70" y1="50" x2="78" y2="50" />
+          <line x1="122" y1="50" x2="130" y2="50" />
+
+          {/* Minimalist Shivalingam */}
+          <path d="M92,130 C92,108 108,108 108,130" />
+          <path d="M78,130 C78,137 122,137 122,130 L132,130 C137,130 137,135 132,137 L118,143 C113,145 105,145 100,145 L90,145 C80,145 72,138 78,130" />
+          <path d="M86,143 L82,155 L118,155 L114,143" />
+        </svg>
+      </div>
       
       {/* Top Section */}
       <div className="container-danes px-4 md:px-8 max-w-[1400px] mx-auto mb-20">

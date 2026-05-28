@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import { motion, AnimatePresence, useScroll } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -10,10 +10,13 @@ import { useCart } from '@/context/CartContext'
 
 export default function Nav() {
   const pathname = usePathname()
+  const router = useRouter()
   const isHome = pathname === '/'
   const [scrolled, setScrolled] = useState(false)
   const [mounted, setMounted] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [searchOpen, setSearchOpen] = useState(false)
+  const [searchQuery, setSearchQuery] = useState('')
   const { resolvedTheme, setTheme } = useTheme()
   const { scrollYProgress } = useScroll()
   const { cart, removeItem, cartCount, cartTotal, isCartOpen, setIsCartOpen, updateQuantity } = useCart()
@@ -27,6 +30,29 @@ export default function Nav() {
     handleScroll()
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        setSearchOpen(false)
+      }
+    }
+    if (searchOpen) {
+      window.addEventListener('keydown', handleKeyDown)
+    }
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [searchOpen])
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault()
+    if (searchQuery.trim()) {
+      router.push(`/shop?q=${encodeURIComponent(searchQuery.trim())}`)
+      setSearchOpen(false)
+      setSearchQuery('')
+    }
+  }
 
   const handleLinkClick = (e, href) => {
     if (href.startsWith('#')) {
@@ -91,7 +117,54 @@ export default function Nav() {
 
       {/* Nav Bar */}
       <nav className={navClasses} style={{ background: navBg }}>
-        <div className="container-danes h-full flex items-center justify-between">
+        <div className="container-danes h-full flex items-center justify-between relative">
+          <AnimatePresence>
+            {searchOpen && (
+              <motion.div
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                className="absolute inset-0 z-50 flex items-center justify-between px-4 md:px-0"
+                style={{
+                  background: (mounted && resolvedTheme === 'dark')
+                    ? 'rgb(10,26,15)'
+                    : 'rgb(248,243,223)',
+                  transition: 'background-color 0.3s ease'
+                }}
+              >
+                <form 
+                  onSubmit={handleSearchSubmit} 
+                  className="flex-1 flex items-center gap-4"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-evergreen dark:text-[#D8E0D1]">
+                    <circle cx="11" cy="11" r="6"/>
+                    <path d="M20 20L15.5 15.5" strokeLinecap="round"/>
+                  </svg>
+                  <input
+                    type="text"
+                    placeholder="Search curatives (e.g. sleep, pain, anxiety)..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="w-full bg-transparent border-none outline-none font-body text-xs md:text-sm text-evergreen dark:text-[#D8E0D1] placeholder-evergreen/50 dark:placeholder-[#D8E0D1]/50"
+                    autoFocus
+                  />
+                </form>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSearchOpen(false)
+                    setSearchQuery('')
+                  }}
+                  className="ml-4 text-evergreen dark:text-[#D8E0D1] hover:text-midgreen transition-colors"
+                  aria-label="Close search"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M18 6L6 18M6 6l12 12" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </button>
+              </motion.div>
+            )}
+          </AnimatePresence>
           {/* LOGO */}
           <Link href="/" className="flex items-center gap-2.5">
             <svg 
@@ -146,7 +219,11 @@ export default function Nav() {
           {/* ACTIONS */}
           <div className="flex items-center gap-4">
             {/* Search */}
-            <button className={iconClasses} aria-label="Search">
+            <button 
+              className={iconClasses} 
+              aria-label="Search"
+              onClick={() => setSearchOpen(true)}
+            >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <circle cx="11" cy="11" r="6"/>
                 <path d="M20 20L15.5 15.5" strokeLinecap="round"/>
