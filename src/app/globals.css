@@ -98,6 +98,24 @@
   background: #19653F !important;
 }
 
+/* =========================================
+   Reference Design: Vector Reveal Animation
+   ========================================= */
+.vector-reveal-el {
+  clip-path: inset(0 0 100% 0);
+  transition: clip-path 4s cubic-bezier(0.19, 1, 0.22, 1);
+  will-change: clip-path;
+}
+.vector-reveal-el.vector-revealed {
+  clip-path: inset(0 0 0% 0);
+}
+
+/* TrustBar marquee */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
 /* Custom Scrollbar */
 .scrollbar-thin {
   scrollbar-width: thin;

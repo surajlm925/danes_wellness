@@ -1,27 +1,115 @@
 'use client'
-import React from 'react';
-import { motion } from 'framer-motion'
+import React, { useEffect, useRef } from 'react';
+
+const testimonials = [
+  {
+    author: "Arjun, Bengaluru",
+    quote: "I had tried everything for two years. The consultation was the first time someone mapped my specific biology before recommending anything. Three months in, I sleep through the night.",
+    tags: "CHRONIC STRESS, SLEEP"
+  },
+  {
+    author: "Priya, Mumbai",
+    quote: "The approach here is different. They listened first. The protocol they recommended has genuinely changed how I experience my body.",
+    tags: "PERIMENOPAUSE, HORMONAL BALANCE"
+  },
+  {
+    author: "Vikram, Hyderabad",
+    quote: "I was sceptical. I am not anymore. The lion's mane stack has done more for my focus than anything I tried before.",
+    tags: "COGNITIVE FATIGUE, FOCUS"
+  }
+];
+
 export default function Testimonials() {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    if (!section) return;
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          section.querySelectorAll('.test-reveal').forEach((el, i) => {
+            setTimeout(() => el.classList.add('test-visible'), i * 150);
+          });
+          observer.unobserve(section);
+        }
+      });
+    }, { threshold: 0.1 });
+    observer.observe(section);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-  <section className="rv" style={{ background: "var(--bg-alt)", padding: "96px 0", textAlign: "center" }}>
-    <div className="container-danes">
-    <div style={{ fontFamily: "var(--font-body)", fontWeight: 500, fontSize: "11px", letterSpacing: "0.22em", textTransform: "uppercase", color: "var(--heading)", marginBottom: "48px" }}>PATIENT STORIES</div>
-    <div style={{ display: "flex", justifyContent: "center", gap: "40px", flexWrap: "wrap" }}>
-      {[
-        { quote: "After 4 years of chronic insomnia, the Rest Drops have finally allowed me to sleep through the night. Truly life-changing.", author: "Priya M.", detail: "Verified Patient" },
-        { quote: "The consultation was incredibly thorough. The doctor actually listened to my history with inflammation before prescribing.", author: "Rahul K.", detail: "Verified Patient" }
-      ].map((t, i) => (
-        <div key={i} style={{ flex: "1 1 400px", maxWidth: "480px", background: "var(--bg)", padding: "48px", borderRadius: "4px", textAlign: "left" }}>
-          <div style={{ display: "flex", gap: "4px", color: "var(--accent)", marginBottom: "24px" }}>
-            {[1,2,3,4,5].map(s => <svg key={s} width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>)}
-          </div>
-          <p style={{ fontFamily: "var(--font-heading)", fontSize: "18px", color: "var(--heading)", lineHeight: 1.5, fontStyle: "italic", marginBottom: "32px" }}>"{t.quote}"</p>
-          <div style={{ fontFamily: "var(--font-body)", fontWeight: 500, fontSize: "13px", color: "var(--heading)", marginBottom: "4px" }}>{t.author}</div>
-          <div style={{ fontFamily: "var(--font-body)", fontWeight: 300, fontSize: "11px", color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.1em" }}>{t.detail}</div>
+    <section
+      ref={sectionRef}
+      style={{
+        background: '#105232',
+        padding: '120px 0',
+        color: '#F8F3DF'
+      }}
+    >
+      <style>{`
+        .test-reveal {
+          opacity: 0;
+          transform: translateY(24px);
+          transition: opacity 0.85s ease, transform 0.85s ease;
+        }
+        .test-reveal.test-visible {
+          opacity: 1;
+          transform: translateY(0);
+        }
+        @media (max-width: 1100px) {
+          .test-grid { grid-template-columns: 1fr !important; gap: 4rem !important; }
+        }
+      `}</style>
+
+      <div className="container-danes">
+        <div className="test-grid" style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(3,1fr)',
+          gap: '5rem'
+        }}>
+          {testimonials.map((t, i) => (
+            <div key={i} className="test-reveal" style={{ display: 'flex', flexDirection: 'column' }}>
+              {/* Star rating using the reference SVG */}
+              <img
+                src="/assets/rating.svg"
+                alt="5 Stars"
+                style={{
+                  width: '90px', height: 'auto',
+                  marginBottom: '2rem',
+                  filter: 'brightness(0) invert(1)'
+                }}
+              />
+              <p style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: '11px', opacity: 0.6,
+                marginBottom: '1.5rem', letterSpacing: '0.05px',
+                fontWeight: 500
+              }}>
+                {t.author}
+              </p>
+              <blockquote style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: '15px', lineHeight: 1.7,
+                marginBottom: '3rem', fontStyle: 'italic',
+                opacity: 0.9, fontWeight: 400,
+                margin: '0 0 3rem', padding: 0, border: 'none'
+              }}>
+                "{t.quote}"
+              </blockquote>
+              <p style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: '10px', letterSpacing: '0.18em',
+                textTransform: 'uppercase', fontWeight: 600,
+                opacity: 0.8
+              }}>
+                {t.tags}
+              </p>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
-    </div>
-  </section>
-  )
+      </div>
+    </section>
+  );
 }
