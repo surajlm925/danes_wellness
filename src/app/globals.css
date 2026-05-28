@@ -158,3 +158,25 @@
 .dark * {
   scrollbar-color: rgba(248, 243, 223, 0.25) transparent;
 }
+
+/* =========================================
+   Shop Sidebar & Concern — Hover-only scroll
+   scrollbar-gutter: stable reserves the scrollbar
+   lane width even when overflow:hidden, preventing
+   any layout shift when the scrollbar appears on hover.
+   ========================================= */
+.shop-sidebar,
+.concern-scroll {
+  scrollbar-gutter: stable;
+}
+
+/* Hide the scrollbar thumb until hovered — elegant ghost scroll */
+.shop-sidebar:not(:hover)::-webkit-scrollbar-thumb,
+.concern-scroll:not(:hover)::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Prevent body scroll-jump when sidebar is hovered (no JS needed) */
+html {
+  scrollbar-gutter: stable;
+}

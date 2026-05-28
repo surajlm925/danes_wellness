@@ -1,38 +1,79 @@
-# 🔧 Danes Wellness — Brand Polish & Static Pages Session Log
+# 🔧 Danes Wellness — Shop Page Bug Fixes Session Log
 
-This log documents the brand aesthetic polish, global motif integration, and scaffolding of static support pages for Danes Wellness.
-
----
-
-## 1. COMPLETED WORK
-
-### 🎨 TASK 1 — BRAND AESTHETIC POLISH & MOTIFS
-* **Enhanced Articles Section (Landing Page)**:
-  * Modified [Articles.jsx](file:///d:/Work%20Code/Projects/danes%20wellness/danes%20website/website/danes-next/src/sections/Articles.jsx).
-  * Added a subtle CSS radial dot-grid pattern (`radial-gradient(rgba(16,82,50,0.12) 1.5px, transparent 0)`) matching the primary brand color to the background of the "Ancient Systems" section.
-  * Embedded two large, low-opacity (8%) minimalist geometric line art SVGs in the corner backgrounds to elevate the scientific/organic brand feel.
-* **Global Brand Motif Integration**:
-  * Added a minimalist vector line art watermark depicting a "Sun" and a "Shivalingam" to both the Shop catalog and Product Detail pages.
-  * **Shop Page**: Modified [page.js](file:///d:/Work%20Code/Projects/danes%20wellness/danes%20website/website/danes-next/src/app/shop/page.js) with two background watermark motifs at low opacity (3.5% and 3% respectively), hidden on smaller screen widths.
-  * **Product Details**: Modified [ProductDetailClient.jsx](file:///d:/Work%20Code/Projects/danes%20wellness/danes%20website/website/danes-next/src/components/ProductDetailClient.jsx) with two floating watermark motifs (3% and 2.5% opacity) to provide consistent premium branding behind the columns.
+This log documents the three targeted UI/UX bug fixes applied to `src/app/shop/page.js` and `src/app/globals.css`.
 
 ---
 
-### 📂 TASK 2 — FOOTER REFACTOR & MISSING PAGES
-* **Footer Navigation Fix**:
-  * Refactored [Footer.jsx](file:///d:/Work%20Code/Projects/danes%20wellness/danes%20website/website/danes-next/src/components/Footer.jsx) to map all dummy links (`#`) to actual routes.
-  * Integrated Next.js `<Link>` (wrapped with framer-motion) for all internal routing, and standard secure `target="_blank"` link structures for external phone, WhatsApp, and email links.
-* **Scaffolded Pages (Clean Typographic Layouts)**:
-  * [consultation/page.js](file:///d:/Work%20Code/Projects/danes%20wellness/danes%20website/website/danes-next/src/app/consultation/page.js): Explains the wellness consultation workflow. Features a fully-interactive slot scheduling calendar/clock widget that constructs a WhatsApp pre-filled request template and launches redirect actions on form submission.
-  * [privacy/page.js](file:///d:/Work%20Code/Projects/danes%20wellness/danes%20website/website/danes-next/src/app/privacy/page.js): Static typographic layout covering collection, medical confidentiality, cookies, and data retention guidelines.
-  * [terms/page.js](file:///d:/Work%20Code/Projects/danes%20wellness/danes%20website/website/danes-next/src/app/terms/page.js): Typographic guidelines defining medical compliance, AYUSH Rx gating rules, and intellectual property terms.
-  * [refund/page.js](file:///d:/Work%20Code/Projects/danes%20wellness/danes%20website/website/danes-next/src/app/refund/page.js): Outlines return exemptions for wellness goods, shipping parameters, and Razorpay transaction settlement times.
+## TASK 1 — FIX THE LAYOUT SHIFT (PIXEL JUMPING)
+
+### Root Cause
+The sidebar `<aside>` was using `overflow-y-auto` permanently. When the browser scrollbar appeared (on longer filter lists) or disappeared, it consumed ~8px of layout width, causing the product grid to the right to reflow and jump.
+
+Additionally, a JS-based `onMouseEnter`/`onMouseLeave` hack was toggling `document.body.style.overflow = 'hidden'` to trap scroll inside the sidebar. This caused the entire page body's scrollbar to appear/disappear, producing a global full-page layout jump.
+
+### Fixes Applied
+
+#### `src/app/globals.css`
+- Added `scrollbar-gutter: stable` to the `html` element globally. This permanently reserves the scrollbar lane width on the page root, so the content area never reflashes when a scrollbar appears or disappears anywhere.
+- Added `.shop-sidebar` and `.concern-scroll` utility classes, both with `scrollbar-gutter: stable`, so their internal scrollbar lane is always pre-reserved even when `overflow:hidden`.
+
+#### `src/app/shop/page.js`
+- Added `style={{ scrollbarGutter: 'stable' }}` inline to the top-level page wrapper `<div>` as a direct belt-and-suspenders reinforcement.
+- **Removed** the `onMouseEnter`/`onMouseLeave` handlers from `<aside>` that set `document.body.style.overflow`. This was the primary source of the global layout jump.
+- **Removed** the corresponding orphaned `useEffect` cleanup that reset `document.body.style.overflow = ''`.
 
 ---
 
-## 2. BUILD VERIFICATION
-* Ran `npm run build` successfully.
-* Compilation completed with zero warnings or errors.
-* Static pages successfully generated:
-  * Prerendered static pages: `/`, `/cart`, `/checkout`, `/consultation` (new), `/order-confirmed`, `/privacy` (new), `/profile`, `/refund` (new), `/shop`, `/terms` (new)
-  * Prerendered SSG paths: `/shop/[handle]` (81 static paths generated)
+## TASK 2 — HOVER-ONLY SCROLLING
+
+### Root Cause
+Both the left filter sidebar and the concern checkbox list were `overflow-y-auto`, meaning a scrollbar was always rendered (and consuming layout space) even when no scrolling was needed.
+
+### CSS Classes Changed
+
+| Element | Before | After |
+|---|---|---|
+| `<aside>` (filter sidebar) | `overflow-y-auto scrollbar-thin` | `overflow-hidden hover:overflow-y-auto shop-sidebar` |
+| `.concern-scroll` (concern list) | `overflow-y-auto` | `overflow-hidden hover:overflow-y-auto concern-scroll` |
+
+**Why this works without layout shift:** `scrollbar-gutter: stable` (added in globals.css for `.shop-sidebar` and `.concern-scroll`) pre-reserves the scrollbar lane even when `overflow:hidden`. So when hover triggers `overflow-y-auto`, the scrollbar appears in already-reserved space — zero pixel jump.
+
+#### `src/app/globals.css` — Added
+```css
+.shop-sidebar,
+.concern-scroll {
+  scrollbar-gutter: stable;
+}
+
+/* Scrollbar thumb invisible until hovered */
+.shop-sidebar:not(:hover)::-webkit-scrollbar-thumb,
+.concern-scroll:not(:hover)::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+```
+
+---
+
+## TASK 3 — REDUNDANT UI & CLEANUP
+
+### Changes
+
+#### Removed: Inline Search Bar
+- **Location:** `src/app/shop/page.js`, page header section (lines 177–185 in original)
+- **What was removed:** A `<div class="relative w-64 hidden md:block">` containing a text `<input>` for search.
+- **Why:** The global Navbar already handles search via an animated overlay that routes to `/shop?q=...`. The inline shop search was redundant and cluttered the header. The `searchQuery` state + URL sync `useEffect` are **preserved** — they still power the URL-driven search from Nav.
+
+#### Removed: "Application Type" Filter Block
+- **Location:** `src/app/shop/page.js`, sidebar section
+- **What was removed:** An entire `<div>` block rendering the "Application type" filter label + chevron icon.
+- **Why:** The filter had no data and no toggle logic — it was a pure UI stub with zero functionality.
+
+---
+
+## BUILD VERIFICATION
+- `npm run build` — ✅ Passed (86 static pages, 0 errors)
+- Dev server hot-reloaded cleanly with no console errors

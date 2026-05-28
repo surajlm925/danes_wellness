@@ -59,11 +59,7 @@ function ShopContent() {
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [visibleCount, setVisibleCount] = useState(PRODUCTS_PER_PAGE);
 
-  useEffect(() => {
-    return () => {
-      document.body.style.overflow = '';
-    };
-  }, []);
+
 
   useEffect(() => {
     const cat = searchParams.get('category');
@@ -129,7 +125,7 @@ function ShopContent() {
   }, [filteredProducts, visibleCount]);
 
   return (
-    <div className="min-h-screen bg-[#E8EAE6] dark:bg-[var(--bg)] pt-32 pb-0 transition-colors duration-300 relative overflow-hidden">
+    <div className="min-h-screen bg-[#E8EAE6] dark:bg-[var(--bg)] pt-32 pb-0 transition-colors duration-300 relative overflow-hidden" style={{ scrollbarGutter: 'stable' }}>
       {/* Sun & Shivalingam Watermark Background Motif */}
       <div className="absolute right-[-5%] top-[15%] w-[450px] h-[450px] pointer-events-none select-none opacity-[0.035] text-evergreen dark:text-moss hidden lg:block z-0">
         <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" strokeWidth="0.4" className="w-full h-full">
@@ -170,35 +166,16 @@ function ShopContent() {
       <div className="container-danes px-4 md:px-8 max-w-[1400px] mx-auto mb-20">
         
         {/* Page Header */}
-        <div className="mb-12 border-b border-[var(--border)] pb-4 flex justify-between items-end">
+        <div className="mb-12 border-b border-[var(--border)] pb-4">
           <h1 className="font-[var(--font-heading)] text-3xl md:text-4xl text-[var(--heading)] uppercase tracking-widest">
             ALL PRODUCTS
           </h1>
-          <div className="relative w-64 hidden md:block">
-            <input
-              type="text"
-              placeholder="Search..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-transparent border-b border-[var(--heading)] py-2 text-sm focus:outline-none placeholder-gray-500 text-[var(--text)]"
-            />
-          </div>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-12">
           
           {/* LEFT SIDEBAR (Filters) */}
-          <aside 
-            className="lg:w-64 flex-shrink-0 lg:sticky lg:top-32 max-h-[calc(100vh-160px)] overflow-y-auto overscroll-y-contain pr-4 scrollbar-thin select-none"
-            onMouseEnter={() => {
-              if (window.innerWidth >= 1024) {
-                document.body.style.overflow = 'hidden';
-              }
-            }}
-            onMouseLeave={() => {
-              document.body.style.overflow = '';
-            }}
-          >
+          <aside className="lg:w-64 flex-shrink-0 lg:sticky lg:top-32 max-h-[calc(100vh-160px)] overflow-hidden hover:overflow-y-auto overscroll-y-contain pr-4 shop-sidebar select-none">
             <div className="space-y-8">
               <h3 className="font-[var(--font-heading)] font-bold text-lg text-[var(--heading)] mb-4">Filter by</h3>
 
@@ -233,7 +210,7 @@ function ShopContent() {
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 9l6 6 6-6"/></svg>
                 </div>
                 {/* Simplified Concern Dropdown content */}
-                <div className="mt-4 space-y-3 max-h-48 overflow-y-auto pr-1">
+                <div className="mt-4 space-y-3 max-h-48 overflow-hidden hover:overflow-y-auto pr-1 concern-scroll">
                   {CONCERNS.map((cat) => (
                     <label 
                       key={cat} 
@@ -251,13 +228,6 @@ function ShopContent() {
                 </div>
               </div>
 
-              {/* Application Type */}
-              <div className="bg-transparent border border-[#DDE2D8] dark:border-[var(--border)] p-4 rounded-sm transition-colors duration-300">
-                <div className="flex justify-between items-center cursor-pointer text-[var(--heading)]">
-                  <span className="font-[var(--font-heading)] text-sm uppercase tracking-wider">Application type</span>
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 9l6 6 6-6"/></svg>
-                </div>
-              </div>
 
               {/* Reset */}
               {(selectedBrands.length > 0 || selectedCategories.length > 0 || searchQuery) && (
