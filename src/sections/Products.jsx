@@ -25,7 +25,7 @@ const ChosenProductCard = ({ p }) => {
             alt={p.name}
             fill
             style={{ objectFit: 'contain', mixBlendMode: 'multiply' }}
-            sizes="(max-width: 640px) 100vw, 20vw"
+            sizes="(max-width: 768px) 100vw, 50vw"
           />
         ) : (
           <div style={{

@@ -18,7 +18,7 @@ import { CartProvider } from '@/context/CartContext'
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth">
       <body suppressHydrationWarning>
         <ThemeProvider
           attribute="class"

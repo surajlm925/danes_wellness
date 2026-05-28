@@ -242,7 +242,7 @@ export default function PillarGrid() {
               className={`danes-concern-card pillar-reveal`}
             >
               <div className="icon-wrapper">
-                <Image src={`/assets/icons-img/${p.icon}`} alt={p.name} fill style={{objectFit: 'contain'}} />
+                <Image src={`/assets/icons-img/${p.icon}`} alt={p.name} fill style={{objectFit: 'contain'}} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
               </div>
               <h3>{p.name}</h3>
               <p>{p.desc}</p>

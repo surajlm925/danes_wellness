@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const MotionLink = motion(Link);
+const MotionLink = motion.create(Link);
 
 export default function Footer() {
   const shopLinks = [

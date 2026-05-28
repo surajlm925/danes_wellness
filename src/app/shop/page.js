@@ -263,7 +263,7 @@ function ShopContent() {
                             </Link>
                           </div>
                           <div className="absolute right-0 top-0 bottom-0 w-1/2 opacity-40 mix-blend-overlay hidden md:block">
-                            <Image src="/images/products/cannazo/vijaya-ambrosia-rx/catalogue.webp" alt="CBD Oil" fill style={{ objectFit: 'cover' }} />
+                            <Image src="/images/products/cannazo/vijaya-ambrosia-rx/catalogue.webp" alt="CBD Oil" fill style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, 50vw" />
                           </div>
                         </div>
                       )}

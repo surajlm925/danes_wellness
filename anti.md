@@ -1,90 +1,75 @@
-# 🔧 Danes Wellness — Product Ref ID Display Session Log
+# ⚡ Danes Wellness — Performance Optimizations Log
 
-This log documents the implementation of the Product Reference ID display and copy-to-clipboard feature on the Product Details page.
+This log documents the console warning cleanups and performance optimizations implemented for Next.js and Framer Motion.
 
 ---
 
-## TASK 1 — DISPLAY PRODUCT ID
+## TASK 1 — FRAMER MOTION SYNTAX UPDATE
+
+### Issue
+Deprecated Framer Motion wrapping syntax (`motion(Component)`) was triggering deprecation warnings in the browser console.
 
 ### Location
-`src/components/ProductDetailClient.jsx`
+- [Footer.jsx](file:///d:/Work%20Code/Projects/danes%20wellness/danes%20website/website/danes-next/src/components/Footer.jsx#L6)
 
-### Implementation
-
-Two pure functions added at the top of the file (above `AccordionItem`):
-
-#### `parseProductRef(id)`
-A utility that normalises the product ID regardless of source format:
-- **Plain numeric string** (current): `"42"` → `{ display: "42", full: "42" }`
-- **Shopify GraphQL GID** (future Headless integration): `"gid://shopify/ProductVariant/9876543210"` → `{ display: "9876543210", full: "gid://shopify/ProductVariant/9876543210" }`
-
-The UI always shows only the **numeric portion** (`display`). The clipboard always gets the **full string** (`full`), which will be the complete GID when Shopify integration is live.
-
-#### `<ProductRef id={product.id} />` Component
-- Renders a `<button>` styled as an inline ghost label — no visual weight.
-- Shows `Ref: <numeric-id>` in `font-mono text-[10px] opacity-40` — unobtrusive below the product title.
-- On hover: opacity lifts to 70%, a subtle `Copy` label appears in brand amber (`var(--accent)`).
-- On click: copies `ref.full` to clipboard, `Copy` → `✓ Copied` in brand green, auto-resets after 2 seconds.
-- Fallback: `document.execCommand('copy')` for non-HTTPS environments.
-- `aria-label` for screen readers.
-
-### Placement
-Inserted between the **Product Title `<h1>`** and the **Rx Consultation Banner** in the right column of the PDP layout:
-
-```jsx
-<h1 className="... mb-2 ...">
-  {product.name}
-</h1>
-
-{/* Product Reference ID — for WhatsApp Bot lookups */}
-<ProductRef id={product.id} />
-
-{/* Consultation Banner for Rx products */}
-{isRx && ( ... )}
+### Changes
+Modified the custom component wrapping syntax to use `motion.create()`:
+```diff
+-const MotionLink = motion(Link);
++const MotionLink = motion.create(Link);
 ```
-
-The title's `mb-4` was reduced to `mb-2` to give natural spacing to the new ref row.
 
 ---
 
-## TASK 2 — COPY TO CLIPBOARD
+## TASK 2 — NEXT.JS IMAGE SIZES PROP
 
-Implemented inline within the `ProductRef` component:
+### Issue
+`<Image />` components with the `fill` property lacked explicit `sizes` parameters, causing Next.js performance warnings about layout shifts and image scaling.
 
-| Behaviour | Detail |
-|---|---|
-| Click target | Entire `Ref: XXXXX` button |
-| Clipboard value | `ref.full` — the full original ID string (numeric now, GID when Shopify is live) |
-| Success state | `✓ Copied` in brand green `#2d7a4f` (dark: `#8fcea8`) |
-| Reset delay | 2000ms via `setTimeout` |
-| Fallback | `document.execCommand('copy')` textarea hack for non-secure contexts |
-| Accessibility | `title` + `aria-label` attributes |
+### Locations & Changes
+
+1. **Concern Icon Grid**
+   - File: [PillarGrid.jsx](file:///d:/Work%20Code/Projects/danes%20wellness/danes%20website/website/danes-next/src/sections/PillarGrid.jsx#L245)
+   - Added standard responsive sizing configuration for icons:
+     ```diff
+     -<Image src={`/assets/icons-img/${p.icon}`} alt={p.name} fill style={{objectFit: 'contain'}} />
+     +<Image src={`/assets/icons-img/${p.icon}`} alt={p.name} fill style={{objectFit: 'contain'}} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
+     ```
+
+2. **Tailored Product Cards**
+   - File: [Products.jsx](file:///d:/Work%20Code/Projects/danes%20wellness/danes%20website/website/danes-next/src/sections/Products.jsx#L28)
+   - Updated sizes profile to adapt to mobile grids:
+     ```diff
+     -            sizes="(max-width: 640px) 100vw, 20vw"
+     +            sizes="(max-width: 768px) 100vw, 50vw"
+     ```
+
+3. **Shop Promotional Banner**
+   - File: [page.js](file:///d:/Work%20Code/Projects/danes%20wellness/danes%20website/website/danes-next/src/app/shop/page.js#L266)
+   - Added a standard responsive size helper:
+     ```diff
+     -<Image src="/images/products/cannazo/vijaya-ambrosia-rx/catalogue.webp" alt="CBD Oil" fill style={{ objectFit: 'cover' }} />
+     +<Image src="/images/products/cannazo/vijaya-ambrosia-rx/catalogue.webp" alt="CBD Oil" fill style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, 50vw" />
+     ```
 
 ---
 
-## DESIGN SYSTEM COMPLIANCE
+## TASK 3 — SMOOTH SCROLL ROUTER FIX
 
-| Token used | Value |
-|---|---|
-| Text colour | `var(--text)` |
-| Opacity | `opacity-40` (resting), `opacity-70` (hover) |
-| Confirm colour light | `#2d7a4f` (brand mid-green) |
-| Confirm colour dark | `#8fcea8` (pale green on dark bg) |
-| Copy label colour | `var(--accent)` — brand amber |
-| Font | `font-mono` for the numeric ID (improves readability of long GIDs) |
-| Size | `text-[10px]` — same scale as existing micro-labels on the PDP |
+### Issue
+Next.js App Router transition handling warnings caused by direct stylesheet definitions of smooth scroll behavior.
 
----
+### Location
+- [layout.js](file:///d:/Work%20Code/Projects/danes%20wellness/danes%20website/website/danes-next/src/app/layout.js#L21)
 
-## FORWARD COMPATIBILITY
-
-When the Headless Shopify integration goes live and `product.id` becomes a GID string like:
+### Changes
+Added the `data-scroll-behavior="smooth"` attribute to the root `<html>` tag to hook into App Router native transition triggers:
+```diff
+-    <html lang="en" suppressHydrationWarning>
++    <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth">
 ```
-gid://shopify/ProductVariant/9876543210
-```
-`parseProductRef` will automatically split it, displaying only `9876543210` in the UI while copying the full GID to the clipboard — **zero code changes needed**.
 
 ---
 
 ## BUILD VERIFICATION
-- `npm run build` — ✅ Passed (86 static pages, 0 errors)
+- `npm run build` — ✅ Passed (87 static pages compiled successfully, 0 errors).
