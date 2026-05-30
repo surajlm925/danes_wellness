@@ -3,27 +3,24 @@ import { createDraftOrder } from '@/lib/shopifyAdmin';
 
 // Scaffold Telehealth Dashboard Backend (Phase 2)
 // This file will provide a backend to fetch specific Customer profile + order history,
-// and logic to create a draft order.
+// fetch the patient queue (Paid Doctor Consultations), and logic to create a draft order.
 
 const domain = process.env.SHOPIFY_STORE_DOMAIN;
 const token = process.env.SHOPIFY_ADMIN_ACCESS_TOKEN;
 
-// GET method to fetch a specific Customer profile and their order history
+// GET method to fetch a specific Customer profile or the Patient Queue
 export async function GET(request) {
   try {
     const { searchParams } = new URL(request.url);
     const customerId = searchParams.get('customerId');
     const email = searchParams.get('email');
+    const queue = searchParams.get('queue');
 
     // Simple admin auth check
     const authHeader = request.headers.get('authorization');
     const expectedAuth = `Bearer ${process.env.ADMIN_SECRET || process.env.WHATSAPP_BOT_SECRET}`;
     if (!authHeader || authHeader !== expectedAuth) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-    }
-
-    if (!customerId && !email) {
-      return NextResponse.json({ error: 'Missing customerId or email parameter' }, { status: 400 });
     }
 
     if (!domain || !token) {
@@ -34,6 +31,92 @@ export async function GET(request) {
 
     let query = '';
     let variables = {};
+
+    // Patient Queue Mode
+    if (queue === 'true') {
+      query = `
+        query getPatientQueue($query: String!) {
+          orders(first: 50, query: $query, sortKey: CREATED_AT, reverse: true) {
+            edges {
+              node {
+                id
+                name
+                createdAt
+                note
+                customer {
+                  firstName
+                  lastName
+                  phone
+                  email
+                }
+                lineItems(first: 10) {
+                  edges {
+                    node {
+                      title
+                      name
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      `;
+      // We filter by paid orders. The line item filtering for "Doctor Consultation"
+      // is usually more reliably done in memory unless we add line_item filter to search query which isn't always reliable
+      variables = { query: "financial_status:paid" };
+
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Shopify-Access-Token': token,
+        },
+        body: JSON.stringify({ query, variables }),
+      });
+
+      if (!response.ok) {
+        const text = await response.text();
+        throw new Error(`Shopify API error: ${response.status} - ${text}`);
+      }
+
+      const data = await response.json();
+
+      if (data.errors) {
+        throw new Error(`GraphQL Errors: ${JSON.stringify(data.errors)}`);
+      }
+
+      const orders = data.data?.orders?.edges || [];
+
+      // Extract queue
+      const patientQueue = [];
+      for (const edge of orders) {
+        const orderNode = edge.node;
+        const lineItems = orderNode.lineItems?.edges?.map(le => le.node.title) || [];
+
+        // Check if "Doctor Consultation" is purchased
+        if (lineItems.includes("Doctor Consultation")) {
+          const customer = orderNode.customer || {};
+          const name = [customer.firstName, customer.lastName].filter(Boolean).join(" ");
+          patientQueue.push({
+            orderId: orderNode.id,
+            orderName: orderNode.name,
+            createdAt: orderNode.createdAt,
+            customerName: name || "Guest",
+            phone: customer.phone || null,
+            email: customer.email || null,
+            notes: orderNode.note || ""
+          });
+        }
+      }
+
+      return NextResponse.json({ queue: patientQueue }, { status: 200 });
+    }
+
+    // Specific Customer Mode
+    if (!customerId && !email) {
+      return NextResponse.json({ error: 'Missing customerId, email, or queue parameter' }, { status: 400 });
+    }
 
     if (customerId) {
       query = `
@@ -136,7 +219,7 @@ export async function GET(request) {
     return NextResponse.json({ customer }, { status: 200 });
 
   } catch (error) {
-    console.error('Telehealth Customer Fetch error:', error);
+    console.error('Telehealth Data Fetch error:', error);
     return NextResponse.json({ error: 'Internal Server Error', message: error.message }, { status: 500 });
   }
 }
